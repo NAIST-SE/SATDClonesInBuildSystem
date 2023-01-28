@@ -1,0 +1,1403 @@
+,repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,startLine,endLine,cleaned_comments,groupId,numberofSATDinGroup,IsSATD
+31,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L6438,# FIXME: insert proper C++ library support,['fixme'],Autotool,8,6438,6438,fixme insert proper c library support,24,5413,Yes
+111,7,ivpn/android-app,https://github.com/ivpn/android-app/blob/a59bd10f7fea9e7a5163b01e824d65ea73c3ff0e/core/src/main/cpp/lzo/aclocal.m4#L9803,"# If neither matched, then we have a broken ls.  This can happen
+# if, for instance, CONFIG_SHELL is bash and it inherits a
+# broken ls alias from the environment.  This has actually
+# happened.  Such a system could not be considered ""sane"".",['broken'],Autotool,1,9803,9806,if neither matched then we have a broken ls. this can happen if for instance config shell is bash and it inherits a broken ls alias from the environment. this has actually happened. such a system could not be considered sane .,39,1630,Yes
+26,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L5496,"# Warning - without using the other runtime loading flags (-brtl),
+# -berok will link without error, but may produce a broken library.",['broken'],Autotool,1,5496,5497,warning without using the other runtime loading flags brtl berok will link without error but may produce a broken library.,20,1574,Yes
+109,7,ivpn/android-app,https://github.com/ivpn/android-app/blob/a59bd10f7fea9e7a5163b01e824d65ea73c3ff0e/core/src/main/cpp/lzo/aclocal.m4#L9289,"# AM_OUTPUT_DEPENDENCY_COMMANDS
+# -----------------------------
+# This macro should only be invoked once -- use via AC_REQUIRE.
+#
+# This code is only required when automatic dependency tracking
+# is enabled.  FIXME.  This creates each '.P' file that we will
+# need in order to bootstrap the dependency handling code.",['fixme'],Autotool,0,9289,9295,am output dependency commands this macro should only be invoked once use via ac require. this code is only required when automatic dependency tracking is enabled. fixme. this creates each '.p' file that we will need in order to bootstrap the dependency handling code.,37,1401,Yes
+110,7,ivpn/android-app,https://github.com/ivpn/android-app/blob/a59bd10f7fea9e7a5163b01e824d65ea73c3ff0e/core/src/main/cpp/lzo/aclocal.m4#L9732,"# Losing compiler, so override with the script.
+# FIXME: It is wrong to rewrite CC.
+# But if we don't then we get into trouble of one sort or another.
+# A longer-term fix would be to have automake use am__CC in this case,
+# and then we could set am__CC=""\$(top_srcdir)/compile \$(CC)""","['fix', 'fixme']",Autotool,3,9732,9736,losing compiler so override with the script. fixme it is wrong to rewrite cc. but if we don't then we get into trouble of one sort or another. a longer term fix would be to have automake use am cc in this case and then we could set am cc top srcdir compile cc,38,801,Yes
+24,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L5422,"# When large executables or shared objects are built, AIX ld can
+# have problems creating the table of contents.  If linking a library
+# or program results in ""error TOC overflow"" add -mminimal-toc to
+# CXXFLAGS/CFLAGS for g++/gcc.  In the cases where that is not
+# enough to fix the problem, add -Wl,-bbigtoc to LDFLAGS.",['fix'],Autotool,6,5422,5426,when large executables or shared objects are built aix ld can have problems creating the table of contents. if linking a library or program results in error toc overflow add mminimal toc to cxxflags cflags for g gcc. in the cases where that is not enough to fix the problem add wl bbigtoc to ldflags.,18,788,Yes
+25,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L5445,"# We only want to do this on AIX 4.2 and lower, the check
+# below for broken collect2 doesn't work under 4.3+",['broken'],Autotool,1,5445,5446,we only want to do this on aix 4.2 and lower the check below for broken collect2 doesn't work under 4.3,19,762,Yes
+22,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L5172,"# Hack: On Interix 3.x, we cannot compile PIC because of a broken gcc.
+# Instead, shared libraries are loaded at an image base (0x10000000 by
+# default) and relocated if they conflict, which is a slow very memory
+# consuming and fragmenting process.  To avoid this, we pick a random,
+# 256 KiB-aligned image base between 0x50000000 and 0x6FFC0000 at link
+# time.  Moving up from 0x10000000 also allows more sbrk(2) space.","['hack', 'broken']",Autotool,6,5172,5177,hack on interix 3.x we cannot compile pic because of a broken gcc. instead shared libraries are loaded at an image base 0x10000000 by default and relocated if they conflict which is a slow very memory consuming and fragmenting process. to avoid this we pick a random 256 kib aligned image base between 0x50000000 and 0x6ffc0000 at link time. moving up from 0x10000000 also allows more sbrk 2 space.,16,649,Yes
+11,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L4220,"# FIXME: we need at least 68020 code to build shared libraries, but
+# adding the '-m68020' flag to GCC prevents building anything better,
+# like '-m68040'.",['fixme'],Autotool,12,4220,4222,fixme we need at least 68020 code to build shared libraries but adding the ' m68020' flag to gcc prevents building anything better like ' m68040'.,10,587,Yes
+14,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L4259,"# Interix 3.x gcc -fpic/-fPIC options generate broken code.
+# Instead, we relocate shared libraries at runtime.",['broken'],Autotool,6,4259,4260,interix 3.x gcc fpic fpic options generate broken code. instead we relocate shared libraries at runtime.,13,562,Yes
+12,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L4232,"# This hack is so that the source file can tell whether it is being
+# built for inclusion in a dll (and should export symbols for example).
+# Although the cygwin gcc ignores -fPIC, still need this for old-style
+# (--disable-auto-import) libraries",['hack'],Autotool,6,4232,4235,this hack is so that the source file can tell whether it is being built for inclusion in a dll and should export symbols for example . although the cygwin gcc ignores fpic still need this for old style disable auto import libraries,11,562,Yes
+15,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L4308,"# This hack is so that the source file can tell whether it is being
+# built for inclusion in a dll (and should export symbols for example).",['hack'],Autotool,1,4308,4309,this hack is so that the source file can tell whether it is being built for inclusion in a dll and should export symbols for example .,14,558,Yes
+239,100,gundersanne/portaudio_opensles,https://github.com/gundersanne/portaudio_opensles/blob/72e96923df0074800ccc83399a92510089a29a8c/aclocal.m4#L5156,# FIXME: Setting linknames here is a bad hack.,"['hack', 'fixme']",Autotool,1,5156,5156,fixme setting linknames here is a bad hack.,69,499,Yes
+50,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L7152,"# Rational C++ 2.4.1
+# FIXME: insert proper C++ library support",['fixme'],Autotool,5,7152,7153,rational c 2.4.1 fixme insert proper c library support,28,481,Yes
+13,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L4254,"# PIC is the default for Haiku.
+# The ""-static"" flag exists, but is broken.",['broken'],Autotool,6,4254,4255,pic is the default for haiku. the static flag exists but is broken.,12,470,Yes
+10,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L2887,"# We used to test for /lib/ld.so.1 and disable shared libraries on
+# powerpc, because MkLinux only supported shared libraries with the
+# GNU dynamic linker.  Since this was broken with cross compilers,
+# most powerpc-linux boxes support dynamic linking these days and
+# people can always --disable-shared, the test was removed, and we
+# assume the GNU/Linux dynamic linker is in use.",['broken'],Autotool,2,2887,2892,we used to test for lib ld.so.1 and disable shared libraries on powerpc because mklinux only supported shared libraries with the gnu dynamic linker. since this was broken with cross compilers most powerpc linux boxes support dynamic linking these days and people can always disable shared the test was removed and we assume the gnu linux dynamic linker is in use.,9,407,Yes
+23,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L5357,"# Neither direct hardcoding nor static linking is supported with a
+# broken collect2.",['broken'],Autotool,1,5357,5358,neither direct hardcoding nor static linking is supported with a broken collect2.,17,407,Yes
+28,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L6079,# FIXME: we may have to deal with multi-command sequences.,['fixme'],Autotool,6,6079,6079,fixme we may have to deal with multi command sequences.,21,407,Yes
+8,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L2636,# FIXME: first we should search . and the directory the executable is in,['fixme'],Autotool,2,2636,2636,fixme first we should search . and the directory the executable is in,7,407,Yes
+6,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L2221,"# FIXME - insert some real tests, host_os isn't really good enough",['fixme'],Autotool,0,2221,2221,fixme insert some real tests host os isn't really good enough,5,381,Yes
+51,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L7368,"# NonStop-UX NCC 3.20
+# FIXME: insert proper C++ library support",['fixme'],Autotool,5,7368,7369,nonstop ux ncc 3.20 fixme insert proper c library support,29,381,Yes
+30,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L6398,"# If archive_cmds runs LD, not CC, wlarc should be empty
+# XXX I think wlarc can be eliminated in ltcf-cxx, but I need to
+#     investigate it a little bit more. (MM)",['xxx'],Autotool,8,6398,6400,if archive cmds runs ld not cc wlarc should be empty xxx i think wlarc can be eliminated in ltcf cxx but i need to investigate it a little bit more. mm,23,381,Yes
+49,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L7105,# Workaround some broken pre-1.5 toolchains,"['broken', 'workaround']",Autotool,1,7105,7105,workaround some broken pre 1.5 toolchains,27,381,Yes
+37,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L6744,"# Green Hills C++ Compiler
+# FIXME: insert proper C++ library support",['fixme'],Autotool,5,6744,6745,green hills c compiler fixme insert proper c library support,25,374,Yes
+9,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L2665,"# DragonFly does not have aout.  When/if they implement a new
+# versioning mechanism, adjust this.",['implement'],Autotool,2,2665,2666,dragonfly does not have aout. when if they implement a new versioning mechanism adjust this.,8,338,Yes
+185,65,zach-hartwig/adaq,https://github.com/zach-hartwig/adaq/blob/a7f611e8472c5bd9ddf082d18381947f814ff484/caen/software/CAENUpgrader-1.7.4/aclocal.m4#L345,"# Older Autoconf quotes --file arguments for eval, but not when files
+# are listed without --file.  Let's play safe and only enable the eval
+# if we detect the quoting.
+# TODO: see whether this extra hack can be removed once we start
+# requiring Autoconf 2.70 or later.","['todo', 'hack']",Autotool,2,345,349,older autoconf quotes file arguments for eval but not when files are listed without file. let's play safe and only enable the eval if we detect the quoting. todo see whether this extra hack can be removed once we start requiring autoconf 2.70 or later.,48,329,Yes
+499,185,toastpp/toastpp,https://github.com/toastpp/toastpp/blob/df2017d6c5eca462e6118e7320c730ed8596807e/numerics/liblbfgs-1.10/aclocal.m4#L2585,"# Don't fix this by using the ld -exported_symbols_list flag, it doesn't exist in older darwin ld's",['fix'],Autotool,4,2585,2585,don't fix this by using the ld exported symbols list flag it doesn't exist in older darwin ld's,104,317,Yes
+55,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L7619,# PORTME: override above test on systems where it is broken,['broken'],Autotool,0,7619,7619,portme override above test on systems where it is broken,30,308,Yes
+56,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L7623,"# Interix 3.5 installs completely hosed .la files for C++, so rather than
+# hack all around it, let's just trust ""g++"" to DTRT.",['hack'],Autotool,2,7623,7624,interix 3.5 installs completely hosed .la files for c so rather than hack all around it let's just trust g to dtrt.,31,307,Yes
+21,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L5065,"# On AIX/PPC, the GNU linker is very broken",['broken'],Autotool,6,5065,5065,on aix ppc the gnu linker is very broken,15,281,Yes
+29,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L6192,"dnl FIXME: Not yet implemented
+dnl _LT_TAGDECL([], [thread_safe_flag_spec], [1],
+dnl    [Compiler flag to generate thread safe objects])",['fixme'],Autotool,0,6192,6194,fixme not yet implemented dnl lt tagdecl thread safe flag spec 1 dnl compiler flag to generate thread safe objects,22,281,Yes
+57,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L8573,"# _LT_ENABLE_STATIC([DEFAULT])
+# ----------------------------
+# implement the --enable-static flag, and support the 'static' and
+# 'disable-static' LT_INIT options.
+# DEFAULT is either 'yes' or 'no'.  If omitted, it defaults to 'yes'.",['implement'],Autotool,0,8573,8577,lt enable static default implement the enable static flag and support the 'static' and 'disable static' lt init options. default is either 'yes' or 'no'. if omitted it defaults to 'yes'.,32,280,No
+58,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L8627,"# _LT_ENABLE_FAST_INSTALL([DEFAULT])
+# ----------------------------------
+# implement the --enable-fast-install flag, and support the 'fast-install'
+# and 'disable-fast-install' LT_INIT options.
+# DEFAULT is either 'yes' or 'no'.  If omitted, it defaults to 'yes'.",['implement'],Autotool,0,8627,8631,lt enable fast install default implement the enable fast install flag and support the 'fast install' and 'disable fast install' lt init options. default is either 'yes' or 'no'. if omitted it defaults to 'yes'.,33,280,No
+39,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L6756,# C++ shared libraries reported to be fairly broken before,['broken'],Autotool,8,6756,6756,c shared libraries reported to be fairly broken before,26,274,Yes
+59,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L8736,"# _LT_WITH_PIC([MODE])
+# --------------------
+# implement the --with-pic flag, and support the 'pic-only' and 'no-pic'
+# LT_INIT options.
+# MODE is either 'yes' or 'no'.  If omitted, it defaults to 'both'.",['implement'],Autotool,0,8736,8740,lt with pic mode implement the with pic flag and support the 'pic only' and 'no pic' lt init options. mode is either 'yes' or 'no'. if omitted it defaults to 'both'.,34,273,No
+4380,1715,masc-ucsc/esesc,https://github.com/masc-ucsc/esesc/blob/1e44a659df63f6e7931b4c28bf518d9e34c33770/tests/gtest-1.7.0/cmake/internal_utils.cmake#L56,"# Newlines inside flags variables break CMake's NMake generator.
+# TODO(vladl@google.com): Add -RTCs and -RTCu to debug builds.",['todo'],CMake,4,56,57,newlines inside flags variables break cmake's nmake generator. todo vladl google.com add rtcs and rtcu to debug builds.,479,267,Yes
+7,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/aclocal.m4#L2612,"# FIXME: find the short name or the path components, as spaces are
+# common. (e.g. ""Program Files"" -> ""PROGRA~1"")",['fixme'],Autotool,6,2612,2613,fixme find the short name or the path components as spaces are common. e.g. program files progra 1,6,227,Yes
+2546,1170,philkr/pystk,https://github.com/philkr/pystk/blob/253ef48b4d68bd6cc7e9db6d4877a1f01a80bdcd/lib/pybind11/CMakeLists.txt#L10,"# The `cmake_minimum_required(VERSION 3.4...3.18)` syntax does not work with
+# some versions of VS that have a patched CMake 3.11. This forces us to emulate
+# the behavior using the following workaround:",['workaround'],CMake,0,10,12,the cmake minimum required version 3.4...3.18 syntax does not work with some versions of vs that have a patched cmake 3.11. this forces us to emulate the behavior using the following workaround,343,223,Yes
+118,7,ivpn/android-app,https://github.com/ivpn/android-app/blob/a59bd10f7fea9e7a5163b01e824d65ea73c3ff0e/core/src/main/cpp/GetGitRevisionDescription.cmake#L104,"# TODO sanitize
+#if((${ARGN}"" MATCHES ""&&"") OR
+#	(ARGN MATCHES ""||"") OR
+#	(ARGN MATCHES ""\\;""))
+#	message(""Please report the following error to the project!"")
+#	message(FATAL_ERROR ""Looks like someone's doing something nefarious with git_describe! Passed arguments ${ARGN}"")
+#endif()",['todo'],CMake,1,104,110,todo sanitize if argn matches or argn matches or argn matches message please report the following error to the project message fatal error looks like someone's doing something nefarious with git describe passed arguments argn endif,46,211,Yes
+4377,1715,masc-ucsc/esesc,https://github.com/masc-ucsc/esesc/blob/1e44a659df63f6e7931b4c28bf518d9e34c33770/tests/gtest-1.7.0/configure.ac#L64,"# TODO(chandlerc@google.com) Check the types, structures, and other compiler
+# and architecture characteristics.",['todo'],Autotool,0,64,65,todo chandlerc google.com check the types structures and other compiler and architecture characteristics.,478,179,Yes
+4376,1715,masc-ucsc/esesc,https://github.com/masc-ucsc/esesc/blob/1e44a659df63f6e7931b4c28bf518d9e34c33770/tests/gtest-1.7.0/configure.ac#L62,# TODO(chandlerc@google.com) Check for the necessary system headers.,['todo'],Autotool,0,62,62,todo chandlerc google.com check for the necessary system headers.,477,179,Yes
+4375,1715,masc-ucsc/esesc,https://github.com/masc-ucsc/esesc/blob/1e44a659df63f6e7931b4c28bf518d9e34c33770/tests/gtest-1.7.0/configure.ac#L32,"# TODO(chandlerc@google.com): Currently we aren't running the Python tests
+# against the interpreter detected by AM_PATH_PYTHON, and so we condition
+# HAVE_PYTHON by requiring ""python"" to be in the PATH, and that interpreter's
+# version to be >= 2.3. This will allow the scripts to use a ""/usr/bin/env""
+# hashbang.",['todo'],Autotool,0,32,36,todo chandlerc google.com currently we aren't running the python tests against the interpreter detected by am path python and so we condition have python by requiring python to be in the path and that interpreter's version to be 2.3. this will allow the scripts to use a usr bin env hashbang.,476,179,Yes
+275,100,gundersanne/portaudio_opensles,https://github.com/gundersanne/portaudio_opensles/blob/72e96923df0074800ccc83399a92510089a29a8c/aclocal.m4#L8529,"# These exist entirely to fool aclocal when bootstrapping libtool.
+#
+# In the past libtool.m4 has provided macros via AC_DEFUN (or AU_DEFUN)
+# which have later been changed to m4_define as they aren't part of the
+# exported API, or moved to Autoconf or Automake where they belong.
+#
+# The trouble is, aclocal is a bit thick.  It'll see the old AC_DEFUN
+# in /usr/share/aclocal/libtool.m4 and remember it, then when it sees us
+# using a macro with the same name in our local m4/libtool.m4 it'll
+# pull the old libtool.m4 in (it doesn't see our shiny new m4_define
+# and doesn't know about Autoconf macros at all.)
+#
+# So we provide this file, which has a silly filename so it's always
+# included after everything else.  This provides aclocal with the
+# AC_DEFUNs it wants, but when m4 processes it, it doesn't do anything
+# because those macros already exist, or will be overwritten later.
+# We use AC_DEFUN over AU_DEFUN for compatibility with aclocal-1.6. 
+#
+# Anytime we withdraw an AC_DEFUN or AU_DEFUN, remember to add it here.
+# Yes, that means every name once taken will need to remain here until
+# we give up compatibility with versions before 1.7, at which point
+# we need to keep only those names which we still refer to.","['silly', 'give up']",Autotool,0,8529,8550,these exist entirely to fool aclocal when bootstrapping libtool. in the past libtool.m4 has provided macros via ac defun or au defun which have later been changed to m4 define as they aren't part of the exported api or moved to autoconf or automake where they belong. the trouble is aclocal is a bit thick. it'll see the old ac defun in usr share aclocal libtool.m4 and remember it then when it sees us using a macro with the same name in our local m4 libtool.m4 it'll pull the old libtool.m4 in it doesn't see our shiny new m4 define and doesn't know about autoconf macros at all. so we provide this file which has a silly filename so it's always included after everything else. this provides aclocal with the ac defuns it wants but when m4 processes it it doesn't do anything because those macros already exist or will be overwritten later. we use ac defun over au defun for compatibility with aclocal 1.6. anytime we withdraw an ac defun or au defun remember to add it here. yes that means every name once taken will need to remain here until we give up compatibility with versions before 1.7 at which point we need to keep only those names which we still refer to.,71,171,Yes
+28460,23313,coin3d/coin,https://github.com/coin3d/coin/blob/04c19005bfd124d980e8946cb5bc1fc2b37bda29/include/Inventor/Makefile.am#L117,# hack to change libdir value when installing Mac OS X compiler framework,['hack'],Autotool,0,117,117,hack to change libdir value when installing mac os x compiler framework,1758,170,Yes
+271,100,gundersanne/portaudio_opensles,https://github.com/gundersanne/portaudio_opensles/blob/72e96923df0074800ccc83399a92510089a29a8c/aclocal.m4#L8145,"# _LT_ENABLE_SHARED([DEFAULT])
+# ----------------------------
+# implement the --enable-shared flag, and supports the `shared' and
+# `disable-shared' LT_INIT options.
+# DEFAULT is either `yes' or `no'.  If omitted, it defaults to `yes'.",['implement'],Autotool,0,8145,8149,lt enable shared default implement the enable shared flag and supports the shared' and disable shared' lt init options. default is either yes' or no'. if omitted it defaults to yes'.,70,169,No
+108,7,ivpn/android-app,https://github.com/ivpn/android-app/blob/a59bd10f7fea9e7a5163b01e824d65ea73c3ff0e/core/src/main/cpp/lzo/aclocal.m4#L8916,"# Microsoft lib, so override with the ar-lib wrapper script.
+# FIXME: It is wrong to rewrite AR.
+# But if we don't then we get into trouble of one sort or another.
+# A longer-term fix would be to have automake use am__AR in this case,
+# and then we could set am__AR=""$am_aux_dir/ar-lib \$(AR)"" or something
+# similar.","['fix', 'fixme']",Autotool,2,8916,8921,microsoft lib so override with the ar lib wrapper script. fixme it is wrong to rewrite ar. but if we don't then we get into trouble of one sort or another. a longer term fix would be to have automake use am ar in this case and then we could set am ar am aux dir ar lib ar or something similar.,36,158,Yes
+536,185,toastpp/toastpp,https://github.com/toastpp/toastpp/blob/df2017d6c5eca462e6118e7320c730ed8596807e/numerics/liblbfgs-1.10/aclocal.m4#L6698,"# We used to keeping the `.' as first argument, in order to
+# allow $(mkdir_p) to be used without argument.  As in
+#   $(mkdir_p) $(somedir)
+# where $(somedir) is conditionally defined.  However this is wrong
+# for two reasons:
+#  1. if the package is installed by a user who cannot write `.'
+#     make install will fail,
+#  2. the above comment should most certainly read
+#     $(mkdir_p) $(DESTDIR)$(somedir)
+#     so it does not work when $(somedir) is undefined and
+#     $(DESTDIR) is not.
+#  To support the latter case, we have to write
+#     test -z ""$(somedir)"" || $(mkdir_p) $(DESTDIR)$(somedir),
+#  so the `.' trick is pointless.",['this is wrong'],Autotool,2,6698,6711,we used to keeping the .' as first argument in order to allow mkdir p to be used without argument. as in mkdir p somedir where somedir is conditionally defined. however this is wrong for two reasons 1. if the package is installed by a user who cannot write .' make install will fail 2. the above comment should most certainly read mkdir p destdir somedir so it does not work when somedir is undefined and destdir is not. to support the latter case we have to write test z somedir mkdir p destdir somedir so the .' trick is pointless.,106,155,Yes
+724,142,openrisc/newlib,https://github.com/openrisc/newlib/blob/ce034e0b339686ed78fc64250e003112d8c4be39/Makefile.in#L52675,"# FIXME: Will not need to be conditional when toplevel bootstrap is the
+# only possibility, but now it conflicts with no-bootstrap rules",['fixme'],Autotool,0,52675,52676,fixme will not need to be conditional when toplevel bootstrap is the only possibility but now it conflicts with no bootstrap rules,118,141,Yes
+48047,26637,px4/px4-autopilot,https://github.com/px4/px4-autopilot/blob/e41913a699d69dab0e850f00e15f018858291d84/boards/bitcraze/crazyflie/syslink/CMakeLists.txt#L38,# TODO: fix and enable,"['fix', 'todo']",CMake,18,38,38,todo fix and enable,4489,133,Yes
+497,185,toastpp/toastpp,https://github.com/toastpp/toastpp/blob/df2017d6c5eca462e6118e7320c730ed8596807e/numerics/liblbfgs-1.10/aclocal.m4#L1829,"# AC_ENABLE_FAST_INSTALL([DEFAULT])
+# ---------------------------------
+# implement the --enable-fast-install flag
+# DEFAULT is either `yes' or `no'.  If omitted, it defaults to `yes'.",['implement'],Autotool,0,1829,1832,ac enable fast install default implement the enable fast install flag default is either yes' or no'. if omitted it defaults to yes'.,102,127,No
+496,185,toastpp/toastpp,https://github.com/toastpp/toastpp/blob/df2017d6c5eca462e6118e7320c730ed8596807e/numerics/liblbfgs-1.10/aclocal.m4#L1790,"# AC_ENABLE_STATIC([DEFAULT])
+# ---------------------------
+# implement the --enable-static flag
+# DEFAULT is either `yes' or `no'.  If omitted, it defaults to `yes'.",['implement'],Autotool,0,1790,1793,ac enable static default implement the enable static flag default is either yes' or no'. if omitted it defaults to yes'.,101,127,No
+495,185,toastpp/toastpp,https://github.com/toastpp/toastpp/blob/df2017d6c5eca462e6118e7320c730ed8596807e/numerics/liblbfgs-1.10/aclocal.m4#L1751,"# AC_ENABLE_SHARED([DEFAULT])
+# ---------------------------
+# implement the --enable-shared flag
+# DEFAULT is either `yes' or `no'.  If omitted, it defaults to `yes'.",['implement'],Autotool,0,1751,1754,ac enable shared default implement the enable shared flag default is either yes' or no'. if omitted it defaults to yes'.,100,127,No
+498,185,toastpp/toastpp,https://github.com/toastpp/toastpp/blob/df2017d6c5eca462e6118e7320c730ed8596807e/numerics/liblbfgs-1.10/aclocal.m4#L1868,"# AC_LIBTOOL_PICMODE([MODE])
+# --------------------------
+# implement the --with-pic flag
+# MODE is either `yes' or `no'.  If omitted, it defaults to `both'.",['implement'],Autotool,0,1868,1871,ac libtool picmode mode implement the with pic flag mode is either yes' or no'. if omitted it defaults to both'.,103,126,No
+60,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/cmake/iOS.cmake#L136,"# hack: If a new cmake (which uses CMAKE_INSTALL_NAME_TOOL) runs on an old
+#       build tree (where `install_name_tool' was hardcoded), and where
+#       CMAKE_INSTALL_NAME_TOOL isn't in the cache and still cmake didn't
+#       fail in `CMakeFindBinUtils.cmake' (because it isn't rerun), hardcode
+#       CMAKE_INSTALL_NAME_TOOL here to `install_name_tool' so it behaves as
+#       it did before.",['hack'],CMake,0,136,141,hack if a new cmake which uses cmake install name tool runs on an old build tree where install name tool' was hardcoded and where cmake install name tool isn't in the cache and still cmake didn't fail in cmakefindbinutils.cmake' because it isn't rerun hardcode cmake install name tool here to install name tool' so it behaves as it did before.,35,111,Yes
+8055,2468,zhmu/ananas,https://github.com/zhmu/ananas/blob/30850c1639f03bccbfb2f2b03361792cc8fae52e/external/gcc-12.1.0/libstdc++-v3/libsupc++/Makefile.am#L197,"# 3) We'd have a problem when building the shared libstdc++ object if
+# the rules automake generates would be used.  We cannot allow g++ to
+# be used since this would add -lstdc++ to the link line which of
+# course is problematic at this point.  So, we get the top-level
+# directory to configure libstdc++-v3 to use gcc as the C++
+# compilation driver.",['is problematic'],Autotool,0,197,202,3 we'd have a problem when building the shared libstdc object if the rules automake generates would be used. we cannot allow g to be used since this would add lstdc to the link line which of course is problematic at this point. so we get the top level directory to configure libstdc v3 to use gcc as the c compilation driver.,704,105,Yes
+723,142,openrisc/newlib,https://github.com/openrisc/newlib/blob/ce034e0b339686ed78fc64250e003112d8c4be39/Makefile.in#L52658,"# Bubble a bug fix through all the stages up to stage 1.  They are
+# remade, but not reconfigured.  The next stage (if any) will not be
+# reconfigured either.",['fix'],Autotool,0,52658,52660,bubble a bug fix through all the stages up to stage 1. they are remade but not reconfigured. the next stage if any will not be reconfigured either.,117,103,No
+510,185,toastpp/toastpp,https://github.com/toastpp/toastpp/blob/df2017d6c5eca462e6118e7320c730ed8596807e/numerics/liblbfgs-1.10/aclocal.m4#L2966,# C++ shared libraries reported to be fairly broken before switch to ELF,['broken'],Autotool,4,2966,2966,c shared libraries reported to be fairly broken before switch to elf,105,100,Yes
+489,223,vijaymathew/slogan,https://github.com/vijaymathew/slogan/blob/078bc2af6f05d4b25c9aa8860c075a6e28b4b1fc/platform/libffi-3.2.1/aclocal.m4#L1536,"# FIXME: we rely on the cache variable name because
+# there is no other way.",['fixme'],Autotool,0,1536,1537,fixme we rely on the cache variable name because there is no other way.,99,94,Yes
+1645,960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L825,"##
+## END FIXME",['fixme'],Autotool,0,825,826,end fixme,284,93,Yes
+31639,25367,feelpp/feelpp,https://github.com/feelpp/feelpp/blob/0970e07cd195a0ec38ab2db4018875faa483478b/feelpp/cmake/modules/FindMetis.cmake#L262,"#
+# TODO: Add possibility to check for specific functions in the library
+#",['todo'],CMake,0,262,264,todo add possibility to check for specific functions in the library,1924,92,Yes
+51954,7919,geosdi/geo-platform,https://github.com/geosdi/geo-platform/blob/594518d440a645bd9cb233990a22cdf6708849b6/geoplatform-experimental/geoplatform-elastic-search/geoplatform-elastic-search-rs-connector/pom.xml#L18,<!-- FIXME change it to the project's website -->,['fixme'],Maven,4,18,18,fixme change it to the project's website,4730,91,Yes
+9258,2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/subrepo-cheri-libc++/utils/google-benchmark/CMakeLists.txt#L66,# FIXME: Make these work on 32 bit builds,['fixme'],CMake,4,66,66,fixme make these work on 32 bit builds,828,78,Yes
+28935,23541,lixizhi/nplruntime,https://github.com/lixizhi/nplruntime/blob/ab5eb4e91fb2734717b80fb1ae6546369bc33721/Client/trunk/externals/assimp-5.0.1/cmake/HunterGate.cmake#L461,"# Beautify path, fix probable problems with windows path slashes",['fix'],CMake,4,461,461,beautify path fix probable problems with windows path slashes,1774,71,Yes
+908,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl/configure.in#L8,"#
+# Making releases:
+# Edit include/SDL/SDL_version.h and change the version, then:
+#   SDL_MICRO_VERSION += 1;
+#   SDL_INTERFACE_AGE += 1;
+#   SDL_BINARY_AGE += 1;
+# if any functions have been added, set SDL_INTERFACE_AGE to 0.
+# if backwards compatibility has been broken,
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
+#",['broken'],Autotool,0,8,17,making releases edit include sdl sdl version.h and change the version then sdl micro version 1 sdl interface age 1 sdl binary age 1 if any functions have been added set sdl interface age to 0. if backwards compatibility has been broken set sdl binary age and sdl interface age to 0.,171,70,Yes
+1258,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L1442,"# !!! FIXME: modern CMake doesn't need ""LANGUAGE C"" for Objective-C.",['fixme'],CMake,4,1442,1442,fixme modern cmake doesn't need language c for objective c.,203,69,Yes
+7162,2931,ravenproject/ravencoin,https://github.com/ravenproject/ravencoin/blob/c8197cd15d8886dc5c6121e3ba3f39c92445fc1b/src/Makefile.am#L602,## FIXME: How to get the appropriate modulename_CPPFLAGS in here?,['fixme'],Autotool,1,602,602,fixme how to get the appropriate modulename cppflags in here,631,68,Yes
+11794,4346,syslog-ng/syslog-ng,https://github.com/syslog-ng/syslog-ng/blob/a29403d30b1d0a71a3f66cb0f10aa1082218b17e/cmake/Modules/FindPackageMessage.cmake#L24,"# FIND_PACKAGE_MESSAGE(<name> ""message for user"" ""find result details"")
+#
+# This macro is intended to be used in FindXXX.cmake modules files.
+# It will print a message once for each unique find result.
+# This is useful for telling the user where a package was found.
+# The first argument specifies the name (XXX) of the package.
+# The second argument specifies the message to display.
+# The third argument lists details about the find result so that
+# if they change the message will be displayed again.
+# The macro also obeys the QUIET argument to the find_package command.
+#
+# Example:
+#
+#  if(X11_FOUND)
+#    FIND_PACKAGE_MESSAGE(X11 ""Found X11: ${X11_X11_LIB}""
+#      ""[${X11_X11_LIB}][${X11_INCLUDE_DIR}]"")
+#  else()
+#   ...
+#  endif()",['xxx'],CMake,0,24,42,find package message name message for user find result details this macro is intended to be used in findxxx.cmake modules files. it will print a message once for each unique find result. this is useful for telling the user where a package was found. the first argument specifies the name xxx of the package. the second argument specifies the message to display. the third argument lists details about the find result so that if they change the message will be displayed again. the macro also obeys the quiet argument to the find package command. example if x11 found find package message x11 found x11 x11 x11 lib x11 x11 lib x11 include dir else ... endif,984,67,No
+1398,685,osfree-project/osfree,https://github.com/osfree-project/osfree/blob/e1c537e34e17eb172ca90189041683e423a52702/OS2/Shared/libs/libmad/aclocal.m4#L2414,"# FIXME: Relying on posixy $() will cause problems for
+#        cross-compilation, but unfortunately the echo tests do not
+#        yet detect zsh echo's removal of \ escapes.  Also zsh mangles
+#	     `""' quotes if we put them in here... so don't!",['fixme'],Autotool,4,2414,2417,fixme relying on posixy will cause problems for cross compilation but unfortunately the echo tests do not yet detect zsh echo's removal of escapes. also zsh mangles ' quotes if we put them in here... so don't,234,64,Yes
+51955,7919,geosdi/geo-platform,https://github.com/geosdi/geo-platform/blob/594518d440a645bd9cb233990a22cdf6708849b6/geoplatform-gui/core/geoplatform-api/pom.xml#L152,"<!-- TODO: the resources stuff hardcodes paths to source + test directories, 
+        we should be able to use some properties here -->",['todo'],Maven,8,152,153,todo the resources stuff hardcodes paths to source test directories we should be able to use some properties here,4731,62,Yes
+8953,2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/googletest/googlemock/Makefile.am#L193,# TODO(vladl@google.com): Find a way to add Google Tests's sources here.,['todo'],Autotool,0,193,193,todo vladl google.com find a way to add google tests's sources here.,742,61,Yes
+29448,23991,opendap/bes,https://github.com/opendap/bes/blob/13f4f498b2b550d01c7315651473141ff0a513f8/http/unit-tests/Makefile.am#L61,# TODO Remove this!,['todo'],Autotool,15,61,61,todo remove this,1800,59,Yes
+28206,23011,smartdevicelink/sdl_core,https://github.com/smartdevicelink/sdl_core/blob/65947fd1eb30a392948d67003df0fe803c070c6b/tools/cmake/helpers/cotire.cmake#L1157,"# fix header's inside status on stack, it is ignored by extension now",['fix'],CMake,8,1157,1157,fix header's inside status on stack it is ignored by extension now,1753,59,Yes
+52037,8019,bitstorm/wicket-tutorial-examples,https://github.com/bitstorm/wicket-tutorial-examples/blob/88dfa08f1d21c85ab0059a8936be8ce86a86a4cc/AjaxEventBehaviorExample/pom.xml#L30,<!-- TODO project name  -->,['todo'],Maven,2,30,30,todo project name,4737,58,Yes
+8989,2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/googletest/googlemock/configure.ac#L86,"# Setup various GTEST variables. TODO(chandlerc@google.com): When these are
+# used below, they should be used such that any pre-existing values always
+# trump values we set them to, so that they can be used to selectively override
+# details of the detection process.",['todo'],Autotool,0,86,89,setup various gtest variables. todo chandlerc google.com when these are used below they should be used such that any pre existing values always trump values we set them to so that they can be used to selectively override details of the detection process.,756,57,Yes
+8485,3397,prabirshrestha/dwm-win32,https://github.com/prabirshrestha/dwm-win32/blob/2fb8319d9b8711ec495c593baef7ac0a5976286d/cmake/luajit/Utils/ios.toolchain.cmake#L125,# Fix for PThread library not in path,['fix'],CMake,0,125,125,fix for pthread library not in path,726,56,Yes
+53011,14268,openam-jp/openam,https://github.com/openam-jp/openam/blob/c248da05f50675a67acecb6bc1d678208e57fe11/openam-authentication/openam-auth-ad/pom.xml#L69,<!-- TODO Add License to Manifest -->,['todo'],Maven,28,69,69,todo add license to manifest,4932,56,Yes
+24108,19649,ampl/coin,https://github.com/ampl/coin/blob/6efc777c3c052b0830806ab46ef848f4cc3cff6b/Bonmin/Makefile.in#L828,# Take care of updating externals (if Dependencies file exists),['take care'],Autotool,0,828,828,take care of updating externals if dependencies file exists,1524,56,No
+35579,1811,vrpn/vrpn,https://github.com/vrpn/vrpn/blob/00fb5ff482c6153b0a185af536fb81dd0d32d74b/cmake/cmake-2.8.4-modules/boost/FindBoost.cmake#L293,# FIXME: This probably should be set for both cases,['fixme'],CMake,6,293,293,fixme this probably should be set for both cases,2146,55,Yes
+8952,2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/googletest/googlemock/Makefile.am#L135,"# Pump scripts for generating Google Mock headers.
+# TODO(chandlerc@google.com): automate the generation of *.h from *.h.pump.",['todo'],Autotool,0,135,136,pump scripts for generating google mock headers. todo chandlerc google.com automate the generation of .h from .h.pump.,741,55,Yes
+17187,5690,snowflakedb/libsnowflakeclient,https://github.com/snowflakedb/libsnowflakeclient/blob/906e628316d8e64f71a2d135d1027fef2ceac74e/deps/aws-sdk-cpp-1.3.50/cmake/platform/android.toolchain.cmake#L723,"# really dirty hack
+# it is not possible to change CMAKE_SYSTEM_PROCESSOR after the first run...",['hack'],CMake,1,723,724,really dirty hack it is not possible to change cmake system processor after the first run...,1311,54,Yes
+7163,2931,ravenproject/ravencoin,https://github.com/ravenproject/ravencoin/blob/c8197cd15d8886dc5c6121e3ba3f39c92445fc1b/configure.ac#L885,"dnl Boost >= 1.50 uses sleep_for rather than the now-deprecated sleep, however
+dnl it was broken from 1.50 to 1.52 when backed by nanosleep. Use sleep_for if
+dnl a working version is available, else fall back to sleep. sleep was removed
+dnl after 1.56.
+dnl If neither is available, abort.",['broken'],Autotool,0,885,889,boost 1.50 uses sleep for rather than the now deprecated sleep however dnl it was broken from 1.50 to 1.52 when backed by nanosleep. use sleep for if dnl a working version is available else fall back to sleep. sleep was removed dnl after 1.56. dnl if neither is available abort.,632,53,Yes
+27761,22717,hjreachability/ilqgames,https://github.com/hjreachability/ilqgames/blob/8908a96444c0b82938f0f581965bf65d03d70274/external/glfw/src/CMakeLists.txt#L112,"# HACK: When building on MinGW, WINVER and UNICODE need to be defined before
+# the inclusion of stddef.h (by glfw3.h), which is itself included before
+# win32_platform.h.  We define them here until a saner solution can be found
+# NOTE: MinGW-w64 and Visual C++ do /not/ need this hack.",['hack'],CMake,0,112,115,hack when building on mingw winver and unicode need to be defined before the inclusion of stddef.h by glfw3.h which is itself included before win32 platform.h. we define them here until a saner solution can be found note mingw w64 and visual c do not need this hack.,1727,53,Yes
+32858,26287,uiuc-ppl/charm,https://github.com/uiuc-ppl/charm/blob/c7483ea419f5319a40993681916d38e3a72bd6be/tests/ampi/mpich-test/errors/f08/Makefile.in#L394,"# This is right for many platforms, but not all.  The right fix involves a
+# configure test, but this version is no worse than the simplemake version was.",['fix'],Autotool,0,394,395,this is right for many platforms but not all. the right fix involves a configure test but this version is no worse than the simplemake version was.,1974,53,Yes
+922,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/configure.ac#L1475,dnl FIXME: Do BSD and OS X need special cases?,['fixme'],Autotool,12,1475,1475,fixme do bsd and os x need special cases,177,52,Yes
+16072,5448,realnc/dosbox-core,https://github.com/realnc/dosbox-core/blob/9212e24704b5fdbc6675f32bd3ec0a3919adcc13/libretro/deps/fmt/CMakeLists.txt#L290,"# Fix rpmlint warning:
+# unused-direct-shlib-dependency /usr/lib/libformat.so.1.1.0 /lib/libm.so.6.",['fix'],CMake,4,290,291,fix rpmlint warning unused direct shlib dependency usr lib libformat.so.1.1.0 lib libm.so.6.,1270,52,Yes
+22594,19118,devcoin/core,https://github.com/devcoin/core/blob/a5a65936e31a63041434f3fce31270c518d44ebc/src/crc32c/CMakeLists.txt#L142,# TODO(pwnall): Insert correct flag when VS gets ARM CRC32C support.,['todo'],CMake,2,142,142,todo pwnall insert correct flag when vs gets arm crc32c support.,1394,52,Yes
+17191,5690,snowflakedb/libsnowflakeclient,https://github.com/snowflakedb/libsnowflakeclient/blob/906e628316d8e64f71a2d135d1027fef2ceac74e/deps/aws-sdk-cpp-1.3.50/cmake/platform/android.toolchain.cmake#L1650,"# Variables controlling behavior or set by cmake toolchain:
+#   ANDROID_ABI : ""armeabi-v7a"" (default), ""armeabi"", ""armeabi-v7a with NEON"", ""armeabi-v7a with VFPV3"", ""armeabi-v6 with VFP"", ""x86"", ""mips"", ""arm64-v8a"", ""x86_64"", ""mips64""
+#   ANDROID_NATIVE_API_LEVEL : 3,4,5,8,9,14,15,16,17,18,19,21 (depends on NDK version)
+#   ANDROID_STL : gnustl_static/gnustl_shared/stlport_static/stlport_shared/gabi++_static/gabi++_shared/system_re/system/none
+#   ANDROID_FORBID_SYGWIN : ON/OFF
+#   ANDROID_NO_UNDEFINED : ON/OFF
+#   ANDROID_SO_UNDEFINED : OFF/ON  (default depends on NDK version)
+#   ANDROID_FUNCTION_LEVEL_LINKING : ON/OFF
+#   ANDROID_GOLD_LINKER : ON/OFF
+#   ANDROID_NOEXECSTACK : ON/OFF
+#   ANDROID_RELRO : ON/OFF
+#   ANDROID_FORCE_ARM_BUILD : ON/OFF
+#   ANDROID_STL_FORCE_FEATURES : ON/OFF
+#   ANDROID_LIBM_PATH : path to libm.so (set to something like $(TOP)/out/target/product/<product_name>/obj/lib/libm.so) to workaround unresolved `sincos`
+# Can be set only at the first run:
+#   ANDROID_NDK : path to your NDK install
+#   NDK_CCACHE : path to your ccache executable
+#   ANDROID_TOOLCHAIN_NAME : the NDK name of compiler toolchain
+#   ANDROID_NDK_HOST_X64 : try to use x86_64 toolchain (default for x64 host systems)
+#   ANDROID_NDK_LAYOUT : the inner NDK structure (RELEASE, LINARO, ANDROID)
+#   LIBRARY_OUTPUT_PATH_ROOT : <any valid path>
+#   ANDROID_STANDALONE_TOOLCHAIN
+#
+# Primary read-only variables:
+#   ANDROID : always TRUE
+#   ARMEABI : TRUE for arm v6 and older devices
+#   ARMEABI_V6 : TRUE for arm v6
+#   ARMEABI_V7A : TRUE for arm v7a
+#   ARM64_V8A : TRUE for arm64-v8a
+#   NEON : TRUE if NEON unit is enabled
+#   VFPV3 : TRUE if VFP version 3 is enabled
+#   X86 : TRUE if configured for x86
+#   X86_64 : TRUE if configured for x86_64
+#   MIPS : TRUE if configured for mips
+#   MIPS64 : TRUE if configured for mips64
+#   BUILD_WITH_ANDROID_NDK : TRUE if NDK is used
+#   BUILD_WITH_STANDALONE_TOOLCHAIN : TRUE if standalone toolchain is used
+#   ANDROID_NDK_HOST_SYSTEM_NAME : ""windows"", ""linux-x86"" or ""darwin-x86"" depending on host platform
+#   ANDROID_NDK_ABI_NAME : ""armeabi"", ""armeabi-v7a"", ""x86"", ""mips"", ""arm64-v8a"", ""x86_64"", ""mips64"" depending on ANDROID_ABI
+#   ANDROID_NDK_RELEASE : from r5 to r10d; set only for NDK
+#   ANDROID_NDK_RELEASE_NUM : numeric ANDROID_NDK_RELEASE version (1000*major+minor)
+#   ANDROID_ARCH_NAME : ""arm"", ""x86"", ""mips"", ""arm64"", ""x86_64"", ""mips64"" depending on ANDROID_ABI
+#   ANDROID_SYSROOT : path to the compiler sysroot
+#   TOOL_OS_SUFFIX : """" or "".exe"" depending on host platform
+#   TOOL_OS_CLANG_SUFFIX : """" or "".cmd"" depending on host platform (on a windows standalone toolchain, a .cmd file is used to point to the compiler rather than a sym link)
+#   ANDROID_COMPILER_IS_CLANG : TRUE if clang compiler is used
+#
+# Secondary (less stable) read-only variables:
+#   ANDROID_COMPILER_VERSION : GCC version used (not Clang version)
+#   ANDROID_CLANG_VERSION : version of clang compiler if clang is used
+#   ANDROID_CXX_FLAGS : C/C++ compiler flags required by Android platform
+#   ANDROID_SUPPORTED_ABIS : list of currently allowed values for ANDROID_ABI
+#   ANDROID_TOOLCHAIN_MACHINE_NAME : ""arm-linux-androideabi"", ""arm-eabi"" or ""i686-android-linux""
+#   ANDROID_TOOLCHAIN_ROOT : path to the top level of toolchain (standalone or placed inside NDK)
+#   ANDROID_CLANG_TOOLCHAIN_ROOT : path to clang tools
+#   ANDROID_SUPPORTED_NATIVE_API_LEVELS : list of native API levels found inside NDK
+#   ANDROID_STL_INCLUDE_DIRS : stl include paths
+#   ANDROID_RTTI : if rtti is enabled by the runtime
+#   ANDROID_EXCEPTIONS : if exceptions are enabled by the runtime
+#   ANDROID_GCC_TOOLCHAIN_NAME : read-only, differs from ANDROID_TOOLCHAIN_NAME only if clang is used
+#
+# Defaults:
+#   ANDROID_DEFAULT_NDK_API_LEVEL
+#   ANDROID_DEFAULT_NDK_API_LEVEL_${ARCH}
+#   ANDROID_NDK_SEARCH_PATHS
+#   ANDROID_SUPPORTED_ABIS_${ARCH}
+#   ANDROID_SUPPORTED_NDK_VERSIONS",['workaround'],CMake,0,1650,1716,variables controlling behavior or set by cmake toolchain android abi armeabi v7a default armeabi armeabi v7a with neon armeabi v7a with vfpv3 armeabi v6 with vfp x86 mips arm64 v8a x86 64 mips64 android native api level 3 4 5 8 9 14 15 16 17 18 19 21 depends on ndk version android stl gnustl static gnustl shared stlport static stlport shared gabi static gabi shared system re system none android forbid sygwin on off android no undefined on off android so undefined off on default depends on ndk version android function level linking on off android gold linker on off android noexecstack on off android relro on off android force arm build on off android stl force features on off android libm path path to libm.so set to something like top out target product product name obj lib libm.so to workaround unresolved sincos can be set only at the first run android ndk path to your ndk install ndk ccache path to your ccache executable android toolchain name the ndk name of compiler toolchain android ndk host x64 try to use x86 64 toolchain default for x64 host systems android ndk layout the inner ndk structure release linaro android library output path root any valid path android standalone toolchain primary read only variables android always true armeabi true for arm v6 and older devices armeabi v6 true for arm v6 armeabi v7a true for arm v7a arm64 v8a true for arm64 v8a neon true if neon unit is enabled vfpv3 true if vfp version 3 is enabled x86 true if configured for x86 x86 64 true if configured for x86 64 mips true if configured for mips mips64 true if configured for mips64 build with android ndk true if ndk is used build with standalone toolchain true if standalone toolchain is used android ndk host system name windows linux x86 or darwin x86 depending on host platform android ndk abi name armeabi armeabi v7a x86 mips arm64 v8a x86 64 mips64 depending on android abi android ndk release from r5 to r10d set only for ndk android ndk release num numeric android ndk release version 1000 major minor android arch name arm x86 mips arm64 x86 64 mips64 depending on android abi android sysroot path to the compiler sysroot tool os suffix or .exe depending on host platform tool os clang suffix or .cmd depending on host platform on a windows standalone toolchain a .cmd file is used to point to the compiler rather than a sym link android compiler is clang true if clang compiler is used secondary less stable read only variables android compiler version gcc version used not clang version android clang version version of clang compiler if clang is used android cxx flags c c compiler flags required by android platform android supported abis list of currently allowed values for android abi android toolchain machine name arm linux androideabi arm eabi or i686 android linux android toolchain root path to the top level of toolchain standalone or placed inside ndk android clang toolchain root path to clang tools android supported native api levels list of native api levels found inside ndk android stl include dirs stl include paths android rtti if rtti is enabled by the runtime android exceptions if exceptions are enabled by the runtime android gcc toolchain name read only differs from android toolchain name only if clang is used defaults android default ndk api level android default ndk api level arch android ndk search paths android supported abis arch android supported ndk versions,1315,51,Yes
+17190,5690,snowflakedb/libsnowflakeclient,https://github.com/snowflakedb/libsnowflakeclient/blob/906e628316d8e64f71a2d135d1027fef2ceac74e/deps/aws-sdk-cpp-1.3.50/cmake/platform/android.toolchain.cmake#L1639,"# it is a bad hack after all
+# CMake generates Ninja makefiles with UNIX paths only if it thinks that we are going to build with MinGW",['hack'],CMake,1,1639,1640,it is a bad hack after all cmake generates ninja makefiles with unix paths only if it thinks that we are going to build with mingw,1314,51,Yes
+17188,5690,snowflakedb/libsnowflakeclient,https://github.com/snowflakedb/libsnowflakeclient/blob/906e628316d8e64f71a2d135d1027fef2ceac74e/deps/aws-sdk-cpp-1.3.50/cmake/platform/android.toolchain.cmake#L1038,"# gnustl binary for 4.7 compiler is buggy :(
+# TODO: look for right fix","['fix', 'todo']",CMake,4,1038,1039,gnustl binary for 4.7 compiler is buggy todo look for right fix,1312,51,Yes
+1354,697,amd/amd-fftw,https://github.com/amd/amd-fftw/blob/e04beee7d2e1e2a4b27c270cbab4c62c0927389f/dft/scalar/codelets/Makefile.in#L799,"# only delete codlist.c in maintainer-mode, since it is included in the dist
+# FIXME: is there a way to delete in 'make clean' only when builddir != srcdir?",['fixme'],Autotool,0,799,800,only delete codlist.c in maintainer mode since it is included in the dist fixme is there a way to delete in 'make clean' only when builddir srcdir,222,48,Yes
+579,450,alliedmodders/stripper-source,https://github.com/alliedmodders/stripper-source/blob/2a08843241f1858d0727a91fa9dcb2382526f8cb/pcre/aclocal.m4#L3839,"# Note: We can NOT use -z defs as we might desire, because we do not
+# link with -lc, and that would cause any symbols used from libc to
+# always be unresolved, which means just about no library would
+# ever link correctly.  If we're not using GNU ld we use -z text
+# though, which does catch some bad symbols but isn't as heavy-handed
+# as -z defs.
+# For security reasons, it is highly recommended that you always
+# use absolute paths for naming shared libraries, and exclude the
+# DT_RUNPATH tag from executables and libraries.  But doing so
+# requires that you compile everything twice, which is a pain.
+# So that behaviour is only enabled if SCOABSPATH is set to a
+# non-empty value in the environment.  Most likely only useful for
+# creating official distributions of packages.
+# This is a hack until libtool officially supports absolute path
+# names for shared libraries.",['hack'],Autotool,4,3839,3853,note we can not use z defs as we might desire because we do not link with lc and that would cause any symbols used from libc to always be unresolved which means just about no library would ever link correctly. if we're not using gnu ld we use z text though which does catch some bad symbols but isn't as heavy handed as z defs. for security reasons it is highly recommended that you always use absolute paths for naming shared libraries and exclude the dt runpath tag from executables and libraries. but doing so requires that you compile everything twice which is a pain. so that behaviour is only enabled if scoabspath is set to a non empty value in the environment. most likely only useful for creating official distributions of packages. this is a hack until libtool officially supports absolute path names for shared libraries.,111,47,Yes
+27760,22717,hjreachability/ilqgames,https://github.com/hjreachability/ilqgames/blob/8908a96444c0b82938f0f581965bf65d03d70274/external/glfw/CMakeLists.txt#L108,# Workaround for legacy MinGW not providing XInput and DirectInput,['workaround'],CMake,4,108,108,workaround for legacy mingw not providing xinput and directinput,1726,47,Yes
+988,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2_mixer/aclocal.m4#L548,# Fix-up fallback echo if it was mangled by the above quoting rules.,['fix'],Autotool,0,548,548,fix up fallback echo if it was mangled by the above quoting rules.,182,46,No
+1039,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2_mixer/aclocal.m4#L6718,"# _LT_PROG_FC
+# -----------
+# Since AC_PROG_FC is broken, in that it returns the empty string
+# if there is no fortran compiler, we have our own version here.",['broken'],Autotool,0,6718,6721,lt prog fc since ac prog fc is broken in that it returns the empty string if there is no fortran compiler we have our own version here.,185,46,Yes
+1644,960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L812,"## FIXME: this should be a separate macro
+##",['fixme'],Autotool,0,812,813,fixme this should be a separate macro,283,46,Yes
+3713,1459,mhoopmann/mstoolkit,https://github.com/mhoopmann/mstoolkit/blob/20e99ce4c28c726cdd81513fcccfdaa9e12bc4a3/src/expat-2.2.9/Makefile.am#L128,# vpath workaround,['workaround'],Autotool,67,128,128,vpath workaround,415,46,Yes
+5,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/jpeg-turbo/configure.ac#L261,# Check for non-broken inline under various spellings,['broken'],Autotool,0,261,261,check for non broken inline under various spellings,4,46,No
+1038,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2_mixer/aclocal.m4#L6575,"# _LT_PROG_F77
+# ------------
+# Since AC_PROG_F77 is broken, in that it returns the empty string
+# if there is no fortran compiler, we have our own version here.",['broken'],Autotool,0,6575,6578,lt prog f77 since ac prog f77 is broken in that it returns the empty string if there is no fortran compiler we have our own version here.,184,46,Yes
+1010,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2_mixer/aclocal.m4#L5328,"# _LT_PROG_CXX
+# ------------
+# Since AC_PROG_CXX is broken, in that it returns g++ if there is no c++
+# compiler, we have our own version here.",['broken'],Autotool,0,5328,5331,lt prog cxx since ac prog cxx is broken in that it returns g if there is no c compiler we have our own version here.,183,46,Yes
+27759,22717,hjreachability/ilqgames,https://github.com/hjreachability/ilqgames/blob/8908a96444c0b82938f0f581965bf65d03d70274/external/glfw/CMakeLists.txt#L85,# Workaround for VS 2008 not shipping with stdint.h,['workaround'],CMake,8,85,85,workaround for vs 2008 not shipping with stdint.h,1725,44,Yes
+2606,1068,beyondtrust/pbis-open,https://github.com/beyondtrust/pbis-open/blob/60d0d21cbb43ad8740944e79456000a086d4687f/krb5/src/windows/leash/Makefile.in#L4,#TODO Fix later:,"['fix', 'todo']",Autotool,0,4,4,todo fix later,365,44,Yes
+34813,28751,wolfiregames/overgrowth,https://github.com/wolfiregames/overgrowth/blob/9becdaf628478502b3a2157b0361fa6aa9792002/Projects/bullet3-2.89/build3/cmake/FindNumPy.cmake#L1,"# - Find the NumPy libraries
+# This module finds if NumPy is installed, and sets the following variables
+# indicating where it is.
+#
+# TODO: Update to provide the libraries and paths for linking npymath lib.
+#
+#  PYTHON_NUMPY_FOUND               - was NumPy found
+#  PYTHON_NUMPY_VERSION             - the version of NumPy found as a string
+#  PYTHON_NUMPY_VERSION_MAJOR       - the major version number of NumPy
+#  PYTHON_NUMPY_VERSION_MINOR       - the minor version number of NumPy
+#  PYTHON_NUMPY_VERSION_PATCH       - the patch version number of NumPy
+#  PYTHON_NUMPY_VERSION_DECIMAL     - e.g. version 1.6.1 is 10601
+#  PYTHON_NUMPY_INCLUDE_DIR         - path to the NumPy include files",['todo'],CMake,0,1,13,find the numpy libraries this module finds if numpy is installed and sets the following variables indicating where it is. todo update to provide the libraries and paths for linking npymath lib. python numpy found was numpy found python numpy version the version of numpy found as a string python numpy version major the major version number of numpy python numpy version minor the minor version number of numpy python numpy version patch the patch version number of numpy python numpy version decimal e.g. version 1.6.1 is 10601 python numpy include dir path to the numpy include files,2026,43,Yes
+6949,2859,sci-visus/openvisus,https://github.com/sci-visus/openvisus/blob/34755b356415ee5e6820fb6eff79e952cbb54262/Libs/slamcpp/ExternalLibs/eigen/CMakeLists.txt#L471,"# TODO: consider also replacing EIGEN_BUILD_BTL by a custom target ""make btl""?",['todo'],CMake,0,471,471,todo consider also replacing eigen build btl by a custom target make btl,622,43,Yes
+1248,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L513,"# TODO: Those all seem to be quite GCC specific - needs to be
+# reworked for better compiler support",['todo'],CMake,4,513,514,todo those all seem to be quite gcc specific needs to be reworked for better compiler support,193,43,Yes
+1263,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L1604,# TODO: Use FIND_PACKAGE(OpenGL) instead,['todo'],CMake,6,1604,1604,todo use find package opengl instead,206,43,Yes
+1256,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L1427,"# TODO: rework this all for proper MacOS X, iOS and Darwin support",['todo'],CMake,2,1427,1427,todo rework this all for proper macos x ios and darwin support,201,43,Yes
+17189,5690,snowflakedb/libsnowflakeclient,https://github.com/snowflakedb/libsnowflakeclient/blob/906e628316d8e64f71a2d135d1027fef2ceac74e/deps/aws-sdk-cpp-1.3.50/cmake/platform/android.toolchain.cmake#L1085,# TODO: check if .so file exists before the renaming,['todo'],CMake,1,1085,1085,todo check if .so file exists before the renaming,1313,43,Yes
+1251,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L681,"# TODO: Can't deactivate on FreeBSD? w/o LIBC, SDL_stdinc.h can't define
+# anything.",['todo'],CMake,0,681,682,todo can't deactivate on freebsd w o libc sdl stdinc.h can't define anything.,196,43,Yes
+1249,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L663,"# TODO: SDL_cpuinfo.h needs to support the user's configuration wish
+# for MSVC - right now it is always activated",['todo'],CMake,4,663,664,todo sdl cpuinfo.h needs to support the user's configuration wish for msvc right now it is always activated,194,42,Yes
+910,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl/configure.in#L2674,"# This could be either full ""Mac OS X"", or plain ""Darwin"" which is
+# just the OS X kernel sans upper layers like Carbon and Cocoa.
+# Next line is broken, and a few files below require Mac OS X (full)",['broken'],Autotool,8,2674,2676,this could be either full mac os x or plain darwin which is just the os x kernel sans upper layers like carbon and cocoa. next line is broken and a few files below require mac os x full,173,42,Yes
+1262,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L1558,# iOS hack needed - http://code.google.com/p/ios-cmake/ ?,['hack'],CMake,2,1558,1558,ios hack needed http code google com p ios cmake,205,42,Yes
+1521,922,ghaerr/microwindows,https://github.com/ghaerr/microwindows/blob/aedeadd743adda15f2f97000332242bb4ba0c1e6/src/contrib/doom/aclocal.m4#L203,dnl FIXME This is truly gross.,['fixme'],Autotool,0,203,203,fixme this is truly gross.,276,42,Yes
+1254,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L1261,# TODO: change $ENV{DXSDL_DIR} to get the path from the include checks,['todo'],CMake,6,1261,1261,todo change env dxsdl dir to get the path from the include checks,199,42,Yes
+1252,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L724,# TODO: refine the mprotect check,['todo'],CMake,4,724,724,todo refine the mprotect check,197,42,Yes
+1265,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L1859,"# TODO: Win32 platforms keep the same suffix .lib for import and static
+# libraries - do we need to consider this?",['todo'],CMake,2,1859,1860,todo win32 platforms keep the same suffix .lib for import and static libraries do we need to consider this,208,42,Yes
+1266,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L1946,# TODO: what about the .spec file? Is it only needed for RPM creation?,['todo'],CMake,2,1946,1946,todo what about the .spec file is it only needed for rpm creation,209,41,Yes
+1282,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/cmake/sdlchecks.cmake#L294,"# TODO: set include paths properly, so the sndio headers are found",['todo'],CMake,4,294,294,todo set include paths properly so the sndio headers are found,215,41,Yes
+23644,19849,dash-project/dash-apps,https://github.com/dash-project/dash-apps/blob/83d845a28781250f40a2d4648aff94097e06461f/minife/basic/optional/ThreadPool/src/Makefile.am#L96,"# ------------------------------------------------------------------------
+# Some C++ compilers create extra .o-files for templates. We need to
+# be sure to include these, and this is the hack to do it.
+# ------------------------------------------------------------------------",['hack'],Autotool,0,96,99,some c compilers create extra .o files for templates. we need to be sure to include these and this is the hack to do it.,1472,41,Yes
+45756,25928,insightsoftwareconsortium/itk,https://github.com/insightsoftwareconsortium/itk/blob/171fb2ba33a87041f99328a2f26612ff33aa9cc8/Modules/ThirdParty/HDF5/src/itkhdf5/CMakeLists.txt#L19,# XXX(kitware): Hardcode settings.,['xxx'],CMake,0,19,19,xxx kitware hardcode settings.,4139,41,Yes
+1281,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/cmake/sdlchecks.cmake#L263,"# TODO: set include paths properly, so the NAS headers are found",['todo'],CMake,4,263,263,todo set include paths properly so the nas headers are found,214,41,Yes
+1512,504,espressif/binutils-esp32ulp,https://github.com/espressif/binutils-esp32ulp/blob/9bb46bab6b2e1ef1a246c3700f0a9ed791bfe477/readline/aclocal.m4#L3208,"dnl FIXME: Not sure whether we should use
+dnl ""-L$found_dir -l$name"" or ""-L$found_dir $found_so""
+dnl here.",['fixme'],Autotool,22,3208,3210,fixme not sure whether we should use dnl l found dir l name or l found dir found so dnl here.,269,41,Yes
+1513,504,espressif/binutils-esp32ulp,https://github.com/espressif/binutils-esp32ulp/blob/9bb46bab6b2e1ef1a246c3700f0a9ed791bfe477/readline/aclocal.m4#L3213,"dnl We cannot use $hardcode_runpath_var and LD_RUN_PATH
+dnl here, because this doesn't fit in flags passed to the
+dnl compiler. So give up. No hardcoding. This affects only
+dnl very old systems.
+dnl FIXME: Not sure whether we should use
+dnl ""-L$found_dir -l$name"" or ""-L$found_dir $found_so""
+dnl here.","['fixme', 'give up']",Autotool,22,3213,3219,we cannot use hardcode runpath var and ld run path dnl here because this doesn't fit in flags passed to the dnl compiler. so give up. no hardcoding. this affects only dnl very old systems. dnl fixme not sure whether we should use dnl l found dir l name or l found dir found so dnl here.,270,41,Yes
+1517,892,wbx-github/openadk,https://github.com/wbx-github/openadk/blob/6122629eeb3393ce87fbe10a70f43ae952a97ae4/package/etrax-tools/src/e100boot/libpcap-0.4/configure.in#L109,dnl Workaround to enable certain features,['workaround'],Autotool,1,109,109,workaround to enable certain features,272,40,Yes
+1523,922,ghaerr/microwindows,https://github.com/ghaerr/microwindows/blob/aedeadd743adda15f2f97000332242bb4ba0c1e6/src/contrib/doom/aclocal.m4#L255,"dnl AM_MISSING_PROG(NAME, PROGRAM, DIRECTORY)
+dnl The program must properly implement --version.",['implement'],Autotool,0,255,256,am missing prog name program directory dnl the program must properly implement version.,277,40,No
+412,209,niqdev/ipcam-view,https://github.com/niqdev/ipcam-view/blob/3a25f1036ed5b8bed1751c70babaf7ff6eb522e9/mjpeg-view/src/main/jni/jpeg8d/configure.ac#L16,# Hack: disable autoheader so that it doesn't overwrite our cfg template.,['hack'],Autotool,0,16,16,hack disable autoheader so that it doesn't overwrite our cfg template.,92,40,Yes
+41047,22650,reelrbtx/smacc,https://github.com/reelrbtx/smacc/blob/05f00f6504ff6c30ecf3865a27ec223ff3524225/smacc/CMakeLists.txt#L44,"#workaround for ubuntu 16.04, to extinguish",['workaround'],CMake,32,44,44,workaround for ubuntu 16.04 to extinguish,3308,40,Yes
+27762,22717,hjreachability/ilqgames,https://github.com/hjreachability/ilqgames/blob/8908a96444c0b82938f0f581965bf65d03d70274/cmake/Modules/FindGlog.cmake#L179,"# TODO: This regex for glog library is pretty primitive, we use lowercase
+#       for comparison to handle Windows using CamelCase library names, could
+#       this check be better?",['todo'],CMake,0,179,181,todo this regex for glog library is pretty primitive we use lowercase for comparison to handle windows using camelcase library names could this check be better,1728,40,Yes
+8956,2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/crypto/heimdal/lib/hdb/Makefile.am#L131,# to help stupid solaris make,['stupid'],Autotool,0,131,131,to help stupid solaris make,745,39,Yes
+6451,1898,tanersener/mobile-ffmpeg,https://github.com/tanersener/mobile-ffmpeg/blob/7a9c62f5563bff68da43d07e3286b5d8db50d53f/src/libaom/build/cmake/toolchains/arm64-ios.cmake#L16,# TODO(tomfinegan): Handle arm builds in Xcode.,['todo'],CMake,10,16,16,todo tomfinegan handle arm builds in xcode.,600,39,Yes
+1245,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L8,"# !!! FIXME: this should probably do ""MACOSX_RPATH ON"" as a target property
+# !!! FIXME:  for the SDL2 shared library (so you get an
+# !!! FIXME:  install_name (""soname"") of ""@rpath/libSDL-whatever.dylib""
+# !!! FIXME:  instead of ""/usr/local/lib/libSDL-whatever.dylib""), but I'm
+# !!! FIXME:  punting for now and leaving the existing behavior. Until this
+# !!! FIXME:  properly resolved, this line silences a warning in CMake 3.0+.
+# !!! FIXME:  remove it and this comment entirely once the problem is
+# !!! FIXME:  properly resolved.
+#cmake_policy(SET CMP0042 OLD)",['fixme'],CMake,0,8,16,fixme this should probably do macosx rpath on as a target property fixme for the sdl2 shared library so you get an fixme install name soname of rpath libsdl whatever.dylib fixme instead of usr local lib libsdl whatever.dylib but i'm fixme punting for now and leaving the existing behavior. until this fixme properly resolved this line silences a warning in cmake 3.0 . fixme remove it and this comment entirely once the problem is fixme properly resolved. cmake policy set cmp0042 old,191,39,Yes
+9257,2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/subrepo-cheri-libc++/utils/google-benchmark/CMakeLists.txt#L56,"# FIXME: The --coverage flag needs to be removed when building assembly
+# tests for this to work.",['fixme'],CMake,6,56,57,fixme the coverage flag needs to be removed when building assembly tests for this to work.,827,39,Yes
+36112,3859,dreamsxin/cphalcon7,https://github.com/dreamsxin/cphalcon7/blob/1b8c6b04b4ca237a5ead87d4752df0d2e85c7a9d/deps/libwebsockets/contrib/cross-aarch64.cmake#L17,"#
+# Different build system distros set release optimization level to different
+# things according to their local policy, eg, Fedora is -O2 and Ubuntu is -O3
+# here.  Actually the build system's local policy is completely unrelated to
+# our desire for cross-build release optimization policy for code built to run
+# on a completely different target than the build system itself.
+#
+# Since this goes last on the compiler commandline we have to override it to a
+# sane value for cross-build here.  Notice some gcc versions enable broken
+# optimizations with -O3.
+#",['broken'],CMake,0,17,27,different build system distros set release optimization level to different things according to their local policy eg fedora is o2 and ubuntu is o3 here. actually the build system's local policy is completely unrelated to our desire for cross build release optimization policy for code built to run on a completely different target than the build system itself. since this goes last on the compiler commandline we have to override it to a sane value for cross build here. notice some gcc versions enable broken optimizations with o3.,2318,38,Yes
+486,231,rmtheis/tess-two,https://github.com/rmtheis/tess-two/blob/ab4cab1bd9794aacb74162aff339daa921a68c3f/tess-two/jni/libpng/CMakeLists.txt#L705,"# If CMake > 2.4.x, we set a variable used below to export
+# targets to an export file.
+# TODO: Use VERSION_GREATER after our cmake_minimum_required >= 2.6.2",['todo'],CMake,0,705,707,if cmake 2.4.x we set a variable used below to export targets to an export file. todo use version greater after our cmake minimum required 2.6.2,97,38,Yes
+1840,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1229,"# NTLM support requires crypto function adaptions from various SSL libs
+# TODO alternative SSL libs tests for SSP1, GNUTLS, NSS",['todo'],CMake,0,1229,1230,ntlm support requires crypto function adaptions from various ssl libs todo alternative ssl libs tests for ssp1 gnutls nss,303,38,Yes
+16071,5448,realnc/dosbox-core,https://github.com/realnc/dosbox-core/blob/9212e24704b5fdbc6675f32bd3ec0a3919adcc13/libretro/deps/fmt/CMakeLists.txt#L44,"# cmake_parse_arguments is broken in CMake 3.4 (cannot parse CACHE) so use
+# list instead.",['broken'],CMake,2,44,45,cmake parse arguments is broken in cmake 3.4 cannot parse cache so use list instead.,1269,37,Yes
+1257,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L1429,"# We always need these libs on macOS at the moment.
+# !!! FIXME: we need Carbon for some very old API calls in
+# !!! FIXME:  src/video/cocoa/SDL_cocoakeyboard.c, but we should figure out
+# !!! FIXME:  how to dump those.",['fixme'],CMake,2,1429,1432,we always need these libs on macos at the moment. fixme we need carbon for some very old api calls in fixme src video cocoa sdl cocoakeyboard.c but we should figure out fixme how to dump those.,202,37,Yes
+923,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/configure.ac#L2999,"# FIXME: latest Cygwin finds dinput headers, but we die on other win32 headers.
+# FIXME:  ...so force it off for now.",['fixme'],Autotool,8,2999,3000,fixme latest cygwin finds dinput headers but we die on other win32 headers. fixme ...so force it off for now.,178,36,Yes
+10571,4049,audacity/audacity,https://github.com/audacity/audacity/blob/cae0cfaad8a184f5325d710522d70abe15eb1ebc/cmake-proxies/cmake-modules/conan.cmake#L136,"# using GCC
+# TODO: Handle other params",['todo'],CMake,8,136,137,using gcc todo handle other params,921,36,Yes
+6440,1898,tanersener/mobile-ffmpeg,https://github.com/tanersener/mobile-ffmpeg/blob/7a9c62f5563bff68da43d07e3286b5d8db50d53f/src/chromaprint/Doxyfile.cmake#L603,"# The GENERATE_TODOLIST tag can be used to enable (YES) or disable (NO) the todo
+# list. This list is created by putting \todo commands in the documentation.
+# The default value is: YES.",['todo'],CMake,0,603,605,the generate todolist tag can be used to enable yes or disable no the todo list. this list is created by putting todo commands in the documentation. the default value is yes.,590,36,No
+26391,20713,bonexgoo/boss2d,https://github.com/bonexgoo/boss2d/blob/cbc354481348aa409b1c36250490627c6c9758b0/Boss2D/addon/wav2letter-0.2_for_boss/cmake/FindMKL.cmake#L79,# TODO: diagnostic if dir does not exist,['todo'],CMake,2,79,79,todo diagnostic if dir does not exist,1663,35,Yes
+1850,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/tests/unit/CMakeLists.txt#L13,"# Broken link on Linux
+#  unit1394.c",['broken'],CMake,0,13,14,broken link on linux unit1394.c,313,34,Yes
+39117,20304,orb-hd/rbdl-orb,https://github.com/orb-hd/rbdl-orb/blob/0606f2cd17aa29179fea02f26b643ed860a473dc/examples/constrainedDoublePendulum/CMake/Modules/UseADIFOR2.cmake#L1,"# File:   UseADIFOR2.cmake
+# Author: Christian Hoffmann
+# Date:   2007--2009
+#
+# This file is part of the MUSCOD/VPLAN suite, which is proprietary software of
+#   Simulation and Optimization Workgroup
+#   Interdisciplinary Center for Scientific Computing (IWR)
+#   University of Heidelberg, Germany.
+#
+# Copyright (C) 2007--2009. All rights reserved.
+#
+####################################################################################################
+#
+# Including this file makes prepares your CMake script for package XXX. Usage example:
+#
+# FIND_PACKAGE( XXX ) # invokes FindADIFOR2.cmake
+# IF( XXX_FOUND )
+#   INCLUDE( UseXXX.cmake )
+# ENDIF()
+#
+####################################################################################################",['xxx'],CMake,0,1,21,file useadifor2.cmake author christian hoffmann date 2007 2009 this file is part of the muscod vplan suite which is proprietary software of simulation and optimization workgroup interdisciplinary center for scientific computing iwr university of heidelberg germany. copyright c 2007 2009. all rights reserved. including this file makes prepares your cmake script for package xxx. usage example find package xxx invokes findadifor2.cmake if xxx found include usexxx.cmake endif,2955,34,No
+48546,27158,gunrock/essentials,https://github.com/gunrock/essentials/blob/70c92f60e25c5714696e070fa8a638f90fdd402c/examples/algorithms/bc/CMakeLists.txt#L18,# XXX: Find a better way to inherit essentials properties.,['xxx'],CMake,2,18,18,xxx find a better way to inherit essentials properties.,4545,34,Yes
+22454,15212,tencentyun/timsdk,https://github.com/tencentyun/timsdk/blob/0cd595edfe8ecb194f817f308572ce5ffad96035/Flutter/IMSDK/im-flutter-plugin/tencent_im_sdk_plugin/example/windows/flutter/CMakeLists.txt#L8,"# TODO: Move the rest of this into files in ephemeral. See
+# https://github.com/flutter/flutter/issues/57146.",['todo'],CMake,0,8,9,todo move the rest of this into files in ephemeral. see https github com flutter flutter issues 57146,1385,34,Yes
+2555,1170,philkr/pystk,https://github.com/philkr/pystk/blob/253ef48b4d68bd6cc7e9db6d4877a1f01a80bdcd/lib/pybind11/tools/pybind11Common.cmake#L70,"# Workaround for Python 2.7 and C++17 (C++14 as a warning) incompatibility
+# This adds the flags -Wno-register and -Wno-deprecated-register if the compiler
+# is Clang 3.9+ or AppleClang and the compile language is CXX, or /wd5033 for MSVC (all languages,
+# since MSVC didn't recognize COMPILE_LANGUAGE until CMake 3.11+).",['workaround'],CMake,0,70,73,workaround for python 2.7 and c 17 c 14 as a warning incompatibility this adds the flags wno register and wno deprecated register if the compiler is clang 3.9 or appleclang and the compile language is cxx or wd5033 for msvc all languages since msvc didn't recognize compile language until cmake 3.11 .,345,34,Yes
+27758,22717,hjreachability/ilqgames,https://github.com/hjreachability/ilqgames/blob/8908a96444c0b82938f0f581965bf65d03d70274/external/glfw/CMakeLists.txt#L79,# Workaround for VS 2008 not shipping with the DirectX 9 SDK,['workaround'],CMake,8,79,79,workaround for vs 2008 not shipping with the directx 9 sdk,1724,33,Yes
+16082,5448,realnc/dosbox-core,https://github.com/realnc/dosbox-core/blob/9212e24704b5fdbc6675f32bd3ec0a3919adcc13/libretro/deps/fluidsynth-sans-glib/cmake_admin/CodeCoverage.cmake#L1,"# Copyright (c) 2012 - 2017, Lars Bilke
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without modification,
+# are permitted provided that the following conditions are met:
+#
+# 1. Redistributions of source code must retain the above copyright notice, this
+#    list of conditions and the following disclaimer.
+#
+# 2. Redistributions in binary form must reproduce the above copyright notice,
+#    this list of conditions and the following disclaimer in the documentation
+#    and/or other materials provided with the distribution.
+#
+# 3. Neither the name of the copyright holder nor the names of its contributors
+#    may be used to endorse or promote products derived from this software without
+#    specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS IS"" AND
+# ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+# DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+# ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+# (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+# LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+# ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+# CHANGES:
+#
+# 2012-01-31, Lars Bilke
+# - Enable Code Coverage
+#
+# 2013-09-17, Joakim Söderberg
+# - Added support for Clang.
+# - Some additional usage instructions.
+#
+# 2016-02-03, Lars Bilke
+# - Refactored functions to use named parameters
+#
+# 2017-06-02, Lars Bilke
+# - Merged with modified version from github.com/ufz/ogs
+#
+# 2019-05-06, Anatolii Kurotych
+# - Remove unnecessary --coverage flag
+#
+# 2019-12-13, FeRD (Frank Dana)
+# - Deprecate COVERAGE_LCOVR_EXCLUDES and COVERAGE_GCOVR_EXCLUDES lists in favor
+#   of tool-agnostic COVERAGE_EXCLUDES variable, or EXCLUDE setup arguments.
+# - CMake 3.4+: All excludes can be specified relative to BASE_DIRECTORY
+# - All setup functions: accept BASE_DIRECTORY, EXCLUDE list
+# - Set lcov basedir with -b argument
+# - Add automatic --demangle-cpp in lcovr, if 'c++filt' is available (can be
+#   overridden with NO_DEMANGLE option in setup_target_for_coverage_lcovr().)
+# - Delete output dir, .info file on 'make clean'
+# - Remove Python detection, since version mismatches will break gcovr
+# - Minor cleanup (lowercase function names, update examples...)
+#
+# 2019-12-19, FeRD (Frank Dana)
+# - Rename Lcov outputs, make filtered file canonical, fix cleanup for targets
+#
+# 2020-01-19, Bob Apthorpe
+# - Added gfortran support
+#
+# 2020-02-17, FeRD (Frank Dana)
+# - Make all add_custom_target()s VERBATIM to auto-escape wildcard characters
+#   in EXCLUDEs, and remove manual escaping from gcovr targets
+#
+# 2021-01-19, Robin Mueller
+# - Add CODE_COVERAGE_VERBOSE option which will allow to print out commands which are run
+# - Added the option for users to set the GCOVR_ADDITIONAL_ARGS variable to supply additional
+#   flags to the gcovr command
+#
+# 2020-05-04, Mihchael Davis
+#     - Add -fprofile-abs-path to make gcno files contain absolute paths
+#     - Fix BASE_DIRECTORY not working when defined
+#     - Change BYPRODUCT from folder to index.html to stop ninja from complaining about double defines
+# USAGE:
+#
+# 1. Copy this file into your cmake modules path.
+#
+# 2. Add the following line to your CMakeLists.txt (best inside an if-condition
+#    using a CMake option() to enable it just optionally):
+#      include(CodeCoverage)
+#
+# 3. Append necessary compiler flags:
+#      append_coverage_compiler_flags()
+#
+# 3.a (OPTIONAL) Set appropriate optimization flags, e.g. -O0, -O1 or -Og
+#
+# 4. If you need to exclude additional directories from the report, specify them
+#    using full paths in the COVERAGE_EXCLUDES variable before calling
+#    setup_target_for_coverage_*().
+#    Example:
+#      set(COVERAGE_EXCLUDES
+#          '${PROJECT_SOURCE_DIR}/src/dir1/*'
+#          '/path/to/my/src/dir2/*')
+#    Or, use the EXCLUDE argument to setup_target_for_coverage_*().
+#    Example:
+#      setup_target_for_coverage_lcov(
+#          NAME coverage
+#          EXECUTABLE testrunner
+#          EXCLUDE ""${PROJECT_SOURCE_DIR}/src/dir1/*"" ""/path/to/my/src/dir2/*"")
+#
+# 4.a NOTE: With CMake 3.4+, COVERAGE_EXCLUDES or EXCLUDE can also be set
+#     relative to the BASE_DIRECTORY (default: PROJECT_SOURCE_DIR)
+#     Example:
+#       set(COVERAGE_EXCLUDES ""dir1/*"")
+#       setup_target_for_coverage_gcovr_html(
+#           NAME coverage
+#           EXECUTABLE testrunner
+#           BASE_DIRECTORY ""${PROJECT_SOURCE_DIR}/src""
+#           EXCLUDE ""dir2/*"")
+#
+# 5. Use the functions described below to create a custom make target which
+#    runs your test executable and produces a code coverage report.
+#
+# 6. Build a Debug build:
+#      cmake -DCMAKE_BUILD_TYPE=Debug ..
+#      make
+#      make my_coverage_target
+#",['fix'],CMake,0,1,122,copyright c 2012 2017 lars bilke all rights reserved. redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met 1. redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer. 2. redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation and or other materials provided with the distribution. 3. neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. this software is provided by the copyright holders and contributors as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed. in no event shall the copyright holder or contributors be liable for any direct indirect incidental special exemplary or consequential damages including but not limited to procurement of substitute goods or services loss of use data or profits or business interruption however caused and on any theory of liability whether in contract strict liability or tort including negligence or otherwise arising in any way out of the use of this software even if advised of the possibility of such damage. changes 2012 01 31 lars bilke enable code coverage 2013 09 17 joakim s derberg added support for clang. some additional usage instructions. 2016 02 03 lars bilke refactored functions to use named parameters 2017 06 02 lars bilke merged with modified version from github.com ufz ogs 2019 05 06 anatolii kurotych remove unnecessary coverage flag 2019 12 13 ferd frank dana deprecate coverage lcovr excludes and coverage gcovr excludes lists in favor of tool agnostic coverage excludes variable or exclude setup arguments. cmake 3.4 all excludes can be specified relative to base directory all setup functions accept base directory exclude list set lcov basedir with b argument add automatic demangle cpp in lcovr if 'c filt' is available can be overridden with no demangle option in setup target for coverage lcovr . delete output dir .info file on 'make clean' remove python detection since version mismatches will break gcovr minor cleanup lowercase function names update examples... 2019 12 19 ferd frank dana rename lcov outputs make filtered file canonical fix cleanup for targets 2020 01 19 bob apthorpe added gfortran support 2020 02 17 ferd frank dana make all add custom target s verbatim to auto escape wildcard characters in excludes and remove manual escaping from gcovr targets 2021 01 19 robin mueller add code coverage verbose option which will allow to print out commands which are run added the option for users to set the gcovr additional args variable to supply additional flags to the gcovr command 2020 05 04 mihchael davis add fprofile abs path to make gcno files contain absolute paths fix base directory not working when defined change byproduct from folder to index.html to stop ninja from complaining about double defines usage 1. copy this file into your cmake modules path. 2. add the following line to your cmakelists.txt best inside an if condition using a cmake option to enable it just optionally include codecoverage 3. append necessary compiler flags append coverage compiler flags 3.a optional set appropriate optimization flags e.g. o0 o1 or og 4. if you need to exclude additional directories from the report specify them using full paths in the coverage excludes variable before calling setup target for coverage . example set coverage excludes ' project source dir src dir1 ' ' path to my src dir2 ' or use the exclude argument to setup target for coverage . example setup target for coverage lcov name coverage executable testrunner exclude project source dir src dir1 path to my src dir2 4.a note with cmake 3.4 coverage excludes or exclude can also be set relative to the base directory default project source dir example set coverage excludes dir1 setup target for coverage gcovr html name coverage executable testrunner base directory project source dir src exclude dir2 5. use the functions described below to create a custom make target which runs your test executable and produces a code coverage report. 6. build a debug build cmake dcmake build type debug .. make make my coverage target,1279,33,No
+2279,1065,ampl/gsl,https://github.com/ampl/gsl/blob/6e40fb13a501393f3a9deb7c4fcbee85241a0339/ampl/thirdparty/test-support/CMakeLists.txt#L24,# Workaround GTest bug https://github.com/google/googletest/issues/705.,['workaround'],CMake,2,24,24,workaround gtest bug https github com google googletest issues 705,330,33,Yes
+40381,21741,fairrootgroup/fairroot,https://github.com/fairrootgroup/fairroot/blob/bee7c1258909d88556e8209d18feba488dfadaad/alignment/CMakeLists.txt#L25,# TODO: DELETE ME ONCE USING root targets,['todo'],CMake,2,25,25,todo delete me once using root targets,3166,32,Yes
+32963,26469,hoffstadt/dearpygui,https://github.com/hoffstadt/dearpygui/blob/87558b6c9071f6c63587aef4ece48edd762a789c/thirdparty/glfw/examples/CMakeLists.txt#L10,# Workaround for the MS CRT deprecating parts of the standard library,['workaround'],CMake,0,10,10,workaround for the ms crt deprecating parts of the standard library,1984,32,Yes
+15622,5012,libmesh/libmesh,https://github.com/libmesh/libmesh/blob/34ce67b4c2df561dfaaae0e7c42415a945ce8064/contrib/eigen/3.2.9/cmake/language_support.cmake#L6,"# This additional function definition is needed to provide a workaround for
+# CMake bug 9220.",['workaround'],CMake,0,6,7,this additional function definition is needed to provide a workaround for cmake bug 9220.,1193,32,Yes
+28919,23541,lixizhi/nplruntime,https://github.com/lixizhi/nplruntime/blob/ab5eb4e91fb2734717b80fb1ae6546369bc33721/Client/trunk/cAudio_2.4.0/CMake/Utils/FindPkgMacros.cmake#L52,"# test against internal check variable
+# HACK: Apparently, adding a variable to the cache cleans up the list
+# a bit. We need to also remove any empty strings from the list, but
+# at the same time ensure that we are actually dealing with a list.",['hack'],CMake,2,52,55,test against internal check variable hack apparently adding a variable to the cache cleans up the list a bit. we need to also remove any empty strings from the list but at the same time ensure that we are actually dealing with a list.,1771,32,Yes
+3681,773,unidata/gempak,https://github.com/unidata/gempak/blob/e60728b909ee9b25d8547f6914b1a56c448e6113/extlibs/HDF5/v1.8.15/config/cmake/userblockTest.cmake#L99,# if the return value is !=${TEST_EXPECT} bail out,['bail out'],CMake,2,99,99,if the return value is test expect bail out,392,32,No
+16073,5448,realnc/dosbox-core,https://github.com/realnc/dosbox-core/blob/9212e24704b5fdbc6675f32bd3ec0a3919adcc13/libretro/deps/fmt/test/CMakeLists.txt#L141,"# Test that the library can be compiled with exceptions disabled.
+# -fno-exception is broken in icc: https://github.com/fmtlib/fmt/issues/822.",['broken'],CMake,2,141,142,test that the library can be compiled with exceptions disabled. fno exception is broken in icc https github com fmtlib fmt issues 822,1271,31,Yes
+1510,504,espressif/binutils-esp32ulp,https://github.com/espressif/binutils-esp32ulp/blob/9bb46bab6b2e1ef1a246c3700f0a9ed791bfe477/readline/aclocal.m4#L2407,"dnl intl/plural.c is generated from intl/plural.y. It requires bison,
+dnl because plural.y uses bison specific features. It requires at least
+dnl bison-1.26 because earlier versions generate a plural.c that doesn't
+dnl compile.
+dnl bison is only needed for the maintainer (who touches plural.y). But in
+dnl order to avoid separate Makefiles or --enable-maintainer-mode, we put
+dnl the rule in general Makefile. Now, some people carelessly touch the
+dnl files or have a broken ""make"" program, hence the plural.c rule will
+dnl sometimes fire. To avoid an error, defines BISON to "":"" if it is not
+dnl present or too old.",['broken'],Autotool,2,2407,2416,intl plural.c is generated from intl plural.y. it requires bison dnl because plural.y uses bison specific features. it requires at least dnl bison 1.26 because earlier versions generate a plural.c that doesn't dnl compile. dnl bison is only needed for the maintainer who touches plural.y . but in dnl order to avoid separate makefiles or enable maintainer mode we put dnl the rule in general makefile. now some people carelessly touch the dnl files or have a broken make program hence the plural.c rule will dnl sometimes fire. to avoid an error defines bison to if it is not dnl present or too old.,267,31,Yes
+1847,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1375,"# Workaround for MSVS10 to avoid the Dialog Hell
+# FIXME: This could be removed with future version of CMake.","['fixme', 'workaround']",CMake,0,1375,1376,workaround for msvs10 to avoid the dialog hell fixme this could be removed with future version of cmake.,310,31,Yes
+15623,5012,libmesh/libmesh,https://github.com/libmesh/libmesh/blob/34ce67b4c2df561dfaaae0e7c42415a945ce8064/contrib/eigen/3.2.9/cmake/language_support.cmake#L9,"# On debian testing (cmake 2.6.2), I get return code zero when calling
+# cmake the first time, but cmake crashes when running a second time
+# as follows:
+#
+#  -- The Fortran compiler identification is unknown
+#  CMake Error at /usr/share/cmake-2.6/Modules/CMakeFortranInformation.cmake:7 (GET_FILENAME_COMPONENT):
+#    get_filename_component called with incorrect number of arguments
+#  Call Stack (most recent call first):
+#    CMakeLists.txt:3 (enable_language)
+#
+# My workaround is to invoke cmake twice.  If both return codes are zero,
+# it is safe to invoke ENABLE_LANGUAGE(Fortran OPTIONAL)",['workaround'],CMake,0,9,20,on debian testing cmake 2.6.2 i get return code zero when calling cmake the first time but cmake crashes when running a second time as follows the fortran compiler identification is unknown cmake error at usr share cmake 2.6 modules cmakefortraninformation.cmake 7 get filename component get filename component called with incorrect number of arguments call stack most recent call first cmakelists.txt 3 enable language my workaround is to invoke cmake twice. if both return codes are zero it is safe to invoke enable language fortran optional,1194,31,Yes
+26286,20713,bonexgoo/boss2d,https://github.com/bonexgoo/boss2d/blob/cbc354481348aa409b1c36250490627c6c9758b0/Boss2D/addon/opencv-3.1.0_for_boss/cmake/FindCUDA/run_nvcc.cmake#L134,"# Now we need to build up our command string.  We are accounting for quotes
+# and spaces, anything else is left up to the user to fix if they want to
+# copy and paste a runnable command line.",['fix'],CMake,4,134,136,now we need to build up our command string. we are accounting for quotes and spaces anything else is left up to the user to fix if they want to copy and paste a runnable command line.,1637,30,No
+22598,19118,devcoin/core,https://github.com/devcoin/core/blob/a5a65936e31a63041434f3fce31270c518d44ebc/src/leveldb/CMakeLists.txt#L351,"# TODO(costan): This test also uses
+#               ""util/env_{posix|windows}_test_helper.h""",['todo'],CMake,4,351,352,todo costan this test also uses util env posix windows test helper.h,1397,30,Yes
+26539,21239,apple/turicreate,https://github.com/apple/turicreate/blob/cce55aa5311300e3ce6af93cb45ba791fd1bdf49/src/external/boost/boost_1_68_0/libs/compute/cmake/FindTBB.cmake#L77,# Todo: add other Windows compilers such as ICL.,['todo'],CMake,4,77,77,todo add other windows compilers such as icl.,1672,30,Yes
+22597,19118,devcoin/core,https://github.com/devcoin/core/blob/a5a65936e31a63041434f3fce31270c518d44ebc/src/leveldb/CMakeLists.txt#L21,# TODO(cmumford): Make UNICODE configurable for Windows.,['todo'],CMake,2,21,21,todo cmumford make unicode configurable for windows.,1396,30,Yes
+16074,5448,realnc/dosbox-core,https://github.com/realnc/dosbox-core/blob/9212e24704b5fdbc6675f32bd3ec0a3919adcc13/libretro/deps/fmt/test/cuda-test/CMakeLists.txt#L35,"# This part is for (non-CUDA) C++ code. MSVC can define incorrect
+# `__cplusplus` macro. Fix for the issue is to use additional compiler flag. 
+#
+# See Also:
+# https://devblogs.microsoft.com/cppblog/msvc-now-correctly-reports-__cplusplus/
+# https://github.com/Microsoft/vscode-cpptools/issues/2595",['fix'],CMake,4,35,40,this part is for non cuda c code. msvc can define incorrect cplusplus macro. fix for the issue is to use additional compiler flag. see also https devblogs microsoft com cppblog msvc now correctly reports cplusplus https github com microsoft vscode cpptools issues 2595,1272,29,Yes
+52713,12984,sap/sapmachine,https://github.com/sap/sapmachine/blob/fc8b4428454e968f5d86124dd7772811a5cd102c/make/langtools/build.properties#L49,"# FIXME -- these need to match the standard values
+# If we include date in full.version (ie for developer build)
+# we will need to make sure the build is idempotent (i.e.
+# repeated builds don't rebuild the tools, because of new
+# timestamps
+# FIXME -- need to include openjdk as needed",['fixme'],Ant,0,49,54,fixme these need to match the standard values if we include date in full.version ie for developer build we will need to make sure the build is idempotent i.e. repeated builds don't rebuild the tools because of new timestamps fixme need to include openjdk as needed,4894,29,Yes
+38304,19131,llnl/samrai,https://github.com/llnl/samrai/blob/bf23868c2f2823e92b9b47edbd70bfbad365ef06/source/test/FAC_adaptive/CMakeLists.txt#L18,# TODO CMake should resolve this dependency for us...,['todo'],CMake,0,18,18,todo cmake should resolve this dependency for us...,2787,29,Yes
+22762,19283,blockchaingate/fabcoin,https://github.com/blockchaingate/fabcoin/blob/2dcee3566f4902ed081322a5b31cf23d9fa4134d/src/cpp-ethereum/cmake/FindCURL.cmake#L29,"# debug library on windows
+# same naming convention as in qt (appending debug library with d)
+# boost is using the same ""hack"" as us with ""optimized"" and ""debug""",['hack'],CMake,0,29,31,debug library on windows same naming convention as in qt appending debug library with d boost is using the same hack as us with optimized and debug,1409,29,Yes
+9606,3679,mcstasmcxtrace/mccode,https://github.com/mcstasmcxtrace/mccode/blob/6b5ac90ebaabfbcb988e9b7489933c3332e94373/cmake/Modules/UseLATEX.cmake#L1114,"# ImageMagick has broken eps to pdf conversion
+# use ps2pdf instead",['broken'],CMake,4,1114,1115,imagemagick has broken eps to pdf conversion use ps2pdf instead,853,28,Yes
+907,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2_mixer/external/flac-1.3.2/src/plugin_xmms/Makefile.am#L48,"# work around the bug in libtool where its relinking fails with a different DESTDIR
+# for libtool bug info see:
+#   http://mail.gnu.org/pipermail/bug-libtool/2002-February/003018.html
+#   http://mail.gnu.org/pipermail/libtool/2002-April/006244.html
+#   http://mail.gnu.org/pipermail/libtool/2002-April/006250.html
+# for fix info see:
+#   http://lists.freshrpms.net/pipermail/rpm-list/2002-April/000746.html
+# the workaround is the extra '-L$(top_builddir)/src/libFLAC/.libs'","['fix', 'workaround']",Autotool,0,48,55,work around the bug in libtool where its relinking fails with a different destdir for libtool bug info see http mail gnu org pipermail bug libtool 2002 february 003018 html http mail gnu org pipermail libtool 2002 april 006244 html http mail gnu org pipermail libtool 2002 april 006250 html for fix info see http lists freshrpms net pipermail rpm list 2002 april 000746 html the workaround is the extra ' l top builddir src libflac .libs',170,28,Yes
+9755,3898,madewokherd/wine-mono,https://github.com/madewokherd/wine-mono/blob/109b3eef0fde0de7435de96209c1910e05e99a42/SDL2/configure.ac#L39,"# For historical reasons, the library name redundantly includes the major
+# version twice: libSDL2-2.0.so.0.
+# TODO: in SDL 3, stop using -release, which will simplify it to libSDL3.so.0",['todo'],Autotool,0,39,41,for historical reasons the library name redundantly includes the major version twice libsdl2 2.0.so.0. todo in sdl 3 stop using release which will simplify it to libsdl3.so.0,858,28,Yes
+38372,19169,j-faria/kima,https://github.com/j-faria/kima/blob/69613e5b5d425ad202f82afe74f93611392fd56e/eigen/cmake/EigenDetermineVSServicePack.cmake#L19,"# temporary fix, until CMake catches up",['fix'],CMake,16,19,19,temporary fix until cmake catches up,2789,28,Yes
+26235,20713,bonexgoo/boss2d,https://github.com/bonexgoo/boss2d/blob/cbc354481348aa409b1c36250490627c6c9758b0/Boss2D/addon/abcview-1.1.0_for_boss/cmake/Modules/FindAlembic.cmake#L43,# TODO: set to default install path when shipping out,['todo'],CMake,10,43,43,todo set to default install path when shipping out,1618,28,Yes
+52042,8019,bitstorm/wicket-tutorial-examples,https://github.com/bitstorm/wicket-tutorial-examples/blob/88dfa08f1d21c85ab0059a8936be8ce86a86a4cc/BindSessionExample/pom.xml#L18,"<!-- TODO <organization> <name>company name</name> <url>company url</url> 
+		</organization> -->",['todo'],Maven,1,18,19,todo organization name company name name url company url url organization,4738,27,Yes
+43488,24632,mosra/corrade,https://github.com/mosra/corrade/blob/c571c5ed653a0772e72c4500dc0564092681bec3/modules/FindCorrade.cmake#L596,"# Otherwise, if it's not among implicitly built components, hint that
+# the user may need to enable it.
+# TODO: currently, the _FOUND variable doesn't reflect if dependencies
+#   were found. When it will, this needs to be updated to avoid
+#   misleading messages.",['todo'],CMake,8,596,600,otherwise if it's not among implicitly built components hint that the user may need to enable it. todo currently the found variable doesn't reflect if dependencies were found. when it will this needs to be updated to avoid misleading messages.,3713,27,Yes
+35926,3555,dyninst/dyninst,https://github.com/dyninst/dyninst/blob/90f6098f47d5582fa483ea2d2d1ad923d612de87/cmake/Modules/FindBoost.cmake#L556,# TODO: Find out any Boost version constraints vs clang support.,['todo'],CMake,12,556,556,todo find out any boost version constraints vs clang support.,2247,27,Yes
+23189,19056,nstroustrup/lifespan,https://github.com/nstroustrup/lifespan/blob/ddb6578de5ad46b4407045fd50d2b90ea1c2c03f/external_compile_libraries/sane-backends-1.0.27/backend/Makefile.am#L311,# TODO: Why are these distributed but not compiled?,['todo'],Autotool,0,311,311,todo why are these distributed but not compiled,1429,27,Yes
+26540,21239,apple/turicreate,https://github.com/apple/turicreate/blob/cce55aa5311300e3ce6af93cb45ba791fd1bdf49/src/external/boost/boost_1_68_0/libs/compute/cmake/opencl/FindOpenCL.cmake#L30,"# The AMD SDK currently installs both x86 and x86_64 libraries
+# This is only a hack to find out architecture",['hack'],CMake,1,30,31,the amd sdk currently installs both x86 and x86 64 libraries this is only a hack to find out architecture,1673,27,Yes
+51942,7935,eclipse/reddeer,https://github.com/eclipse/reddeer/blob/a66d8a1f148bd40b7564ffc38944b871b22c7a0c/tests/pom.xml#L66,<!-- THE FOLLOWING LINE MUST NOT BE BROKEN BY AUTOFORMATTING -->,['broken'],Maven,5,66,66,the following line must not be broken by autoformatting,4725,27,Yes
+14887,5280,lnis-uofu/openfpga,https://github.com/lnis-uofu/openfpga/blob/30988d70720fb8516da5a8bf54b384f8b8561b44/cmake/modules/FindTBB.cmake#L163,"# TODO: Check compiler version to see the suffix should be <arch>/gcc4.1 or
+#       <arch>/gcc4.1. For now, assume that the compiler is more recent than
+#       gcc 4.4.x or later.",['todo'],CMake,4,163,165,todo check compiler version to see the suffix should be arch gcc4.1 or arch gcc4.1. for now assume that the compiler is more recent than gcc 4.4.x or later.,1154,26,Yes
+14886,5280,lnis-uofu/openfpga,https://github.com/lnis-uofu/openfpga/blob/30988d70720fb8516da5a8bf54b384f8b8561b44/cmake/modules/FindTBB.cmake#L152,# TODO: Check to see which C++ library is being used by the compiler.,['todo'],CMake,4,152,152,todo check to see which c library is being used by the compiler.,1153,26,Yes
+1419,504,espressif/binutils-esp32ulp,https://github.com/espressif/binutils-esp32ulp/blob/9bb46bab6b2e1ef1a246c3700f0a9ed791bfe477/bfd/Makefile.am#L1016,"# The following program can be used to generate a simple config file
+# which can be folded into an h-XXX file for a new host, with some editing.",['xxx'],Autotool,0,1016,1017,the following program can be used to generate a simple config file which can be folded into an h xxx file for a new host with some editing.,237,26,No
+9605,3679,mcstasmcxtrace/mccode,https://github.com/mcstasmcxtrace/mccode/blob/6b5ac90ebaabfbcb988e9b7489933c3332e94373/cmake/Modules/UseLATEX.cmake#L1,"# File: UseLATEX.cmake
+# CMAKE commands to actually use the LaTeX compiler
+# Version: 2.4.8
+# Author: Kenneth Moreland <kmorel@sandia.gov>
+#
+# Copyright 2004, 2015 Sandia Corporation.
+# Under the terms of Contract DE-AC04-94AL85000, there is a non-exclusive
+# license for use of this work by or on behalf of the U.S. Government.
+#
+# This software is released under the BSD 3-Clause License.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#
+# 1. Redistributions of source code must retain the above copyright notice,
+# this list of conditions and the following disclaimer.
+#
+# 2. Redistributions in binary form must reproduce the above copyright
+# notice, this list of conditions and the following disclaimer in the
+# documentation and/or other materials provided with the distribution.
+#
+# 3. Neither the name of the copyright holder nor the names of its
+# contributors may be used to endorse or promote products derived from this
+# software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS
+# IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+# THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+# PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+# CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+# EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+# PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+# LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+# NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+#
+# The following function is defined:
+#
+# add_latex_document(<tex_file>
+#                    [BIBFILES <bib_files>]
+#                    [INPUTS <input_tex_files>]
+#                    [IMAGE_DIRS] <image_directories>
+#                    [IMAGES] <image_files>
+#                    [CONFIGURE] <tex_files>
+#                    [DEPENDS] <tex_files>
+#                    [MULTIBIB_NEWCITES] <suffix_list>
+#                    [USE_BIBLATEX]
+#                    [USE_INDEX]
+#                    [INDEX_NAMES <index_names>]
+#                    [USE_GLOSSARY] [USE_NOMENCL]
+#                    [FORCE_PDF] [FORCE_DVI] [FORCE_HTML]
+#                    [TARGET_NAME] <name>
+#                    [EXCLUDE_FROM_ALL]
+#                    [EXCLUDE_FROM_DEFAULTS])
+#       Adds targets that compile <tex_file>.  The latex output is placed
+#       in LATEX_OUTPUT_PATH or CMAKE_CURRENT_BINARY_DIR if the former is
+#       not set.  The latex program is picky about where files are located,
+#       so all input files are copied from the source directory to the
+#       output directory.  This includes the target tex file, any tex file
+#       listed with the INPUTS option, the bibliography files listed with
+#       the BIBFILES option, and any .cls, .bst, .clo, .sty, .ist, and .fd
+#       files found in the current source directory.  Images found in the
+#       IMAGE_DIRS directories or listed by IMAGES are also copied to the
+#       output directory and converted to an appropriate format if necessary.
+#       Any tex files also listed with the CONFIGURE option are also processed
+#       with the CMake CONFIGURE_FILE command (with the @ONLY flag).  Any file
+#       listed in CONFIGURE but not the target tex file or listed with INPUTS
+#       has no effect. DEPENDS can be used to specify generated files that are
+#       needed to compile the latex target.
+#
+#       The following targets are made. The name prefix is based off of the
+#       base name of the tex file unless TARGET_NAME is specified. If
+#       TARGET_NAME is specified, then that name is used for the targets.
+#
+#               name_dvi: Makes <name>.dvi
+#               name_pdf: Makes <name>.pdf using pdflatex.
+#               name_safepdf: Makes <name>.pdf using ps2pdf.  If using the
+#                       default program arguments, this will ensure all fonts
+#                       are embedded and no lossy compression has been
+#                       performed on images.
+#               name_ps: Makes <name>.ps
+#               name_html: Makes <name>.html
+#               name_auxclean: Deletes <name>.aux and other auxiliary files.
+#                       This is sometimes necessary if a LaTeX error occurs
+#                       and writes a bad aux file.  Unlike the regular clean
+#                       target, it does not delete other input files, such as
+#                       converted images, to save time on the rebuild.
+#
+#       Unless the EXCLUDE_FROM_ALL option is given, one of these targets
+#       is added to the ALL target and built by default. Which target is
+#       determined by the LATEX_DEFAULT_BUILD CMake variable. See the
+#       documentation of that variable for more details.
+#
+#       Unless the EXCLUDE_FROM_DEFAULTS option is given, all these targets
+#       are added as dependencies to targets named dvi, pdf, safepdf, ps,
+#       html, and auxclean, respectively.
+#
+#       USE_BIBLATEX enables the use of biblatex/biber as an alternative to
+#       bibtex. Bibtex remains the default if USE_BIBLATEX is not
+#       specified.
+#
+#       If the argument USE_INDEX is given, then commands to build an index
+#       are made. If the argument INDEX_NAMES is given, an index file is
+#       generated for each name in this list. See the LaTeX package multind
+#       for more information about how to generate multiple indices.
+#
+#       If the argument USE_GLOSSARY is given, then commands to
+#       build a glossary are made.  If the argument MULTIBIB_NEWCITES is
+#       given, then additional bibtex calls are added to the build to
+#       support the extra auxiliary files created with the \newcite command
+#       in the multibib package.
+#
+# History:
+#
+# 2.4.8 Fix synctex issue with absolute paths not being converted.
+#
+# 2.4.7 Fix some issues with spaces in the path of the working directory where
+#       LaTeX is executed.
+#
+# 2.4.6 Fix parse issue with older versions of CMake.
+#
+# 2.4.5 Fix issues with files and paths containing spaces.
+#
+# 2.4.4 Improve error reporting message when LaTeX fails.
+#
+#       When LaTeX fails, delete the output file, which is invalid.
+#
+#       Add warnings for ""missing characters."" These usually mean that a
+#       non-ASCII character is in the document and will not be printed
+#       correctly.
+#
+# 2.4.3 Check for warnings from the natbib package. When using natbib,
+#       warnings for missing bibliography references look different. So
+#       far, natbib seems to be quiet unless something is important, so
+#       look for all natbib warnings. (We can change this later if
+#       necessary.)
+#
+# 2.4.2 Fix an issue where new versions of ImageMagick expect the order of
+#       options in command line execution of magick/convert. (See, for
+#       example, http://www.imagemagick.org/Usage/basics/#why.)
+#
+# 2.4.1 Add ability to dump LaTeX log file when using batch mode. Batch
+#       mode suppresses most output, often including error messages. To
+#       make sure critical error messages get displayed, show the full log
+#       on failures.
+#
+# 2.4.0 Remove ""-r 600"" from the default PDFTOPS_CONVERTER_FLAGS. The -r flag
+#       is available from the Poppler version of pdftops, but not the Xpdf
+#       version.
+#
+#       Fix an issue with the flags for the different programs not being
+#       properly separated.
+#
+#       Fix an issue on windows where the = character is not allowed for
+#       ps2pdf arguments.
+#
+#       Change default arguments for latex and pdflatex commands. Makes the
+#       output more quiet and prints out the file/line where errors occur.
+#       (Thanks to Nikos Koukis.)
+#
+#       After a LaTeX build, check the log file for warnings that are
+#       indicative of problems with the build.
+#
+#       Remove support for latex2html. Instead, use the htlatex program.
+#       This is now part of TeX Live and most other distributions. It also
+#       behaves much more like the other LaTeX programs. Also fixed some
+#       nasty issues with the htlatex arguments.
+#
+# 2.3.2 Declare LaTeX input files as sources for targets so that they show
+#       up in IDEs like QtCreator.
+#
+#       Fix issue where main tex files in subdirectories were creating
+#       invalid targets for building HTML. Just disable the HTML targets in
+#       this case.
+#
+# 2.3.1 Support use of magick command instead of convert command for
+#       ImageMagick 7.
+#
+# 2.3.0 Add USE_BIBLATEX option to support the biblatex package, which
+#       requires using the program biber as a replacement for bibtex
+#       (thanks to David Tracey).
+#
+# 2.2.1 Add STRINGS property to LATEX_DEFAULT_BUILD to make it easier to
+#       select the default build in the CMake GUI.
+#
+# 2.2.0 Add TARGET_NAME option.
+#
+# 2.1.1 Support for finding bmp, ppm, and other image files.
+#
+# 2.1.0 Fix an error where the pdf target and others were defined multiple
+#       times if UseLATEX.cmake was included multiple times.
+#
+#       Added INDEX_NAMES option to support multiple indexes in a single
+#       document from the multind package (thanks to Dan Lipsa).
+#
+# 2.0.0 First major revision of UseLATEX.cmake updates to more recent features
+#       of CMake and some non-backward compatible changes.
+#
+#       Changed all function and macro names to lower case. CMake's identifiers
+#       are case insensitive, but the convention moved from all upper case to
+#       all lower case somewhere around the release of CMake 2. (The original
+#       version of UseLATEX.cmake predates that.)
+#
+#       Remove condition matching in if statements. They are no longer necessary
+#       and are even discouraged (because else clauses get confusing).
+#
+#       Use ""new"" features available in CMake such as list and argument parsing.
+#
+#       Remove some code that has been deprecated for a while.
+#
+#       Mark variables for compiler and converter executables as advanced to
+#       match the more conventional CMake behavior.
+#
+#       Changed how default builds are specified and add the ability to force
+#       a particular build.
+#
+#       Made the base targets (pdf, dvi, etc.) global. add_latex_document
+#       always mangles its target names and these base targets depend on
+#       the targets with mangled names.
+#
+# 1.10.5 Fix for Window's convert check (thanks to Martin Baute).
+#
+# 1.10.4 Copy font files to binary directory for packages that come with
+#       their own fonts.
+#
+# 1.10.3 Check for Windows version of convert being used instead of
+#       ImageMagick's version (thanks to Martin Baute).
+#
+# 1.10.2 Use htlatex as a fallback when latex2html is not available (thanks
+#       to Tomasz Grzegurzko).
+#
+# 1.10.1 Make convert program mandatory only if actually used (thanks to
+#       Julien Schueller).
+#
+# 1.10.0 Added NO_DEFAULT and DEFAULT_PS options.
+#       Fixed issue with cleaning files for LaTeX documents originating in
+#       a subdirectory.
+#
+# 1.9.6 Fixed problem with LATEX_SMALL_IMAGES.
+#       Strengthened check to make sure the output directory does not contain
+#       the source files.
+#
+# 1.9.5 Add support for image types not directly supported by either latex
+#       or pdflatex.  (Thanks to Jorge Gerardo Pena Pastor for SVG support.)
+#
+# 1.9.4 Fix issues with filenames containing multiple periods.
+#
+# 1.9.3 Hide some variables that are now cached but should not show up in
+#       the ccmake list of variables.
+#
+# 1.9.2 Changed MACRO declarations to FUNCTION declarations.  The better
+#       FUNCTION scoping will hopefully avoid some common but subtle bugs.
+#       This implicitly increases the minimum CMake version to 4.6 (although
+#       I honestly only test it with the latest 4.8 version).
+#
+#       Since we are updating the minimum CMake version, I'm going to start
+#       using the builtin LIST commands that are now available.
+#
+#       Favor using pdftops from the Poppler package to convert from pdf to
+#       eps.  It does a much better job than ImageMagick or ghostscript.
+#
+# 1.9.1 Fixed typo that caused the LATEX_SMALL_IMAGES option to fail to
+#       activate.
+#
+# 1.9.0 Add support for the multibib package (thanks to Antonio LaTorre).
+#
+# 1.8.2 Fix corner case when an argument name was also a variable containing
+#       the text of an argument.  In this case, the CMake IF was matching
+#       the argument text with the contents of the variable with the same
+#       argument name.
+#
+# 1.8.1 Fix problem where ps2pdf was not getting the appropriate arguments.
+#
+# 1.8.0 Add support for synctex.
+#
+# 1.7.7 Support calling xindy when making glossaries.
+#
+#       Improved make clean support.
+#
+# 1.7.6 Add support for the nomencl package (thanks to Myles English).
+#
+# 1.7.5 Fix issue with bibfiles being copied two different ways, which causes
+#       Problems with dependencies (thanks to Edwin van Leeuwen).
+#
+# 1.7.4 Added the DEFAULT_SAFEPDF option (thanks to Raymond Wan).
+#
+#       Added warnings when image directories are not found (and were
+#       probably not given relative to the source directory).
+#
+# 1.7.3 Fix some issues with interactions between makeglossaries and bibtex
+#       (thanks to Mark de Wever).
+#
+# 1.7.2 Use ps2pdf to convert eps to pdf to get around the problem with
+#       ImageMagick dropping the bounding box (thanks to Lukasz Lis).
+#
+# 1.7.1 Fixed some dependency issues.
+#
+# 1.7.0 Added DEPENDS options (thanks to Theodore Papadopoulo).
+#
+# 1.6.1 Ported the makeglossaries command to CMake and embedded the port
+#       into UseLATEX.cmake.
+#
+# 1.6.0 Allow the use of the makeglossaries command.  Thanks to Oystein
+#       S. Haaland for the patch.
+#
+# 1.5.0 Allow any type of file in the INPUTS lists, not just tex file
+#       (suggested by Eric Noulard).  As a consequence, the ability to
+#       specify tex files without the .tex extension is removed.  The removed
+#       function is of dubious value anyway.
+#
+#       When copying input files, skip over any file that exists in the
+#       binary directory but does not exist in the source directory with the
+#       assumption that these files were added by some other mechanism.  I
+#       find this useful when creating large documents with multiple
+#       chapters that I want to build separately (for speed) as I work on
+#       them.  I use the same boilerplate as the starting point for all
+#       and just copy it with different configurations.  This was what the
+#       separate ADD_LATEX_DOCUMENT method was supposed to originally be for.
+#       Since its external use is pretty much deprecated, I removed that
+#       documentation.
+#
+# 1.4.1 Copy .sty files along with the other class and package files.
+#
+# 1.4.0 Added a MANGLE_TARGET_NAMES option that will mangle the target names.
+#
+#       Fixed problem with copying bib files that became apparent with
+#       CMake 2.4.
+#
+# 1.3.0 Added a LATEX_OUTPUT_PATH variable that allows you or the user to
+#       specify where the built latex documents to go.  This is especially
+#       handy if you want to do in-source builds.
+#
+#       Removed the ADD_LATEX_IMAGES macro and absorbed the functionality
+#       into ADD_LATEX_DOCUMENT.  The old interface was always kind of
+#       clunky anyway since you had to specify the image directory in both
+#       places.  It also made supporting LATEX_OUTPUT_PATH problematic.
+#
+#       Added support for jpeg files.
+#
+# 1.2.0 Changed the configuration options yet again.  Removed the NO_CONFIGURE
+#       Replaced it with a CONFIGURE option that lists input files for which
+#       configure should be run.
+#
+#       The pdf target no longer depends on the dvi target.  This allows you
+#       to build latex documents that require pdflatex.  Also added an option
+#       to make the pdf target the default one.
+#
+# 1.1.1 Added the NO_CONFIGURE option.  The @ character can be used when
+#       specifying table column separators.  If two or more are used, then
+#       will incorrectly substitute them.
+#
+# 1.1.0 Added ability include multiple bib files.  Added ability to do copy
+#       sub-tex files for multipart tex files.
+#
+# 1.0.0 If both ps and pdf type images exist, just copy the one that
+#       matches the current render mode.  Replaced a bunch of STRING
+#       commands with GET_FILENAME_COMPONENT commands that were made to do
+#       the desired function.
+#
+# 0.4.0 First version posted to CMake Wiki.
+#",['fix'],CMake,0,1,364,file uselatex.cmake cmake commands to actually use the latex compiler version 2.4.8 author kenneth moreland kmorel sandia.gov copyright 2004 2015 sandia corporation. under the terms of contract de ac04 94al85000 there is a non exclusive license for use of this work by or on behalf of the u.s. government. this software is released under the bsd 3 clause license. redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met 1. redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer. 2. redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation and or other materials provided with the distribution. 3. neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. this software is provided by the copyright holders and contributors as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed. in no event shall the copyright holder or contributors be liable for any direct indirect incidental special exemplary or consequential damages including but not limited to procurement of substitute goods or services loss of use data or profits or business interruption however caused and on any theory of liability whether in contract strict liability or tort including negligence or otherwise arising in any way out of the use of this software even if advised of the possibility of such damage. the following function is defined add latex document tex file bibfiles bib files inputs input tex files image dirs image directories images image files configure tex files depends tex files multibib newcites suffix list use biblatex use index index names index names use glossary use nomencl force pdf force dvi force html target name name exclude from all exclude from defaults adds targets that compile tex file . the latex output is placed in latex output path or cmake current binary dir if the former is not set. the latex program is picky about where files are located so all input files are copied from the source directory to the output directory. this includes the target tex file any tex file listed with the inputs option the bibliography files listed with the bibfiles option and any .cls .bst .clo .sty .ist and .fd files found in the current source directory. images found in the image dirs directories or listed by images are also copied to the output directory and converted to an appropriate format if necessary. any tex files also listed with the configure option are also processed with the cmake configure file command with the only flag . any file listed in configure but not the target tex file or listed with inputs has no effect. depends can be used to specify generated files that are needed to compile the latex target. the following targets are made. the name prefix is based off of the base name of the tex file unless target name is specified. if target name is specified then that name is used for the targets. name dvi makes name .dvi name pdf makes name .pdf using pdflatex. name safepdf makes name .pdf using ps2pdf. if using the default program arguments this will ensure all fonts are embedded and no lossy compression has been performed on images. name ps makes name .ps name html makes name .html name auxclean deletes name .aux and other auxiliary files. this is sometimes necessary if a latex error occurs and writes a bad aux file. unlike the regular clean target it does not delete other input files such as converted images to save time on the rebuild. unless the exclude from all option is given one of these targets is added to the all target and built by default. which target is determined by the latex default build cmake variable. see the documentation of that variable for more details. unless the exclude from defaults option is given all these targets are added as dependencies to targets named dvi pdf safepdf ps html and auxclean respectively. use biblatex enables the use of biblatex biber as an alternative to bibtex. bibtex remains the default if use biblatex is not specified. if the argument use index is given then commands to build an index are made. if the argument index names is given an index file is generated for each name in this list. see the latex package multind for more information about how to generate multiple indices. if the argument use glossary is given then commands to build a glossary are made. if the argument multibib newcites is given then additional bibtex calls are added to the build to support the extra auxiliary files created with the newcite command in the multibib package. history 2.4.8 fix synctex issue with absolute paths not being converted. 2.4.7 fix some issues with spaces in the path of the working directory where latex is executed. 2.4.6 fix parse issue with older versions of cmake. 2.4.5 fix issues with files and paths containing spaces. 2.4.4 improve error reporting message when latex fails. when latex fails delete the output file which is invalid. add warnings for missing characters. these usually mean that a non ascii character is in the document and will not be printed correctly. 2.4.3 check for warnings from the natbib package. when using natbib warnings for missing bibliography references look different. so far natbib seems to be quiet unless something is important so look for all natbib warnings. we can change this later if necessary. 2.4.2 fix an issue where new versions of imagemagick expect the order of options in command line execution of magick convert. see for example http www imagemagick org usage basics why 2.4.1 add ability to dump latex log file when using batch mode. batch mode suppresses most output often including error messages. to make sure critical error messages get displayed show the full log on failures. 2.4.0 remove r 600 from the default pdftops converter flags. the r flag is available from the poppler version of pdftops but not the xpdf version. fix an issue with the flags for the different programs not being properly separated. fix an issue on windows where the character is not allowed for ps2pdf arguments. change default arguments for latex and pdflatex commands. makes the output more quiet and prints out the file line where errors occur. thanks to nikos koukis. after a latex build check the log file for warnings that are indicative of problems with the build. remove support for latex2html. instead use the htlatex program. this is now part of tex live and most other distributions. it also behaves much more like the other latex programs. also fixed some nasty issues with the htlatex arguments. 2.3.2 declare latex input files as sources for targets so that they show up in ides like qtcreator. fix issue where main tex files in subdirectories were creating invalid targets for building html. just disable the html targets in this case. 2.3.1 support use of magick command instead of convert command for imagemagick 7. 2.3.0 add use biblatex option to support the biblatex package which requires using the program biber as a replacement for bibtex thanks to david tracey . 2.2.1 add strings property to latex default build to make it easier to select the default build in the cmake gui. 2.2.0 add target name option. 2.1.1 support for finding bmp ppm and other image files. 2.1.0 fix an error where the pdf target and others were defined multiple times if uselatex.cmake was included multiple times. added index names option to support multiple indexes in a single document from the multind package thanks to dan lipsa . 2.0.0 first major revision of uselatex.cmake updates to more recent features of cmake and some non backward compatible changes. changed all function and macro names to lower case. cmake's identifiers are case insensitive but the convention moved from all upper case to all lower case somewhere around the release of cmake 2. the original version of uselatex.cmake predates that. remove condition matching in if statements. they are no longer necessary and are even discouraged because else clauses get confusing . use new features available in cmake such as list and argument parsing. remove some code that has been deprecated for a while. mark variables for compiler and converter executables as advanced to match the more conventional cmake behavior. changed how default builds are specified and add the ability to force a particular build. made the base targets pdf dvi etc. global. add latex document always mangles its target names and these base targets depend on the targets with mangled names. 1.10.5 fix for window's convert check thanks to martin baute . 1.10.4 copy font files to binary directory for packages that come with their own fonts. 1.10.3 check for windows version of convert being used instead of imagemagick's version thanks to martin baute . 1.10.2 use htlatex as a fallback when latex2html is not available thanks to tomasz grzegurzko . 1.10.1 make convert program mandatory only if actually used thanks to julien schueller . 1.10.0 added no default and default ps options. fixed issue with cleaning files for latex documents originating in a subdirectory. 1.9.6 fixed problem with latex small images. strengthened check to make sure the output directory does not contain the source files. 1.9.5 add support for image types not directly supported by either latex or pdflatex. thanks to jorge gerardo pena pastor for svg support. 1.9.4 fix issues with filenames containing multiple periods. 1.9.3 hide some variables that are now cached but should not show up in the ccmake list of variables. 1.9.2 changed macro declarations to function declarations. the better function scoping will hopefully avoid some common but subtle bugs. this implicitly increases the minimum cmake version to 4.6 although i honestly only test it with the latest 4.8 version . since we are updating the minimum cmake version i'm going to start using the builtin list commands that are now available. favor using pdftops from the poppler package to convert from pdf to eps. it does a much better job than imagemagick or ghostscript. 1.9.1 fixed typo that caused the latex small images option to fail to activate. 1.9.0 add support for the multibib package thanks to antonio latorre . 1.8.2 fix corner case when an argument name was also a variable containing the text of an argument. in this case the cmake if was matching the argument text with the contents of the variable with the same argument name. 1.8.1 fix problem where ps2pdf was not getting the appropriate arguments. 1.8.0 add support for synctex. 1.7.7 support calling xindy when making glossaries. improved make clean support. 1.7.6 add support for the nomencl package thanks to myles english . 1.7.5 fix issue with bibfiles being copied two different ways which causes problems with dependencies thanks to edwin van leeuwen . 1.7.4 added the default safepdf option thanks to raymond wan . added warnings when image directories are not found and were probably not given relative to the source directory . 1.7.3 fix some issues with interactions between makeglossaries and bibtex thanks to mark de wever . 1.7.2 use ps2pdf to convert eps to pdf to get around the problem with imagemagick dropping the bounding box thanks to lukasz lis . 1.7.1 fixed some dependency issues. 1.7.0 added depends options thanks to theodore papadopoulo . 1.6.1 ported the makeglossaries command to cmake and embedded the port into uselatex.cmake. 1.6.0 allow the use of the makeglossaries command. thanks to oystein s. haaland for the patch. 1.5.0 allow any type of file in the inputs lists not just tex file suggested by eric noulard . as a consequence the ability to specify tex files without the .tex extension is removed. the removed function is of dubious value anyway. when copying input files skip over any file that exists in the binary directory but does not exist in the source directory with the assumption that these files were added by some other mechanism. i find this useful when creating large documents with multiple chapters that i want to build separately for speed as i work on them. i use the same boilerplate as the starting point for all and just copy it with different configurations. this was what the separate add latex document method was supposed to originally be for. since its external use is pretty much deprecated i removed that documentation. 1.4.1 copy .sty files along with the other class and package files. 1.4.0 added a mangle target names option that will mangle the target names. fixed problem with copying bib files that became apparent with cmake 2.4. 1.3.0 added a latex output path variable that allows you or the user to specify where the built latex documents to go. this is especially handy if you want to do in source builds. removed the add latex images macro and absorbed the functionality into add latex document. the old interface was always kind of clunky anyway since you had to specify the image directory in both places. it also made supporting latex output path problematic. added support for jpeg files. 1.2.0 changed the configuration options yet again. removed the no configure replaced it with a configure option that lists input files for which configure should be run. the pdf target no longer depends on the dvi target. this allows you to build latex documents that require pdflatex. also added an option to make the pdf target the default one. 1.1.1 added the no configure option. the character can be used when specifying table column separators. if two or more are used then will incorrectly substitute them. 1.1.0 added ability include multiple bib files. added ability to do copy sub tex files for multipart tex files. 1.0.0 if both ps and pdf type images exist just copy the one that matches the current render mode. replaced a bunch of string commands with get filename component commands that were made to do the desired function. 0.4.0 first version posted to cmake wiki.,852,26,No
+1403,685,osfree-project/osfree,https://github.com/osfree-project/osfree/blob/e1c537e34e17eb172ca90189041683e423a52702/OS2/Shared/libs/libmad/aclocal.m4#L3594,# Fix the shell variable \$srcfile for the compiler.,['fix'],Autotool,0,3594,3594,fix the shell variable srcfile for the compiler.,235,26,Yes
+1393,685,osfree-project/osfree,https://github.com/osfree-project/osfree/blob/e1c537e34e17eb172ca90189041683e423a52702/OS2/Shared/libs/libmad/aclocal.m4#L2136,"# cygwin and mingw dlls have different entry points and sets of symbols
+# to exclude.
+# FIXME: what about values for MSVC?",['fixme'],Autotool,4,2136,2138,cygwin and mingw dlls have different entry points and sets of symbols to exclude. fixme what about values for msvc,233,26,Yes
+35927,3555,dyninst/dyninst,https://github.com/dyninst/dyninst/blob/90f6098f47d5582fa483ea2d2d1ad923d612de87/cmake/Modules/FindBoost.cmake#L560,# TODO at least Boost_DEBUG here?,['todo'],CMake,8,560,560,todo at least boost debug here,2248,26,Yes
+22596,19118,devcoin/core,https://github.com/devcoin/core/blob/a5a65936e31a63041434f3fce31270c518d44ebc/src/crc32c/CMakeLists.txt#L269,"# TODO(pwnall): Move the TARGET_OBJECTS generator expressions to the PRIVATE
+# section of target_sources when cmake_minimum_required becomes 3.9 or above.",['todo'],CMake,2,269,270,todo pwnall move the target objects generator expressions to the private section of target sources when cmake minimum required becomes 3.9 or above.,1395,26,Yes
+4,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/configure.ac#L297,"# All library tests below try `pkg-config' first.  If that fails, a function
+# from the library is tested in the traditional autoconf way (zlib, bzip2),
+# or a config script is called (libpng).
+#
+# The `xxx_reqpriv' variables are for the `Requires.private' field in
+# `freetype2.pc'.  The `xxx_libspriv' variables are for the `Libs.private'
+# field in `freetype2.pc' if pkg-config doesn't find a proper .pc file.
+#
+# The `xxx_libsstaticconf' variables are for the `freetype-config' script.
+#
+# Note that a call to PKG_CHECK_MODULES(XXX, ...) sets and creates the
+# output variables `XXX_CFLAGS' and `XXX_LIBS'.  In case one or both are set
+# for a library by the user, no entry for this library is added to
+# `Requires.private'.  Instead, it gets added to `Libs.private'",['xxx'],Autotool,0,297,310,all library tests below try pkg config' first. if that fails a function from the library is tested in the traditional autoconf way zlib bzip2 or a config script is called libpng . the xxx reqpriv' variables are for the requires.private' field in freetype2.pc'. the xxx libspriv' variables are for the libs.private' field in freetype2.pc' if pkg config doesn't find a proper .pc file. the xxx libsstaticconf' variables are for the freetype config' script. note that a call to pkg check modules xxx ... sets and creates the output variables xxx cflags' and xxx libs'. in case one or both are set for a library by the user no entry for this library is added to requires.private'. instead it gets added to libs.private',3,26,No
+1255,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L1340,"# TODO: in configure.ac the check for timers is set on
+# cygwin | mingw32* - does this include mingw32CE?",['todo'],CMake,2,1340,1341,todo in configure.ac the check for timers is set on cygwin mingw32 does this include mingw32ce,200,26,Yes
+26265,20713,bonexgoo/boss2d,https://github.com/bonexgoo/boss2d/blob/cbc354481348aa409b1c36250490627c6c9758b0/Boss2D/addon/opencv-3.1.0_for_boss/cmake/FindCUDA.cmake#L1011,"##############################################################################
+# Helper to avoid clashes of files with the same basename but different paths.
+# This doesn't attempt to do exactly what CMake internals do, which is to only
+# add this path when there is a conflict, since by the time a second collision
+# in names is detected it's already too late to fix the first one.  For
+# consistency sake the relative path will be added to all files.",['fix'],CMake,0,1011,1016,helper to avoid clashes of files with the same basename but different paths. this doesn't attempt to do exactly what cmake internals do which is to only add this path when there is a conflict since by the time a second collision in names is detected it's already too late to fix the first one. for consistency sake the relative path will be added to all files.,1624,26,Yes
+1241,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/mingw/sdl/SDL2-2.0.10/test/CMakeLists.txt#L9,"# FIXME: Parent directory CMakeLists.txt only sets these for mingw/cygwin,
+# but we need them for VS as well.",['fixme'],CMake,0,9,10,fixme parent directory cmakelists.txt only sets these for mingw cygwin but we need them for vs as well.,188,25,Yes
+5537,2490,eserte/perl-tk,https://github.com/eserte/perl-tk/blob/eda50cc72e5fd1eaddb27084b6fe3f886daa00fc/pTk/mTk/tixUnix/configure.in#L28,# FIXME: consider only doing this if --with-x given.,['fixme'],Autotool,0,28,28,fixme consider only doing this if with x given.,525,25,Yes
+18724,6391,jeffhoogland/moksha-modules-extra,https://github.com/jeffhoogland/moksha-modules-extra/blob/d1fad624f4a6a8acf3372002b14f77806ce22ff2/alarm/configure.ac#L3,# get rid of that stupid cache mechanism,['stupid'],Autotool,0,3,3,get rid of that stupid cache mechanism,1328,25,Yes
+924,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/configure.ac#L3334,# FIXME: confdefs? Not AC_DEFINE?,['fixme'],Autotool,20,3334,3334,fixme confdefs not ac define,179,25,Yes
+1832,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L25,"# TODO:
+# The output .so file lacks the soname number which we currently have within the lib/Makefile.am file
+# Add full (4 or 5 libs) SSL support
+# Add INSTALL target (EXTRA_DIST variables in Makefile.am may be moved to Makefile.inc so that CMake/CPack is aware of what's to include).
+# Add CTests(?)
+# Check on all possible platforms
+# Test with as many configurations possible (With or without any option)
+# Create scripts that help keeping the CMake build system up to date (to reduce maintenance). According to Tetetest:
+#  - lists of headers that 'configure' checks for;
+#  - curl-specific tests (the ones that are in m4/curl-*.m4 files);
+#  - (most obvious thing:) curl version numbers.
+# Add documentation subproject
+#
+# To check:
+# (From Daniel Stenberg) The cmake build selected to run gcc with -fPIC on my box while the plain configure script did not.
+# (From Daniel Stenberg) The gcc command line use neither -g nor any -O options. As a developer, I also treasure our configure scripts's --enable-debug option that sets a long range of ""picky"" compiler options.",['todo'],CMake,0,25,40,todo the output .so file lacks the soname number which we currently have within the lib makefile.am file add full 4 or 5 libs ssl support add install target extra dist variables in makefile.am may be moved to makefile.inc so that cmake cpack is aware of what's to include . add ctests check on all possible platforms test with as many configurations possible with or without any option create scripts that help keeping the cmake build system up to date to reduce maintenance . according to tetetest lists of headers that 'configure' checks for curl specific tests the ones that are in m4 curl .m4 files most obvious thing curl version numbers. add documentation subproject to check from daniel stenberg the cmake build selected to run gcc with fpic on my box while the plain configure script did not. from daniel stenberg the gcc command line use neither g nor any o options. as a developer i also treasure our configure scripts's enable debug option that sets a long range of picky compiler options.,295,25,Yes
+1834,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1076,# Fix libz / zlib.h,['fix'],CMake,0,1076,1076,fix libz zlib.h,297,25,No
+9006,2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/ntp/configure.ac#L877,"# XXX only verified thru AIX6.
+# Just a stub.  Sigh.",['xxx'],Autotool,4,877,878,xxx only verified thru aix6. just a stub. sigh.,763,25,Yes
+1836,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1163,"# Ugly (but functional) way to include ""Makefile.inc"" by transforming it (= regenerate it).",['ugly'],CMake,0,1163,1163,ugly but functional way to include makefile.inc by transforming it regenerate it .,299,25,Yes
+1253,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L807,"# TODO: in configure.ac, the test for LOADSO and SDL_DLOPEN is a bit weird:
+# if LOADSO is not wanted, SDL_LOADSO_DISABLED is set
+# If however on Unix or APPLE dlopen() is detected via CheckDLOPEN(),
+# SDL_LOADSO_DISABLED will not be set, regardless of the LOADSO settings",['todo'],CMake,0,807,810,todo in configure.ac the test for loadso and sdl dlopen is a bit weird if loadso is not wanted sdl loadso disabled is set if however on unix or apple dlopen is detected via checkdlopen sdl loadso disabled will not be set regardless of the loadso settings,198,25,Yes
+1247,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L122,# TODO: iOS?,['todo'],CMake,2,122,122,todo ios,192,25,Yes
+9280,2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/subrepo-cheri-libc++/cmake/config-ix.cmake#L27,"# libc++ is using -nostdlib++ at the link step when available,
+# otherwise -nodefaultlibs is used. We want all our checks to also
+# use one of these options, otherwise we may end up with an inconsistency between
+# the flags we think we require during configuration (if the checks are
+# performed without one of those options) and the flags that are actually
+# required during compilation (which has the -nostdlib++ or -nodefaultlibs). libc is
+# required for the link to go through. We remove sanitizers from the
+# configuration checks to avoid spurious link errors.",['inconsistency'],CMake,0,27,34,libc is using nostdlib at the link step when available otherwise nodefaultlibs is used. we want all our checks to also use one of these options otherwise we may end up with an inconsistency between the flags we think we require during configuration if the checks are performed without one of those options and the flags that are actually required during compilation which has the nostdlib or nodefaultlibs . libc is required for the link to go through. we remove sanitizers from the configuration checks to avoid spurious link errors.,847,25,Yes
+1392,685,osfree-project/osfree,https://github.com/osfree-project/osfree/blob/e1c537e34e17eb172ca90189041683e423a52702/OS2/Shared/libs/libmad/aclocal.m4#L2081,"# On AIX, the GNU linker is very broken
+# Note:Check GNU linker on AIX 5-IA64 when/if it becomes available.",['broken'],Autotool,4,2081,2082,on aix the gnu linker is very broken note check gnu linker on aix 5 ia64 when if it becomes available.,232,25,Yes
+1264,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L1699,"# TODO: we need a Windows script, too",['todo'],CMake,2,1699,1699,todo we need a windows script too,207,25,Yes
+1391,685,osfree-project/osfree,https://github.com/osfree-project/osfree/blob/e1c537e34e17eb172ca90189041683e423a52702/OS2/Shared/libs/libmad/aclocal.m4#L2061,"# FIXME: the MSVC++ port hasn't been tested in a loooong time
+# When not using gcc, we currently assume that we are using
+# Microsoft Visual C++.",['fixme'],Autotool,2,2061,2063,fixme the msvc port hasn't been tested in a loooong time when not using gcc we currently assume that we are using microsoft visual c .,231,25,Yes
+1250,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L674,"# TODO:
+#else()
+#  if(USE_GCC OR USE_CLANG)
+#    list(APPEND EXTRA_CFLAGS ""-mno-sse"" ""-mno-sse2"" ""-mno-sse3"" ""-mno-mmx"")
+#  endif()",['todo'],CMake,0,674,678,todo else if use gcc or use clang list append extra cflags mno sse mno sse2 mno sse3 mno mmx endif,195,25,Yes
+1387,685,osfree-project/osfree,https://github.com/osfree-project/osfree/blob/e1c537e34e17eb172ca90189041683e423a52702/OS2/Shared/libs/libmad/aclocal.m4#L1709,"# Below there is a dirty hack to force normal static linking with -ldl
+# The problem is because libdl dynamically linked with both libc and
+# libC (AIX C++ library), which obviously doesn't included in libraries
+# list by gcc. This cause undefined symbols with -static flags.
+# This hack allows C programs to be linked with ""-static -ldl"", but
+# not sure about C++ programs.",['hack'],Autotool,6,1709,1714,below there is a dirty hack to force normal static linking with ldl the problem is because libdl dynamically linked with both libc and libc aix c library which obviously doesn't included in libraries list by gcc. this cause undefined symbols with static flags. this hack allows c programs to be linked with static ldl but not sure about c programs.,230,25,Yes
+1511,504,espressif/binutils-esp32ulp,https://github.com/espressif/binutils-esp32ulp/blob/9bb46bab6b2e1ef1a246c3700f0a9ed791bfe477/readline/aclocal.m4#L2758,dnl This test replaces the obsolescent AC_ISC_POSIX kludge.,['kludge'],Autotool,4,2758,2758,this test replaces the obsolescent ac isc posix kludge.,268,25,Yes
+30415,24049,metashell/metashell,https://github.com/metashell/metashell/blob/1b6785b9259224e51f96a512a429cd52b1ce68a3/3rd/templight/llvm/CMakeLists.txt#L555,# TODO: support other platforms and toolchains.,['todo'],CMake,2,555,555,todo support other platforms and toolchains.,1831,24,Yes
+32964,26469,hoffstadt/dearpygui,https://github.com/hoffstadt/dearpygui/blob/87558b6c9071f6c63587aef4ece48edd762a789c/thirdparty/glfw/src/CMakeLists.txt#L84,# Workaround for CMake not knowing about .m files before version 3.16,['workaround'],CMake,0,84,84,workaround for cmake not knowing about .m files before version 3.16,1985,24,Yes
+1447,504,espressif/binutils-esp32ulp,https://github.com/espressif/binutils-esp32ulp/blob/9bb46bab6b2e1ef1a246c3700f0a9ed791bfe477/gdb/doc/Makefile.in#L459,"# Clean these up before each run.  Avoids a catch 22 with not being
+# able to re-generate these files (to fix a corruption) because these
+# files contain a corruption.",['fix'],Autotool,0,459,461,clean these up before each run. avoids a catch 22 with not being able to re generate these files to fix a corruption because these files contain a corruption.,243,24,Yes
+35511,1450,jiahuicai/blender_interactive_motion_path,https://github.com/jiahuicai/blender_interactive_motion_path/blob/4b5a6e7c3636634b0e9933d424b83fb9dfe944c3/extern/CMakeLists.txt#L24,# Otherwise we get warnings here that we cant fix in external projects,['fix'],CMake,0,24,24,otherwise we get warnings here that we cant fix in external projects,2107,24,Yes
+52452,11036,eclipse-ee4j/security-api,https://github.com/eclipse-ee4j/security-api/blob/a87eca4492dfc8dd1558f7ce9644a9121e72b384/tck-dist/userguide/pom.xml#L144,<!-- XXX - below depends on running jbake first -->,['xxx'],Maven,20,144,144,xxx below depends on running jbake first,4840,23,Yes
+35949,3579,wickrinc/wickr-crypto-c,https://github.com/wickrinc/wickr-crypto-c/blob/d2c30989388d8b01d5dd8693cb4ea443ecdb5a39/Toolchain-iOS.cmake#L154,# Temporarily fix the arm64 issues in CMake install-combined by excluding arm64 for simulator builds (needed for Apple Silicon...),['fix'],CMake,2,154,154,temporarily fix the arm64 issues in cmake install combined by excluding arm64 for simulator builds needed for apple silicon...,2255,23,Yes
+38844,19974,darioizzo/dcgp,https://github.com/darioizzo/dcgp/blob/62723b2d355d038b066c7e71346928141ea714bc/cmake_modules/FindTBB.cmake#L71,"#====================================================
+# Fix the library path in case it is a linker script
+#====================================================",['fix'],CMake,0,71,73,fix the library path in case it is a linker script,2891,23,No
+1846,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1294,"# TODO when to set ""-DCURL_STATICLIB"" for CPPFLAG_CURL_STATICLIB?",['todo'],CMake,0,1294,1294,todo when to set dcurl staticlib for cppflag curl staticlib,309,23,Yes
+1845,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1292,# TODO probably put a -D... options here?,['todo'],CMake,0,1292,1292,todo probably put a d... options here,308,23,Yes
+1844,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1252,"# CURL_DISABLE_LDAP implies CURL_DISABLE_LDAPS
+# TODO check HAVE_LDAP_SSL (in autoconf this is enabled with --enable-ldaps)",['todo'],CMake,0,1252,1253,curl disable ldap implies curl disable ldaps todo check have ldap ssl in autoconf this is enabled with enable ldaps,307,23,Yes
+39030,20235,labmec/neopz,https://github.com/labmec/neopz/blob/4c6b6d277ce097b97bfc8dea1b6725860f4fe05a/PerfTests/RunScripts/perf01-substruct/CMakeLists.txt#L3,# TODO: Add dependency to PerfTests/SubStruct,['todo'],CMake,0,3,3,todo add dependency to perftests substruct,2935,23,Yes
+3860,1411,erikminekus/sm-ripext,https://github.com/erikminekus/sm-ripext/blob/c2a5fd78d20d791dc0e7851ed1a6464c3be5ee81/jansson/cmake/CoverallsGenerateGcov.cmake#L231,# TODO: Enable setting these,['todo'],CMake,0,231,231,todo enable setting these,452,23,Yes
+3859,1411,erikminekus/sm-ripext,https://github.com/erikminekus/sm-ripext/blob/c2a5fd78d20d791dc0e7851ed1a6464c3be5ee81/jansson/cmake/CoverallsGenerateGcov.cmake#L214,"# Is this in the list of source files?
+# TODO: We want to match against relative path filenames from the source file root...",['todo'],CMake,1,214,215,is this in the list of source files todo we want to match against relative path filenames from the source file root...,451,23,Yes
+3858,1411,erikminekus/sm-ripext,https://github.com/erikminekus/sm-ripext/blob/c2a5fd78d20d791dc0e7851ed1a6464c3be5ee81/jansson/cmake/CoverallsGenerateGcov.cmake#L169,# TODO: Make these be absolute path,['todo'],CMake,0,169,169,todo make these be absolute path,450,23,Yes
+31641,25367,feelpp/feelpp,https://github.com/feelpp/feelpp/blob/0970e07cd195a0ec38ab2db4018875faa483478b/feelpp/cmake/modules/FindPackageMultipass.cmake#L75,"# This is a ridiculous hack.  CHECK_C_SOURCE_* thinks that if the
+# *name* of the return variable doesn't change, then the test does
+# not need to be re-run.  We keep an internal count which we
+# increment to guarantee that every test name is unique.  If we've
+# gotten here, then the configuration has changed enough that the
+# test *needs* to be rerun.",['hack'],CMake,2,75,80,this is a ridiculous hack. check c source thinks that if the name of the return variable doesn't change then the test does not need to be re run. we keep an internal count which we increment to guarantee that every test name is unique. if we've gotten here then the configuration has changed enough that the test needs to be rerun.,1926,23,Yes
+1843,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1238,# TODO option --with-nghttp2 tests for nghttp2 lib and nghttp2/nghttp2.h header,['todo'],CMake,0,1238,1238,todo option with nghttp2 tests for nghttp2 lib and nghttp2 nghttp2.h header,306,23,Yes
+32179,25674,ibamr/ibamr,https://github.com/ibamr/ibamr/blob/06cc3f0846d0939f87a2c7ab3005c72ae1891d4f/ibtk/contrib/eigen/unsupported/test/CMakeLists.txt#L121,"# TODO: The following test names are prefixed with the cxx11 string, since historically
+# the tests depended on c++11. This isn't the case anymore so we ought to rename them.
+# FIXME: Old versions of MSVC fail to compile this code, so we just disable these tests
+# when using visual studio. We should make the check more strict to enable the tests for
+# newer versions of MSVC.","['todo', 'fixme']",CMake,0,121,125,todo the following test names are prefixed with the cxx11 string since historically the tests depended on c 11. this isn't the case anymore so we ought to rename them. fixme old versions of msvc fail to compile this code so we just disable these tests when using visual studio. we should make the check more strict to enable the tests for newer versions of msvc.,1942,23,Yes
+1842,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1236,"# TODO missing option (--enable-tls-srp), depends on GNUTLS_SRP/OPENSSL_SRP",['todo'],CMake,0,1236,1236,todo missing option enable tls srp depends on gnutls srp openssl srp,305,23,Yes
+1841,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1233,# TODO missing option (autoconf: --enable-ntlm-wb),['todo'],CMake,2,1233,1233,todo missing option autoconf enable ntlm wb,304,23,Yes
+1839,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1224,# TODO SSP1 missing for SPNEGO,['todo'],CMake,0,1224,1224,todo ssp1 missing for spnego,302,23,Yes
+6549,2661,trailofbits/osquery-extensions,https://github.com/trailofbits/osquery-extensions/blob/e3820c30283db42a066ca8dda0f03a82863404a6/opt_dependencies/pcap/CMakeLists.txt#L1174,"#
+# We don't have the header - give up.
+# XXX - we could also fall back on some other
+# mechanism, but, for now, this'll catch this
+# problem so that we can at least try to figure
+# out something to do on systems with ""getifaddrs()""
+# but without ""ifaddrs.h"", if there is something
+# we can do on those systems.
+#","['xxx', 'give up']",CMake,16,1174,1182,we don't have the header give up. xxx we could also fall back on some other mechanism but for now this'll catch this problem so that we can at least try to figure out something to do on systems with getifaddrs but without ifaddrs.h if there is something we can do on those systems.,613,23,Yes
+1827,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/configure.ac#L1156,"dnl If name is ""no"" then don't define this library at all
+dnl (it's only needed if libldap.so's dependencies are broken).",['broken'],Autotool,4,1156,1157,if name is no then don't define this library at all dnl it's only needed if libldap.so's dependencies are broken .,293,22,Yes
+35436,1053,liudf0716/apfree_wifidog,https://github.com/liudf0716/apfree_wifidog/blob/e208eeb6c7ec53c5d350c6d5c53fd4d31f0692cf/cmake/Modules/FindOpenSSL.cmake#L290,"# The version number is encoded as 0xMNNFFPPS: major minor fix patch status
+# The status gives if this is a developer or prerelease and is ignored here.
+# Major, minor, and fix directly translate into the version numbers shown in
+# the string. The patch field translates to the single character suffix that
+# indicates the bug fix state, which 00 -> nothing, 01 -> a, 02 -> b and so
+# on.",['fix'],CMake,4,290,295,the version number is encoded as 0xmnnffpps major minor fix patch status the status gives if this is a developer or prerelease and is ignored here. major minor and fix directly translate into the version numbers shown in the string. the patch field translates to the single character suffix that indicates the bug fix state which 00 nothing 01 a 02 b and so on.,2077,22,No
+6554,2661,trailofbits/osquery-extensions,https://github.com/trailofbits/osquery-extensions/blob/e3820c30283db42a066ca8dda0f03a82863404a6/opt_dependencies/pcap/CMakeLists.txt#L2233,"#
+# SunOS 5.x.
+#
+# XXX - this assumes GCC is using the Sun linker,
+# rather than the GNU linker.
+#",['xxx'],CMake,8,2233,2238,sunos 5.x. xxx this assumes gcc is using the sun linker rather than the gnu linker.,617,22,Yes
+53716,12762,eclipse-ee4j/jakartaee-tck,https://github.com/eclipse-ee4j/jakartaee-tck/blob/57ca6b7540b0aa3f9d589c08580d1b5c10b45a6c/src/com/sun/ts/tests/assembly/compat/cocktail/compat12_13/build.xml#L28,"<!-- Custom packager
+      ** Since the cts packager automatically revises all DD's to 1.4, we
+      ** must implement a custom packager that preserves DD's from
+      ** previus J2EE versions.
+      -->",['implement'],Ant,4,28,32,custom packager since the cts packager automatically revises all dd's to 1.4 we must implement a custom packager that preserves dd's from previus j2ee versions.,5054,22,No
+7785,2308,seemoo-lab/nexmon,https://github.com/seemoo-lab/nexmon/blob/4087b4e5a408e6e1c4e5cbf4fd098b74bf74cdfa/utilities/wireshark/cmake/modules/FindGTK2.cmake#L374,"# For some silly reason the MSVC libraries use _ instead of .
+# in the version fields",['silly'],CMake,4,374,375,for some silly reason the msvc libraries use instead of . in the version fields,685,22,Yes
+43474,24632,mosra/corrade,https://github.com/mosra/corrade/blob/c571c5ed653a0772e72c4500dc0564092681bec3/src/Corrade/TestSuite/CMakeLists.txt#L77,"# XCode workaround, see file comment for details",['workaround'],CMake,41,77,77,xcode workaround see file comment for details,3712,22,Yes
+16794,5560,codarcode/z-checker,https://github.com/codarcode/z-checker/blob/b2875344bd91a9816ca5d77c1113d690f6581419/zserver/third_party/websocketpp/CMakeLists.txt#L122,# todo: should we use CMAKE_C_FLAGS for these?,['todo'],CMake,58,122,122,todo should we use cmake c flags for these,1300,22,Yes
+906,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2_mixer/external/flac-1.3.2/src/libFLAC/Makefile.am#L39,"# FIXME: The following logic should be part of configure, not of Makefile.am",['fixme'],Autotool,0,39,39,fixme the following logic should be part of configure not of makefile.am,169,22,Yes
+1240,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/mingw/sdl/SDL2-2.0.10/test/CMakeLists.txt#L4,"# Global settings for all of the test targets
+# FIXME: is this wrong?",['fixme'],CMake,0,4,5,global settings for all of the test targets fixme is this wrong,187,22,Yes
+545,450,alliedmodders/stripper-source,https://github.com/alliedmodders/stripper-source/blob/2a08843241f1858d0727a91fa9dcb2382526f8cb/pcre/config.h.in#L205,/* Define if linking statically (TODO: make nice with Libtool) */,['todo'],Autotool,0,205,205,define if linking statically todo make nice with libtool,109,22,Yes
+7536,2838,love2d/megasource,https://github.com/love2d/megasource/blob/b6b41a65765e12cf6038026bfb5c38bc2771edeb/libs/SDL2/CMakeLists.txt#L1134,"# Core stuff
+# find_library(ANDROID_DL_LIBRARY dl)
+# FIXME failing dlopen https://github.com/android-ndk/ndk/issues/929",['fixme'],CMake,4,1134,1136,core stuff find library android dl library dl fixme failing dlopen https github com android ndk ndk issues 929,642,21,Yes
+7529,2838,love2d/megasource,https://github.com/love2d/megasource/blob/b6b41a65765e12cf6038026bfb5c38bc2771edeb/libs/SDL2/CMakeLists.txt#L185,"# The hidraw support doesn't catch Xbox, PS4 and Nintendo controllers,
+#  so we'll just use libusb when it's available. libusb does not support iOS,
+#  so we default to yes on iOS.
+#  TODO: Windows can support libusb, the hid.c file just depends on Unix APIs",['todo'],CMake,0,185,188,the hidraw support doesn't catch xbox ps4 and nintendo controllers so we'll just use libusb when it's available. libusb does not support ios so we default to yes on ios. todo windows can support libusb the hid.c file just depends on unix apis,639,21,Yes
+1516,892,wbx-github/openadk,https://github.com/wbx-github/openadk/blob/6122629eeb3393ce87fbe10a70f43ae952a97ae4/package/etrax-tools/src/e100boot/libpcap-0.4/Makefile.in#L87,"# We would like to say ""OBJ = $(SRC:.c=.o)"" but Ultrix's make cannot
+# hack the extra indirection",['hack'],Autotool,0,87,88,we would like to say obj src .c .o but ultrix's make cannot hack the extra indirection,271,21,Yes
+3856,1411,erikminekus/sm-ripext,https://github.com/erikminekus/sm-ripext/blob/c2a5fd78d20d791dc0e7851ed1a6464c3be5ee81/jansson/cmake/Coveralls.cmake#L58,"# TODO: This is passed like: ""a b c"", not ""a;b;c""",['todo'],CMake,39,58,58,todo this is passed like a b c not a b c,448,21,Yes
+1,6,zhonghuasheng/projects,https://github.com/zhonghuasheng/projects/blob/92a23e0a8c771d7ab253e395300ac88dc9f2a4ba/redis3.0-sourcecode/deps/jemalloc/configure.ac#L990,"dnl Check whether the BSD-specific _pthread_mutex_init_calloc_cb() exists.  If
+dnl so, mutex initialization causes allocation, and we need to implement this
+dnl callback function in order to prevent recursive allocation.",['implement'],Autotool,0,990,992,check whether the bsd specific pthread mutex init calloc cb exists. if dnl so mutex initialization causes allocation and we need to implement this dnl callback function in order to prevent recursive allocation.,1,21,Yes
+7560,2838,love2d/megasource,https://github.com/love2d/megasource/blob/b6b41a65765e12cf6038026bfb5c38bc2771edeb/libs/openal-soft/cmake/FindWindowsSDK.cmake#L372,"# Newer:
+# Windows Server 2008 & .NET 3.5 SDK
+# may have broken VS9SP1? they recommend v7.0 instead, or a KB...
+# http://www.microsoft.com/en-us/download/details.aspx?id=24826",['broken'],CMake,1,372,375,newer windows server 2008 .net 3.5 sdk may have broken vs9sp1 they recommend v7.0 instead or a kb... http www microsoft com en us download details aspx id 24826,651,21,Yes
+748,142,openrisc/newlib,https://github.com/openrisc/newlib/blob/ce034e0b339686ed78fc64250e003112d8c4be39/configure.ac#L2765,"# Only add the dependency on gdbtk when GDBtk is part of the gdb
+# distro.  Eventually someone will fix this and move Insight, nee
+# gdbtk to a separate directory.",['fix'],Autotool,4,2765,2767,only add the dependency on gdbtk when gdbtk is part of the gdb distro. eventually someone will fix this and move insight nee gdbtk to a separate directory.,125,21,Yes
+16076,5448,realnc/dosbox-core,https://github.com/realnc/dosbox-core/blob/9212e24704b5fdbc6675f32bd3ec0a3919adcc13/libretro/deps/fmt/test/static-export-test/CMakeLists.txt#L9,# Broken LTO on GCC 4,['broken'],CMake,0,9,9,broken lto on gcc 4,1273,21,Yes
+745,142,openrisc/newlib,https://github.com/openrisc/newlib/blob/ce034e0b339686ed78fc64250e003112d8c4be39/configure.ac#L2418,"# Handle --with-headers=XXX.  If the value is not ""yes"", the contents of
+# the named directory are copied to $(tooldir)/sys-include.",['xxx'],Autotool,0,2418,2419,handle with headers xxx. if the value is not yes the contents of the named directory are copied to tooldir sys include.,122,21,No
+746,142,openrisc/newlib,https://github.com/openrisc/newlib/blob/ce034e0b339686ed78fc64250e003112d8c4be39/configure.ac#L2431,"# Handle --with-libs=XXX.  If the value is not ""yes"", the contents of
+# the name directories are copied to $(tooldir)/lib.  Multiple directories
+# are permitted.",['xxx'],Autotool,0,2431,2433,handle with libs xxx. if the value is not yes the contents of the name directories are copied to tooldir lib. multiple directories are permitted.,123,21,No
+747,142,openrisc/newlib,https://github.com/openrisc/newlib/blob/ce034e0b339686ed78fc64250e003112d8c4be39/configure.ac#L2510,"# Copy the directory, assuming we have tar.
+# FIXME: Should we use B in the second tar?  Not all systems support it.",['fixme'],Autotool,4,2510,2511,copy the directory assuming we have tar. fixme should we use b in the second tar not all systems support it.,124,21,Yes
+749,142,openrisc/newlib,https://github.com/openrisc/newlib/blob/ce034e0b339686ed78fc64250e003112d8c4be39/configure.ac#L3100,"# Passing a --with-cross-host argument lets the target libraries know
+# whether they are being built with a cross-compiler or being built
+# native.  However, it would be better to use other mechanisms to make the
+# sorts of decisions they want to make on this basis.  Please consider
+# this option to be deprecated.  FIXME.",['fixme'],Autotool,0,3100,3104,passing a with cross host argument lets the target libraries know whether they are being built with a cross compiler or being built native. however it would be better to use other mechanisms to make the sorts of decisions they want to make on this basis. please consider this option to be deprecated. fixme.,126,21,Yes
+9403,3694,fallenstardust/ygomobile-cn-ko-en,https://github.com/fallenstardust/ygomobile-cn-ko-en/blob/817d2f2e6bbadbd170d7081dfb1cb4bf258cff45/irrlicht/source/Irrlicht/libpng/CMakeLists.txt#L65,"# Use the prebuilt pnglibconf.h file from the scripts folder
+# TODO: fix this by building with awk; without this no cmake build can be
+# configured directly (to do so indirectly use your local awk to build a
+# pnglibconf.h in the build directory.)","['fix', 'todo']",CMake,0,65,68,use the prebuilt pnglibconf.h file from the scripts folder todo fix this by building with awk without this no cmake build can be configured directly to do so indirectly use your local awk to build a pnglibconf.h in the build directory.,850,21,Yes
+36770,4987,microsoft/msquic,https://github.com/microsoft/msquic/blob/ec8d8fc2995f718be5f4743f8d097abdbe88b9cb/cmake/toolchains/ios.cmake#L166,"# Get the Xcode version being used.
+# Problem: CMake runs toolchain files multiple times, but can't read cache variables on some runs.
+# Workaround: On first run (in which cache variables are always accessible), set an intermediary environment variable.
+#
+# NOTE: This pattern is used i many places in this toolchain to speed up checks of all sorts",['workaround'],CMake,0,166,170,get the xcode version being used. problem cmake runs toolchain files multiple times but can't read cache variables on some runs. workaround on first run in which cache variables are always accessible set an intermediary environment variable. note this pattern is used i many places in this toolchain to speed up checks of all sorts,2519,21,Yes
+8054,2468,zhmu/ananas,https://github.com/zhmu/ananas/blob/30850c1639f03bccbfb2f2b03361792cc8fae52e/external/gcc-12.1.0/libstdc++-v3/include/Makefile.am#L1211,"# Host includes static.
+# XXX Missing dependency info for {host_headers_extra}",['xxx'],Autotool,0,1211,1212,host includes static. xxx missing dependency info for host headers extra,703,20,Yes
+52652,13043,finraos/herd,https://github.com/finraos/herd/blob/70cc7945eb24604523f00cfe8d1a4d4a79c62e67/herd-build/herd-docs/herd-docs-javadoc/pom.xml#L382,<!-- TODO: Please investigate if we can remove the below plugin version. -->,['todo'],Maven,21,382,382,todo please investigate if we can remove the below plugin version.,4881,20,Yes
+13418,4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/texlive/utils/asymptote/LspCpp/third_party/rapidjson/CMakeLists.txt#L74,"#FIXME: x86 is -march=native, but doesn't mean every arch is this option. To keep original project's compatibility, I leave this except POWER.",['fixme'],CMake,10,74,74,fixme x86 is march native but doesn't mean every arch is this option. to keep original project's compatibility i leave this except power.,1084,20,Yes
+52714,12984,sap/sapmachine,https://github.com/sap/sapmachine/blob/fc8b4428454e968f5d86124dd7772811a5cd102c/make/langtools/build.xml#L230,<!-- workaround for incremental compilation -->,['workaround'],Ant,8,230,230,workaround for incremental compilation,4895,20,Yes
+36778,5016,aomediacodec/libavif,https://github.com/aomediacodec/libavif/blob/815f7c6ae41c426a300ed9085f5f2480f6199ab4/CMakeLists.txt#L188,# TODO: Add support for other compilers,['todo'],CMake,8,188,188,todo add support for other compilers,2520,20,Yes
+1424,504,espressif/binutils-esp32ulp,https://github.com/espressif/binutils-esp32ulp/blob/9bb46bab6b2e1ef1a246c3700f0a9ed791bfe477/opcodes/Makefile.am#L335,"# libtool will build .libs/libopcodes.a.  We create libopcodes.a in
+# the build directory so that we don't have to convert all the
+# programs that use libopcodes.a simultaneously.  This is a hack which
+# should be removed if everything else starts using libtool.  FIXME.","['hack', 'fixme']",Autotool,0,335,338,libtool will build .libs libopcodes.a. we create libopcodes.a in the build directory so that we don't have to convert all the programs that use libopcodes.a simultaneously. this is a hack which should be removed if everything else starts using libtool. fixme.,242,20,Yes
+1852,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMake/CurlSymbolHiding.cmake#L50,#present since 3.4.3 but broken,['broken'],CMake,47,50,50,present since 3.4.3 but broken,314,20,Yes
+918,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2_mixer/configure.in#L7,"# Making releases:
+#   MICRO_VERSION += 1;
+#   INTERFACE_AGE += 1;
+#   BINARY_AGE += 1;
+# if any functions have been added, set INTERFACE_AGE to 0.
+# if backwards compatibility has been broken,
+# set BINARY_AGE and INTERFACE_AGE to 0.
+#",['broken'],Autotool,0,7,14,making releases micro version 1 interface age 1 binary age 1 if any functions have been added set interface age to 0. if backwards compatibility has been broken set binary age and interface age to 0.,176,20,Yes
+1259,306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L1445,# !!! FIXME: why is COREVIDEO inside this if() block?,['fixme'],CMake,4,1445,1445,fixme why is corevideo inside this if block,204,20,Yes
+45587,25977,rokups/rbfx,https://github.com/rokups/rbfx/blob/48d402edc5481112c02df5c5654ffc9737ad65b6/CMake/Toolchains/Arm.cmake#L23,# Workaround try_compile() limitation where it cannot yet see cache variables during initial configuration,['workaround'],CMake,0,23,23,workaround try compile limitation where it cannot yet see cache variables during initial configuration,4110,20,Yes
+8053,2468,zhmu/ananas,https://github.com/zhmu/ananas/blob/30850c1639f03bccbfb2f2b03361792cc8fae52e/external/gcc-12.1.0/libstdc++-v3/include/Makefile.am#L1120,"# Have to deal with nested include directories, gah! Strip off source
+# directory before making the link.
+# XXX check  ${pb_headers}",['xxx'],Autotool,0,1120,1122,have to deal with nested include directories gah strip off source directory before making the link. xxx check pb headers,702,20,Yes
+3,23,amarullz/libaroma,https://github.com/amarullz/libaroma/blob/0cbd6da5d39e6ae22f216d209c1d3fe7cb1f1977/libs/freetype/builds/unix/configure.ac#L217,"# get compiler flags right
+#
+#   We try to make the compiler work for C89-strict source.  Even if the
+#   C compiler is gcc and C89 flags are available, some system headers
+#   (e.g., Android Bionic libc) are broken in C89 mode.  We have to check
+#   whether the compilation finishes successfully.
+#
+#   Due to bugs in mingwrt 4.0.3 we don't use `-ansi' for MinGW.
+#
+#   To avoid zillions of
+#
+#     ISO C90 does not support 'long long'
+#
+#   warnings, we disable `-pedantic' for gcc version < 4.6.
+#",['broken'],Autotool,0,217,231,get compiler flags right we try to make the compiler work for c89 strict source. even if the c compiler is gcc and c89 flags are available some system headers e.g. android bionic libc are broken in c89 mode. we have to check whether the compilation finishes successfully. due to bugs in mingwrt 4.0.3 we don't use ansi' for mingw. to avoid zillions of iso c90 does not support 'long long' warnings we disable pedantic' for gcc version 4.6.,2,20,Yes
+24594,20790,oscarlab/betrfs,https://github.com/oscarlab/betrfs/blob/f0477da7c2c1cce05777cbe7c35cbef5329ac462/src/kernel_tests/CMakeLists.txt#L88,"#(we weant this test, but we must fix threaded_stress_test_helpers.h first)",['fix'],CMake,20,88,88,we weant this test but we must fix threaded stress test helpers.h first,1548,19,Yes
+6553,2661,trailofbits/osquery-extensions,https://github.com/trailofbits/osquery-extensions/blob/e3820c30283db42a066ca8dda0f03a82863404a6/opt_dependencies/pcap/CMakeLists.txt#L2028,"#
+# Post-Snow Leopard.  Build for x86-64 and 32-bit x86,
+# with x86-64 first.  (That's what Apple does)
+# XXX - update if and when Apple drops support
+# for 32-bit x86 code and if and when Apple adds
+# ARM-based Macs.  (You're on your own for iOS etc.)
+#",['xxx'],CMake,8,2028,2034,post snow leopard. build for x86 64 and 32 bit x86 with x86 64 first. that's what apple does xxx update if and when apple drops support for 32 bit x86 code and if and when apple adds arm based macs. you're on your own for ios etc.,616,19,Yes
+15953,5357,rt-thread/rt-thread,https://github.com/rt-thread/rt-thread/blob/4e9786cdab1c0d2a92d84a4c0b281e5d1f2c4fac/bsp/raspberry-pico/libraries/pico-sdk/src/rp2_common/pico_runtime/CMakeLists.txt#L42,# todo is this correct/needed?,['todo'],CMake,0,42,42,todo is this correct needed,1250,19,Yes
+24033,20136,mcellteam/mcell,https://github.com/mcellteam/mcell/blob/3920aec22c55013b78f7d6483b81f70a0d564d22/libs/gperftools/Makefile.am#L589,"# This script preloads libtcmalloc, and calls two other binaries as well
+# TODO(csilvers): replace by 'if ! cmp $^ $@ >/dev/null 2>&; then ...; fi'",['todo'],Autotool,0,589,590,this script preloads libtcmalloc and calls two other binaries as well todo csilvers replace by 'if cmp dev null 2 then ... fi',1516,19,Yes
+1835,917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/CMakeLists.txt#L1119,# TODO test which of these headers are required,['todo'],CMake,0,1119,1119,todo test which of these headers are required,298,19,Yes
+26602,21873,danielswolf/rhubarb-lip-sync,https://github.com/danielswolf/rhubarb-lip-sync/blob/364a5d4fe484b6924b7c3849245b2dff0d105d6b/rhubarb/CMakeLists.txt#L56,# Workaround for https://gitlab.kitware.com/cmake/cmake/-/issues/18865,['workaround'],CMake,29,56,56,workaround for https gitlab kitware com cmake cmake issues 18865,1675,19,Yes
+39461,20512,cryos/avogadro,https://github.com/cryos/avogadro/blob/e1146f240b6d9fe5e2ffe267f334610dfe4467e1/cmake/modules/FindSIP.cmake#L38,# give up,['give up'],CMake,2,38,38,give up,3013,19,Yes
+23374,19056,nstroustrup/lifespan,https://github.com/nstroustrup/lifespan/blob/ddb6578de5ad46b4407045fd50d2b90ea1c2c03f/build/modules/OpenCVUtils.cmake#L140,# workaround for GCC 6.x bug,['workaround'],CMake,6,140,140,workaround for gcc 6.x bug,1452,19,Yes
+35884,3262,mapserver/mapserver,https://github.com/mapserver/mapserver/blob/f686abf8e4c48879e4055c5e1a86617f70889b20/cmake/3.20/FindPostgreSQL.cmake#L211,"# Some platforms include multiple pg_config.hs for multi-lib configurations
+# This is a temporary workaround.  A better solution would be to compile
+# a dummy c file and extract the value of the symbol.",['workaround'],CMake,2,211,213,some platforms include multiple pg config.hs for multi lib configurations this is a temporary workaround. a better solution would be to compile a dummy c file and extract the value of the symbol.,2233,19,Yes
+1418,504,espressif/binutils-esp32ulp,https://github.com/espressif/binutils-esp32ulp/blob/9bb46bab6b2e1ef1a246c3700f0a9ed791bfe477/bfd/Makefile.am#L880,"# libtool will build .libs/libbfd.a.  We create libbfd.a in the build
+# directory so that we don't have to convert all the programs that use
+# libbfd.a simultaneously.  This is a hack which should be removed if
+# everything else starts using libtool.  FIXME.","['hack', 'fixme']",Autotool,0,880,883,libtool will build .libs libbfd.a. we create libbfd.a in the build directory so that we don't have to convert all the programs that use libbfd.a simultaneously. this is a hack which should be removed if everything else starts using libtool. fixme.,236,19,Yes
+22642,19159,nvmd/itpp,https://github.com/nvmd/itpp/blob/13c3b2b3feb2feb798ed3966ead0f4b40e201cfe/cmake/Modules/FindLAPACK.cmake#L52,# TODO: move this stuff to separate module,['todo'],CMake,0,52,52,todo move this stuff to separate module,1401,19,Yes
+1458,504,espressif/binutils-esp32ulp,https://github.com/espressif/binutils-esp32ulp/blob/9bb46bab6b2e1ef1a246c3700f0a9ed791bfe477/libiberty/Makefile.in#L102,# FIXME: add @BUILD_INFO@ once we're sure it works for everyone.,['fixme'],Autotool,0,102,102,fixme add build info once we're sure it works for everyone.,248,18,Yes
+38752,19812,airsim/stdair,https://github.com/airsim/stdair/blob/a4dc928daf1afd71d7f5ae05ddfc5e0cdfcf226a/config/FindBoost.cmake#L1527,"#
+# Some boost libraries may require particular set of compler features.
+# The very first one was `boost::fiber` introduced in Boost 1.62.
+# One can check required compiler features of it in
+# - `${Boost_ROOT}/libs/fiber/build/Jamfile.v2`;
+# - `${Boost_ROOT}/libs/context/build/Jamfile.v2`.
+#
+# TODO (Re)Check compiler features on (every?) release ???
+# One may use the following command to get the files to check:
+#
+#   $ find . -name Jamfile.v2 | grep build | xargs grep -l cxx1
+#",['todo'],CMake,0,1527,1538,some boost libraries may require particular set of compler features. the very first one was boost fiber introduced in boost 1.62. one can check required compiler features of it in boost root libs fiber build jamfile.v2 boost root libs context build jamfile.v2 . todo re check compiler features on every release one may use the following command to get the files to check find . name jamfile.v2 grep build xargs grep l cxx1,2863,18,Yes
+52895,13580,taktik/freehealth-connector,https://github.com/taktik/freehealth-connector/blob/29c6db1f2ce50acf6902661ea31b588f3a50cf65/compiled/3.17.1/META-INF/maven/be.fgov.ehealth.connector/connector-utilities-memberdata/pom.xml#L52,<!-- TODO check if we have to this because of a bug in xjc -->,['todo'],Maven,6,52,52,todo check if we have to this because of a bug in xjc,4924,18,Yes
+487,223,vijaymathew/slogan,https://github.com/vijaymathew/slogan/blob/078bc2af6f05d4b25c9aa8860c075a6e28b4b1fc/platform/libffi-3.2.1/aclocal.m4#L412,"# In order that ltdl.c can compile, find out the first AC_CONFIG_HEADERS
+# the user used.  This is so that ltdl.h can pick up the parent projects
+# config.h file, The first file in AC_CONFIG_HEADERS must contain the
+# definitions required by ltdl.c.
+# FIXME: Remove use of undocumented AC_LIST_HEADERS (2.59 compatibility).",['fixme'],Autotool,0,412,416,in order that ltdl.c can compile find out the first ac config headers the user used. this is so that ltdl.h can pick up the parent projects config.h file the first file in ac config headers must contain the definitions required by ltdl.c. fixme remove use of undocumented ac list headers 2.59 compatibility .,98,18,Yes
+750,142,openrisc/newlib,https://github.com/openrisc/newlib/blob/ce034e0b339686ed78fc64250e003112d8c4be39/configure.ac#L3362,# FIXME: expect and dejagnu may become build tools?,['fixme'],Autotool,0,3362,3362,fixme expect and dejagnu may become build tools,127,18,Yes
+345,196,ironcorelabs/ironssh,https://github.com/ironcorelabs/ironssh/blob/b74f9e03509d0d77313778f5a8ca1451cde861f6/configure.ac#L2025,# Check for broken snprintf,['broken'],Autotool,0,2025,2025,check for broken snprintf,78,18,Yes
+348,196,ironcorelabs/ironssh,https://github.com/ironcorelabs/ironssh/blob/b74f9e03509d0d77313778f5a8ca1451cde861f6/configure.ac#L3271,# Cheap hack to ensure NEWS-OS libraries are arranged right.,['hack'],Autotool,0,3271,3271,cheap hack to ensure news os libraries are arranged right.,81,18,Yes
+8052,2468,zhmu/ananas,https://github.com/zhmu/ananas/blob/30850c1639f03bccbfb2f2b03361792cc8fae52e/external/gcc-12.1.0/libstdc++-v3/include/Makefile.am#L1070,"# Ignore errors from 'mkdir -p' to avoid parallel make failure on
+# systems with broken mkdir.  Call mkdir unconditionally because
+# it is just as cheap to avoid going through the shell.
+# Ignore errors from $(LN_S) because the links may already exist.",['broken'],Autotool,0,1070,1073,ignore errors from 'mkdir p' to avoid parallel make failure on systems with broken mkdir. call mkdir unconditionally because it is just as cheap to avoid going through the shell. ignore errors from ln s because the links may already exist.,701,18,Yes
+30474,24049,metashell/metashell,https://github.com/metashell/metashell/blob/1b6785b9259224e51f96a512a429cd52b1ce68a3/3rd/templight/llvm/cmake/modules/CheckAtomic.cmake#L85,"## TODO: This define is only used for the legacy atomic operations in
+## llvm's Atomic.h, which should be replaced.  Other code simply
+## assumes C++11 <atomic> works.",['todo'],CMake,0,85,87,todo this define is only used for the legacy atomic operations in llvm's atomic.h which should be replaced. other code simply assumes c 11 atomic works.,1865,18,Yes
+31640,25367,feelpp/feelpp,https://github.com/feelpp/feelpp/blob/0970e07cd195a0ec38ab2db4018875faa483478b/feelpp/cmake/modules/FindPETSc.cmake#L309,"# Note that we have forced values for all these choices.  If you
+# change these, you are telling the system to trust you that they
+# work.  It is likely that you will end up with a broken build.",['broken'],CMake,2,309,311,note that we have forced values for all these choices. if you change these you are telling the system to trust you that they work. it is likely that you will end up with a broken build.,1925,18,Yes
+22665,19141,ladsoft/orangec,https://github.com/ladsoft/orangec/blob/606633dda33d2c110a33768468aac7cb2976b45f/src/clibs/cpp/libcxx/utils/google-benchmark/cmake/HandleGTest.cmake#L24,"# FIXME: Since 10/Feb/2017 the googletest trunk has had a bug where
+# -Werror=unused-function fires during the build on OS X. This is a temporary
+# workaround to keep our travis bots from failing. It should be removed
+# once gtest is fixed.","['fixme', 'workaround']",CMake,2,24,27,fixme since 10 feb 2017 the googletest trunk has had a bug where werror unused function fires during the build on os x. this is a temporary workaround to keep our travis bots from failing. it should be removed once gtest is fixed.,1402,18,Yes
+22666,19141,ladsoft/orangec,https://github.com/ladsoft/orangec/blob/606633dda33d2c110a33768468aac7cb2976b45f/src/clibs/cpp/libcxx/utils/google-benchmark/cmake/HandleGTest.cmake#L109,"# FIXME: We don't currently require the gmock library to build the tests,
+# and it's likely we won't find it, so we don't try. As long as we've
+# found the gmock/gmock.h header and gtest_main that should be good enough.",['fixme'],CMake,4,109,111,fixme we don't currently require the gmock library to build the tests and it's likely we won't find it so we don't try. as long as we've found the gmock gmock.h header and gtest main that should be good enough.,1403,18,Yes
+40418,21789,opencog/asmoses,https://github.com/opencog/asmoses/blob/98c06db619d24c435a32acab7e9204a3746097e0/opencog/asmoses/atomese/atom_types/CMakeLists.txt#L18,"# Without this, parallel make will race and crap up the generated files.",['crap'],CMake,0,18,18,without this parallel make will race and crap up the generated files.,3168,18,Yes
+22667,19223,expressionanalysis/ea-utils,https://github.com/expressionanalysis/ea-utils/blob/10c21926a4dce4289d5052acfd73b8e744d4fede/clipper/sparsehash-2.0.3/Makefile.am#L15,"## This is for HTML and other documentation you want to install.
+## Add your documentation files (in doc/) in addition to these boilerplate
+## Also add a TODO file if you have one",['todo'],Autotool,0,15,17,this is for html and other documentation you want to install. add your documentation files in doc in addition to these boilerplate also add a todo file if you have one,1404,18,No

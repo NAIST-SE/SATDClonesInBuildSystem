@@ -1,0 +1,4 @@
+data/SATD_comment/
+data/Comments_with_no_keywords/
+**/__pycache__/
+**/.ipynb_checkpoints/

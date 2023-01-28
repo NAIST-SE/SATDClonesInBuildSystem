@@ -1,0 +1,12 @@
+T__0=1
+T__1=2
+Identifier=3
+Unquoted_argument=4
+Escape_sequence=5
+Quoted_argument=6
+Bracket_argument=7
+Line_comment=8
+Newline=9
+Space=10
+'('=1
+')'=2

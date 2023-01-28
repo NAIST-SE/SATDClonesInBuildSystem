@@ -1,0 +1,7 @@
+T__0=1
+Escape_identity=2
+TEXT=3
+STRING=4
+COMMENT=5
+TERMINATOR=6
+'='=1

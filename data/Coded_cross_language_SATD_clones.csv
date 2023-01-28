@@ -1,0 +1,395 @@
+repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,startLine,endLine,groupId,repoDiversity,isCrossLanguage,systemDiversity,pattern
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L825,"##
+## END FIXME",['fixme'],Autotool,0,825,826,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L1021,"##
+## END FIXME",['fixme'],Autotool,0,1021,1022,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L1055,"##
+## END FIXME",['fixme'],Autotool,0,1055,1056,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L1128,"##
+## END FIXME",['fixme'],Autotool,0,1128,1129,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L1152,"##
+## END FIXME",['fixme'],Autotool,0,1152,1153,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L1182,"##
+## END FIXME",['fixme'],Autotool,0,1182,1183,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L1870,"##
+## END FIXME",['fixme'],Autotool,0,1870,1871,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L1900,"##
+## END FIXME",['fixme'],Autotool,0,1900,1901,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L1915,"##
+## END FIXME",['fixme'],Autotool,0,1915,1916,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L2322,"##
+## END FIXME",['fixme'],Autotool,0,2322,2323,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L2330,"##
+## END FIXME",['fixme'],Autotool,0,2330,2331,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L2356,"##
+## END FIXME",['fixme'],Autotool,0,2356,2357,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L2365,"##
+## END FIXME",['fixme'],Autotool,0,2365,2366,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L2428,"##
+## END FIXME",['fixme'],Autotool,0,2428,2429,284,9,TRUE,3,Fixme Closure 
+960,hypermail-project/hypermail,https://github.com/hypermail-project/hypermail/blob/10c9cbe6e60e77e16e21b870e6c78eb1050f0438/src/fnv/aclocal.m4#L2982,"##
+## END FIXME",['fixme'],Autotool,0,2982,2983,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L825,"##
+## END FIXME",['fixme'],Autotool,0,825,826,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L1021,"##
+## END FIXME",['fixme'],Autotool,0,1021,1022,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L1055,"##
+## END FIXME",['fixme'],Autotool,0,1055,1056,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L1128,"##
+## END FIXME",['fixme'],Autotool,0,1128,1129,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L1152,"##
+## END FIXME",['fixme'],Autotool,0,1152,1153,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L1182,"##
+## END FIXME",['fixme'],Autotool,0,1182,1183,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L1869,"##
+## END FIXME",['fixme'],Autotool,0,1869,1870,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L1899,"##
+## END FIXME",['fixme'],Autotool,0,1899,1900,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L1914,"##
+## END FIXME",['fixme'],Autotool,0,1914,1915,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L2317,"##
+## END FIXME",['fixme'],Autotool,0,2317,2318,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L2325,"##
+## END FIXME",['fixme'],Autotool,0,2325,2326,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L2351,"##
+## END FIXME",['fixme'],Autotool,0,2351,2352,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L2360,"##
+## END FIXME",['fixme'],Autotool,0,2360,2361,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L2423,"##
+## END FIXME",['fixme'],Autotool,0,2423,2424,284,9,TRUE,3,Fixme Closure 
+3717,rhostmush/trunk,https://github.com/rhostmush/trunk/blob/1da49ab686b8fc904a41d0416463e438e9d87a8e/Server/src/gdbm/aclocal.m4#L2977,"##
+## END FIXME",['fixme'],Autotool,0,2977,2978,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L3206,"##
+## END FIXME",['fixme'],Autotool,0,3206,3207,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L3398,"##
+## END FIXME",['fixme'],Autotool,0,3398,3399,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L3432,"##
+## END FIXME",['fixme'],Autotool,0,3432,3433,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L3505,"##
+## END FIXME",['fixme'],Autotool,0,3505,3506,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L3529,"##
+## END FIXME",['fixme'],Autotool,0,3529,3530,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L3559,"##
+## END FIXME",['fixme'],Autotool,0,3559,3560,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L4261,"##
+## END FIXME",['fixme'],Autotool,0,4261,4262,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L4291,"##
+## END FIXME",['fixme'],Autotool,0,4291,4292,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L4306,"##
+## END FIXME",['fixme'],Autotool,0,4306,4307,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L4723,"##
+## END FIXME",['fixme'],Autotool,0,4723,4724,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L4731,"##
+## END FIXME",['fixme'],Autotool,0,4731,4732,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L4757,"##
+## END FIXME",['fixme'],Autotool,0,4757,4758,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L4766,"##
+## END FIXME",['fixme'],Autotool,0,4766,4767,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L4829,"##
+## END FIXME",['fixme'],Autotool,0,4829,4830,284,9,TRUE,3,Fixme Closure 
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/LPRng/aclocal.m4#L5386,"##
+## END FIXME",['fixme'],Autotool,0,5386,5387,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L1151,"##
+## END FIXME",['fixme'],Autotool,0,1151,1152,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L1347,"##
+## END FIXME",['fixme'],Autotool,0,1347,1348,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L1381,"##
+## END FIXME",['fixme'],Autotool,0,1381,1382,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L1451,"##
+## END FIXME",['fixme'],Autotool,0,1451,1452,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L1475,"##
+## END FIXME",['fixme'],Autotool,0,1475,1476,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L1505,"##
+## END FIXME",['fixme'],Autotool,0,1505,1506,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L2124,"##
+## END FIXME",['fixme'],Autotool,0,2124,2125,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L2154,"##
+## END FIXME",['fixme'],Autotool,0,2154,2155,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L2169,"##
+## END FIXME",['fixme'],Autotool,0,2169,2170,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L2561,"##
+## END FIXME",['fixme'],Autotool,0,2561,2562,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L2569,"##
+## END FIXME",['fixme'],Autotool,0,2569,2570,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L2632,"##
+## END FIXME",['fixme'],Autotool,0,2632,2633,284,9,TRUE,3,Fixme Closure 
+19041,stefanhendriks/dune-ii---the-maker,https://github.com/stefanhendriks/dune-ii---the-maker/blob/31b97ed4a8784065949b7fd94009feb7283ac473/dependencies/alfont/libiconv/autoconf/aclocal.m4#L3182,"##
+## END FIXME",['fixme'],Autotool,0,3182,3183,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L853,"##
+## END FIXME",['fixme'],Autotool,0,853,854,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L1049,"##
+## END FIXME",['fixme'],Autotool,0,1049,1050,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L1083,"##
+## END FIXME",['fixme'],Autotool,0,1083,1084,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L1156,"##
+## END FIXME",['fixme'],Autotool,0,1156,1157,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L1180,"##
+## END FIXME",['fixme'],Autotool,0,1180,1181,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L1210,"##
+## END FIXME",['fixme'],Autotool,0,1210,1211,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L1897,"##
+## END FIXME",['fixme'],Autotool,0,1897,1898,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L1927,"##
+## END FIXME",['fixme'],Autotool,0,1927,1928,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L1942,"##
+## END FIXME",['fixme'],Autotool,0,1942,1943,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L2345,"##
+## END FIXME",['fixme'],Autotool,0,2345,2346,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L2353,"##
+## END FIXME",['fixme'],Autotool,0,2353,2354,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L2379,"##
+## END FIXME",['fixme'],Autotool,0,2379,2380,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L2388,"##
+## END FIXME",['fixme'],Autotool,0,2388,2389,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L2451,"##
+## END FIXME",['fixme'],Autotool,0,2451,2452,284,9,TRUE,3,Fixme Closure 
+25958,adventuregamestudio/ags,https://github.com/adventuregamestudio/ags/blob/3a05fb6cc7c661455bd431d8adf7cf236edf8a65/Common/libsrc/freetype-2.1.3/builds/unix/aclocal.m4#L3005,"##
+## END FIXME",['fixme'],Autotool,0,3005,3006,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L825,"##
+## END FIXME",['fixme'],Autotool,0,825,826,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L1021,"##
+## END FIXME",['fixme'],Autotool,0,1021,1022,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L1055,"##
+## END FIXME",['fixme'],Autotool,0,1055,1056,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L1128,"##
+## END FIXME",['fixme'],Autotool,0,1128,1129,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L1152,"##
+## END FIXME",['fixme'],Autotool,0,1152,1153,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L1182,"##
+## END FIXME",['fixme'],Autotool,0,1182,1183,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L1869,"##
+## END FIXME",['fixme'],Autotool,0,1869,1870,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L1899,"##
+## END FIXME",['fixme'],Autotool,0,1899,1900,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L1914,"##
+## END FIXME",['fixme'],Autotool,0,1914,1915,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L2317,"##
+## END FIXME",['fixme'],Autotool,0,2317,2318,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L2325,"##
+## END FIXME",['fixme'],Autotool,0,2325,2326,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L2351,"##
+## END FIXME",['fixme'],Autotool,0,2351,2352,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L2360,"##
+## END FIXME",['fixme'],Autotool,0,2360,2361,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L2423,"##
+## END FIXME",['fixme'],Autotool,0,2423,2424,284,9,TRUE,3,Fixme Closure 
+29240,bochs-emu/bochs,https://github.com/bochs-emu/bochs/blob/d8cb5136acd44749ab843f7326983c5c9a321603/bochs-testing/plugin-test/aclocal.m4#L2977,"##
+## END FIXME",['fixme'],Autotool,0,2977,2978,284,9,TRUE,3,Fixme Closure 
+26073,llnl/axom,https://github.com/llnl/axom/blob/109518f89f181a1e653dd9ac444a9a623ead09e2/src/examples/using-with-cmake/CMakeLists.txt#L69,# END FIXME,['fixme'],CMake,0,69,69,284,9,TRUE,3,Fixme Closure 
+26113,llnl/serac,https://github.com/llnl/serac/blob/555481499077de87efa5cbefa3e782f357853145/examples/using-with-cmake/CMakeLists.txt#L14,# END FIXME,['fixme'],CMake,0,14,14,284,9,TRUE,3,Fixme Closure 
+26113,llnl/serac,https://github.com/llnl/serac/blob/555481499077de87efa5cbefa3e782f357853145/examples/using-with-cmake/CMakeLists.txt#L19,# END FIXME,['fixme'],CMake,0,19,19,284,9,TRUE,3,Fixme Closure 
+26113,llnl/serac,https://github.com/llnl/serac/blob/555481499077de87efa5cbefa3e782f357853145/examples/using-with-cmake/CMakeLists.txt#L23,# END FIXME,['fixme'],CMake,0,23,23,284,9,TRUE,3,Fixme Closure 
+9781,googlecloudplatform/java-docs-samples,https://github.com/googlecloudplatform/java-docs-samples/blob/959fc917d880debfd8420597043c240d694d1611/flexible/pubsub/pom.xml#L53,<!-- end of FIXME -->,['fixme'],Maven,0,53,53,284,9,TRUE,3,Fixme Closure 
+1068,beyondtrust/pbis-open,https://github.com/beyondtrust/pbis-open/blob/60d0d21cbb43ad8740944e79456000a086d4687f/krb5/src/windows/leash/Makefile.in#L4,#TODO Fix later:,"['fix', 'todo']",Autotool,0,4,4,365,18,TRUE,3,TODO fix annotation
+2843,wareck/cgminer-gekko,https://github.com/wareck/cgminer-gekko/blob/8c579bb88058b01dd524de0459621c8c57d34cb9/compat/jansson-2.9/CMakeLists.txt#L653,#TODO: fix this.,"['fix', 'todo']",CMake,0,653,653,365,18,TRUE,3,TODO fix annotation
+2491,minimsecure/unum-sdk,https://github.com/minimsecure/unum-sdk/blob/1681a5373ad0276de9ba3ce4ab77b79dcc98aaae/src/jansson/jansson-2.7/CMakeLists.txt#L620,#TODO: fix this.,"['fix', 'todo']",CMake,0,620,620,365,18,TRUE,3,TODO fix annotation
+5902,mszoek/airyx,https://github.com/mszoek/airyx/blob/244042a8e04bdd460bb7ab6083dde3ec312bc3bc/contrib/jansson/CMakeLists.txt#L620,#TODO: fix this.,"['fix', 'todo']",CMake,0,620,620,365,18,TRUE,3,TODO fix annotation
+6917,ravynsoft/ravynos,https://github.com/ravynsoft/ravynos/blob/244042a8e04bdd460bb7ab6083dde3ec312bc3bc/contrib/jansson/CMakeLists.txt#L620,#TODO: fix this.,"['fix', 'todo']",CMake,0,620,620,365,18,TRUE,3,TODO fix annotation
+5438,cosmosoftware/obs-studio-webrtc,https://github.com/cosmosoftware/obs-studio-webrtc/blob/a6f0fa9fffe853d1b28bd1da558abbdd7057686f/deps/jansson/CMakeLists.txt#L662,#TODO: fix this.,"['fix', 'todo']",CMake,0,662,662,365,18,TRUE,3,TODO fix annotation
+5498,obsproject/obs-studio,https://github.com/obsproject/obs-studio/blob/615728fa3be71e928842285ce3ba8f7133d1ad22/deps/jansson/CMakeLists.txt#L662,# TODO: fix this.,"['fix', 'todo']",CMake,0,662,662,365,18,TRUE,3,TODO fix annotation
+7121,o3de/3p-package-source,https://github.com/o3de/3p-package-source/blob/5165bfa3996e12c0f852c556450b26dc5560f6d2/package-system/openimageio-opencolorio/distribution/FindOpenImageIO.cmake#L25,# todo: FIX THIS,"['fix', 'todo']",CMake,0,25,25,365,18,TRUE,3,TODO fix annotation
+21542,sympiler/nasoq,https://github.com/sympiler/nasoq/blob/38a59fcc3a5bc2524f48a9310a31bcf03f7d9ad9/matlab/CMakeLists.txt#L79,#TODO needs a fix,"['fix', 'todo']",CMake,0,79,79,365,18,TRUE,3,TODO fix annotation
+22342,ethz-asl/kalibr,https://github.com/ethz-asl/kalibr/blob/ae129257c97c77bae48f8ceddf01198749ecdd36/Schweizer-Messer/sm_common/CMakeLists.txt#L30,# TODO: Fix...,"['fix', 'todo']",CMake,70,30,30,365,18,TRUE,3,TODO fix annotation
+22342,ethz-asl/kalibr,https://github.com/ethz-asl/kalibr/blob/ae129257c97c77bae48f8ceddf01198749ecdd36/aslam_cv/aslam_cameras/CMakeLists.txt#L53,# TODO: Fix...,"['fix', 'todo']",CMake,70,53,53,365,18,TRUE,3,TODO fix annotation
+22342,ethz-asl/kalibr,https://github.com/ethz-asl/kalibr/blob/ae129257c97c77bae48f8ceddf01198749ecdd36/aslam_cv/aslam_cv_python/CMakeLists.txt#L59,# TODO: Fix...,"['fix', 'todo']",CMake,70,59,59,365,18,TRUE,3,TODO fix annotation
+23258,librecad/librecad_3,https://github.com/librecad/librecad_3/blob/32f209737610ab48ece212d179f01f56dc319cb1/lckernel/CMakeLists.txt#L4,#TODO: Fix this,"['fix', 'todo']",CMake,0,4,4,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/galera/src/CMakeLists.txt#L34,# TODO: Fix.,"['fix', 'todo']",CMake,0,34,34,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/galera/src/CMakeLists.txt#L63,# TODO: Fix.,"['fix', 'todo']",CMake,0,63,63,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/galera/src/CMakeLists.txt#L92,# TODO: Fix.,"['fix', 'todo']",CMake,0,92,92,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/galera/tests/CMakeLists.txt#L24,# TODO: Fix.,"['fix', 'todo']",CMake,0,24,24,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/garb/CMakeLists.txt#L24,# TODO: Fix.,"['fix', 'todo']",CMake,0,24,24,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/gcache/src/CMakeLists.txt#L20,# TODO: Fix.,"['fix', 'todo']",CMake,0,20,20,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/gcache/tests/CMakeLists.txt#L12,# TODO: Fix,"['fix', 'todo']",CMake,0,12,12,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/gcomm/src/CMakeLists.txt#L29,# TODO: Fix these.,"['fix', 'todo']",CMake,0,29,29,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/gcomm/test/CMakeLists.txt#L20,# TODO: Fix,"['fix', 'todo']",CMake,0,20,20,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/gcs/src/CMakeLists.txt#L41,# TODO: Fix.,"['fix', 'todo']",CMake,0,41,41,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/gcs/src/CMakeLists.txt#L64,# TODO: Fix.,"['fix', 'todo']",CMake,0,64,64,365,18,TRUE,3,TODO fix annotation
+24345,codership/galera,https://github.com/codership/galera/blob/f47405c8b849386939d545ac71671c5c8e62e18c/gcs/src/unit_tests/CMakeLists.txt#L50,# TODO: Fix.,"['fix', 'todo']",CMake,0,50,50,365,18,TRUE,3,TODO fix annotation
+24378,ros-planning/moveit2,https://github.com/ros-planning/moveit2/blob/e96004702bbd338a08340eab0985fd04c74968fa/moveit_core/python/tools/CMakeLists.txt#L7,# TODO: Fix,"['fix', 'todo']",CMake,62,7,7,365,18,TRUE,3,TODO fix annotation
+24849,cuberite/cuberite,https://github.com/cuberite/cuberite/blob/b73cd1179fedc4abd5c388ae46f507ff3e36c213/SetFlags.cmake#L194,# TODO: fix,"['fix', 'todo']",CMake,4,194,194,365,18,TRUE,3,TODO fix annotation
+26637,px4/px4-autopilot,https://github.com/px4/px4-autopilot/blob/e41913a699d69dab0e850f00e15f018858291d84/src/drivers/distance_sensor/pga460/CMakeLists.txt#L36,# TODO: fix,"['fix', 'todo']",CMake,29,36,36,365,18,TRUE,3,TODO fix annotation
+26637,px4/px4-autopilot,https://github.com/px4/px4-autopilot/blob/e41913a699d69dab0e850f00e15f018858291d84/src/drivers/uavcan/CMakeLists.txt#L85,# TODO: fix,"['fix', 'todo']",CMake,22,85,85,365,18,TRUE,3,TODO fix annotation
+26637,px4/px4-autopilot,https://github.com/px4/px4-autopilot/blob/e41913a699d69dab0e850f00e15f018858291d84/src/drivers/uavcannode/CMakeLists.txt#L88,# TODO: fix,"['fix', 'todo']",CMake,22,88,88,365,18,TRUE,3,TODO fix annotation
+26637,px4/px4-autopilot,https://github.com/px4/px4-autopilot/blob/e41913a699d69dab0e850f00e15f018858291d84/src/lib/parameters/flashparams/CMakeLists.txt#L49,# TODO: fix this,"['fix', 'todo']",CMake,20,49,49,365,18,TRUE,3,TODO fix annotation
+26637,px4/px4-autopilot,https://github.com/px4/px4-autopilot/blob/e41913a699d69dab0e850f00e15f018858291d84/src/lib/parameters/tinybson/CMakeLists.txt#L36,# TODO: fix this,"['fix', 'todo']",CMake,59,36,36,365,18,TRUE,3,TODO fix annotation
+26637,px4/px4-autopilot,https://github.com/px4/px4-autopilot/blob/e41913a699d69dab0e850f00e15f018858291d84/src/modules/mavlink/CMakeLists.txt#L125,# TODO: fix,"['fix', 'todo']",CMake,18,125,125,365,18,TRUE,3,TODO fix annotation
+26637,px4/px4-autopilot,https://github.com/px4/px4-autopilot/blob/e41913a699d69dab0e850f00e15f018858291d84/cmake/px4_add_common_flags.cmake#L128,# TODO: fix,"['fix', 'todo']",CMake,26,128,128,365,18,TRUE,3,TODO fix annotation
+27260,codevdynamics/codev-autopilot,https://github.com/codevdynamics/codev-autopilot/blob/944bb2346d91214ff2bc813031d5fbef866bf856/src/drivers/distance_sensor/pga460/CMakeLists.txt#L36,# TODO: fix,"['fix', 'todo']",CMake,29,36,36,365,18,TRUE,3,TODO fix annotation
+27260,codevdynamics/codev-autopilot,https://github.com/codevdynamics/codev-autopilot/blob/944bb2346d91214ff2bc813031d5fbef866bf856/src/drivers/uavcan/CMakeLists.txt#L85,# TODO: fix,"['fix', 'todo']",CMake,22,85,85,365,18,TRUE,3,TODO fix annotation
+27260,codevdynamics/codev-autopilot,https://github.com/codevdynamics/codev-autopilot/blob/944bb2346d91214ff2bc813031d5fbef866bf856/src/drivers/uavcannode/CMakeLists.txt#L82,# TODO: fix,"['fix', 'todo']",CMake,22,82,82,365,18,TRUE,3,TODO fix annotation
+27260,codevdynamics/codev-autopilot,https://github.com/codevdynamics/codev-autopilot/blob/944bb2346d91214ff2bc813031d5fbef866bf856/src/lib/parameters/flashparams/CMakeLists.txt#L43,# TODO: fix this,"['fix', 'todo']",CMake,20,43,43,365,18,TRUE,3,TODO fix annotation
+27260,codevdynamics/codev-autopilot,https://github.com/codevdynamics/codev-autopilot/blob/944bb2346d91214ff2bc813031d5fbef866bf856/src/lib/parameters/tinybson/CMakeLists.txt#L36,# TODO: fix this,"['fix', 'todo']",CMake,59,36,36,365,18,TRUE,3,TODO fix annotation
+27260,codevdynamics/codev-autopilot,https://github.com/codevdynamics/codev-autopilot/blob/944bb2346d91214ff2bc813031d5fbef866bf856/cmake/px4_add_common_flags.cmake#L128,# TODO: fix,"['fix', 'todo']",CMake,26,128,128,365,18,TRUE,3,TODO fix annotation
+28596,castacks/px4-fully-actuated,https://github.com/castacks/px4-fully-actuated/blob/4281b4bb04fc2b6e0b6b3c8980e4654e0490f768/src/lib/parameters/flashparams/CMakeLists.txt#L43,# TODO: fix this,"['fix', 'todo']",CMake,20,43,43,365,18,TRUE,3,TODO fix annotation
+28596,castacks/px4-fully-actuated,https://github.com/castacks/px4-fully-actuated/blob/4281b4bb04fc2b6e0b6b3c8980e4654e0490f768/src/lib/parameters/tinybson/CMakeLists.txt#L36,# TODO: fix this,"['fix', 'todo']",CMake,59,36,36,365,18,TRUE,3,TODO fix annotation
+28596,castacks/px4-fully-actuated,https://github.com/castacks/px4-fully-actuated/blob/4281b4bb04fc2b6e0b6b3c8980e4654e0490f768/cmake/px4_add_common_flags.cmake#L125,# TODO: fix,"['fix', 'todo']",CMake,26,125,125,365,18,TRUE,3,TODO fix annotation
+14120,quarkusio/quarkus,https://github.com/quarkusio/quarkus/blob/43da21ba0fce93be844de820059e137019507d2c/tcks/microprofile-rest-client-reactive/pom.xml#L81,<!-- TODO fix this-->,"['fix', 'todo']",Maven,24,81,81,365,18,TRUE,3,TODO fix annotation
+1418,gradual-typing/grift,https://github.com/gradual-typing/grift/blob/5fa76f837a0d6189332343d7aa899892b3c49583/src/backend/runtime/boehm-gc/CMakeLists.txt#L142,#TODO test,['todo'],CMake,50,142,142,413,11,TRUE,3,TODO test annotation
+1960,zmanda/amanda,https://github.com/zmanda/amanda/blob/6fc364280b0aa5dbfe45fe7448c33d5234611788/ndmp-src/Makefile.am#L78,# TODO: tests!,['todo'],Autotool,0,78,78,413,11,TRUE,3,TODO test annotation
+3703,egallesio/stklos,https://github.com/egallesio/stklos/blob/29c3e74fb77e80e8a83268ee3bec246ee12195be/gc/CMakeLists.txt#L137,#TODO test,['todo'],CMake,50,137,137,413,11,TRUE,3,TODO test annotation
+5872,jcbeaudoin/mkcl,https://github.com/jcbeaudoin/mkcl/blob/cbb4c7c0e7a08aa95c0e864204b72a3aae59e8ef/src/gc/CMakeLists.txt#L197,#TODO test,['todo'],CMake,50,197,197,413,11,TRUE,3,TODO test annotation
+20713,bonexgoo/boss2d,https://github.com/bonexgoo/boss2d/blob/cbc354481348aa409b1c36250490627c6c9758b0/Boss2D/addon/tensorflow-1.2.1_for_boss/tensorflow/contrib/cmake/tf_tests.cmake#L308,# TODO: test failing,['todo'],CMake,6,308,308,413,11,TRUE,3,TODO test annotation
+5458,taosdata/tdengine,https://github.com/taosdata/tdengine/blob/adbe25c538e564c73bbbed6e3d4ec5b758033c4b/CMakeLists.txt#L43,# tests (TODO),['todo'],CMake,0,43,43,413,11,TRUE,3,TODO test annotation
+22428,nvidia/tensorflow,https://github.com/nvidia/tensorflow/blob/55be3962f8f6d445fa32c4b0d8d6b2fb521f6b8f/tensorflow/contrib/cmake/tf_tests.cmake#L426,# TODO: test failing,['todo'],CMake,6,426,426,413,11,TRUE,3,TODO test annotation
+25630,xilinx/vitis-ai,https://github.com/xilinx/vitis-ai/blob/fec2756074b85516d22295160864c49a77b0fc11/src/Vitis-AI-Quantizer/vai_q_tensorflow1.x/tensorflow/contrib/cmake/tf_tests.cmake#L426,# TODO: test failing,['todo'],CMake,6,426,426,413,11,TRUE,3,TODO test annotation
+26271,microsoft/tensorflow-directml,https://github.com/microsoft/tensorflow-directml/blob/a4a0e27458f455d1fbaea5ec17c4cda6f4b99189/tensorflow/contrib/cmake/tf_tests.cmake#L426,# TODO: test failing,['todo'],CMake,6,426,426,413,11,TRUE,3,TODO test annotation
+28252,alibaba/deeprec,https://github.com/alibaba/deeprec/blob/3537966b976c0152079c455327fa8ec9779b653e/tensorflow/contrib/cmake/tf_tests.cmake#L427,# TODO: test failing,['todo'],CMake,6,427,427,413,11,TRUE,3,TODO test annotation
+7218,freenet/contrib,https://github.com/freenet/contrib/blob/e0ff693341c64f9f089444fad8c51a85f05438f3/freenet-ext/build.xml#L146,<!-- TODO run tests -->,['todo'],Ant,3,146,146,413,11,TRUE,3,TODO test annotation
+1715,masc-ucsc/esesc,https://github.com/masc-ucsc/esesc/blob/1e44a659df63f6e7931b4c28bf518d9e34c33770/emul/qemu_mipsr6/roms/openbios/forth/lib/build.xml#L15,<!-- FIXME dependencies -->,['fixme'],Ant,36,15,15,475,6,TRUE,2,Fixme depencencies annotation
+3359,ucare-uchicago/femu,https://github.com/ucare-uchicago/femu/blob/b388b400e7363a0eb20c1c726114ebe6aab374b1/roms/openbios/forth/lib/build.xml#L15,<!-- FIXME dependencies -->,['fixme'],Ant,36,15,15,475,6,TRUE,2,Fixme depencencies annotation
+7152,vtess/femu,https://github.com/vtess/femu/blob/53a24fee6e690636d057541095545641cfa4a80e/roms/openbios/forth/lib/build.xml#L15,<!-- FIXME dependencies -->,['fixme'],Ant,36,15,15,475,6,TRUE,2,Fixme depencencies annotation
+24783,satanson/cpp_etudes,https://github.com/satanson/cpp_etudes/blob/87989e9ad46b99ba8fcf51946f049b4ef35889a2/cmakes/target.cmake#L19,# FIXME: broken dependencies,"['fixme', 'broken']",CMake,8,19,19,475,6,TRUE,2,Fixme depencencies annotation
+24783,satanson/cpp_etudes,https://github.com/satanson/cpp_etudes/blob/87989e9ad46b99ba8fcf51946f049b4ef35889a2/cmakes/target.cmake#L31,# FIXME: broken dependencies,"['fixme', 'broken']",CMake,12,31,31,475,6,TRUE,2,Fixme depencencies annotation
+24783,satanson/cpp_etudes,https://github.com/satanson/cpp_etudes/blob/87989e9ad46b99ba8fcf51946f049b4ef35889a2/cmakes/target.cmake#L41,# FIXME: broken dependencies,"['fixme', 'broken']",CMake,8,41,41,475,6,TRUE,2,Fixme depencencies annotation
+26635,clickhouse/clickhouse,https://github.com/clickhouse/clickhouse/blob/5eeec8d9cbc5950693f1d67750f8f7fd4062b678/cmake/target.cmake#L24,# FIXME: broken dependencies,"['fixme', 'broken']",CMake,8,24,24,475,6,TRUE,2,Fixme depencencies annotation
+26635,clickhouse/clickhouse,https://github.com/clickhouse/clickhouse/blob/5eeec8d9cbc5950693f1d67750f8f7fd4062b678/cmake/target.cmake#L30,# FIXME: broken dependencies,"['fixme', 'broken']",CMake,12,30,30,475,6,TRUE,2,Fixme depencencies annotation
+26635,clickhouse/clickhouse,https://github.com/clickhouse/clickhouse/blob/5eeec8d9cbc5950693f1d67750f8f7fd4062b678/cmake/target.cmake#L38,# FIXME: broken dependencies,"['fixme', 'broken']",CMake,8,38,38,475,6,TRUE,2,Fixme depencencies annotation
+1381,openbios/openbios,https://github.com/openbios/openbios/blob/0e0afae6579c1efe9f0d85505b75ffe989554133/forth/lib/build.xml#L15,<!-- FIXME dependencies -->,['fixme'],Ant,36,15,15,475,6,TRUE,2,Fixme depencencies annotation
+5357,rt-thread/rt-thread,https://github.com/rt-thread/rt-thread/blob/4e9786cdab1c0d2a92d84a4c0b281e5d1f2c4fac/bsp/raspberry-pico/libraries/pico-sdk/src/rp2_common/pico_runtime/CMakeLists.txt#L42,# todo is this correct/needed?,['todo'],CMake,0,42,42,1250,12,TRUE,2,TODO necessity/correctness/clarification
+20713,bonexgoo/boss2d,https://github.com/bonexgoo/boss2d/blob/cbc354481348aa409b1c36250490627c6c9758b0/Boss2D/addon/opencv-3.1.0_for_boss/cmake/OpenCVModule.cmake#L791,# TODO: is it needed?,['todo'],CMake,2,791,791,1250,12,TRUE,2,TODO necessity/correctness/clarification
+4198,apache/celix,https://github.com/apache/celix/blob/d8d5adaa34a49f59e2670160714fd66782bbf8a3/bundles/remote_services/remote_service_admin_shm/private/test/CMakeLists.txt#L28,#TODO needed?,['todo'],CMake,35,28,28,1250,12,TRUE,2,TODO necessity/correctness/clarification
+4198,apache/celix,https://github.com/apache/celix/blob/d8d5adaa34a49f59e2670160714fd66782bbf8a3/bundles/remote_services/remote_service_admin_shm/private/test/CMakeLists.txt#L29,#TODO needed?,['todo'],CMake,41,29,29,1250,12,TRUE,2,TODO necessity/correctness/clarification
+4198,apache/celix,https://github.com/apache/celix/blob/d8d5adaa34a49f59e2670160714fd66782bbf8a3/misc/experimental/bundles/config_admin/config_admin_tst/CMakeLists.txt#L30,#TODO needed?,['todo'],CMake,35,30,30,1250,12,TRUE,2,TODO necessity/correctness/clarification
+4198,apache/celix,https://github.com/apache/celix/blob/d8d5adaa34a49f59e2670160714fd66782bbf8a3/misc/experimental/bundles/config_admin/config_admin_tst/CMakeLists.txt#L31,#TODO needed?,['todo'],CMake,41,31,31,1250,12,TRUE,2,TODO necessity/correctness/clarification
+5532,raspberrypi/pico-sdk,https://github.com/raspberrypi/pico-sdk/blob/2e6142b15b8a75c1227dd3edbe839193b2bf9041/src/rp2_common/pico_runtime/CMakeLists.txt#L42,# todo is this correct/needed?,['todo'],CMake,0,42,42,1250,12,TRUE,2,TODO necessity/correctness/clarification
+7989,jeremylong/dependencycheck,https://github.com/jeremylong/dependencycheck/blob/aa73c256dff0f8253ab259f871d38d7193e92191/core/src/test/resources/cmake/opencv/cmake/OpenCVModule.cmake#L727,# TODO: is it needed?,['todo'],CMake,2,727,727,1250,12,TRUE,2,TODO necessity/correctness/clarification
+24173,ucl/stir,https://github.com/ucl/stir/blob/4142d5969e4320e32ed9dbe463b0fd50f36fb3f6/src/cmake/FindAVW.cmake#L8,#TODO necessary?,['todo'],CMake,0,8,8,1250,12,TRUE,2,TODO necessity/correctness/clarification
+24173,ucl/stir,https://github.com/ucl/stir/blob/4142d5969e4320e32ed9dbe463b0fd50f36fb3f6/src/cmake/FindLLN.cmake#L6,#TODO necessary?,['todo'],CMake,0,6,6,1250,12,TRUE,2,TODO necessity/correctness/clarification
+24173,ucl/stir,https://github.com/ucl/stir/blob/4142d5969e4320e32ed9dbe463b0fd50f36fb3f6/src/cmake/FindRDF.cmake#L6,#TODO necessary?,['todo'],CMake,0,6,6,1250,12,TRUE,2,TODO necessity/correctness/clarification
+26169,vowpalwabbit/vowpal_wabbit,https://github.com/vowpalwabbit/vowpal_wabbit/blob/5129996594be56359495c6d9f78703495030d6c0/cmake/platforms/win32.cmake#L23,#TODO: NEEDED?,['todo'],CMake,4,23,23,1250,12,TRUE,2,TODO necessity/correctness/clarification
+27436,tenacityteam/tenacity,https://github.com/tenacityteam/tenacity/blob/91f8b4340b159af551fff94a284c6b0f704a7932/CMakeLists.txt#L937,# TODO: is this even needed?,['todo'],CMake,0,937,937,1250,12,TRUE,2,TODO necessity/correctness/clarification
+27530,frc971/971-robot-code,https://github.com/frc971/971-robot-code/blob/b467463266a282d2269188cfa169c0fd4a401afa/third_party/pico-sdk/src/rp2_common/pico_runtime/CMakeLists.txt#L42,# todo is this correct/needed?,['todo'],CMake,0,42,42,1250,12,TRUE,2,TODO necessity/correctness/clarification
+28469,sensei-insitu/sensei,https://github.com/sensei-insitu/sensei/blob/e0ae9a972708f83718741c1d31e574592e885f88/utils/SVTK/CMake/svtkModule.cmake#L2356,# TODO: Is this right?,['todo'],CMake,6,2356,2356,1250,12,TRUE,2,TODO necessity/correctness/clarification
+28469,sensei-insitu/sensei,https://github.com/sensei-insitu/sensei/blob/e0ae9a972708f83718741c1d31e574592e885f88/utils/SVTK/CMake/svtkModuleWrapPython.cmake#L646,# TODO: Is this correct?,['todo'],CMake,4,646,646,1250,12,TRUE,2,TODO necessity/correctness/clarification
+9137,siddhi-io/siddhi,https://github.com/siddhi-io/siddhi/blob/1de1a3d4341e60ee91d972f6bb6fbc9426497648/pom.xml#L944,<!--todo is this necessary ?-->,['todo'],Maven,8,944,944,1250,12,TRUE,2,TODO necessity/correctness/clarification
+9690,spring-cloud/spring-cloud-sleuth,https://github.com/spring-cloud/spring-cloud-sleuth/blob/45b9ab9fa30f10a8f1b94024d1fe1c911dbd9273/spring-cloud-sleuth-autoconfigure/pom.xml#L104,<!-- TODO: why is this needed? -->,['todo'],Maven,3,104,104,1250,12,TRUE,2,TODO necessity/correctness/clarification
+9690,spring-cloud/spring-cloud-sleuth,https://github.com/spring-cloud/spring-cloud-sleuth/blob/45b9ab9fa30f10a8f1b94024d1fe1c911dbd9273/spring-cloud-sleuth-instrumentation/pom.xml#L132,<!-- TODO: why is this needed? -->,['todo'],Maven,3,132,132,1250,12,TRUE,2,TODO necessity/correctness/clarification
+23525,frodesolheim/fs-uae,https://github.com/frodesolheim/fs-uae/blob/bfa0c7522c6c5f73cceb340d677491d056febd01/Makefile.am#L1890,# FIXME: Why?,['fixme'],Autotool,27,1890,1890,1763,5,TRUE,3,TODO necessity/correctness/clarification
+24647,fluffos/fluffos,https://github.com/fluffos/fluffos/blob/801d7145826ff3d74a70a7b3c4845f979bb81548/cmake/FindMySQL.cmake#L194,# FIXME what?!,['fixme'],CMake,32,194,194,1763,5,TRUE,3,TODO necessity/correctness/clarification
+25702,llnl/blt,https://github.com/llnl/blt/blob/7b3b13dd55eb847ec2d17c87adfe16c872d634e8/cmake/BLTMacros.cmake#L497,# FIXME: Is this all that's needed?,['fixme'],CMake,4,497,497,1763,5,TRUE,3,TODO necessity/correctness/clarification
+26690,academysoftwarefoundation/openshadinglanguage,https://github.com/academysoftwarefoundation/openshadinglanguage/blob/6588caafa65e19f80f7c73861fcfec614d48846f/src/shaders/CMakeLists.txt#L4,# FIXME -- is this really necessary?,['fixme'],CMake,0,4,4,1763,5,TRUE,3,TODO necessity/correctness/clarification
+11518,spring-cloud/spring-cloud-release-tools,https://github.com/spring-cloud/spring-cloud-release-tools/blob/d0a34b8d033064ad37160ae2dfb422581ed53109/releaser-core/src/test/resources/projects/spring-cloud-core-tests/turbine-amqp/pom.xml#L53,<!-- FIXME: why is this needed? -->,['fixme'],Maven,2,53,53,1763,5,TRUE,3,TODO necessity/correctness/clarification
+23991,opendap/bes,https://github.com/opendap/bes/blob/13f4f498b2b550d01c7315651473141ff0a513f8/http/unit-tests/Makefile.am#L61,# TODO Remove this!,['todo'],Autotool,15,61,61,1800,25,TRUE,3,TODO removal
+25982,armageddongames/zeldaclassic,https://github.com/armageddongames/zeldaclassic/blob/563f882a6da11c7d2e8c257f47e990e416b362bc/CMakeLists.txt#L123,# TODO: remove,['todo'],CMake,0,123,123,1800,25,TRUE,3,TODO removal
+29117,armageddongames/zquestclassic,https://github.com/armageddongames/zquestclassic/blob/563f882a6da11c7d2e8c257f47e990e416b362bc/CMakeLists.txt#L123,# TODO: remove,['todo'],CMake,0,123,123,1800,25,TRUE,3,TODO removal
+3548,ncbi/sra-tools,https://github.com/ncbi/sra-tools/blob/cb62d0d60f0022d6a8a706a0996d2355380f62bc/ngs/ncbi/ngs-jni/CMakeLists.txt#L34,#TODO: remove,['todo'],CMake,66,34,34,1800,25,TRUE,3,TODO removal
+3904,legatoproject/legato-af,https://github.com/legatoproject/legato-af/blob/e20119038108c19abc5f8b5149528e7f7673663b/cmake/legato-config.cmake#L6,#TODO: Remove this.,['todo'],CMake,30,6,6,1800,25,TRUE,3,TODO removal
+3904,legatoproject/legato-af,https://github.com/legatoproject/legato-af/blob/e20119038108c19abc5f8b5149528e7f7673663b/cmake/legato-config.cmake#L18,# TODO: Remove this.,['todo'],CMake,48,18,18,1800,25,TRUE,3,TODO removal
+5354,pnlbwh/ukftractography,https://github.com/pnlbwh/ukftractography/blob/936f893bab9d87ba51546b4c1c804dd11df148b1/ukf/CMakeLists.txt#L35,# TODO remove,['todo'],CMake,0,35,35,1800,25,TRUE,3,TODO removal
+5620,datoviz/datoviz,https://github.com/datoviz/datoviz/blob/1cb3d9c96bcddfc78ac36a925f19c6c94d65831f/CMakeLists.txt#L15,# TODO: remove?,['todo'],CMake,71,15,15,1800,25,TRUE,3,TODO removal
+6245,sub-iot/sub-iot-stack,https://github.com/sub-iot/sub-iot-stack/blob/7c5f27e9563b7740304f7054ce7fbbb9f8e2b63d/stack/framework/hal/platforms/NUCLEO_L073RZ/CMakeLists.txt#L45,# TODO remove,['todo'],CMake,69,45,45,1800,25,TRUE,3,TODO removal
+6245,sub-iot/sub-iot-stack,https://github.com/sub-iot/sub-iot-stack/blob/7c5f27e9563b7740304f7054ce7fbbb9f8e2b63d/stack/framework/hal/platforms/NUCLEO_L152RE/CMakeLists.txt#L41,# TODO remove,['todo'],CMake,69,41,41,1800,25,TRUE,3,TODO removal
+19140,belledonnecommunications/liblinphone,https://github.com/belledonnecommunications/liblinphone/blob/8d0e9ebf5028fa7cf58ca8c71e9d350f1e0d997f/tester/CMakeLists.txt#L387,# TODO: Remove me later!,['todo'],CMake,0,387,387,1800,25,TRUE,3,TODO removal
+20003,mathlab/deal2lkit,https://github.com/mathlab/deal2lkit/blob/714c3f10bc185322243a88cf6b244411f142bd68/cmake/setup_finalize.cmake#L86,"# TODO, remove here",['todo'],CMake,39,86,86,1800,25,TRUE,3,TODO removal
+21882,cmu-db/bustub,https://github.com/cmu-db/bustub/blob/a9deeec4fb8a0fb4eaf6cf844f8ba66accbeb654/CMakeLists.txt#L114,#TODO: remove,['todo'],CMake,92,114,114,1800,25,TRUE,3,TODO removal
+23867,cair/deep-rts,https://github.com/cair/deep-rts/blob/2ea4de0993ea0ca2677fdb36a172779db4ce7868/CMakeLists.txt#L148,# todo remove,['todo'],CMake,21,148,148,1800,25,TRUE,3,TODO removal
+23867,cair/deep-rts,https://github.com/cair/deep-rts/blob/2ea4de0993ea0ca2677fdb36a172779db4ce7868/CMakeLists.txt#L149,# todo remove,['todo'],CMake,24,149,149,1800,25,TRUE,3,TODO removal
+24073,topology-tool-kit/ttk,https://github.com/topology-tool-kit/ttk/blob/9da91bd7236427f4f6e3c8624920fa2473c69e34/core/vtk/ttkOBJWriter/CMakeLists.txt#L3,# TODO remove ?,['todo'],CMake,0,3,3,1800,25,TRUE,3,TODO removal
+24073,topology-tool-kit/ttk,https://github.com/topology-tool-kit/ttk/blob/9da91bd7236427f4f6e3c8624920fa2473c69e34/core/vtk/ttkOFFWriter/CMakeLists.txt#L3,# TODO remove ?,['todo'],CMake,0,3,3,1800,25,TRUE,3,TODO removal
+24992,theimagingsource/tiscamera,https://github.com/theimagingsource/tiscamera/blob/2225d34d2f6be6134965b504d56fc7388c1d67f7/src/CMakeLists.txt#L131,# TODO remove this,['todo'],CMake,40,131,131,1800,25,TRUE,3,TODO removal
+25077,sciinstitute/scirun,https://github.com/sciinstitute/scirun/blob/7c92161e3200be844af81035c00d3316832dfd9a/src/Modules/Legacy/Fields/CMakeLists.txt#L242,#TODO: remove,['todo'],CMake,2,242,242,1800,25,TRUE,3,TODO removal
+25942,trilinos/trilinos,https://github.com/trilinos/trilinos/blob/f2c5e6655cbd1d18c5b777d4ffda603bf1a72f9f/packages/muelu/test/convergence/CMakeLists.txt#L15,#TODO: how to remove that?,['todo'],CMake,0,15,15,1800,25,TRUE,3,TODO removal
+25942,trilinos/trilinos,https://github.com/trilinos/trilinos/blob/f2c5e6655cbd1d18c5b777d4ffda603bf1a72f9f/packages/muelu/test/interface/CMakeLists.txt#L15,#TODO: how to remove that?,['todo'],CMake,0,15,15,1800,25,TRUE,3,TODO removal
+25942,trilinos/trilinos,https://github.com/trilinos/trilinos/blob/f2c5e6655cbd1d18c5b777d4ffda603bf1a72f9f/packages/muelu/test/longlong/CMakeLists.txt#L15,#TODO: how to remove that?,['todo'],CMake,0,15,15,1800,25,TRUE,3,TODO removal
+25942,trilinos/trilinos,https://github.com/trilinos/trilinos/blob/f2c5e6655cbd1d18c5b777d4ffda603bf1a72f9f/packages/muelu/test/perf_tests_kokkos/CMakeLists.txt#L11,#TODO: how to remove that?,['todo'],CMake,0,11,11,1800,25,TRUE,3,TODO removal
+25942,trilinos/trilinos,https://github.com/trilinos/trilinos/blob/f2c5e6655cbd1d18c5b777d4ffda603bf1a72f9f/packages/muelu/test/scaling/CMakeLists.txt#L15,#TODO: how to remove that?,['todo'],CMake,0,15,15,1800,25,TRUE,3,TODO removal
+25942,trilinos/trilinos,https://github.com/trilinos/trilinos/blob/f2c5e6655cbd1d18c5b777d4ffda603bf1a72f9f/packages/muelu/test/viz/CMakeLists.txt#L15,#TODO: how to remove that?,['todo'],CMake,0,15,15,1800,25,TRUE,3,TODO removal
+28790,qdslovelife/bustub,https://github.com/qdslovelife/bustub/blob/19b63290d96b21f619350f707385763a718e208c/CMakeLists.txt#L87,#TODO: remove,['todo'],CMake,80,87,87,1800,25,TRUE,3,TODO removal
+29003,xiaoshuai98/bustub,https://github.com/xiaoshuai98/bustub/blob/19b63290d96b21f619350f707385763a718e208c/CMakeLists.txt#L87,#TODO: remove,['todo'],CMake,80,87,87,1800,25,TRUE,3,TODO removal
+29248,niwafisheriesmodelling/casal2,https://github.com/niwafisheriesmodelling/casal2/blob/1aa1299a58a1f5727262cc192e6d8c9834ae8b12/CASAL2/CMakeLists.txt#L43,# TODO: Remove later,['todo'],CMake,61,43,43,1800,25,TRUE,3,TODO removal
+11758,sofastack/sofa-boot,https://github.com/sofastack/sofa-boot/blob/71e390b92cb45af8c629965a9db1da37ee1cd625/sofa-boot-project/sofa-boot-core/rpc-sofa-boot/pom.xml#L184,<!-- TODO: remove this -->,['todo'],Maven,20,184,184,1800,25,TRUE,3,TODO removal
+12524,intel-bigdata/ssm,https://github.com/intel-bigdata/ssm/blob/e6bce4375df30d16fe1856ba6ab54b54e4277778/pom.xml#L113,<!-- TODO remove in future -->,['todo'],Maven,8,113,113,1800,25,TRUE,3,TODO removal
+13275,factcast/factcast,https://github.com/factcast/factcast/blob/694ac96fb9094310e4511896bd4911de2e964252/factcast-client-grpc-cli/pom.xml#L57,<!-- TODO remove -->,['todo'],Maven,4,57,57,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/docs/pom.xml#L22,<!-- TODO: Remove me -->,['todo'],Maven,2,22,22,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/docs/pom.xml#L152,<!-- TODO: Remove me -->,['todo'],Maven,5,152,152,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/dsl/http-client/pom.xml#L192,<!-- TODO: Remove -->,['todo'],Maven,10,192,192,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/dsl/http-client/pom.xml#L227,<!-- TODO: Remove -->,['todo'],Maven,10,227,227,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/dsl/http-server/pom.xml#L248,<!-- TODO: Remove -->,['todo'],Maven,10,248,248,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/dsl/http-server/pom.xml#L251,<!-- TODO: Remove -->,['todo'],Maven,10,251,251,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/dsl/http-server/pom.xml#L286,<!-- TODO: Remove -->,['todo'],Maven,10,286,286,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/dsl/http-server/pom.xml#L289,<!-- TODO: Remove -->,['todo'],Maven,10,289,289,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/restdocs/http-client/pom.xml#L215,<!-- TODO: Remove -->,['todo'],Maven,10,215,215,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/restdocs/http-client/pom.xml#L250,<!-- TODO: Remove -->,['todo'],Maven,10,250,250,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/restdocs/http-server/pom.xml#L269,<!-- TODO: Remove -->,['todo'],Maven,10,269,269,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/restdocs/http-server/pom.xml#L272,<!-- TODO: Remove -->,['todo'],Maven,10,272,272,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/webclient/http-client/pom.xml#L191,<!-- TODO: Remove -->,['todo'],Maven,10,191,191,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/webclient/http-client/pom.xml#L226,<!-- TODO: Remove -->,['todo'],Maven,10,226,226,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/webclient/http-server/pom.xml#L236,<!-- TODO: Remove -->,['todo'],Maven,10,236,236,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/samples/standalone/webclient/http-server/pom.xml#L239,<!-- TODO: Remove -->,['todo'],Maven,10,239,239,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/spring-cloud-contract-stub-runner/pom.xml#L17,<!-- TODO: remove -->,['todo'],Maven,2,17,17,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/tests/samples-messaging-amqp/pom.xml#L17,<!-- TODO: remove -->,['todo'],Maven,2,17,17,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/tests/samples-messaging-integration/pom.xml#L17,<!-- TODO: remove -->,['todo'],Maven,2,17,17,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/tests/spring-cloud-contract-stub-runner-amqp/pom.xml#L18,<!-- TODO: remove -->,['todo'],Maven,2,18,18,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/tests/spring-cloud-contract-stub-runner-boot-zookeeper/pom.xml#L17,<!-- TODO: remove -->,['todo'],Maven,2,17,17,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/tests/spring-cloud-contract-stub-runner-context-path/pom.xml#L18,<!-- TODO: remove -->,['todo'],Maven,2,18,18,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/tests/spring-cloud-contract-stub-runner-integration/pom.xml#L18,<!-- TODO: remove -->,['todo'],Maven,2,18,18,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/tests/spring-cloud-contract-stub-runner-kafka/pom.xml#L17,<!-- TODO: remove -->,['todo'],Maven,2,17,17,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/tests/spring-cloud-contract-stub-runner-moco/pom.xml#L19,<!-- TODO: remove -->,['todo'],Maven,2,19,19,1800,25,TRUE,3,TODO removal
+13815,spring-cloud/spring-cloud-contract,https://github.com/spring-cloud/spring-cloud-contract/blob/e61ddb8f1c1ab2b8183b37e872b93b3e3d810680/tests/spring-cloud-contract-stub-runner-stream/pom.xml#L17,<!-- TODO: remove -->,['todo'],Maven,2,17,17,1800,25,TRUE,3,TODO removal
+16675,aliyun/alibabacloud-maxcompute-tool-migrate,https://github.com/aliyun/alibabacloud-maxcompute-tool-migrate/blob/8443b58fcb815f2e14c0c66194ff344a621ecd85/data-transfer-hive-udtf/pom.xml#L51,<!--TODO remove-->,['todo'],Maven,6,51,51,1800,25,TRUE,3,TODO removal
+18104,spring-projects-experimental/spring-boot-migrator,https://github.com/spring-projects-experimental/spring-boot-migrator/blob/3ca73bb33393694abd88fc8df501b3cbe756eed3/components/sbm-recipes-jee-to-boot/pom.xml#L85,<!-- TODO: why? remove ? -->,['todo'],Maven,8,85,85,1800,25,TRUE,3,TODO removal
+26215,synfig/synfig,https://github.com/synfig/synfig/blob/994622bb93d3abcf2e4fa2b168951b8369422905/synfig-studio/src/CMakeLists.txt#L5,## TODO: check version,['todo'],CMake,0,5,5,1956,8,TRUE,2,TODO versioning
+5289,esbmc/esbmc,https://github.com/esbmc/esbmc/blob/162447aa354c00d8514c0ac4cd2a3d3b002f8dda/scripts/cmake/FindIbex.cmake#L3,# TODO: Check version,['todo'],CMake,0,3,3,1956,8,TRUE,2,TODO versioning
+21338,pandasws/pandas,https://github.com/pandasws/pandas/blob/a7cbe4e784e3971bf86667e5c31cf84c26bc7cf5/3rdparty/rapidyaml/ext/c4core/cmake/c4Project.cmake#L1374,# TODO check version compatibility,['todo'],CMake,8,1374,1374,1956,8,TRUE,2,TODO versioning
+22116,nextgis/nextgisqgis,https://github.com/nextgis/nextgisqgis/blob/fbc84a2a1695fdc0612690186fef9076020bb402/cmake/FindSQLite3.cmake#L52,# TODO Check version,['todo'],CMake,0,52,52,1956,8,TRUE,2,TODO versioning
+22116,nextgis/nextgisqgis,https://github.com/nextgis/nextgisqgis/blob/fbc84a2a1695fdc0612690186fef9076020bb402/cmake/FindSpatialIndex.cmake#L31,# TODO Check version,['todo'],CMake,0,31,31,1956,8,TRUE,2,TODO versioning
+23408,nextgis-borsch/lib_gdal,https://github.com/nextgis-borsch/lib_gdal/blob/fd64f8e06eb50b4d1f3313e3a0deee6ce344989b/cmake/FindSQLite3.cmake#L52,# TODO Check version,['todo'],CMake,0,52,52,1956,8,TRUE,2,TODO versioning
+26199,rathena/rathena,https://github.com/rathena/rathena/blob/ba9770ce95e7990f79ba30dde77f52fe2514626e/3rdparty/rapidyaml/ext/c4core/cmake/c4Project.cmake#L1374,# TODO check version compatibility,['todo'],CMake,8,1374,1374,1956,8,TRUE,2,TODO versioning
+7882,geonetwork/core-geonetwork,https://github.com/geonetwork/core-geonetwork/blob/8a98640be24e3d9d225cb43e206046aa0972ec81/pom.xml#L599,<!-- TODO check version -->,['todo'],Maven,31,599,599,1956,8,TRUE,2,TODO versioning
+15210,geoadmin/geocat,https://github.com/geoadmin/geocat/blob/01f9224eefe964cd6598e0d629b7977ba3ee7587/pom.xml#L657,<!-- TODO check version -->,['todo'],Maven,31,657,657,1956,8,TRUE,2,TODO versioning
+5868,edgetx/edgetx,https://github.com/edgetx/edgetx/blob/7e540594fa426309750d8f59111f46e063a7f890/cmake/NativeTargets.cmake#L40,# TODO: is that still necessary?,['todo'],CMake,2,40,40,2679,2,TRUE,2,TODO necessity/correctness/clarification
+16412,jannyboy11/scalapluginloader,https://github.com/jannyboy11/scalapluginloader/blob/69636aae35256ff104aa599dc4601eea25e81f50/ScalaLoader/pom.xml#L241,<!-- TODO is this still needed? -->,['todo'],Maven,16,241,241,2679,2,TRUE,2,TODO necessity/correctness/clarification
+19919,openstreetmap/merkaartor,https://github.com/openstreetmap/merkaartor/blob/0ec4e27b35a1f2844d7fa59aa4424930c4c7b9f8/CMakeLists.txt#L662,# End of workaround,['workaround'],CMake,2,662,662,2881,7,TRUE,3,Workaround closure
+26352,root-project/root,https://github.com/root-project/root/blob/3160daafc008d8080cb9b3c602f4134b521ca8ad/cmake/modules/SearchInstalledSoftware.cmake#L1487,# end of workaround,['workaround'],CMake,2,1487,1487,2881,7,TRUE,3,Workaround closure
+26352,root-project/root,https://github.com/root-project/root/blob/3160daafc008d8080cb9b3c602f4134b521ca8ad/cmake/modules/SearchInstalledSoftware.cmake#L1593,# end of workaround,['workaround'],CMake,2,1593,1593,2881,7,TRUE,3,Workaround closure
+26839,sogno-platform/dpsim,https://github.com/sogno-platform/dpsim/blob/333a2f5b788c4246712be5300abdfa68c4cbf4a3/CMakeLists.txt#L177,# END OF WORKAROUND,['workaround'],CMake,4,177,177,2881,7,TRUE,3,Workaround closure
+26839,sogno-platform/dpsim,https://github.com/sogno-platform/dpsim/blob/333a2f5b788c4246712be5300abdfa68c4cbf4a3/CMakeLists.txt#L196,# END OF WORKAROUND,['workaround'],CMake,4,196,196,2881,7,TRUE,3,Workaround closure
+26691,apple/swift,https://github.com/apple/swift/blob/101cf453243b9816232d115637fdd7a6b2052cf7/stdlib/public/core/CMakeLists.txt#L77,# END WORKAROUND,['workaround'],CMake,2,77,77,2881,7,TRUE,3,Workaround closure
+14122,vespa-engine/vespa,https://github.com/vespa-engine/vespa/blob/5f308520b4030c1670c394a62bcb4cd1284476ef/docprocs/pom.xml#L65,<!-- End Workaround -->,['workaround'],Maven,6,65,65,2881,7,TRUE,3,Workaround closure
+17463,quarkus-qe/beefy-scenarios,https://github.com/quarkus-qe/beefy-scenarios/blob/cd63db2438b1b64a429894d80cb85f6e6f365b30/002-quarkus-all-extensions/pom.xml#L562,<!-- end Workaround -->,['workaround'],Maven,8,562,562,2881,7,TRUE,3,Workaround closure
+13383,eclipse-ee4j/glassfish,https://github.com/eclipse-ee4j/glassfish/blob/37fb6ecc82acf0a6c89e86ce967435520a1bfb78/appserver/tests/appserv-tests/devtests/jdbc/transparent-pool-reconfig-resources-xml/build.xml#L80,<!-- Workaround : end -->,['workaround'],Ant,8,80,80,2881,7,TRUE,3,Workaround closure
+13383,eclipse-ee4j/glassfish,https://github.com/eclipse-ee4j/glassfish/blob/37fb6ecc82acf0a6c89e86ce967435520a1bfb78/appserver/tests/appserv-tests/devtests/jdbc/transparent-pool-reconfig/build.xml#L77,<!-- Workaround : end -->,['workaround'],Ant,8,77,77,2881,7,TRUE,3,Workaround closure
+19959,visionworkbench/visionworkbench,https://github.com/visionworkbench/visionworkbench/blob/ac2291e9f5d5c5c7c6c91948febf448e43fe9dd6/src/vw/CMakeLists.txt#L203,# TODO: What is this for?,['todo'],CMake,0,203,203,2884,6,TRUE,2,TODO necessity/correctness/clarification
+22954,robotology/assistive-rehab,https://github.com/robotology/assistive-rehab/blob/4cfa251b79edf30473e0d2346c4f882c4dc8a9e8/cmake/linux/FindFFTW3.cmake#L198,# TODO what's for?,['todo'],CMake,46,198,198,2884,6,TRUE,2,TODO necessity/correctness/clarification
+24150,crownstone/bluenet,https://github.com/crownstone/bluenet/blob/9480a43f8a8526bfd8b1cd56215c134fc75d978c/source/conf/cmake/crownstone.defs.cmake#L17,# TODO: Is this used?,['todo'],CMake,0,17,17,2884,6,TRUE,2,TODO necessity/correctness/clarification
+26072,medinria/medinria-public,https://github.com/medinria/medinria-public/blob/727ba130afdc2f5ff046a936e2a24d920a413c77/src/layers/legacy/medPacs/CMakeLists.txt#L34,#TODO : what is it for ?,['todo'],CMake,14,34,34,2884,6,TRUE,2,TODO necessity/correctness/clarification
+26572,paddlepaddle/paddle,https://github.com/paddlepaddle/paddle/blob/3441e5e85fb1dfdef0a363e9600d65bc9c82554e/cmake/external/pslib.cmake#L41,#todo what is this,['todo'],CMake,49,41,41,2884,6,TRUE,2,TODO necessity/correctness/clarification
+26572,paddlepaddle/paddle,https://github.com/paddlepaddle/paddle/blob/3441e5e85fb1dfdef0a363e9600d65bc9c82554e/cmake/external/pslib_brpc.cmake#L43,#todo what is this,['todo'],CMake,59,43,43,2884,6,TRUE,2,TODO necessity/correctness/clarification
+10531,blazegraph/database,https://github.com/blazegraph/database/blob/2bd33dcaeb98099e797faf51485642a592897e4c/dsi-utils/build.properties#L27,# @todo what is this?,['todo'],Ant,0,27,27,2884,6,TRUE,2,TODO necessity/correctness/clarification
+20476,sintefmedtek/custusx,https://github.com/sintefmedtek/custusx/blob/859a895ebeec28f394c6dc4265087ea26fbce65a/source/plugins/org.custusx.registration/CMakeLists.txt#L56,#TODO: Remove these dependencies,['todo'],CMake,0,56,56,3014,2,TRUE,2,TODO removal dependencies
+13950,hyperfoil/hyperfoil,https://github.com/hyperfoil/hyperfoil/blob/a63b6492d40e88d445f609ff612c953ebe6ac612/api/pom.xml#L31,<!--TODO:: remove these dependencies from api-->,['todo'],Maven,8,31,31,3014,2,TRUE,2,TODO removal dependencies
+22869,sciinstitute/seg3d,https://github.com/sciinstitute/seg3d/blob/fb6c7d088fae9a2cb82516d6b278298ed60c47b4/Superbuild/PythonExternal.cmake#L31,# TODO: update when upgrading,['todo'],CMake,0,31,31,3356,4,TRUE,2,TODO removal dependencies
+8709,ikasaneip/ikasan,https://github.com/ikasaneip/ikasan/blob/0ab19ff759cfddcb65b278bca1e3e714840ee8fe/ikasaneip/component/filter/pom.xml#L181,<!-- TODO Upgrade this at some point -->,['todo'],Maven,8,181,181,3356,4,TRUE,2,TODO Update
+12708,eclipse-ee4j/jersey,https://github.com/eclipse-ee4j/jersey/blob/47dccff251608065beb431718d574d92ad210a7f/pom.xml#L2189,<!-- TODO: UPGRADE! -->,['todo'],Maven,48,2189,2189,3356,4,TRUE,2,TODO Update
+15010,sbmlteam/jsbml,https://github.com/sbmlteam/jsbml/blob/02c9b7db7b493105fdf690e7abe0adc76ffa3225/pom.xml#L182,<!-- TODO  update -->,['todo'],Maven,60,182,182,3356,4,TRUE,2,TODO Update
+23846,kdab/kdstatemachineeditor,https://github.com/kdab/kdstatemachineeditor/blob/d3b2929a976293dacd7c1e65cb99b6483ab0687e/src/core/CMakeLists.txt#L54,# TODO: Get rid off this,['todo'],CMake,72,54,54,3571,4,TRUE,2,TODO removal
+7480,gwt-maven-plugin/gwt-maven-plugin,https://github.com/gwt-maven-plugin/gwt-maven-plugin/blob/ac3b9481000059295e14ad6b83961add5eb133d1/pom.xml#L212,<!-- TODO: get rid of this! -->,"['todo', 'get rid of this']",Maven,4,212,212,3571,4,TRUE,2,TODO removal
+15897,apache/dolphinscheduler,https://github.com/apache/dolphinscheduler/blob/66958b91d76d1b89502ff2e041a5eb2cadfbe5ac/dolphinscheduler-alert/dolphinscheduler-alert-api/pom.xml#L35,<!-- TODO should get rid off this -->,['todo'],Maven,58,35,35,3571,4,TRUE,2,TODO removal
+18944,alldatateam/alldata,https://github.com/alldatateam/alldata/blob/9071b5206a0f0276148957ddae6733b6e1085d4e/dataStudio/dolphinscheduler-versions/dolphinscheduler-3.0.0/dolphinscheduler-alert/dolphinscheduler-alert-api/pom.xml#L33,<!-- TODO should get rid off this -->,['todo'],Maven,58,33,33,3571,4,TRUE,2,TODO removal
+24641,openms/openms,https://github.com/openms/openms/blob/a0b4326b7e2ed868f48a310f89ede6bb556cd659/src/openms/CMakeLists.txt#L124,## TODO check if still necessary,['todo'],CMake,18,124,124,3721,2,TRUE,2,TODO necessity/correctness/clarification
+24641,openms/openms,https://github.com/openms/openms/blob/a0b4326b7e2ed868f48a310f89ede6bb556cd659/src/pyOpenMS/CMakeLists.txt#L683,#TODO Check if really necessary,['todo'],CMake,125,683,683,3721,2,TRUE,2,TODO necessity/correctness/clarification
+10741,atlanmod/neoemf,https://github.com/atlanmod/neoemf/blob/323e65114ab323ec7888a4a9735f97f0345438a3/pom.xml#L167,<!-- TODO: check if really needed -->,['todo'],Maven,8,167,167,3721,2,TRUE,2,TODO necessity/correctness/clarification
+25577,openxray/xray-16,https://github.com/openxray/xray-16/blob/abf90b903743b16844915ff37fdaa9c5044dc0cc/Externals/NVTT/src/nvcore/CMakeLists.txt#L55,# XXX: why?,['xxx'],CMake,25,55,55,4008,2,TRUE,2,TODO necessity/correctness/clarification
+25577,openxray/xray-16,https://github.com/openxray/xray-16/blob/abf90b903743b16844915ff37fdaa9c5044dc0cc/Externals/NVTT/src/nvtt/CMakeLists.txt#L128,# XXX: why?,['xxx'],CMake,36,128,128,4008,2,TRUE,2,TODO necessity/correctness/clarification
+13623,apache/netbeans,https://github.com/apache/netbeans/blob/cb4112b5ce7c7bbebbf31acfd0220d54accf4d9c/nbbuild/build.xml#L556,<!-- XXX why? -->,['xxx'],Ant,58,556,556,4008,2,TRUE,2,TODO necessity/correctness/clarification
+13623,apache/netbeans,https://github.com/apache/netbeans/blob/cb4112b5ce7c7bbebbf31acfd0220d54accf4d9c/nbbuild/build.xml#L557,<!-- XXX why? -->,['xxx'],Ant,54,557,557,4008,2,TRUE,2,TODO necessity/correctness/clarification
+26221,realm/realm-core,https://github.com/realm/realm-core/blob/f5cfe3de10e425d0f475a4691b20b160d64e3d2a/CMakeLists.txt#L88,# TODO: Remove this when fixed,['todo'],CMake,4,88,88,4188,2,TRUE,2,TODO removal
+7962,prestodb/presto,https://github.com/prestodb/presto/blob/c5c680896a21469ad1711b58b52784fbd6aeba6d/presto-hive/pom.xml#L477,<!-- TODO: Remove this once fixed -->,['todo'],Maven,20,477,477,4188,2,TRUE,2,TODO removal
+26575,opencv/opencv,https://github.com/opencv/opencv/blob/2273af0166f5c4eb825802a187501874d20256f8/modules/highgui/cmake/plugin.cmake#L27,# TODO remove this dependency,['todo'],CMake,22,27,27,4451,2,TRUE,2,TODO removal
+12490,eclipse/jkube,https://github.com/eclipse/jkube/blob/40ce95a6366986bd005b51420a799f09b5e075f8/quickstarts/kit/custom-istio-enricher/app/pom.xml#L87,<!-- TODO: Remove this dependency -->,['todo'],Maven,10,87,87,4451,2,TRUE,2,TODO removal
+27239,v6d-io/v6d,https://github.com/v6d-io/v6d/blob/9c6bb0c2cb31c54d6e798555d5a92cb067490083/CMakeLists.txt#L263,# workaround for: https://issues.apache.org/jira/browse/ARROW-11836,['workaround'],CMake,4,263,263,4564,12,TRUE,2,Workaround for issue link on Jira
+8728,eclipse/xsemantics,https://github.com/eclipse/xsemantics/blob/8d5c06e45ceffe4cbdad1e36145d68b01fe4e0b2/releng/org.eclipse.xsemantics.parent/pom.xml#L376,<!-- workaround for https://issues.apache.org/jira/browse/SUREFIRE-1588 -->,['workaround'],Maven,6,376,376,4564,12,TRUE,2,Workaround for issue link on Jira
+8808,apache/uima-uimaj,https://github.com/apache/uima-uimaj/blob/bd05de37624a0dd6ad1f5e6e4ef692f25030c743/pom.xml#L282,<!--  workaround https://issues.apache.org/jira/browse/RAT-97 -->,['workaround'],Maven,18,282,282,4564,12,TRUE,2,Workaround for issue link on Jira
+13443,eclipse/xtext-core,https://github.com/eclipse/xtext-core/blob/9b972d62f53d767ccd1878bda0004c21ef3e2c34/org.eclipse.xtext.tests/testdata/wizard-expectations/lsMavenApp/lsMavenApp.parent/pom.xml#L72,<!-- workaround for https://issues.apache.org/jira/browse/SUREFIRE-1588 -->,['workaround'],Maven,6,72,72,4564,12,TRUE,2,Workaround for issue link on Jira
+13443,eclipse/xtext-core,https://github.com/eclipse/xtext-core/blob/9b972d62f53d767ccd1878bda0004c21ef3e2c34/org.eclipse.xtext.tests/testdata/wizard-expectations/lsMavenFatjar/lsMavenFatjar.parent/pom.xml#L72,<!-- workaround for https://issues.apache.org/jira/browse/SUREFIRE-1588 -->,['workaround'],Maven,6,72,72,4564,12,TRUE,2,Workaround for issue link on Jira
+13443,eclipse/xtext-core,https://github.com/eclipse/xtext-core/blob/9b972d62f53d767ccd1878bda0004c21ef3e2c34/org.eclipse.xtext.tests/testdata/wizard-expectations/plainMaven/plainMaven.parent/pom.xml#L79,<!-- workaround for https://issues.apache.org/jira/browse/SUREFIRE-1588 -->,['workaround'],Maven,6,79,79,4564,12,TRUE,2,Workaround for issue link on Jira
+13790,spring-cloud/spring-cloud-kubernetes,https://github.com/spring-cloud/spring-cloud-kubernetes/blob/0e276078988b99d73f789fe05f1256248fa5204f/spring-cloud-kubernetes-examples/kubernetes-hello-world-example/pom.xml#L117,<!-- Workaround for https://issues.apache.org/jira/browse/SUREFIRE-1588 -->,['workaround'],Maven,5,117,117,4564,12,TRUE,2,Workaround for issue link on Jira
+13782,jooq/jooq,https://github.com/jooq/jooq/blob/f73be0d9dab05fe5d226d94d95d83f1a72c543c6/jOOQ-codegen-maven/pom.xml#L77,<!-- Workaround for https://issues.apache.org/jira/browse/MPLUGIN-369 -->,['workaround'],Maven,16,77,77,4564,12,TRUE,2,Workaround for issue link on Jira
+13791,strimzi/strimzi-kafka-operator,https://github.com/strimzi/strimzi-kafka-operator/blob/254ec419ec99eb85b1b01dd8d5808527c461f9be/pom.xml#L992,<!-- This is workaround for https://issues.apache.org/jira/browse/SUREFIRE-1809 -->,['workaround'],Maven,20,992,992,4564,12,TRUE,2,Workaround for issue link on Jira
+13791,strimzi/strimzi-kafka-operator,https://github.com/strimzi/strimzi-kafka-operator/blob/254ec419ec99eb85b1b01dd8d5808527c461f9be/pom.xml#L1033,<!-- This is workaround for https://issues.apache.org/jira/browse/SUREFIRE-1809 -->,['workaround'],Maven,28,1033,1033,4564,12,TRUE,2,Workaround for issue link on Jira
+13780,apache/pulsar,https://github.com/apache/pulsar/blob/72dd01b8a0339541a8c3e75070bf6b8c2e6d0906/pom.xml#L1405,<!-- workaround https://issues.apache.org/jira/browse/MCOMPILER-205 -->,['workaround'],Maven,10,1405,1405,4564,12,TRUE,2,Workaround for issue link on Jira
+14122,vespa-engine/vespa,https://github.com/vespa-engine/vespa/blob/5f308520b4030c1670c394a62bcb4cd1284476ef/config-application-package/pom.xml#L147,<!-- ugly workaround for https://issues.apache.org/jira/browse/MJAR-138 -->,"['ugly', 'workaround']",Maven,20,147,147,4564,12,TRUE,2,Workaround for issue link on Jira
+14122,vespa-engine/vespa,https://github.com/vespa-engine/vespa/blob/5f308520b4030c1670c394a62bcb4cd1284476ef/config-model-api/pom.xml#L108,<!-- ugly workaround for https://issues.apache.org/jira/browse/MJAR-138 -->,"['ugly', 'workaround']",Maven,14,108,108,4564,12,TRUE,2,Workaround for issue link on Jira
+15878,heutelbeck/sapl-policy-engine,https://github.com/heutelbeck/sapl-policy-engine/blob/871d6988309ee99a9948f6cf27646a2e85c099b1/pom.xml#L307,<!-- workaround for https://issues.apache.org/jira/browse/SUREFIRE-1588 -->,['workaround'],Maven,6,307,307,4564,12,TRUE,2,Workaround for issue link on Jira
+16484,apache/pulsar-adapters,https://github.com/apache/pulsar-adapters/blob/0adca97f98025ce60ea7504431711b01a9b080cd/pom.xml#L361,<!-- workaround https://issues.apache.org/jira/browse/MCOMPILER-205 -->,['workaround'],Maven,10,361,361,4564,12,TRUE,2,Workaround for issue link on Jira
+17329,apache/uima-ruta,https://github.com/apache/uima-ruta/blob/08ca8b831526b7bd2ad101e29ebfc310ed84d92a/pom.xml#L155,<!--  workaround https://issues.apache.org/jira/browse/RAT-97 -->,['workaround'],Maven,18,155,155,4564,12,TRUE,2,Workaround for issue link on Jira
