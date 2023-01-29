@@ -3,3 +3,4 @@ data/Comments_with_no_keywords/
 **/__pycache__/
 **/.ipynb_checkpoints/
 data/Non_SATD_clones_with_authorship.csv
+*.pkl
