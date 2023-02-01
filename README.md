@@ -1,10 +1,10 @@
-# Research Artifact: The Prevalence, Authorship, and Characteristics of Self-Admitted Technical Debt Clones in Build Systems
+# Research Artifact: Quantifying and Characterizing Clones of Self-Admitted Technical Debt in Build Systems
 
 This is a research artifact for the paper: **The Prevalence, Authorship, and Characteristics of Self-Admitted Technical Debt Clones in Build Systems**. This artifact is a repository consisting of raw data, our SATD dataset for RQ1-3, our labeled SATD comments dataset for RQ4,  and scripts. The purposes of this artifact are to enable researchers to reuse the dataset for further software engineering research.
 
 
 ## Abstract
-Self-Admitted Technical Debt (SATD) has raised significant interest in the SE community, which annotates technical debt that intentionally trades long-term software artifact quality for short-term goals. Recent work started to explore the existence of SATD clones (duplicate or near duplicate SATD comments) in source codes. However, SATD clones in build systems remain unexplored. In this paper, we conduct a large-scale study on 50,608 SATD comments extracted from various build systems (i.e., Autotools, CMake, Maven, and Ant) to investigate the prevalence of SATD clones and cloning of build specifications, analyze the authorship of SATD clones, and characterize these clones. The key results are summarized: (i) our results show that SATD clones are a frequent phenomenon in build systems, accounting for 62-95\% of SATD comments; (ii) we find that build specifications around SATD clones are highly similar, with similarity scores being greater than 0.8; (iii) we observe that approximately a quarter of SATD clones were introduced by the same author; and (iv) our qualitative results reveal that for those commonly cloned SATD comments, the external factors are the most frequent locations (e.g., platform and tool configuration), that limitations in tools and libraries are the major causes, and that developers often leave SATD comments as issues to be fixed later. Our work presents the first step toward systematically understanding SATD clones in build systems and opens up avenues for future work, such as tool support to track, manage, and repay SATD.
+Self-Admitted Technical Debt (SATD) annotates development decisions that intentionally exchange long-term software artifact quality for short-term goals. Recent work explores the existence of SATD clones (duplicate or near duplicate SATD comments) in source code. Cloning of SATD in build systems (i.e., Autotools, CMake, Maven, and Ant) may propagate suboptimal design choices, threatening qualities of the build system that stakeholders rely upon (e.g., maintainability, reliability, repeatability). Hence, we conduct a large-scale study on 50,608 SATD comments extracted from Autotools, CMake, Maven, and Ant build systems to investigate the prevalence of SATD clones and to characterize their incidences. We observe that: (i) prior work suggests that 41–65% of SATD comments in source code are clones, but in our studied build system context, the rates range from 62% to 95%, suggesting that SATD clones are a more prevalent phenomenon in build systems than in source code; (ii) statements surrounding SATD clones are highly similar, with 76% of occurrences having similarity scores greater than 0.8; (iii) a quarter of SATD clones are introduced by the author of the original SATD statements; and (iv) among the most commonly cloned SATD comments, external factors (e.g., platform and tool configuration) are the most frequent locations, limitations in tools and libraries are the most frequent causes, and developers often copy SATD comments that describe issues to be fixed later. Our work presents the first step toward systematically understanding SATD clones in build systems and opens up avenues for future work, such as tool support to track, manage, and repay SATD in the context of build systems
 
 ## Contents
 * `data` - a directory of the dataset
@@ -27,6 +27,7 @@ Self-Admitted Technical Debt (SATD) has raised significant interest in the SE co
 	* `Non_SATD_clones_with_authorship.csv` - results of cloned Non-SATD with authorship in RQ3.
 	* `RQ3_SATD_stat.csv` - statistics results of cloned SATD for significant tests in RQ3.
 	* `RQ3_Non_SATD_stat.csv` - statistics results of cloned Non-SATD for significant tests in RQ3.
+	* `Coded_Non_SATD_Sample.csv` - coded Non-SATD sample for testing the missing rate of the SATD keyword-based approach.
 	* `Coded_SATD_clones.csv` - coded SATD clones in RQ4.
 	* `Coded_cross_system_SATD_clones.csv` - coded SATD cross system clones in the Discussion.
 	* `Coded_cross_language_SATD_clones.csv` - coded SATD cross language clones in the Discussion.
@@ -42,9 +43,13 @@ Self-Admitted Technical Debt (SATD) has raised significant interest in the SE co
 	* `RQ2_Non_SATD.ipynb` - a script that is used in RQ2 for Non-SATD clones.
 	* `RQ3.ipynb` - a script that is used in RQ3 for SATD clones.
 	* `RQ3_Non_SATD.ipynb` - a script that is used in RQ3 for SNon-ATD clones.
+* `materials` - a directory of supplementary materials.
 	* `thresholds_plot_commits.pdf` - threshold plot for the number of commits.
 	* `thresholds_plot_code.pdf` - threshold plot for lines of code in build systems.
 	* `thresholds_plot_comment.pdf` - threshold plot for lines of comments in build systems.
-	* `thresholds_clone_groups.pdf` - threshold plot for the number of coding SATD clone groups. 
+	* `thresholds_clone_groups.pdf` - threshold plot for the number of coding SATD clone groups.
+	* `similarity_scores_of_commit_messages.pdf` - box plot for similarity scores of commit messages that introduced SATD clones.
+	* `clone_time_interval.pdf` - box plot for the clone time interval that introduced SATD clones.
+	* `definition.pdf` - detailed definitions of coding guides for SATD locations, reasons, and purposes in RQ4.
 * `LICENSE` - [Apache License 2.0](http://www.apache.org/licenses/)
 * `README.md` - this file.

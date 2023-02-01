@@ -1,0 +1,1036 @@
+repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,starLine,endLine,isSATD
+20394,slicerdmri/slicerdmri,https://github.com/slicerdmri/slicerdmri/blob/ccd2482e35191b49f68a689ea8572340e99d1b47/Modules/CLI/FiberBundleLabelSelect/Testing/CMakeLists.txt#L31,# Test .vtk output,[],CMake,0,31,31,No
+28588,sonicerazor/portal-base,https://github.com/sonicerazor/portal-base/blob/eed1070d818a4cf5786dd905faee4feb095d3bea/sp/src/thirdparty/protobuf-2.3.0/aclocal.m4#L402,dnl,[],Autotool,36,402,402,No
+24777,sandialabs/interspec,https://github.com/sandialabs/interspec/blob/4e2ee42ca69d32f5526d4ba46bd38a5157bda0fc/external_libs/Minuit2/aclocal.m4#L1919,dnl,[],Autotool,36,1919,1919,No
+4810,lyusupov/softrf,https://github.com/lyusupov/softrf/blob/9dffd2a5f5a29191fd05b09a5c486ee00ff8e5d6/dated/version1/libraries/ArduinoJson/third-party/gtest-1.7.0/aclocal.m4#L1018,# directory).,[],Autotool,0,1018,1018,No
+2838,love2d/megasource,https://github.com/love2d/megasource/blob/b6b41a65765e12cf6038026bfb5c38bc2771edeb/libs/libtheora-1.1.1/aclocal.m4#L8560,# func_opt_split,[],Autotool,0,8560,8560,No
+26539,slicer/slicer,https://github.com/slicer/slicer/blob/f89ecbe4ca7f58a9eee0aacae0ad105f6b76e3cc/Modules/Loadable/Colors/CMakeLists.txt#L77,#-----------------------------------------------------------------------------,[],CMake,0,77,77,No
+21176,nojhan/paradiseo,https://github.com/nojhan/paradiseo/blob/c2a3ed4e7f67772afb37ea325c9ef80fca2b008d/deprecated/eo/doc/eo.cfg.cmake#L479,"# Set the SHOW_NAMESPACES tag to NO to disable the generation of the
+# Namespaces page.
+# This will remove the Namespaces entry from the Quick Index
+# and from the Folder Tree View (if specified). The default is YES.",[],CMake,0,479,482,No
+773,unidata/gempak,https://github.com/unidata/gempak/blob/e60728b909ee9b25d8547f6914b1a56c448e6113/extlibs/xml2/libxml2/xstc/Makefile.in#L4,"# Copyright (C) 1994-2014 Free Software Foundation, Inc.",[],Autotool,0,4,4,No
+25128,lanl/draco,https://github.com/lanl/draco/blob/6cf79984c947af9d7ef5f5f7661f0318bcc564c0/src/roots/CMakeLists.txt#L46,"#--------------------------------------------------------------------------------------------------#
+# End roots/CMakeLists.txt
+#--------------------------------------------------------------------------------------------------#",[],CMake,0,46,48,No
+26313,ornl-qci/qcor,https://github.com/ornl-qci/qcor/blob/b0ab77d0e594f5e84720b34e71a9c0eb05a60ae6/docs/doxygen/Doxyfile.cmake#L2421,"# The DOTFILE_DIRS tag can be used to specify one or more directories that
+# contain dot files that are included in the documentation (see the \dotfile
+# command).
+# This tag requires that the tag HAVE_DOT is set to YES.",[],CMake,0,2421,2424,No
+26476,clementine-player/clementine,https://github.com/clementine-player/clementine/blob/495803ab996b87cf5a84644e7ddd32d5d2fdddb9/src/CMakeLists.txt#L884,# Platform specific - OS X,[],CMake,0,884,884,No
+2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/file/aclocal.m4#L975,"# Installed binaries are usually stripped using 'strip' when the user
+# run ""make install-strip"".  However 'strip' might not be the right
+# tool to use in cross-compilation environments, therefore Automake
+# will honor the 'STRIP' environment variable to overrule this program.",[],Autotool,0,975,978,Yes
+25785,koreader/crengine,https://github.com/koreader/crengine/blob/75ec3f9943e3b2a5fb273053cc026b66b0ee291e/thirdparty/freetype/builds/unix/aclocal.m4#L516,"dnl If the libtool generation code has been placed in $CONFIG_LT,
+dnl instead of duplicating it all over again into config.status,
+dnl then we will have config.status run $CONFIG_LT later, so it
+dnl needs to know what name is stored there:",[],Autotool,1,516,519,Yes
+23642,grognardsfromhell/templeplus,https://github.com/grognardsfromhell/templeplus/blob/bdf0e9f7fef6c30824d59cac60a821803f664b24/Tools/MdfLint/CMakeLists.txt#L49,"################################################################################
+# Compile definitions
+################################################################################",[],CMake,0,49,51,No
+23059,casacore/casacore,https://github.com/casacore/casacore/blob/9c068228104b9f660d107824790d45ee6da93be1/cmake/SelectLibraryConfigurations.cmake#L1,"# select_library_configurations( basename )
+#
+# This macro takes a library base name as an argument, and will choose good
+# values for basename_LIBRARY, basename_LIBRARIES, basename_LIBRARY_DEBUG, and
+# basename_LIBRARY_RELEASE depending on what has been found and set.  If only
+# basename_LIBRARY_RELEASE is defined, basename_LIBRARY, basename_LIBRARY_DEBUG,
+# and basename_LIBRARY_RELEASE will be set to the release value.  If only
+# basename_LIBRARY_DEBUG is defined, then basename_LIBRARY,
+# basename_LIBRARY_DEBUG and basename_LIBRARY_RELEASE will take the debug value.  
+#
+# If the generator supports configuration types, then basename_LIBRARY and
+# basename_LIBRARIES will be set with debug and optimized flags specifying the
+# library to be used for the given configuration.  If no build type has been set
+# or the generator in use does not support configuration types, then
+# basename_LIBRARY and basename_LIBRARIES will take only the release values.",[],CMake,0,1,15,No
+3716,389ds/389-ds-base,https://github.com/389ds/389-ds-base/blob/a0d15b46b7c060b745e2677679aa4c216c462a55/Makefile.am#L212,#end hpux,[],Autotool,6,212,212,No
+7163,debrouxl/tiemu,https://github.com/debrouxl/tiemu/blob/cda2db4f44d13d1559be6d3f37cebd2cd10dd26b/tiemu/tags/2.05/aclocal.m4#L7894,"# KCC will only create a shared library if the output file
+# ends with "".so"" (or "".sl"" for HP-UX), so rename the library
+# to its proper name (with version) after linking.",[],Autotool,1,7894,7896,No
+6376,midnightbsd/src,https://github.com/midnightbsd/src/blob/42359350d73c73f7e53bf00c793c42c1f3c11539/contrib/gcclibs/libgomp/aclocal.m4#L284,#serial 3,[],Autotool,0,284,284,No
+4641,d3x0r/sack.vfs,https://github.com/d3x0r/sack.vfs/blob/508740d4488a1d113b12e6241923e862917b7309/src/sack/libressl/3.5.3/apps/openssl/Makefile.in#L578,# am--include-marker,[],Autotool,68,578,578,No
+26341,supercollider/supercollider,https://github.com/supercollider/supercollider/blob/cd91c2389733db596b553f88fb4393947de79c89/CMakeLists.txt#L366,# signed/unsigned mismatch,[],CMake,38,366,366,No
+26602,rcaelers/workrave,https://github.com/rcaelers/workrave/blob/18941c489def967ed402a802b703a95e8109da38/ui/app/toolkits/gtkmm/dist/CMakeLists.txt#L42,"#add_custom_target(bundle
+#                  COMMAND ${CMAKE_CPACK_COMMAND} ""--config"" ""${CMAKE_BINARY_DIR}/BundleConfig.cmake""
+#                  COMMENT ""Running CPACK. Please wait...""
+#                  DEPENDS ${PROJECT_NAME})
+#set(CPACK_GENERATOR)",[],CMake,0,42,46,No
+25155,bitfighter/bitfighter,https://github.com/bitfighter/bitfighter/blob/824d27212ad3c767c485052ca69c8008ae06a599/cmake/Platform/Apple.cmake#L155,# Set up our bundle plist variables,[],CMake,1,155,155,No
+4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/texlive/texk/dvi2tty/aclocal.m4#L537,dnl,[],Autotool,29,537,537,No
+1840,buzztrax/buzztrax,https://github.com/buzztrax/buzztrax/blob/833287c6a06bddc922cd346d6f0fcec7a882aee5/docs/reference/bt-gst/Makefile.am#L58,"# Images to copy into HTML directory.
+# e.g. HTML_IMAGES=$(top_srcdir)/gtk/stock-icons/stock_about_24.png",[],Autotool,0,58,59,No
+28349,oomph-lib/oomph-lib,https://github.com/oomph-lib/oomph-lib/blob/c03c48e58aac8da1b2868a503126743393ed1860/configure.ac#L873,"# Pass result of test to automake (makefiles can now check for
+# status of WANT_USER_SRC in any Makefile.am",[],Autotool,0,873,874,No
+27260,codevdynamics/codev-autopilot,https://github.com/codevdynamics/codev-autopilot/blob/944bb2346d91214ff2bc813031d5fbef866bf856/platforms/nuttx/src/px4/nxp/kinetis/io_pins/CMakeLists.txt#L1,"############################################################################
+#
+#   Copyright (c) 2015-2019 PX4 Development Team. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions
+# are met:
+#
+# 1. Redistributions of source code must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+# 2. Redistributions in binary form must reproduce the above copyright
+#    notice, this list of conditions and the following disclaimer in
+#    the documentation and/or other materials provided with the
+#    distribution.
+# 3. Neither the name PX4 nor the names of its contributors may be
+#    used to endorse or promote products derived from this software
+#    without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+# ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+# FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+# COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+# INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+# BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+# OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+# AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+# LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+# ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+# POSSIBILITY OF SUCH DAMAGE.
+#
+############################################################################",[],CMake,0,1,32,No
+929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/tests/0090_Mouse_Touch/_Android/app/jni/SDL2_image/external/libwebp-1.0.0/cmake/config.h.in#L90,/* Define to the home page for this package. */,[],Autotool,0,90,90,No
+25128,lanl/draco,https://github.com/lanl/draco/blob/6cf79984c947af9d7ef5f5f7661f0318bcc564c0/src/ds++/test/CMakeLists.txt#L53,# tstData_Table.cc will fail for RelWithDebugInfo. Set extra CPP macros as a work-around:,[],CMake,0,53,53,Yes
+4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/texlive/texk/cjkutils/Makefile.in#L288,"# A command that, given a newline-separated list of test names on the
+# standard input, print the name of the tests that are to be re-run
+# upon ""make recheck"".",[],Autotool,0,288,290,No
+14122,vespa-engine/vespa,https://github.com/vespa-engine/vespa/blob/5f308520b4030c1670c394a62bcb4cd1284476ef/logd/src/logd/CMakeLists.txt#L3,"# logd is the only cpp module using the protobuf files for the log protocol.
+# We have choosen to generate the cpp code where it is used, instead of changing the java logserver module to also generate and export cpp code just for this case.
+# If more cpp modules requires the cpp protobuf files we should move code generation to a common place.",[],CMake,0,3,5,No
+11895,mohabmohie/shaft_engine,https://github.com/mohabmohie/shaft_engine/blob/b5819dc9e1bdf76a4a0748797743d285d77db809/pom.xml#L824,<!--                    </execution>-->,[],Maven,0,824,824,No
+19988,petrppetrov/beautiful-capi,https://github.com/petrppetrov/beautiful-capi/blob/6e506c33321e92a73f63e88d18724fd296ee94cc/examples/down_cast/CMakeLists.txt#L1,"#
+# Beautiful Capi generates beautiful C API wrappers for your C++ classes
+# Copyright (C) 2015 Petr Petrovich Petrov
+#
+# This file is part of Beautiful Capi.
+#
+# Beautiful Capi is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Beautiful Capi is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Beautiful Capi.  If not, see <http://www.gnu.org/licenses/>.
+#",[],CMake,0,1,19,No
+3798,galkahana/pdf-writer,https://github.com/galkahana/pdf-writer/blob/e51c4b97c06da3d9514a7318a924be34829284da/FreeType/builds/unix/aclocal.m4#L1666,# The test takes a long time on OS/2.,[],Autotool,4,1666,1666,No
+25750,sdslabs/rootex,https://github.com/sdslabs/rootex/blob/0eabdfcc5d8ade8c1d838c75fc2d927d66e5f96d/rootex/vendor/Assimp/assimp/contrib/draco/cmake/draco_flags.cmake#L39,"# Tests compiler flags stored in list(s) specified by FLAG_LIST_VAR_NAMES, adds
+# flags to $DRACO_CXX_FLAGS when tests pass. Terminates configuration if
+# FLAG_REQUIRED is specified and any flag check fails.
+#
+# ~~~
+# draco_test_cxx_flag(<FLAG_LIST_VAR_NAMES <flag list variable(s)>>
+#                       [FLAG_REQUIRED])
+# ~~~",[],CMake,0,39,46,No
+4223,msys2/msys2-runtime,https://github.com/msys2/msys2-runtime/blob/1a5f889bdb136397b64e25311ad68c93806b3bea/newlib/libc/machine/iq2000/aclocal.m4#L132,dnl,[],Autotool,16,132,132,No
+26884,sbmlteam/libsbml,https://github.com/sbmlteam/libsbml/blob/6687b73a8144ab42d150c84ea8af2d2d4b729947/dev/utilities/build-python/python-src/CMakeLists.txt#L103,# on cygwin all code is position independent so -fPIC is not needed,[],CMake,3,103,103,No
+3226,libarchive/libarchive,https://github.com/libarchive/libarchive/blob/01a280fbf0794f575eb39d718a558896add18d30/build/cmake/config.h.in#L1224,/* Define to 1 if you have the `_gmtime64_s' function. */,[],Autotool,0,1224,1224,No
+4936,alibaba/alios-things,https://github.com/alibaba/alios-things/blob/85f0930be19b3fed265fd392c36332fdb5bdbfa7/components/SDL2/src/gfx/Test/aclocal.m4#L5789,# Report which library types will actually be built,[],Autotool,2,5789,5789,No
+21067,platoengine/platoengine,https://github.com/platoengine/platoengine/blob/b800ae2f5b12e570c27c0304841c349597bbd5ed/base/config/runtest.cmake#L49,# 2. Find and run epu if parallel,[],CMake,0,49,49,No
+4260,texjporg/tex-jp-build,https://github.com/texjporg/tex-jp-build/blob/124d1a4c69d6f5f4a70f2f8d2800481672780540/source/texk/web2c/Makefile.in#L8663,# am--include-marker,[],Autotool,71,8663,8663,No
+6846,existos-team/existos-for-hp39gii,https://github.com/existos-team/existos-for-hp39gii/blob/00bb9c1c8f4082bf9c6350472caf59ef9c3d88c2/Libs/src/SymbolicC++3-3.35/aclocal.m4#L8413,dnl,[],Autotool,22,8413,8413,No
+19557,lubomyr/bochs,https://github.com/lubomyr/bochs/blob/8e0b9abcd81cd24d4d9c68f7fdef2f53bc180d33/iodev/hdimage/Makefile.in#L85,# standard compile rule for C++ files,[],Autotool,0,85,85,No
+2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/subrepo-cheri-compiler-rt/cmake/config-ix.cmake#L182,# List of all architectures we can target.,[],CMake,0,182,182,No
+21082,aphysci/gravity,https://github.com/aphysci/gravity/blob/85f6452e58f49862388b41e959f029e67b3aaad5/test/examples/13-Relay/Makefile.in#L62,"#SYSTEM:=LINUX
+#SYSTEM=MINGW32_NT-6.1
+#WARNING: DON'T PUT SPACES OR QUOTES IN COMPARISON STRING!!!",[],Autotool,0,62,64,No
+2255,etclabs/rdmnet,https://github.com/etclabs/rdmnet/blob/64448386fe48e2fc9195b62044423dc3d1c6f12c/cmake/RdmnetAddDependency.cmake#L20,"# Step 3 - look for the dependency in a folder with the same name as the
+# target, at the same level as this folder",[],CMake,4,20,21,No
+5425,gsjaardema/seacas,https://github.com/gsjaardema/seacas/blob/c0d8eb12701c845cb1444b09025f31d86d3c1c28/cmake/tribits/ctest_driver/TribitsCTestDriverCore.cmake#L1884,"# Set if we should disable enabled fwd packages based on disabled required deps.
+# To make testing robust, we need to do this.",[],CMake,2,1884,1885,No
+24049,metashell/metashell,https://github.com/metashell/metashell/blob/1b6785b9259224e51f96a512a429cd52b1ce68a3/3rd/templight/llvm/cmake/platforms/WinMsvc.cmake#L287,# Prevent CMake from attempting to invoke mt.exe. It only recognizes the slashed form and not the dashed form.,[],CMake,4,287,287,No
+1349,tpoechtrager/cctools-port,https://github.com/tpoechtrager/cctools-port/blob/04663295d0425abfac90a42440a7ec02d7155fea/cctools/libobjc2/CMakeLists.txt#L355,# uninstall target,[],CMake,0,355,355,No
+5012,libmesh/libmesh,https://github.com/libmesh/libmesh/blob/34ce67b4c2df561dfaaae0e7c42415a945ce8064/contrib/nemesis/v5.22/nemesis/Makefile.in#L618,"######################################################################
+#
+# Building the flavors
+#",[],Autotool,0,618,621,No
+28673,pingcap/tiflash,https://github.com/pingcap/tiflash/blob/3688d78082a281877d8ded4e5a99b220fcafde2e/cmake/Modules/CodeCoverage.cmake#L242,# Collect excludes (CMake 3.4+: Also compute absolute paths),[],CMake,4,242,242,No
+2491,minimsecure/unum-sdk,https://github.com/minimsecure/unum-sdk/blob/1681a5373ad0276de9ba3ce4ab77b79dcc98aaae/src/curl/curl-7.84.0/tests/libtest/Makefile.in#L4711,# am--include-marker,[],Autotool,88,4711,4711,No
+4641,d3x0r/sack.vfs,https://github.com/d3x0r/sack.vfs/blob/508740d4488a1d113b12e6241923e862917b7309/src/sack/libressl/3.5.3/tests/Makefile.in#L2185,# am--include-marker,[],Autotool,74,2185,2185,No
+26478,gnuradio/gnuradio,https://github.com/gnuradio/gnuradio/blob/463c3477549b26b32d9b73eef30044e97c4eee64/cmake/Modules/GrPybind.cmake#L75,"# message(STATUS ${file} "":"" ${flag_auto} "":"" ${flag_pygccxml} "":"" ${header_filename} "":"" ${header_file_hash})",[],CMake,8,75,75,No
+7111,touchbyte/gphoto2framework,https://github.com/touchbyte/gphoto2framework/blob/0929e04f415fdfc1449dbd4e497bcde363add025/libgphoto2/libgphoto2_port/configure.ac#L215,"#include <ioctl-types.h>], [int foo = TIOCM_RTS;],",[],Autotool,16,215,215,No
+21338,pandasws/pandas,https://github.com/pandasws/pandas/blob/a7cbe4e784e3971bf86667e5c31cf84c26bc7cf5/3rdparty/rapidyaml/ext/c4core/cmake/CreateSourceGroup.cmake#L24,"#message(STATUS ""  ${RelativePath}"")",[],CMake,4,24,24,No
+19624,frcteam1967/frcteam1967,https://github.com/frcteam1967/frcteam1967/blob/9ab643e8d5a48a8bb9424b92b4beeac2e717c055/code/2018/jetson/oldntcore/ntcore/gmock/CMakeLists.txt#L32,"# Name of the project.
+#
+# CMake files in this project can refer to the root source directory
+# as ${gmock_SOURCE_DIR} and to the root binary directory as
+# ${gmock_BINARY_DIR}.
+# Language ""C"" is required for find_package(Threads).",[],CMake,0,32,37,No
+19226,fritzo/pomagma,https://github.com/fritzo/pomagma/blob/224bb6adab3fc68e2d853e6365b4b86a8f7f468f/include/pomagma/third_party/googletest-1.8.0/googlemock/Makefile.am#L210,"# Death tests may produce core dumps in the build directory. In case
+# this happens, clean them to keep distcleancheck happy.",[],Autotool,0,210,211,No
+1699,openbsm/openbsm,https://github.com/openbsm/openbsm/blob/5e6da760e2a6859f7f3f24232d4861b8a9dad3eb/config/config.h.in#L210,/* Define to 1 if you have the <vfork.h> header file. */,[],Autotool,0,210,210,No
+19067,lbryio/lbrycrd,https://github.com/lbryio/lbrycrd/blob/71fc94b1dea1c7818f84a09832ec3db736481e0f/configure.ac#L313,"## Some compilers (gcc) ignore unknown -Wno-* options, but warn about all
+## unknown options if any other warning is produced. Test the -Wfoo case, and
+## set the -Wno-foo case if it works.",[],Autotool,2,313,315,No
+27060,organicmaps/organicmaps,https://github.com/organicmaps/organicmaps/blob/b71e3c6e0296dfa59cc27461ce168c171306fecc/3party/osrm/osrm-backend/cmake/FindDebArch.cmake#L1,"#
+# Copyright (C) 2013	Emmanuel Roullit <emmanuel.roullit@gmail.com>
+#",[],CMake,0,1,3,No
+5280,lnis-uofu/openfpga,https://github.com/lnis-uofu/openfpga/blob/30988d70720fb8516da5a8bf54b384f8b8561b44/libs/EXTERNAL/tcl8.6.12/unix/configure.in#L609,# Build .bundle dltest binaries in addition to .dylib,[],Autotool,4,609,609,No
+22226,dimkanovikov/kitscenarist,https://github.com/dimkanovikov/kitscenarist/blob/70ebff68c67242ee4f9a5d1f6397f00d0dd471ff/src/libs/qBreakpad/third_party/breakpad/aclocal.m4#L210,dnl,[],Autotool,36,210,210,No
+18359,packtpublishing/jooq-masterclass,https://github.com/packtpublishing/jooq-masterclass/blob/a011ff57ffc0ec73a5ea1e26b48b7e3bfb209206/Chapter14/MySQL/Maven/Views/DbViewsEx/pom.xml#L173,<!-- Schema version provider -->,[],Maven,36,173,173,No
+12267,wso2/micro-integrator,https://github.com/wso2/micro-integrator/blob/8d6f83be5bbbf74675752fce1f949dfa2b133cad/integration/pom.xml#L905,<!--                Commenting out cli-tests since it does not support windows currently -->,[],Maven,0,905,905,No
+24048,lagadic/visp,https://github.com/lagadic/visp/blob/421f193e8dd9b03b825ce4b652ef5aac09a42c92/cmake/VISPUtils.cmake#L345,# remove all matching elements from the list,[],CMake,0,345,345,No
+4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/texlive/texk/dvipos/aclocal.m4#L1,# generated automatically by aclocal 1.16.5 -*- Autoconf -*-,[],Autotool,0,1,1,No
+13079,cloudslang/score,https://github.com/cloudslang/score/blob/db9da1c4925e85be9c69172e8089a56d415d214e/engine/data/score-data-api/pom.xml#L2,"<!--
+
+    Copyright © 2014-2017 EntIT Software LLC, a Micro Focus company (L.P.)
+
+    Licensed under the Apache License, Version 2.0 (the ""License"");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an ""AS IS"" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->",[],Maven,0,2,18,No
+10967,spoonlabs/astor,https://github.com/spoonlabs/astor/blob/f11f0b8f19120286ff3c92db6d9d8c5a40f098f1/examples/math_1/build.xml#L33,<!-- ========== External Dependencies ===================================== -->,[],Ant,0,33,33,No
+22122,i3drobotics/stereo-vision-toolkit,https://github.com/i3drobotics/stereo-vision-toolkit/blob/50525768a76c30aeedc86d1f1853a96200312196/3rdparty/vtk/lib/cmake/vtk-7.0/VTKTargets.cmake#L471,# Create imported target vtkGUISupportQtSQL,[],CMake,0,471,471,No
+1137,msteveb/autosetup,https://github.com/msteveb/autosetup/blob/551288c592718650fcecb9d9324141db845e5a60/examples/iftop/configure.in#L198,"dnl Best hope is netdb, which presently means gethostbyaddr_r.",[],Autotool,1,198,198,No
+5369,portaudio/portaudio,https://github.com/portaudio/portaudio/blob/8b6d16f26ad660e68a97743842ac29b939f3c0c1/aclocal.m4#L7216,"# No sense in running all these tests if we already determined that
+# the F77 compiler isn't working.  Some variables (like enable_shared)
+# are currently assumed to apply to all compilers on this platform,
+# and will be corrupted by setting them based on a non-working compiler.",[],Autotool,0,7216,7219,Yes
+24364,micbosi/visualizationlibrary,https://github.com/micbosi/visualizationlibrary/blob/d2a0e321288152008957e29a0bc270ad192f75be/src/external/libpng/aclocal.m4#L2170,# _LT_CHECK_OBJDIR,[],Autotool,2,2170,2170,No
+20399,mcneel/cycles,https://github.com/mcneel/cycles/blob/4a9d1482cdd5b0306dfe7ef70a0ab6d7c2bcb40e/CMakeLists.txt#L64,# Force standalone build.,[],CMake,0,64,64,No
+13383,eclipse-ee4j/glassfish,https://github.com/eclipse-ee4j/glassfish/blob/37fb6ecc82acf0a6c89e86ce967435520a1bfb78/appserver/tests/tck/validation/pom.xml#L56,"<!-- Utility classes for TestNG and Arquillian, used in suite.xml -->",[],Maven,8,56,56,No
+25852,rafalh/dashfaction,https://github.com/rafalh/dashfaction/blob/0b7e08346cf97a881cae59292e12d4ddb4ad544c/vendor/freetype/builds/unix/aclocal.m4#L4688,# PIC (with -KPIC) is the default.,[],Autotool,6,4688,4688,No
+4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/texlive/libs/cairo/Makefile.in#L1817,# am--include-marker,[],Autotool,100,1817,1817,No
+27415,o3de/o3de,https://github.com/o3de/o3de/blob/bbca16f005596624dda860ada8b1f0ac32350295/Templates/MinimalProject/Template/Gem/Platform/Windows/PAL_windows.cmake#L1,"# {BEGIN_LICENSE}
+# Copyright (c) Contributors to the Open 3D Engine Project.
+# For complete copyright and license terms please see the LICENSE at the root of this distribution.
+#
+# SPDX-License-Identifier: Apache-2.0 OR MIT
+#
+# {END_LICENSE}",[],CMake,0,1,7,No
+6674,llnl/silo,https://github.com/llnl/silo/blob/2597088f1b0c48873fee8635ce788df0defaf5b2/aclocal.m4#L916,# Set $PYTHON to the absolute path of $am_cv_pathless_PYTHON.,[],Autotool,6,916,916,No
+5462,imagemagick/imagemagick,https://github.com/imagemagick/imagemagick/blob/f1337d85b058da0a168a5a6bb7ba65fd5e1e4711/config/config.h.in#L254,/* Define to 1 if you have the `j0' function. */,[],Autotool,0,254,254,No
+6590,timothyschoen/plugdata,https://github.com/timothyschoen/plugdata/blob/d75bcebe84a22860331da123e3e37922e75cea1a/Libraries/ELSE/sfont~/fluidsynth_deps/libsndfile-1.1.0/CMakeLists.txt#L1433,### rf64-tests,[],CMake,1,1433,1433,No
+61,fransschreuder/usbpicprog,https://github.com/fransschreuder/usbpicprog/blob/af0bfb267c7e28e19add71e73bc5ae9cb53f4ade/trunk/upp_wx/aclocal.m4#L416,dnl,[],Autotool,33,416,416,No
+5293,arm-software/scp-firmware,https://github.com/arm-software/scp-firmware/blob/95ab0ba6a09bf4cc114ec39688974badac2bf508/product/rdn1e1/mcp_romfw/CMakeLists.txt#L25,"#
+# Some of our firmware includes require CMSIS.
+#",[],CMake,0,25,27,No
+18243,camunda-consulting/camunda-7-code-examples,https://github.com/camunda-consulting/camunda-7-code-examples/blob/9ebfb58a49b4824e28c1502c9535dd572c2126c1/snippets/azure-oauth2-cambpm-web/pom.xml#L76,<!--            <groupId>org.camunda.bpm.springboot</groupId>-->,[],Maven,0,76,76,No
+20713,bonexgoo/boss2d,https://github.com/bonexgoo/boss2d/blob/cbc354481348aa409b1c36250490627c6c9758b0/Boss2D/addon/libogg-1.3.3_for_boss/include/Makefile.in#L6,"# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.",[],Autotool,0,6,8,No
+5948,fastshift/x-track,https://github.com/fastshift/x-track/blob/9ce62a703264428e55b005daf3e93fe36cf44d05/Software/X-Track/Simulator/LVGL.Simulator/lvgl/tests/CMakeLists.txt#L241,# unused variables are common in the dual-heap arrangement,[],CMake,33,241,241,No
+20996,google/llvm-propeller,https://github.com/google/llvm-propeller/blob/12c6e82d147114db217c75ed17b14e2c892aba48/libc/cmake/modules/LLVMLibCObjectRules.cmake#L204,# We llvm-objcopy here as GNU-binutils objcopy does not support the 'hidden' flag.,[],CMake,4,204,204,No
+2921,gambit/gambit,https://github.com/gambit/gambit/blob/253c1ec34b2a6ec6ed4aea11fcfcc07eeaf913d1/examples/tcltk/makefile.in#L3,"# Copyright (c) 1997-2021 by Marc Feeley, All Rights Reserved.",[],Autotool,0,3,3,No
+1030,devkitpro/newlib,https://github.com/devkitpro/newlib/blob/484d2ebf8d825b28af47b8ee88cd845f1d2c7c6e/newlib/libc/machine/h8300/aclocal.m4#L678,# Now try BSD make style include.,[],Autotool,0,678,678,No
+20991,freeminer/freeminer,https://github.com/freeminer/freeminer/blob/57fae8875f50094ad8694ba40d6f89d38d321147/src/CMakeLists.txt#L515,# Use cmake_config.h,[],CMake,0,515,515,No
+23011,smartdevicelink/sdl_core,https://github.com/smartdevicelink/sdl_core/blob/65947fd1eb30a392948d67003df0fe803c070c6b/src/3rd_party-static/gmock-1.7.0/aclocal.m4#L9051,dnl,[],Autotool,18,9051,9051,No
+25267,mozilla/deepspeech,https://github.com/mozilla/deepspeech/blob/aa1d28530d531d0d92289bf5f11a49fe516fdc86/native_client/java/libdeepspeech/CMakeLists.txt#L46,"# Specifies the name of the NDK library that
+# you want CMake to locate.",[],CMake,14,46,47,No
+23885,unidata/netcdf-cxx4,https://github.com/unidata/netcdf-cxx4/blob/4d5a7adbace9c5571af0aa8bd10b3fe768794c6f/CMakeLists.txt#L274,"################################
+# User Options
+################################",[],CMake,0,274,276,No
+4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/texlive/texk/ttf2pk2/aclocal.m4#L1185,# _AM_PROG_TAR,[],Autotool,3,1185,1185,No
+26313,ornl-qci/qcor,https://github.com/ornl-qci/qcor/blob/b0ab77d0e594f5e84720b34e71a9c0eb05a60ae6/docs/doxygen/Doxyfile.cmake#L953,"# The INPUT_FILTER tag can be used to specify a program that doxygen should
+# invoke to filter for each input file. Doxygen will invoke the filter program
+# by executing (via popen()) the command:
+#
+# <filter> <input-file>
+#
+# where <filter> is the value of the INPUT_FILTER tag, and <input-file> is the
+# name of an input file. Doxygen will then use the output that the filter
+# program writes to standard output. If FILTER_PATTERNS is specified, this tag
+# will be ignored.
+#
+# Note that the filter must not add or remove lines; it is applied before the
+# code is scanned, but not when the output code is generated. If lines are added
+# or removed, the anchors will not be placed correctly.
+#
+# Note that for custom extensions or not directly supported extensions you also
+# need to set EXTENSION_MAPPING for the extension otherwise the files are not
+# properly processed by doxygen.",[],CMake,0,953,970,Yes
+6552,higarfield/lede-17.01.4-mod,https://github.com/higarfield/lede-17.01.4-mod/blob/925f22ea9f93b2c5cc4273afdda08f0f1e874c55/tools/upx/ucl-1.03/aclocal.m4#L6591,# _AM_OUTPUT_DEPENDENCY_COMMANDS,[],Autotool,2,6591,6591,No
+1068,beyondtrust/pbis-open,https://github.com/beyondtrust/pbis-open/blob/60d0d21cbb43ad8740944e79456000a086d4687f/cyrus-sasl/saslauthd/configure.in#L262,"#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifndef WIN32
+# include <netdb.h>   
+# include <sys/param.h>
+#else /* WIN32 */
+# include <winsock2.h>
+#endif /* WIN32 */ 
+#include <string.h>",[],Autotool,0,262,271,No
+22752,nextgis/formbuilder,https://github.com/nextgis/formbuilder/blob/8fdd5e85a4ff87db18e7fbd22ee2266f55a596cd/cmake/FindGDAL.cmake#L88,# DarwinPorts,[],CMake,23,88,88,No
+22754,valharis/asc-hq,https://github.com/valharis/asc-hq/blob/fa3bca082a5cea2b35812349f99b877f0113aef0/source/dialogs/Makefile.in#L518,# am--include-marker,[],Autotool,76,518,518,No
+929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/tests/0100_GUI_App/_Android/app/jni/SDL2_ttf_HarfBuzz/external/freetype-2.4.12/builds/unix/aclocal.m4#L144,"# _LT_FILEUTILS_DEFAULTS
+# ----------------------
+# It is okay to use these file commands and assume they have been set
+# sensibly after `m4_require([_LT_FILEUTILS_DEFAULTS])'.",[],Autotool,0,144,147,No
+5050,ottodiy/blockly,https://github.com/ottodiy/blockly/blob/20639cf9237a678345e61ed78cc7d5d932875dbd/compilation/arduino/userlibs/libraries/ArduinoJson/src/CMakeLists.txt#L25,# locations are provided by GNUInstallDirs,[],CMake,0,25,25,No
+24995,inviwo/inviwo,https://github.com/inviwo/inviwo/blob/83b35553c53fe9978efc7db6c1bbe328942da43a/ext/tiff/cmake/JPEGCodec.cmake#L27,# JPEG,[],CMake,0,27,27,No
+4473,mm2/little-cms,https://github.com/mm2/little-cms/blob/55068d311d0a8ab6fe908d6f72ddd2132e34bb14/aclocal.m4#L434,dnl,[],Autotool,45,434,434,No
+21082,aphysci/gravity,https://github.com/aphysci/gravity/blob/85f6452e58f49862388b41e959f029e67b3aaad5/config.h.in#L90,/* Define to 1 if you have the <stddef.h> header file. */,[],Autotool,0,90,90,No
+19924,yuangu/sxtwl_cpp,https://github.com/yuangu/sxtwl_cpp/blob/07e989a5230ff7b57dece2f352b90fde806d497b/cmake/android.cmake#L351,# remove cygwin from PATH,[],CMake,2,351,351,No
+4962,chan-sccp/chan-sccp,https://github.com/chan-sccp/chan-sccp/blob/c1533a6b5ab5aa77fd55f432884a56d1c9601588/aclocal.m4#L512,dnl,[],Autotool,32,512,512,No
+8700,bmwcarit/joynr,https://github.com/bmwcarit/joynr/blob/acf9de8974132e299f1aa2a5ba05ae11d3f2f270/tests/inter-language-test/CMakeLists.txt#L120,# Use the generated source files for the provider application,[],CMake,0,120,120,No
+26833,logicalclocks/rondb,https://github.com/logicalclocks/rondb/blob/40a1ef8a63ff35d6dcd0b70d542daaee94c85537/router/src/CMakeLists.txt#L41,"# Directory layout after 'make install' is different.
+# Create symlinks to ssl libraries for both: build and install layouts",[],CMake,0,41,42,No
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/user/firefly/mt-daapd-svn/aclocal.m4#L3323,"#
+# Check to make sure the static flag actually works.
+#",[],Autotool,0,3323,3325,No
+4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/texlive/libs/harfbuzz/aclocal.m4#L538,"dnl The testsuite driver may need to know about EXEEXT, so add the
+dnl 'am__EXEEXT' conditional if _AM_COMPILER_EXEEXT was seen.  This
+dnl macro is hooked onto _AC_COMPILER_EXEEXT early, see below.",[],Autotool,0,538,540,No
+23915,swagsoftware/kisak-strike,https://github.com/swagsoftware/kisak-strike/blob/4c2fdc31432b4f5b911546c8c0d499a9cff68a85/engine/voice_codecs/speex/source/aclocal.m4#L3756,# For backwards non-gettext consistent compatibility...,[],Autotool,2,3756,3756,No
+26472,urho3d/urho3d,https://github.com/urho3d/urho3d/blob/d4c94ad8104ae3d14eb6d6e4ed0fbfad828e08f4/Source/Samples/51_Urho2DStretchableSprite/CMakeLists.txt#L17,# Setup test cases,[],CMake,0,17,17,No
+3941,cpc/tce,https://github.com/cpc/tce/blob/92a6a54a5e72a4176849fcb799661709a3a01516/tce/newlib-1.17.0/newlib/libc/machine/d30v/aclocal.m4#L786,"# Copyright (C) 2004, 2005  Free Software Foundation, Inc.
+#
+# This file is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.",[],Autotool,0,786,790,No
+4890,metacall/core,https://github.com/metacall/core/blob/296236e7e1a52d5a407481cbb82717ca918e1f1f/source/tests/metacall_wasm_test/CMakeLists.txt#L10,# Target name,[],CMake,0,10,10,No
+24506,llnl/metall,https://github.com/llnl/metall/blob/c47a83e42465836f92cd916a055ab5c00034647d/example/cmake/FetchContent/CMakeLists.txt#L6,# Metall requires C++ 17,[],CMake,0,6,6,No
+25961,microsoft/nnfusion,https://github.com/microsoft/nnfusion/blob/bd4f6feed217a43c9ee9be16f02fa8529953579a/src/tools/CMakeLists.txt#L1,"# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.",[],CMake,0,1,2,No
+3459,arakiken/mlterm,https://github.com/arakiken/mlterm/blob/ddc9a846a198216cc065901d8a81d8d2801bd70e/encodefilter/aclocal.m4#L7427,"# _LT_FUNC_STRIPNAME_CNF
+# ----------------------
+# func_stripname_cnf prefix suffix name
+# strip PREFIX and SUFFIX off of NAME.
+# PREFIX and SUFFIX must not contain globbing or regex special
+# characters, hashes, percent signs, but SUFFIX may contain a leading
+# dot (in which case that matches only a dot).
+#
+# This function is identical to the (non-XSI) version of func_stripname,
+# except this one can be used by m4 code that may be executed by configure,
+# rather than the libtool script.",[],Autotool,0,7427,7437,No
+22843,dlr-sc/tigl,https://github.com/dlr-sc/tigl/blob/7bc9d359006db00fd9f63ddcacc1bf77852bd5dd/thirdparty/googletest/googletest/CMakeLists.txt#L8,"# When other libraries are using a shared version of runtime libraries,
+# Google Test also has to use one.",[],CMake,0,8,9,No
+26285,khronosgroup/opencl-cts,https://github.com/khronosgroup/opencl-cts/blob/86d5ee54140a9b0bf2bef5770e00748438bf05fe/CMakeLists.txt#L119,"# Don't warn about using the portable ""strdup"" function.",[],CMake,4,119,119,No
+21334,mc2-project/secure-xgboost,https://github.com/mc2-project/secure-xgboost/blob/6c9119446fdf8d723f245ba34412f6c3b4a0f140/host/dmlc-core/tracker/yarn/pom.xml#L30,<!-- 'mvn dependency:analyze' fails to detect use of this dependency -->,[],Maven,4,30,30,Yes
+21685,firebase/quickstart-cpp,https://github.com/firebase/quickstart-cpp/blob/84c6f1e7d0140de999823739e2c7bd701125e7ca/functions/testapp/CMakeLists.txt#L38,# Build an Android application.,[],CMake,2,38,38,No
+25554,mosra/magnum,https://github.com/mosra/magnum/blob/1925da0a7397581049b1b57e22f07162bd26b4a7/src/Magnum/ShaderTools/Test/CMakeLists.txt#L26,"# IDE folder in VS, Xcode etc. CMake 3.12+, older versions have only the FOLDER
+# property that would have to be set on each target separately.",[],CMake,0,26,27,Yes
+4223,msys2/msys2-runtime,https://github.com/msys2/msys2-runtime/blob/1a5f889bdb136397b64e25311ad68c93806b3bea/newlib/libc/machine/crx/aclocal.m4#L134,dnl,[],Autotool,56,134,134,No
+10904,revapi/revapi,https://github.com/revapi/revapi/blob/0bdbc2f87ec39c388fdc936e73859a4591193477/revapi-maven-plugin/src/it/build/simple-tests/war/v1/pom.xml#L2,"<!--
+
+    Copyright 2014-2017 Lukas Krejci
+    and other contributors as indicated by the @author tags.
+
+    Licensed under the Apache License, Version 2.0 (the ""License"");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an ""AS IS"" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->",[],Maven,0,2,19,No
+6263,libsdl-org/sdl_net,https://github.com/libsdl-org/sdl_net/blob/91df2e1f9a0da089db0a356e2aebaae68c3f2c1b/aclocal.m4#L358,# Strip MF so we end up with the name of the file.,[],Autotool,4,358,358,No
+22523,khronosgroup/sycl-cts,https://github.com/khronosgroup/sycl-cts/blob/4bab3d6767ccf14a615ecbb62f8a80c8a9128e95/CMakeLists.txt#L87,"# ------------------
+# Measure build times",[],CMake,0,87,88,No
+24058,xlgames-inc/xle,https://github.com/xlgames-inc/xle/blob/69cc4f2aa4faf12ed15bb4291c6992c83597899c/Foreign/Antlr-3.4/libantlr3c-3.4/aclocal.m4#L325,dnl,[],Autotool,26,325,325,No
+20951,crompulence/cpl-library,https://github.com/crompulence/cpl-library/blob/696b89528fe47bb7ef506f15fb54b08db455592e/src/utils/overlap/eigen/cmake/FindLAPACK.cmake#L115,"#message(""DEBUG: CMAKE_REQUIRED_LIBRARIES = ${CMAKE_REQUIRED_LIBRARIES}"")",[],CMake,4,115,115,No
+2153,dun/munge,https://github.com/dun/munge/blob/afbd4f9b2a4155ed64c73757dc19c0053dde83c1/src/libmunge/Makefile.am#L60,# End of libmunge_la_LIBADD,[],Autotool,1,60,60,No
+5285,visit-dav/visit,https://github.com/visit-dav/visit/blob/119ef623e8ad2ddbdf58a760c0a20f9de4c1c029/src/CMake/FindJPEG.cmake#L21,# Use the JPEG_DIR hint from the config-site .cmake file,[],CMake,0,21,21,No
+28427,phandasm/waveform,https://github.com/phandasm/waveform/blob/e8e5024e15dba5464a4efd35b32e564767ad6327/deps/fftw-3.3.10/dft/simd/vsx/Makefile.in#L775,# am--include-marker,[],Autotool,71,775,775,No
+23011,smartdevicelink/sdl_core,https://github.com/smartdevicelink/sdl_core/blob/65947fd1eb30a392948d67003df0fe803c070c6b/src/3rd_party-static/gmock-1.7.0/gtest/aclocal.m4#L794,"dnl Find a Python interpreter.  Python versions prior to 2.0 are not
+dnl supported. (2.0 was released on October 16, 2000).",[],Autotool,2,794,795,No
+11716,eclipse/nebula,https://github.com/eclipse/nebula/blob/29ea021be0f8f799fbd816ca918d7e0676d81714/widgets/pagination/org.eclipse.nebula.widgets.pagination.example/pom.xml#L3,"<!--
+Copyright (C) 2012, 2013, 2017, RemainSoftware & Red Hat Inc.
+
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+
+Contributors:
+ * Wim Jongman (RemainSoftware)
+ * Mickael Istria (Red Hat Inc.)
+-->",[],Maven,0,3,14,No
+18359,packtpublishing/jooq-masterclass,https://github.com/packtpublishing/jooq-masterclass/blob/a011ff57ffc0ec73a5ea1e26b48b7e3bfb209206/Chapter07/PostgreSQL/Maven/Binding/JsonBinding/pom.xml#L164,"<!-- All 'manager_detail' fields in any 'manager' table, no matter the schema -->",[],Maven,44,164,164,No
+27336,doris-vectorized/doris-vectorized,https://github.com/doris-vectorized/doris-vectorized/blob/f128c3c50e217a4269a8df4acb8a87512406687f/samples/doris-demo/spring-jdbc-demo/pom.xml#L80,<!-- pool -->,[],Maven,4,80,80,No
+4557,xyce/xyce,https://github.com/xyce/xyce/blob/98263f4aba08e1b3f0a392a3f88373f1d4e7a8a1/src/test/DeviceInterface/CMakeLists.txt#L9,"#if( Xyce_ENABLED_SHARED )
+#  target_link_librarie( DeviceInterfaceTest lib_xyce_shared )
+#else( Xyce_ENABLED_SHARED )
+#  target_link_libraries( DeviceInterfaceTest lib_xyce_static )
+#endif( Xyce_ENABLED_SHARED )",[],CMake,0,9,13,No
+23601,sems-server/sems,https://github.com/sems-server/sems/blob/94a820aaaf377abcf5520aad8bf4525214a53329/apps/CMakeLists.txt#L18,#ADD_SUBDIRECTORY(examples),[],CMake,0,18,18,No
+4260,texjporg/tex-jp-build,https://github.com/texjporg/tex-jp-build/blob/124d1a4c69d6f5f4a70f2f8d2800481672780540/source/texk/aclocal.m4#L661,"# Copyright (C) 1996-2021 Free Software Foundation, Inc.
+#
+# This file is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.",[],Autotool,0,661,665,No
+23886,optimad/bitpit,https://github.com/optimad/bitpit/blob/b6f754f7930610f8c83d1b65a1b07a92f04a4635/CMakeLists.txt#L268,# Find needed executables,[],CMake,8,268,268,No
+7603,ome/bioformats,https://github.com/ome/bioformats/blob/1477ee96e5215c55f15cd3efdb6fd91e386a0023/pom.xml#L70,<!-- NB: Specify formatting of the maven.build.timestamp property. -->,[],Maven,4,70,70,No
+6647,hanwckf/padavan-4.4,https://github.com/hanwckf/padavan-4.4/blob/ff77acc51a4ad5d88660f0ac25a34a1f6f9060c6/trunk/libs/libiconv/libiconv-1.16/configure.ac#L53,dnl           checks for build configuration,[],Autotool,0,53,53,No
+29152,scientificword/mozilla,https://github.com/scientificword/mozilla/blob/e8117bd81d7fcccbf0351c68793f66d68a56eb72/editor/libeditor/base/Makefile.in#L89,"# Transactions: we'd like to split these off,
+# but currently they and nsEditor are too intertwined!",[],Autotool,0,89,90,Yes
+22504,danceos/fail,https://github.com/danceos/fail/blob/c78bbcb632f307160207b993ace7d6000ca25d36/debuggers/openocd/aclocal.m4#L9517,# directory).,[],Autotool,0,9517,9517,No
+929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/SDL2_image/external/jpeg-9b/aclocal.m4#L1521,# Ensure the archiver fails upon bogus file names.,[],Autotool,1,1521,1521,No
+19649,ampl/coin,https://github.com/ampl/coin/blob/6efc777c3c052b0830806ab46ef848f4cc3cff6b/Cbc/Cbc/examples/Makefile.in#L19,"# CHANGEME: Here is the name of all object files corresponding to the source
+#           code that you wrote in order to define the problem statement",[],Autotool,0,19,20,No
+4223,msys2/msys2-runtime,https://github.com/msys2/msys2-runtime/blob/1a5f889bdb136397b64e25311ad68c93806b3bea/newlib/libc/sys/sh/aclocal.m4#L670,# Ignore all kinds of additional output from `make'.,[],Autotool,0,670,670,No
+25446,ncar/lrose-core,https://github.com/ncar/lrose-core/blob/c4d73fa64c6c697bc20b005afe0ee67d7b0a8565/codebase/apps/mdv_utils/src/MdvThresh/CMakeLists.txt#L87,"# add serial, for odd Debian hdf5 install",[],CMake,0,87,87,No
+25555,diasurgical/devilutionx,https://github.com/diasurgical/devilutionx/blob/68d57bd2d742dd46799114dfb8a89a5888514837/CMake/platforms/amiga.cmake#L7,# Enable exception support as they are used in dvlnet code,[],CMake,0,7,7,No
+26510,multitheftauto/mtasa-blue,https://github.com/multitheftauto/mtasa-blue/blob/2141bf1276bfeafc032e931fb51159efbd152960/vendor/google-breakpad/aclocal.m4#L593,dnl,[],Autotool,56,593,593,No
+25206,thelfer/tfel,https://github.com/thelfer/tfel/blob/40fae366176ecdf2b9d4a547a1292facfae4fa1b/configure.ac#L32,#disable static library generation by default,[],Autotool,0,32,32,No
+6546,puppylinux-woof-ce/gtkdialog,https://github.com/puppylinux-woof-ce/gtkdialog/blob/c3164a8505b053e4f3973ec81ca1d75b0ef0b144/aclocal.m4#L776,dnl,[],Autotool,32,776,776,No
+5266,opensmalltalk/opensmalltalk-vm,https://github.com/opensmalltalk/opensmalltalk-vm/blob/c7684b557f5017aa4da2f35670450d17662406f8/building/linux64x64/third-party/alsa-lib-1.0.17a/aclocal.m4#L6890,"# Check whether the underlying file-system supports filenames
+# with a leading dot.  For instance MS-DOS doesn't.",[],Autotool,0,6890,6891,No
+4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/texlive/texk/web2c/Makefile.in#L22318,# Generate euptex.web,[],Autotool,0,22318,22318,No
+3818,gideros/gideros,https://github.com/gideros/gideros/blob/7209fab88c88426fde23812f0a5ae2f623a21dbe/plugins/ogg/source/libtheora-1.1.1/doc/spec/Makefile.in#L468,# rules to generate latex and pdf versions of the xfig figures,[],Autotool,0,468,468,No
+26570,spinti-software/cpcdosos2.1,https://github.com/spinti-software/cpcdosos2.1/blob/4f239898b57272c01a85ab6015cff2b0db562a06/CONTRIB/zlib/aclocal.m4#L502,dnl,[],Autotool,30,502,502,No
+917,dnasdw/3dstool,https://github.com/dnasdw/3dstool/blob/9c4336bca8898f3860b41241b8a7d9d4a6772e79/dep/src/curl-7.68.0/tests/libtest/Makefile.in#L3454,# am--include-marker,[],Autotool,76,3454,3454,No
+25895,opentoonz/opentoonz,https://github.com/opentoonz/opentoonz/blob/5f1a0bedc7d279baf4da1e99c536062ead2f08f1/thirdparty/libjpeg-turbo/libjpeg-turbo-2.0.6/CMakeLists.txt#L1284,# Context rows: Yes  Intra-iMCU row: No   iMCU row prefetch: Yes  ENT: arith,[],CMake,2,1284,1284,No
+19435,khronosgroup/llvm-spirv-backend,https://github.com/khronosgroup/llvm-spirv-backend/blob/ff47f31276449a7de63e4661dc4497b7820c5d2a/runtimes/CMakeLists.txt#L153,"# Add a global check rule now that all subdirectories have been traversed
+# and we know the total set of lit testsuites.",[],CMake,2,153,154,No
+2308,seemoo-lab/nexmon,https://github.com/seemoo-lab/nexmon/blob/4087b4e5a408e6e1c4e5cbf4fd098b74bf74cdfa/utilities/gettext/gettext-tools/tests/Makefile.in#L652,"# To be inserted before the command running the test.  Creates the
+# directory for the log if needed.  Stores in $dir the directory
+# containing $f, in $tst the test, in $log the log.  Executes the
+# developer- defined test setup AM_TESTS_ENVIRONMENT (if any), and
+# passes TESTS_ENVIRONMENT.  Set up options for the wrapper that
+# will run the test scripts (or their associated LOG_COMPILER, if
+# thy have one).",[],Autotool,0,652,658,No
+6646,arcbtc/bitcoinpos,https://github.com/arcbtc/bitcoinpos/blob/a94a73015540ee370d8809e86c2c6704dc424f3a/lnPoSM5Stack/libraries/ArduinoJson/extras/tests/catch/CMakeLists.txt#L1,"# ArduinoJson - https://arduinojson.org
+# Copyright Benoit Blanchon 2014-2021
+# MIT License",[],CMake,0,1,3,No
+24995,inviwo/inviwo,https://github.com/inviwo/inviwo/blob/83b35553c53fe9978efc7db6c1bbe328942da43a/ext/tiff/aclocal.m4#L1123,"# Must skip GNU tar: if it does not support --format= it doesn't create
+# ustar tarball either.",[],Autotool,6,1123,1124,No
+1945,nijel/enca,https://github.com/nijel/enca/blob/ed868fac927af8f261a69ece4241cf039df1d31b/devel-docs/Makefile.in#L284,# The top-level SGML file. Change it if you want.,[],Autotool,0,284,284,No
+27827,grandorgue/grandorgue,https://github.com/grandorgue/grandorgue/blob/0cd02d5e8d850299045324bdac96989aa7e20c91/cmake/AddCXXOption.cmake#L1,"# GrandOrgue - free pipe organ simulator
+# 
+# Copyright 2006 Milan Digital Audio LLC
+# Copyright 2009-2019 GrandOrgue contributors (see AUTHORS)
+# 
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation; either version 2 of the
+# License, or (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.",[],CMake,0,1,18,No
+22549,aidasoft/podio,https://github.com/aidasoft/podio/blob/e1096884df7c42e44ed3c51640f2d1cab110bab5/tests/CMakeLists.txt#L96,"# Build Catch2 with the default flags, to avoid generating warnings when we
+# build it",[],CMake,2,96,97,No
+4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/src/libyaml/aclocal.m4#L761,# ### END LIBTOOL CONFIG,[],Autotool,0,761,761,No
+26884,sbmlteam/libsbml,https://github.com/sbmlteam/libsbml/blob/6687b73a8144ab42d150c84ea8af2d2d4b729947/src/bindings/r/create_package.cmake#L120,# get 3 subdirectory levels,[],CMake,2,120,120,No
+929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/tests/0100_GUI_App/_Android/app/jni/SDL2/configure.in#L3816,# Set up files for the timer library,[],Autotool,8,3816,3816,No
+3258,zlib-ng/zlib-ng,https://github.com/zlib-ng/zlib-ng/blob/8353094a7bde4b7f626d84aabf7a0149724e786d/test/cmake/run-and-compare.cmake#L1,# run-and-compare.cmake -- Runs a command and compares its output to an expected value,[],CMake,0,1,1,No
+929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/tests/0060_GUI_LayoutAlign/_Android/app/jni/SDL2/configure.in#L1599,# Save the original compiler flags and libraries,[],Autotool,8,1599,1599,No
+5592,ghostbsd/ghostbsd-src,https://github.com/ghostbsd/ghostbsd-src/blob/8c4c6f5c7efe4f0615b770de2fd801777c7de958/contrib/ntp/aclocal.m4#L280,dnl,[],Autotool,40,280,280,No
+26952,lofar-astron/dp3,https://github.com/lofar-astron/dp3/blob/69ad09ea0cf05e57ee9d9e9e989f216d1b9edb60/CMakeLists.txt#L118,# Casacore depends on HDF5 -> First load HDF5.,[],CMake,0,118,118,No
+27060,organicmaps/organicmaps,https://github.com/organicmaps/organicmaps/blob/b71e3c6e0296dfa59cc27461ce168c171306fecc/3party/osrm/osrm-backend/third_party/libosmium/doc/CMakeLists.txt#L35,#-----------------------------------------------------------------------------,[],CMake,0,35,35,No
+10188,google/sagetv,https://github.com/google/sagetv/blob/d78189ca804bc7940951d8170882c1523661b2d1/third_party/codecs/tiff/aclocal.m4#L6766,dnl,[],Autotool,22,6766,6766,No
+29248,niwafisheriesmodelling/casal2,https://github.com/niwafisheriesmodelling/casal2/blob/1aa1299a58a1f5727262cc192e6d8c9834ae8b12/BuildSystem/buildtools/windows/cmake/share/cmake-3.20/Modules/CMakeDetermineCUDACompiler.cmake#L411,# Encode [] characters that break list expansion.,[],CMake,4,411,411,No
+7312,eclipse-ee4j/beanvalidation-tck,https://github.com/eclipse-ee4j/beanvalidation-tck/blob/bb9c1f68ebd150f7b158a24d57dc470f5b244c82/documentation/pom.xml#L33,<!-- Skip artifact deployment -->,[],Maven,8,33,33,No
+3679,mcstasmcxtrace/mccode,https://github.com/mcstasmcxtrace/mccode/blob/6b5ac90ebaabfbcb988e9b7489933c3332e94373/support/MacOSX/Perl-Tk/Tk-804.030/PNG/libpng/aclocal.m4#L5657,"# On IA64, the linker does run time linking by default, so we don't
+# have to do anything special.",[],Autotool,1,5657,5658,No
+18747,paladincloud/ce,https://github.com/paladincloud/ce/blob/f5f0b64b8b1af1a21401b6cea66e656fb8a7d3c5/jobs/pacman-awsrules/pom.xml#L206,<!--<includes> <include>**/*Example.java</include> </includes> -->,[],Maven,5,206,206,No
+22593,188080501/jqtools,https://github.com/188080501/jqtools/blob/c63fe825a5efc4fa5c23dde112f9c7795558a9df/library/JQLibrary/src/JQQRCodeWriter/qrencode/aclocal.m4#L4285,"# _LT_HEADER_DLFCN
+# ----------------",[],Autotool,0,4285,4286,No
+24317,copperspice/copperspice,https://github.com/copperspice/copperspice/blob/07be95f61d3dce519fae209517f145b629f6e67a/CMakeLists.txt#L578,"# Ninja generator does not yet know how to build archives in pieces, so response
+# files must be used to deal with very long linker command lines.",[],CMake,0,578,579,Yes
+7163,debrouxl/tiemu,https://github.com/debrouxl/tiemu/blob/cda2db4f44d13d1559be6d3f37cebd2cd10dd26b/tiemu/branches/tigcc-debugging-branch/src/core/gdb/gdb/configure.in#L1064,"#include <thread_db.h>],",[],Autotool,8,1064,1064,No
+1065,ampl/gsl,https://github.com/ampl/gsl/blob/6e40fb13a501393f3a9deb7c4fcbee85241a0339/aclocal.m4#L8533,dnl,[],Autotool,65,8533,8533,No
+24193,centreon/centreon-engine,https://github.com/centreon/centreon-engine/blob/2f49f881aed93a2425ccea760f4582b2335ec276/test/core/CMakeLists.txt#L240,# broker_module with only path to module.,[],CMake,0,240,240,No
+26110,kernkonzept/l4re-core,https://github.com/kernkonzept/l4re-core/blob/585335fc44b0256cb989a0ff2f8ac99de2d09eaa/libstdc++-v3/contrib/libstdc++-v3-10/config.h.in#L613,/* Define to 1 if you have the `_isnanl' function. */,[],Autotool,0,613,613,No
+2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/unbound/aclocal.m4#L3901,dnl,[],Autotool,32,3901,3901,No
+4898,rose-compiler/rose,https://github.com/rose-compiler/rose/blob/54dd17a509f30cc79d55e635f694d8d21b8b0e3c/tests/nonsmoke/ExamplesForTestWriters/Makefile.am#L7,"########################################################################################################################
+# Prologue
+#
+# All makefiles start with these tidbits.",[],Autotool,0,7,10,No
+773,unidata/gempak,https://github.com/unidata/gempak/blob/e60728b909ee9b25d8547f6914b1a56c448e6113/extlibs/PNG/v1.4.4/aclocal.m4#L8533,dnl,[],Autotool,29,8533,8533,No
+4017,deadw00d/aros,https://github.com/deadw00d/aros/blob/9a02352dd1c0967b7b7d38ac08a46766daa5e658/arch/ppc-sam440/boot/parthenope/aclocal.m4#L668,"dnl Automake 1.8 to 1.9.6 used to define mkdir_p.  We now use MKDIR_P,
+dnl while keeping a definition of mkdir_p for backward compatibility.
+dnl @MKDIR_P@ is magic: AC_OUTPUT adjusts its value for each Makefile.
+dnl However we cannot define mkdir_p as $(MKDIR_P) for the sake of
+dnl Makefile.ins that do not define MKDIR_P, so we do our own
+dnl adjustment using top_builddir (which is defined more often than
+dnl MKDIR_P).",[],Autotool,0,668,674,Yes
+26637,px4/px4-autopilot,https://github.com/px4/px4-autopilot/blob/e41913a699d69dab0e850f00e15f018858291d84/src/drivers/camera_trigger/CMakeLists.txt#L1,"############################################################################
+#
+#   Copyright (c) 2015-2021 PX4 Development Team. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions
+# are met:
+#
+# 1. Redistributions of source code must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+# 2. Redistributions in binary form must reproduce the above copyright
+#    notice, this list of conditions and the following disclaimer in
+#    the documentation and/or other materials provided with the
+#    distribution.
+# 3. Neither the name PX4 nor the names of its contributors may be
+#    used to endorse or promote products derived from this software
+#    without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+# ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+# FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+# COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+# INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+# BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+# OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+# AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+# LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+# ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+# POSSIBILITY OF SUCH DAMAGE.
+#
+############################################################################",[],CMake,0,1,32,No
+24703,u0u0/cocos2d-lua-community,https://github.com/u0u0/cocos2d-lua-community/blob/b82b6c743aef98b9eadb2c800f0ab77a348283a6/cmake/Modules/FindGLFW3.cmake#L1,"#.rst:
+# FindGLFW3
+# ------------
+#
+# Locate glfw3 library
+#
+# This module defines
+#
+# ::
+#
+#   GLFW3_LIBRARIES, the library to link against
+#   GLFW3_FOUND, if false, do not try to link to FREETYPE
+#   GLFW3_INCLUDE_DIRS, where to find headers.
+#   This is the concatenation of the paths:
+#   GLFW3_INCLUDE_DIR
+#
+#=============================================================================
+# Copyright 2014-2014 Martell Malone
+#
+# Distributed under the OSI-approved BSD License (the ""License"");
+# see accompanying file Copyright.txt for details.
+#
+# This software is distributed WITHOUT ANY WARRANTY; without even the
+# implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the License for more information.
+#=============================================================================
+# (To distribute this file outside of CMake, substitute the full
+#  License text for the above reference.)",[],CMake,0,1,28,No
+21344,linbox-team/linbox,https://github.com/linbox-team/linbox/blob/c6c28c98f5eeb0b5c73fa5628a849cca003153d4/linbox/ring/ntl/Makefile.am#L46,#  EXTRA_DIST =            \,[],Autotool,0,46,46,No
+29205,axys1/axys,https://github.com/axys1/axys/blob/35e9dc92065ed430c93dc832f2975cd81b364e88/thirdparty/c-ares/src/lib/ares_config.h.cmake#L85,#cmakedefine HAVE_CXX11,[],CMake,0,85,85,No
+7142,hafs-community/hafs,https://github.com/hafs-community/hafs/blob/3fd3bc5bb31d8970e083b9db34276995545987dc/sorc/hafs_tools.fd/sorc/hafs_extlibs/fftw/rdft/simd/avx2/Makefile.in#L703,"# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.",[],Autotool,0,703,704,Yes
+5491,git-for-windows/git-sdk-32,https://github.com/git-for-windows/git-sdk-32/blob/cb72c171b3fd3e68fed2e1ada9b0fd5a689e4331/mingw32/lib/cmake/xxHash/xxHashConfigVersion.cmake#L43,# check that the installed version has the same 32/64bit-ness as the one which is currently searching:,[],CMake,0,43,43,No
+21685,firebase/quickstart-cpp,https://github.com/firebase/quickstart-cpp/blob/84c6f1e7d0140de999823739e2c7bd701125e7ca/gma/testapp/CMakeLists.txt#L47,"# Define the target as a shared library, as that is what gradle expects.",[],CMake,2,47,47,No
+7096,gardensofkadesh/homeworld,https://github.com/gardensofkadesh/homeworld/blob/86106b3d9028076419eb4d5ae726cdf17ea26afb/src/ThirdParty/JPG/aclocal.m4#L7923,# _LT_SET_OPTIONS,[],Autotool,2,7923,7923,No
+306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2_mixer/external/flac-1.3.2/examples/c/Makefile.am#L1,"#  FLAC - Free Lossless Audio Codec
+#  Copyright (C) 2001-2009  Josh Coalson
+#  Copyright (C) 2011-2016  Xiph.Org Foundation
+#
+#  This file is part the FLAC project.  FLAC is comprised of several
+#  components distributed under different licenses.  The codec libraries
+#  are distributed under Xiph.Org's BSD-like license (see the file
+#  COPYING.Xiph in this distribution).  All other programs, libraries, and
+#  plugins are distributed under the GPL (see COPYING.GPL).  The documentation
+#  is distributed under the Gnu FDL (see COPYING.FDL).  Each file in the
+#  FLAC distribution contains at the top the terms under which it may be
+#  distributed.
+#
+#  Since this particular file is relevant to all components of FLAC,
+#  it may be distributed under the Xiph.Org license, which is the least
+#  restrictive of those mentioned above.  See the file COPYING.Xiph in this
+#  distribution.",[],Autotool,0,1,17,No
+11877,vinsguru/vinsguru-blog-code-samples,https://github.com/vinsguru/vinsguru-blog-code-samples/blob/44044cf71bc1edf50744f0c4e146ce1b0e9229d5/db/mongo/reactive-mongo-aggregation/pom.xml#L9,<!-- lookup parent from repository -->,[],Maven,18,9,9,No
+28440,rust-bitcoin/rust-bitcoinconsensus,https://github.com/rust-bitcoin/rust-bitcoinconsensus/blob/60cb41054da499ecae96f967de4253635cba3ee7/depend/bitcoin/src/leveldb/CMakeLists.txt#L219,# MemEnv is not part of the interface and could be pulled to a separate library.,[],CMake,0,219,219,No
+4938,mgba-emu/mgba,https://github.com/mgba-emu/mgba/blob/83f0deab1b47b693c06fd0d937e6b559fc2dbbd2/src/third-party/libpng/Makefile.am#L14,"# test programs - run on make check, make distcheck",[],Autotool,0,14,14,No
+929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/tests/0040_GUI_shapes/_Android/app/jni/SDL2_image/external/tiff-4.0.8/test/Makefile.in#L10,"# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.",[],Autotool,0,10,13,No
+2121,r-lib/fs,https://github.com/r-lib/fs/blob/238032fd0454fa54816c5af7cff6385b1cf81d17/src/libuv-1.38.1/Makefile.in#L2330,# am--include-marker,[],Autotool,100,2330,2330,No
+5266,opensmalltalk/opensmalltalk-vm,https://github.com/opensmalltalk/opensmalltalk-vm/blob/c7684b557f5017aa4da2f35670450d17662406f8/platforms/unix/config/aclocal.m4#L7470,"# _LT_SYS_HIDDEN_LIBDEPS([TAGNAME])
+# ---------------------------------
+# Figure out ""hidden"" library dependencies from verbose
+# compiler output when linking a shared library.
+# Parse the compiler output and extract the necessary
+# objects, libraries and library flags.",[],Autotool,0,7470,7475,No
+5270,bforartists/bforartists,https://github.com/bforartists/bforartists/blob/d9841953e9973d1b02ff9f88f8622f19f96b052f/build_files/cmake/Modules/FindNanoVDB.cmake#L31,"# handle the QUIETLY and REQUIRED arguments and set NANOVDB_FOUND to TRUE if
+# all listed variables are TRUE",[],CMake,0,31,32,No
+16147,llmhyy/evosuite-plus-plus,https://github.com/llmhyy/evosuite-plus-plus/blob/7ebd3b016f7ea742cf2437560c691a4b01bef10e/plugins/pom.xml#L20,<!-- <module>eclipse</module> -->,[],Maven,2,20,20,No
+2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/dialog/aclocal.m4#L6758,# cf_libs,[],Autotool,6,6758,6758,No
+18882,ibmruntimes/openj9-openjdk-jdk17,https://github.com/ibmruntimes/openj9-openjdk-jdk17/blob/d1d66770f253f5e57132e3b3fd57395164b12958/test/jdk/performance/client/RenderPerfTest/build.xml#L71,<!-- Put everything in ${build} into the RenderPerfTest.jar file -->,[],Ant,4,71,71,No
+5917,alibaba/polardb-for-postgresql,https://github.com/alibaba/polardb-for-postgresql/blob/c93ed95ba1b4db041c504ece40ad91a33fd85382/configure.in#L106,"##
+## Command line options
+##",[],Autotool,0,106,108,No
+20937,rmgdft/rmgdft,https://github.com/rmgdft/rmgdft/blob/070bf18928b80775b120c74feb8f9316fcee5412/CMakeLists.txt#L77,# Cray platforms,[],CMake,4,77,77,No
+27448,leggedrobotics/ocs2,https://github.com/leggedrobotics/ocs2/blob/fb5fe1a46e4aa3d201e1c6f709009aafa369daba/ocs2_pinocchio/ocs2_sphere_approximation/CMakeLists.txt#L38,"###########
+## Build ##
+###########",[],CMake,0,38,40,No
+5860,vscosta/yap,https://github.com/vscosta/yap/blob/231cf1a8c9fd18a14ae60bd5c3423cee01967b59/CMakeLists.txt#L758,"#
+# include OS and I/o stuff
+#
+# convenience libraries
+# OPTYap exports important flags
+#",[],CMake,0,758,763,No
+7163,debrouxl/tiemu,https://github.com/debrouxl/tiemu/blob/cda2db4f44d13d1559be6d3f37cebd2cd10dd26b/tiemu/trunk/src/gdb/gdb/configure.ac#L582,#include <sys/param.h>,[],Autotool,1,582,582,No
+26178,nvidia/dali,https://github.com/nvidia/dali/blob/5b0587e98eff3dca8631619f97b998ace41bf8a4/dali/operators/util/CMakeLists.txt#L35,# for some reason QNX fails with 'too many errors emitted' is this is not set,[],CMake,20,35,35,Yes
+2442,xiaoyeli/superlu_dist,https://github.com/xiaoyeli/superlu_dist/blob/8bf875299bb921e4dcb741c39361b854678ec38b/CMakeLists.txt#L93,"# add the automatically determined parts of the RPATH
+# which point to directories outside the build tree to the install RPATH",[],CMake,0,93,94,No
+15699,apache/incubator-inlong,https://github.com/apache/incubator-inlong/blob/56a6147e4a9d9a8eaee166fd1930597189dd05f8/pom.xml#L1135,<!-- iceberg -->,[],Maven,12,1135,1135,No
+27090,flashlight/flashlight,https://github.com/flashlight/flashlight/blob/d05d524277de21cd50ed2370858353f720370bd8/flashlight/app/lm/CMakeLists.txt#L3,# ----------------------------- Binaries -----------------------------,[],CMake,0,3,3,No
+22716,amanzi/amanzi,https://github.com/amanzi/amanzi/blob/391908146886bae1cddd5f4cdc714208afe33225/config/ToolsBuild/include/Build_MPICH.cmake#L28,# Temporary files directory,[],CMake,59,28,28,No
+23149,swig/swig,https://github.com/swig/swig/blob/9081e3e87894e018912048c2e4127800efca0feb/Examples/Makefile.in#L1150,# Version check below also works with MS csc.exe which does not understand --version,[],Autotool,0,1150,1150,No
+4080,deadbeef-player/deadbeef,https://github.com/deadbeef-player/deadbeef/blob/f0b300b62cd5ac76d6ad9b7ff677f9f3325dd6a8/plugins/sid/sidplay-libs/resid/aclocal.m4#L2313,# Darwin 1.3 on,[],Autotool,7,2313,2313,No
+22753,igfuw/libcloudphxx,https://github.com/igfuw/libcloudphxx/blob/eb5e92d78869f349b8c1a994d608a3776df387e5/CMakeLists.txt#L207,"# find the lowest compute capability and set it as virtual architecture, see:
+# https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html#gpu-compilation",[],CMake,4,207,208,No
+2468,zhmu/ananas,https://github.com/zhmu/ananas/blob/30850c1639f03bccbfb2f2b03361792cc8fae52e/external/gcc-12.1.0/libcc1/aclocal.m4#L479,dnl,[],Autotool,46,479,479,No
+22555,rok4/rok4,https://github.com/rok4/rok4/blob/6632232c9082baae93040294fc3038ad18f98f8f/lib/libproj/proj-4.8.0/aclocal.m4#L794,dnl /_LT_CONFIG_SAVE_COMMANDS,[],Autotool,2,794,794,No
+28293,microsoft/do-client,https://github.com/microsoft/do-client/blob/65e87319f5bc17b997b48d2eab55de768032df96/common/cmake/FindUUID.cmake#L6,# cmake find module for the UUID linux library,[],CMake,0,6,6,No
+4699,telegrammessenger/telegram-ios,https://github.com/telegrammessenger/telegram-ios/blob/1423d5381fcdaaef85565755b087fbed6a4ed97d/third-party/mozjpeg/mozjpeg/CMakeLists.txt#L1144,# CC: RGB->YCC  SAMP: fullsize/int  FDCT: ifast  ENT: prog huff,[],CMake,4,1144,1144,No
+5462,imagemagick/imagemagick,https://github.com/imagemagick/imagemagick/blob/f1337d85b058da0a168a5a6bb7ba65fd5e1e4711/Makefile.in#L4500,# FAX coder module,[],Autotool,0,4500,4500,No
+5416,pmodels/mpich,https://github.com/pmodels/mpich/blob/ae45af56b490bf47ea9440804e5e346600ca7ed9/Makefile.am#L47,"# contains all of the ""errnames.txt"" files that are used by maint/extracterrmsgs
+# to build src/mpi/errhan/defmsg.h",[],Autotool,0,47,48,No
+28404,borglab/wrap,https://github.com/borglab/wrap/blob/b45994d343bdf98578b40bbc9519e4fab64db2bf/cmake/PybindWrap.cmake#L156,"# Don't create release mode tag on installed
+# directory",[],CMake,31,156,157,No
+25913,mrpt/mrpt,https://github.com/mrpt/mrpt/blob/6057fb5238406e442fb79d3dabf3245d082097b0/samples/vision_multiple_checkerboards/CMakeLists.txt#L60,# Fails if build outside of MRPT project.,[],CMake,27,60,60,Yes
+4106,openenclave/openenclave,https://github.com/openenclave/openenclave/blob/03d146345c55ba2bb976d45ce0d1846efe591c35/tests/oeedger8r/behavior/CMakeLists.txt#L1,"# Copyright (c) Open Enclave SDK contributors.
+# Licensed under the MIT License.",[],CMake,0,1,2,No
+4890,metacall/core,https://github.com/metacall/core/blob/296236e7e1a52d5a407481cbb82717ca918e1f1f/source/tests/metacall_python_async_test/CMakeLists.txt#L58,"#
+# Project options
+#",[],CMake,0,58,60,No
+4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/texlive/texk/web2c/aclocal.m4#L969,"# If we didn't sleep, we still need to ensure time stamps of config.status and
+# generated files are strictly newer.",[],Autotool,0,969,970,Yes
+20996,google/llvm-propeller,https://github.com/google/llvm-propeller/blob/12c6e82d147114db217c75ed17b14e2c892aba48/openmp/runtime/cmake/LibompUtils.cmake#L144,"# if the line begins with ""#define KMP_VERSION_BUILD"" then we take not of the build number",[],CMake,4,144,144,No
+14976,yunaiv/ruoyi-vue-pro,https://github.com/yunaiv/ruoyi-vue-pro/blob/7643ed5a4b53f749aaae2946ed299ff77072238d/yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml#L28,<!-- 设置为 provided，只有 OncePerRequestFilter 使用到 -->,[],Maven,36,28,28,No
+24637,jsbsim-team/jsbsim,https://github.com/jsbsim-team/jsbsim/blob/dafcaadc361ed1599d3d51b68c17dc8f93d699b4/tests/unit_tests/CMakeModules/FindLcov.cmake#L215,"# Add a new global target to generate coverage reports for all targets. This
+# target will be used to generate the global info file.",[],CMake,0,215,216,No
+25400,nvidia/cudalibrarysamples,https://github.com/nvidia/cudalibrarysamples/blob/77b46c654f4e5aa6e812036f08d9412fc22a0c66/cuBLAS/Level-1/asum/CMakeLists.txt#L36,# ---[ Project specification.,[],CMake,0,36,36,No
+106,theqvd/theqvd,https://github.com/theqvd/theqvd/blob/09ca78c144f616bd276221923b1651daee29040a/windows/openssh-6.0p1/configure.ac#L1660,dnl tcsendbreak might be a macro,[],Autotool,0,1660,1660,No
+25558,omnisci/omniscidb,https://github.com/omnisci/omniscidb/blob/7f730a4a2e8c9bb1d68519c3ff16b474daafcd3a/CMakeLists.txt#L769,# PicoSHA2,[],CMake,0,769,769,No
+19649,ampl/coin,https://github.com/ampl/coin/blob/6efc777c3c052b0830806ab46ef848f4cc3cff6b/Cbc/Osi/configure.ac#L149,"#############################################################################
+#                  System header                                            #
+#############################################################################",[],Autotool,0,149,151,No
+24693,raceintospace/raceintospace,https://github.com/raceintospace/raceintospace/blob/50e2d5e83d9716a864ff909cbd1830104b695f3e/src/game/CMakeLists.txt#L117,"# Run this after the platform includes so ${game_sources} will be
+# populated with platform-specific files.
+# Not using (file GLOB ...) because CMake documentation recommends
+# against it (https://cmake.org/cmake/help/v3.14/command/file.html)",[],CMake,0,117,120,No
+21222,spacemaniac/hamsandwich,https://github.com/spacemaniac/hamsandwich/blob/c5f4ee341b9fa9903b29f306a323c4faa7d5aa56/external/SDL2_image/external/jpeg-9b/aclocal.m4#L977,"# _LT_LINKER_BOILERPLATE
+# ----------------------
+# Check for linker boilerplate output or warnings with
+# the simple link test code.",[],Autotool,0,977,980,No
+1976,yoyofr/modizer,https://github.com/yoyofr/modizer/blob/6541f06a8ce433f21e5b174a2bef2cf9aa217dd3/utils/Resample/libsamplerate-0.1.8/aclocal.m4#L927,"# _AM_SET_OPTIONS(OPTIONS)
+# ----------------------------------
+# OPTIONS is a space-separated list of Automake options.",[],Autotool,0,927,929,No
+2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/file/aclocal.m4#L273,"# icc doesn't choke on unknown options, it will just issue warnings
+# or remarks (even with -Werror).  So we grep stderr for any message
+# that says an option was ignored or not supported.
+# When given -MP, icc 7.0 and 7.1 complain thusly:
+#   icc: Command line warning: ignoring option '-M'; no argument required
+# The diagnosis changed in icc 8.0:
+#   icc: Command line remark: option '-MP' not supported",[],Autotool,6,273,279,Yes
+20167,keystone-engine/keystone,https://github.com/keystone-engine/keystone/blob/18569351000cf1b8bd1ea2cc8a02c2e17b76391f/llvm/cmake/modules/AddLLVM.cmake#L394,# DEPENDS has been appended to LLVM_COMMON_LIBS.,[],CMake,4,394,394,No
+28281,tleonarduk/ds3os,https://github.com/tleonarduk/ds3os/blob/cb9492a79b68d9a93709d861f0f2880f33e097cc/Tools/Build/cmake/windows/share/cmake-3.22/Modules/FindASPELL.cmake#L1,"# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
+# file Copyright.txt or https://cmake.org/licensing for details.",[],CMake,0,1,2,No
+25571,alicevision/alicevision,https://github.com/alicevision/alicevision/blob/ea95080710b6cec50c2753e1f26bb7a6d5ff36d3/src/cmake/openexr/FindOpenEXR.cmake#L1,"# Module to find OpenEXR.
+#
+# This module will set
+#   OPENEXR_FOUND          true, if found
+#   OPENEXR_INCLUDE_DIR    directory where headers are found
+#   OPENEXR_LIBRARIES      libraries for OpenEXR + IlmBase
+#   ILMBASE_LIBRARIES      libraries just IlmBase
+#   OPENEXR_VERSION        OpenEXR version (accurate for >= 2.0.0,
+#                              otherwise will just guess 1.6.1)
+#
+# Special inputs:
+#   OPENEXR_CUSTOM_INCLUDE_DIR - custom location of headers
+#   OPENEXR_CUSTOM_LIB_DIR - custom location of libraries
+#   OPENEXR_CUSTOM_LIB_PREFIX - special snowflake library prefix
+#   OPENEXR_CUSTOM_LIB_SUFFIX - special snowflake library suffix
+#",[],CMake,0,1,16,No
+7163,debrouxl/tiemu,https://github.com/debrouxl/tiemu/blob/cda2db4f44d13d1559be6d3f37cebd2cd10dd26b/tiemu/trunk/src/gdb/tk/win/Makefile.in#L12,"#----------------------------------------------------------------
+# Things you can change to personalize the Makefile for your own
+# site (you can make these changes in either Makefile.in or
+# Makefile, but changes to Makefile will get lost if you re-run
+# the configuration script).
+#----------------------------------------------------------------",[],Autotool,0,12,17,No
+11821,networknt/light-example-4j,https://github.com/networknt/light-example-4j/blob/74513c019570e65623b80c1cadc1423e7a18807a/hybrid/service/pom.xml#L173,<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->,[],Maven,10,173,173,No
+921,fitbit/golden-gate,https://github.com/fitbit/golden-gate/blob/f39c79a2e6337b46f917efb6c70a0b38f25013c8/platform/mynewt/apps/skeleton/libs/gg/xp/src/unit_tests/CMakeLists.txt#L9,"# CppUTest Setup
+###################",[],CMake,0,9,10,No
+16192,smarthomej/addons,https://github.com/smarthomej/addons/blob/42d495f0eecd18ab9faddaf96a7e2e0003975103/bundles/pom.xml#L303,<!-- Apache Karaf -->,[],Maven,20,303,303,No
+25421,cea-list/n2d2,https://github.com/cea-list/n2d2/blob/951f396c20d9483c39529c3b3e9c8dd8ff6abfa1/cmake/Modules/FindCUDA.cmake#L1308,"# If one of the given optional arguments is ""PHONY"", make a note of it, then
+# remove it from the list.",[],CMake,2,1308,1309,No
+22032,hcmlab/ssi,https://github.com/hcmlab/ssi/blob/0760dad70c716265f2b82485f6fa40508ae35d17/plugins/model/tools/CMakeLists.txt#L1,"#-----------------------------------------------------------------------------
+# Initialize project.",[],CMake,0,1,2,No
+4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/texlive/utils/asymptote/Makefile.in#L397,"# Compile for the shared library.  OpenGL must be disabled as it causes
+# crashes inside a shared library.",[],Autotool,0,397,398,Yes
+24805,sofiacpp/ipl,https://github.com/sofiacpp/ipl/blob/79fc291f7032e75881e416f14441fefd898d316d/JSImpl/test/googletest/googletest/Makefile.am#L47,# C++ test files that we don't compile directly.,[],Autotool,0,47,47,No
+2308,seemoo-lab/nexmon,https://github.com/seemoo-lab/nexmon/blob/4087b4e5a408e6e1c4e5cbf4fd098b74bf74cdfa/utilities/wireshark/aclocal.m4#L196,dnl,[],Autotool,63,196,196,No
+898,sarah-walker-pcem/arculator,https://github.com/sarah-walker-pcem/arculator/blob/75b321adf8644a81c90c0d98cc34661610c67054/aclocal.m4#L10046,"dnl ---------------------------------------------------------------------------
+dnl WX_LIKE_LIBNAME([output-var] [prefix], [name])
+dnl
+dnl Sets the ""output-var"" variable to the name of a library named with same
+dnl wxWidgets rule.
+dnl E.g. for output-var=='lib', name=='test', prefix='mine', sets
+dnl      the $lib variable to:
+dnl          'mine_gtk2ud_test-2.8'
+dnl      if WX_PORT=gtk2, WX_UNICODE=1, WX_DEBUG=1 and WX_RELEASE=28
+dnl ---------------------------------------------------------------------------",[],Autotool,0,10046,10055,No
+22235,dena/declang,https://github.com/dena/declang/blob/04ab1863bf3c1284c1425cd7321d5b350b7b6682/libcxxabi/CMakeLists.txt#L450,# Define LIBCXXABI_USE_LLVM_UNWINDER for conditional compilation.,[],CMake,0,450,450,No
+47,sergev/litebsd,https://github.com/sergev/litebsd/blob/6f89c18880065a83d3d18661c80f72fb3397a888/lib/libncurses/aclocal.m4#L1761,"dnl ---------------------------------------------------------------------------
+dnl CF_FUNC_NANOSLEEP version: 4 updated: 2012/10/06 17:56:13
+dnl -----------------
+dnl Check for existence of workable nanosleep() function.  Some systems, e.g.,
+dnl AIX 4.x, provide a non-working version.",[],Autotool,0,1761,1765,No
+4309,f-stack/f-stack,https://github.com/f-stack/f-stack/blob/0e1e4adea1cfbfd79faac99557fa1d3da01c6d67/app/redis-6.2.6/deps/jemalloc/configure.ac#L1541,dnl Check whether clock_gettime(2) is in libc or librt.,[],Autotool,0,1541,1541,No
+21135,personalrobotics/aikido,https://github.com/personalrobotics/aikido/blob/003ee72d295cc143b000b22a904c91fcf7134e5c/src/robot/ros/CMakeLists.txt#L10,"#==============================================================================
+# Libraries
+#",[],CMake,0,10,12,No
+23408,nextgis-borsch/lib_gdal,https://github.com/nextgis-borsch/lib_gdal/blob/fd64f8e06eb50b4d1f3313e3a0deee6ce344989b/drivers/raster/wms/CMakeLists.txt#L1,"################################################################################
+# Project:  CMake4GDAL
+# Purpose:  CMake build scripts
+# Author:   Mikhail Gusev, gusevmihs@gmail.com
+################################################################################
+# Copyright (C) 2015-2021, NextGIS <info@nextgis.com>
+# Copyright (C) 2016 Mikhail Gusev
+#
+# Permission is hereby granted, free of charge, to any person obtaining a
+# copy of this software and associated documentation files (the ""Software""),
+# to deal in the Software without restriction, including without limitation
+# the rights to use, copy, modify, merge, publish, distribute, sublicense,
+# and/or sell copies of the Software, and to permit persons to whom the
+# Software is furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included
+# in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+# OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+# THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+# DEALINGS IN THE SOFTWARE.
+################################################################################",[],CMake,0,1,26,No
+23541,lixizhi/nplruntime,https://github.com/lixizhi/nplruntime/blob/ab5eb4e91fb2734717b80fb1ae6546369bc33721/Client/trunk/externals/assimp-5.0.1/contrib/gtest/cmake/internal_utils.cmake#L84,# BigObj required for tests.,[],CMake,6,84,84,No
+6846,existos-team/existos-for-hp39gii,https://github.com/existos-team/existos-for-hp39gii/blob/00bb9c1c8f4082bf9c6350472caf59ef9c3d88c2/Libs/src/SymbolicC++3-3.35/aclocal.m4#L798,"# _LT_LANG(LANGNAME)
+# ------------------",[],Autotool,0,798,799,No
+23158,microsoft/ell,https://github.com/microsoft/ell/blob/2a3f938ca4becebdc448bfdfd8ebf7f5ab437265/tools/importers/darknet/test/CMakeLists.txt#L23,# copy files,[],CMake,4,23,23,No
+4419,holzschu/ios_system,https://github.com/holzschu/ios_system/blob/bc7c2334a36a64acb78e8d23a33507754f863608/libarchive/libarchive/build/cmake/config.h.in#L447,/* Define to 1 if you have the `strerror_r' function. */,[],Autotool,0,447,447,No
+4936,alibaba/alios-things,https://github.com/alibaba/alios-things/blob/85f0930be19b3fed265fd392c36332fdb5bdbfa7/components/SDL2/src/gfx/Test/aclocal.m4#L3766,#if defined(_WIN32) || defined(__CYGWIN__) || defined(_WIN32_WCE),[],Autotool,0,3766,3766,No
+25332,mythtv/mythtv,https://github.com/mythtv/mythtv/blob/3e35f6c03767c85595a80d0853df793367b3bf6f/platform/win32/msvc/external/lame/aclocal.m4#L2410,"# _LT_TAG_COMPILER
+# ----------------",[],Autotool,0,2410,2411,No
+7096,gardensofkadesh/homeworld,https://github.com/gardensofkadesh/homeworld/blob/86106b3d9028076419eb4d5ae726cdf17ea26afb/src/ThirdParty/JPG/aclocal.m4#L7262,# Source file extension for fc test sources.,[],Autotool,0,7262,7262,No
+12727,alibaba/dragonwell11,https://github.com/alibaba/dragonwell11/blob/34eba4d4c91d3d1f28575bc09b92db2cd484995a/make/nashorn/build.xml#L763,<!-- test262 test suite -->,[],Ant,2,763,763,No
+26652,apache/arrow,https://github.com/apache/arrow/blob/40ec95646962cccdcd62032c80e8506d4c275bc6/python/CMakeLists.txt#L445,# Arrow Dataset,[],CMake,2,445,445,No
+12829,bsc-wdc/compss,https://github.com/bsc-wdc/compss/blob/37741aefde427b7461d8b3ae854b68d00818a122/tests/sources/local/java/0_keep_rename/pom.xml#L38,<!-- BUILD SETTINGS -->,[],Maven,4,38,38,No
+25942,trilinos/trilinos,https://github.com/trilinos/trilinos/blob/f2c5e6655cbd1d18c5b777d4ffda603bf1a72f9f/cmake/ctest/drivers/geminga/CMakeLists.txt#L77,"#JHU 2018-Apr-11 migrated to enigma
+#TRILINOS_DRIVER_ADD_DASHBOARD(
+#  OPENMPI-1.10.1_RELEASE_NO-EPETRA_NO-INT_EXPERIMENTAL
+#  ctest_linux_nightly_mpi_release_muelu_no_int_geminga.cmake
+#  CTEST_INSTALLER_TYPE release
+#  RUN_SERIAL
+#  TIMEOUT_MINUTES 330
+#  )",[],CMake,2,77,84,No
+7443,wocommunity/wolips,https://github.com/wocommunity/wolips/blob/7f33f3db381e608eabd1e57719bb4eb83d31169e/build.xml#L115,<!-- ========================================== -->,[],Ant,1,115,115,No
+13824,syndesisio/syndesis,https://github.com/syndesisio/syndesis/blob/564488060622ebd3710f47dd40372b3acfdd47d8/app/pom.xml#L4005,<!-- Metadata need to publish to central -->,[],Maven,2,4005,4005,No
+23461,vslavik/poedit,https://github.com/vslavik/poedit/blob/64aefe03d1614146b98ec0f31d6295663ebc3b7e/deps/icu4c/source/Makefile.in#L69,## Extra files to install [nothing at present],[],Autotool,0,69,69,No
+19350,cginternals/gloperate,https://github.com/cginternals/gloperate/blob/376f5f37c81fabcb39b704bf3d7e42880ac19837/source/CMakeLists.txt#L32,# Applications,[],CMake,0,32,32,No
+25136,bjakja/kainote,https://github.com/bjakja/kainote/blob/cc487daa545fa61300d01ffc8e791d2895c8b2c4/Thirdparty/wxWidgets/src/png/Makefile.in#L364,#extra source distribution files.,[],Autotool,0,364,364,No
+25781,diligentgraphics/diligenttools,https://github.com/diligentgraphics/diligenttools/blob/8075faf1bcb921f53cdfad35045b468b8aad8811/ThirdParty/libjpeg-9a/aclocal.m4#L9179,dnl,[],Autotool,23,9179,9179,No
+2279,pistondevelopers/freetype-sys,https://github.com/pistondevelopers/freetype-sys/blob/619fd2f44a891ddb9dda645814d620439cf56105/freetype2/builds/unix/aclocal.m4#L3161,dnl,[],Autotool,29,3161,3161,No
+28281,tleonarduk/ds3os,https://github.com/tleonarduk/ds3os/blob/cb9492a79b68d9a93709d861f0f2880f33e097cc/Tools/Build/cmake/linux/share/cmake-3.23/Modules/FindBoost.cmake#L434,"# handle pythonXY and numpyXY versioned components and also python X.Y, mpi_python etc.",[],CMake,4,434,434,No
+23896,yadoms/yadoms,https://github.com/yadoms/yadoms/blob/ca501c8c63525bfe518204607d30d28ecfecd81f/sources/cmake/compilers.cmake#L56,"#macro must be defined when using boost::asio
+#  dont use third party script to get current windows version because it fails with win10 and greaters
+#  so just specify it as Win7 (avoid link with Win8 and Win10 sdk; because they are useless for our app)",[],CMake,3,56,58,Yes
+27693,mafiahub/framework,https://github.com/mafiahub/framework/blob/232baa7896d18691feebb822e8b28f82d19c9c78/vendors/slikenet/DependentExtensions/jansson-2.4/aclocal.m4#L3755,#endif,[],Autotool,0,3755,3755,No
+28349,oomph-lib/oomph-lib,https://github.com/oomph-lib/oomph-lib/blob/c03c48e58aac8da1b2868a503126743393ed1860/configure.ac#L790,# Perform the substitution,[],Autotool,0,790,790,No
+6917,ravynsoft/ravynos,https://github.com/ravynsoft/ravynos/blob/244042a8e04bdd460bb7ab6083dde3ec312bc3bc/contrib/ntp/aclocal.m4#L613,"dnl Autoconf wants to disallow AM_ names.  We explicitly allow
+dnl the ones we care about.",[],Autotool,0,613,614,No
+2179,modula3/cm3,https://github.com/modula3/cm3/blob/8291286d94b3519490f683c0ef164684cd4c4091/m3-sys/m3cc/gcc-apple/libiberty/configure.ac#L350,"# Also in the old function.def file: alloca, vfork, getopt.",[],Autotool,0,350,350,No
+29087,opentrons/ot3-firmware,https://github.com/opentrons/ot3-firmware/blob/00a63bb3a50adf629e0d5003c0bd2bb25a689a4a/bootloader/firmware/stm32L5/CMakeLists.txt#L88,# Runs openocd to flash the board (without using a debugger),[],CMake,4,88,88,No
+6028,matthewlloyd/llama-mini-firmware,https://github.com/matthewlloyd/llama-mini-firmware/blob/5ef890c8c5667cbc78df7eebb3afbd3d71f2b5ae/lib/Catch2/projects/ExtraTests/CMakeLists.txt#L59,"#    $<$<CXX_COMPILER_ID:Clang>:-fno-exceptions>
+#    $<$<CXX_COMPILER_ID:GNU>:-fno-exceptions>",[],CMake,0,59,60,No
+23909,raisimtech/raisimlib,https://github.com/raisimtech/raisimlib/blob/8d9a1fcbd2b94d9863a4a1b05ee17d93b983a3e6/examples/CMakeLists.txt#L22,"#==
+# Build Targets
+#==",[],CMake,0,22,24,No
+5860,vscosta/yap,https://github.com/vscosta/yap/blob/231cf1a8c9fd18a14ae60bd5c3423cee01967b59/config.h.cmake#L2048,"#ifndef YAP_PLDIR
+#define YAP_PLDIR ""${YAP_PLDIR}""
+#endif",[],CMake,0,2048,2050,No
+3069,sifive/freedom-metal,https://github.com/sifive/freedom-metal/blob/fa026d2ee08e5ba49e8ae703fb4cbcbb710a6a69/aclocal.m4#L597,dnl,[],Autotool,58,597,597,No
+29248,niwafisheriesmodelling/casal2,https://github.com/niwafisheriesmodelling/casal2/blob/1aa1299a58a1f5727262cc192e6d8c9834ae8b12/BuildSystem/buildtools/windows/cmake/share/cmake-3.20/Modules/Platform/BlueGeneQ-static-GNU-Fortran.cmake#L1,"# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
+# file Copyright.txt or https://cmake.org/licensing for details.",[],CMake,0,1,2,No
+22584,coronalabs/corona,https://github.com/coronalabs/corona/blob/4dc1dec0cf6448df8f22ec38951866dc0517a026/external/ogg/libogg/aclocal.m4#L2176,dnl,[],Autotool,28,2176,2176,No
+25308,anybotics/grid_map,https://github.com/anybotics/grid_map/blob/bb636e6d85bfb118ed9c1e466e69491d3b5a0f7d/grid_map_core/CMakeLists.txt#L50,## Specify additional locations of header files,[],CMake,0,50,50,No
+19676,schnorr/pajeng,https://github.com/schnorr/pajeng/blob/b3792b9bf7f74f88fc270ae1abf741153c399734/src/CMakeLists.txt#L17,# The Paje Library (libpaje),[],CMake,0,17,17,No
+929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/tests/0100_GUI_App/_Android/app/jni/SDL2_image/external/jpeg-9b/aclocal.m4#L4017,"# Try without a prefix underscore, then with it.",[],Autotool,0,4017,4017,No
+2308,seemoo-lab/nexmon,https://github.com/seemoo-lab/nexmon/blob/4087b4e5a408e6e1c4e5cbf4fd098b74bf74cdfa/utilities/gettext/gettext-runtime/configure.ac#L55,dnl Check for host type.,[],Autotool,0,55,55,No
+26695,princetonuniversity/ilang,https://github.com/princetonuniversity/ilang/blob/14b66e6161a52f32517223b94c6c22be4dbccf63/extern/googletest/googlemock/Makefile.am#L81,# Tests that fused gmock files compile and work.,[],Autotool,2,81,81,No
+65,zach-hartwig/adaq,https://github.com/zach-hartwig/adaq/blob/a7f611e8472c5bd9ddf082d18381947f814ff484/caen/software/CAENUpgrader-1.7.4/aclocal.m4#L495,dnl,[],Autotool,32,495,495,No
+14711,googleapis/java-datastore,https://github.com/googleapis/java-datastore/blob/5237650778b5cfe7853799da6bfbc38b333fb11b/pom.xml#L7,<!-- {x-version-update:google-cloud-datastore:current} -->,[],Maven,36,7,7,No
+7027,nmap/nmap,https://github.com/nmap/nmap/blob/e319c6d519f94f103d68d222c62a381b1df9bda2/libdnet-stripped/aclocal.m4#L1963,dnl,[],Autotool,29,1963,1963,No
+27238,zlmediakit/zltoolkit,https://github.com/zlmediakit/zltoolkit/blob/9300828fd9df9f581d1422171a5f13bdc2a4e6ab/cmake/iOS.cmake#L171,# Set the find root to the iOS developer roots and to user defined paths,[],CMake,0,171,171,No
+19782,hadrien-psydk/pngoptimizer,https://github.com/hadrien-psydk/pngoptimizer/blob/5362cf6f94875b35e589c9b254bf26d9d4835568/sdk/gtest/aclocal.m4#L7108,dnl,[],Autotool,30,7108,7108,No
+929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/tests/0020_SDL_ttf/_Android/app/jni/SDL2/aclocal.m4#L5036,# +Z the default,[],Autotool,1,5036,5036,No
+19056,nstroustrup/lifespan,https://github.com/nstroustrup/lifespan/blob/ddb6578de5ad46b4407045fd50d2b90ea1c2c03f/external_compile_libraries/freetype-2.6/builds/unix/aclocal.m4#L6332,"# No sense in running all these tests if we already determined that
+# the CXX compiler isn't working.  Some variables (like enable_shared)
+# are currently assumed to apply to all compilers on this platform,
+# and will be corrupted by setting them based on a non-working compiler.",[],Autotool,0,6332,6335,No
+9680,eclipse/vorto,https://github.com/eclipse/vorto/blob/663019b5ca60cd39cd685b2b1a448775e70aba69/core-bundles/language/org.eclipse.vorto.editor.functionblock.ui/pom.xml#L1,"<!--
+
+    Copyright (c) 2020 Contributors to the Eclipse Foundation
+
+    See the NOTICE file(s) distributed with this work for additional
+    information regarding copyright ownership.
+
+    This program and the accompanying materials are made available under the
+    terms of the Eclipse Public License 2.0 which is available at
+    https://www.eclipse.org/legal/epl-2.0
+
+    SPDX-License-Identifier: EPL-2.0
+
+-->",[],Maven,0,1,14,No
+20550,kassonlab/gmxapi,https://github.com/kassonlab/gmxapi/blob/200eef5886a74d3dcf13546360725460d59fcc2f/tests/CMakeLists.txt#L170,"#e.g. DLLs. For GMX paths native (""\"") is needed for GMXLIB detection",[],CMake,8,170,170,No
+7518,joekoolade/joe,https://github.com/joekoolade/joe/blob/78ff1dbff18292661cdd9bbf03a120e4584a88b2/build.xml#L636,<!-- *                                                                          * -->,[],Ant,2,636,636,No
+26825,internationalcolorconsortium/demoiccmax,https://github.com/internationalcolorconsortium/demoiccmax/blob/79ecb74135ad47bac7d42692905a079839b7e105/IccXML/aclocal.m4#L8520,# serial 16,[],Autotool,0,8520,8520,No
+5041,dkfans/keeperfx,https://github.com/dkfans/keeperfx/blob/91c733b63b20d57920aeb7796ec2f3b9872e1df7/deps/CUnit-2.1-3/aclocal.m4#L7196,# Ignore the rest.,[],Autotool,10,7196,7196,No
+7163,debrouxl/tiemu,https://github.com/debrouxl/tiemu/blob/cda2db4f44d13d1559be6d3f37cebd2cd10dd26b/tiemu/tags/2.00-rc2/aclocal.m4#L6600,dnl,[],Autotool,35,6600,6600,No
+2179,modula3/cm3,https://github.com/modula3/cm3/blob/8291286d94b3519490f683c0ef164684cd4c4091/m3-sys/m3cc/gcc-4.7/configure.ac#L245,# Make sure we don't let ZLIB be added if we didn't want it.,[],Autotool,0,245,245,No
+26337,rr-debugger/rr,https://github.com/rr-debugger/rr/blob/d70ec873407b62b443d479495f7cbb6f4a1efc74/CMakeLists.txt#L342,# Test only symbols,[],CMake,0,342,342,No
+24292,appleseedhq/appleseed,https://github.com/appleseedhq/appleseed/blob/8c894f29d023c29b7176f9c9c2de30a842a04813/cmake/modules/FindOSL.cmake#L30,"#
+# Find OSL headers and libraries.
+#
+# This module defines the following variables:
+#
+#   OSL_FOUND           True if OSL was found
+#   OSL_INCLUDE_DIRS    Where to find OSL header files
+#   OSL_LIBRARIES       List of OSL libraries to link against
+#   OSL_COMPILER        Path to oslc binary
+#   OSL_QUERY_INFO      Path to oslinfo binary
+#   OSL_MAKETX          Path to OpenImageIO's maketx binary
+#",[],CMake,0,30,41,No
+25806,anikau31/systemc-clang,https://github.com/anikau31/systemc-clang/blob/d3641638d81e4dc1fedc839cc2f56b8f99589877/tests-old/esp1-tlm2-or1ksim-examples-2.0/config.h.in#L108,/* Name of package */,[],Autotool,0,108,108,No
+929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/tests/0030_SDL_ttf_HarfBuzz/_Android/app/jni/SDL2_image/external/libpng-1.6.32/Makefile.am#L234,"# The following is necessary to ensure that the local pnglibconf.h is used, not
+# an installed one (this can happen immediately after on a clean system if
+# 'make test' is the first thing the user does.)  Only files which include
+# one of the png source files (typically png.h or pngpriv.h) need to be listed
+# here:",[],Autotool,0,234,238,No
+26081,torquegameengines/torque3d,https://github.com/torquegameengines/torque3d/blob/0137778641c760e9750bd681d974588001fa9295/Tools/CMake/basics.cmake#L364,# macro to add an executable,[],CMake,0,364,364,No
+1170,philkr/pystk,https://github.com/philkr/pystk/blob/253ef48b4d68bd6cc7e9db6d4877a1f01a80bdcd/lib/libpng/aclocal.m4#L8575,"dnl aclocal-1.4 backwards compatibility:
+dnl AC_DEFUN([AM_ENABLE_SHARED], [])
+dnl AC_DEFUN([AM_DISABLE_SHARED], [])",[],Autotool,0,8575,8577,No
+13149,eclipse/capella,https://github.com/eclipse/capella/blob/14105e8d6c99c441ce8eccc8b3b0d0067336e17a/core/plugins/org.polarsys.capella.core.ui.toolkit/build.properties#L1,"# =============================================================================
+# Copyright (c) 2006, 2020 THALES GLOBAL SERVICES.
+# 
+# This program and the accompanying materials are made available under the
+# terms of the Eclipse Public License 2.0 which is available at
+# http://www.eclipse.org/legal/epl-2.0
+# 
+# SPDX-License-Identifier: EPL-2.0
+# 
+# Contributors:
+#    Thales - initial API and implementation
+# =============================================================================",[],Ant,0,1,12,No
+28349,oomph-lib/oomph-lib,https://github.com/oomph-lib/oomph-lib/blob/c03c48e58aac8da1b2868a503126743393ed1860/src/fourier_decomposed_helmholtz/Makefile.am#L19,# Define name of library,[],Autotool,0,19,19,No
+929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/tests/0020_SDL_ttf/_Android/app/jni/SDL2_image/external/jpeg-9b/aclocal.m4#L1687,# find the maximum length of command line arguments,[],Autotool,0,1687,1687,No
+22421,simvascular/simvascular,https://github.com/simvascular/simvascular/blob/4fd9cc52e1b1635071366e922c71f8e16b6776f1/Code/Source/vtkSV/Modules/Misc/CMakeLists.txt#L1,"# Copyright (c) Stanford University, The Regents of the University of
+#               California, and others.
+#
+# All Rights Reserved.
+#
+# See Copyright-SimVascular.txt for additional details.
+#
+# Permission is hereby granted, free of charge, to any person obtaining
+# a copy of this software and associated documentation files (the
+# ""Software""), to deal in the Software without restriction, including
+# without limitation the rights to use, copy, modify, merge, publish,
+# distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so, subject
+# to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included
+# in all copies or substantial portions of the Software.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS
+# IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+# TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+# PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+# OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+# EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+# PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+# LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+# NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",[],CMake,0,1,29,No
+4720,ebi-pf-team/interproscan,https://github.com/ebi-pf-team/interproscan/blob/4b97795fb7bbf617c798f3d5202be49f6e6f636e/core/model/pom.xml#L155,<!--<version>${c3p0.version}</version>-->,[],Maven,12,155,155,No
+3059,ncar/parallelio,https://github.com/ncar/parallelio/blob/a61c76304262cabd715c832d585af1d8a9df0085/src/gptl/Makefile.am#L3,# Ed Hartnett 4/9/19,[],Autotool,0,3,3,No
+4528,opnsense/src,https://github.com/opnsense/src/blob/13be03fe32167d0cb1de4a6277ba514acf6bcf73/crypto/heimdal/include/config.h.in#L1517,/* define if target is big endian */,[],Autotool,0,1517,1517,No
+4034,mohid-water-modelling-system/mohid-lagrangian,https://github.com/mohid-water-modelling-system/mohid-lagrangian/blob/c61f714acc9ea20e76d40247bbd7b7d31c4ad658/ExternalLibs/Netcdf_4.4.1.1/Linux/examples/CDL/Makefile.in#L21,"# $Id: Makefile.am,v 1.3 2009/05/19 11:56:50 ed Exp $",[],Autotool,0,21,21,No
+5934,xjdrew/levent,https://github.com/xjdrew/levent/blob/fb901a4340daf74e03a346b8a796d467ca14b53c/deps/libev/aclocal.m4#L3547,# fallback: assume linklib IS sharedlib,[],Autotool,2,3547,3547,No
+1411,erikminekus/sm-ripext,https://github.com/erikminekus/sm-ripext/blob/c2a5fd78d20d791dc0e7851ed1a6464c3be5ee81/curl/lib/curl_config.h.cmake#L341,#cmakedefine HAVE_INTTYPES_H 1,[],CMake,0,341,341,No
+25036,opengate/gate,https://github.com/opengate/gate/blob/371f310a89267172c8e7d89424abf09c98330a4c/cmake-modules/ExternalData.cmake#L391,# Regular expression to match associated files.,[],CMake,6,391,391,No
+3927,sonydevworld/spresense,https://github.com/sonydevworld/spresense/blob/556c296968bf764a111578253a066d76df558dba/externals/cmsis/CMSIS_5/CMSIS/DSP/Source/FilteringFunctions/CMakeLists.txt#L141,### Includes,[],CMake,0,141,141,No
+29117,armageddongames/zquestclassic,https://github.com/armageddongames/zquestclassic/blob/563f882a6da11c7d2e8c257f47e990e416b362bc/allegro-legacy/cmake/Toolchain-psp-gcc.cmake#L110,# Which compilers to use for C and C++.,[],CMake,0,110,110,No
+25340,google-research/tiny-differentiable-simulator,https://github.com/google-research/tiny-differentiable-simulator/blob/6c00f4d917526becbaa4404907a991b4b5307f25/third_party/eigen3/cmake/FindBLAS.cmake#L551,# mkl >= 10.3,[],CMake,5,551,551,No
+5266,opensmalltalk/opensmalltalk-vm,https://github.com/opensmalltalk/opensmalltalk-vm/blob/c7684b557f5017aa4da2f35670450d17662406f8/platforms/unix/config/aclocal.m4#L2184,"# We can link without hardcoding, and we can hardcode nonexisting dirs.",[],Autotool,4,2184,2184,No
+26844,pineappleea/pineapple-src,https://github.com/pineappleea/pineapple-src/blob/7e939deb745ce394c6ba5bb0f9fddeb389019d06/externals/vcpkg/ports/lapack-reference/FindLAPACK.cmake#L211,# LAPACK in the Intel MKL 10+ library?,[],CMake,2,211,211,No
+23282,gulden/gulden-official,https://github.com/gulden/gulden-official/blob/79d2e353902fc9a85d81d2c62d344df391cefe16/src/crc32c/CMakeLists.txt#L238,# CMake only enables PIC by default in SHARED and MODULE targets.,[],CMake,0,238,238,No
+22032,hcmlab/ssi,https://github.com/hcmlab/ssi/blob/0760dad70c716265f2b82485f6fa40508ae35d17/plugins/xmpp/build/libs/gloox/aclocal.m4#L1522,# _LT_CMD_OLD_ARCHIVE,[],Autotool,2,1522,1522,No
+5243,freerdp/freerdp,https://github.com/freerdp/freerdp/blob/a72f10173989226e640a1d69b45646777c2d4432/channels/rdpsnd/client/fake/CMakeLists.txt#L1,"# FreeRDP: A Remote Desktop Protocol Implementation
+# FreeRDP cmake build script
+#
+# Copyright 2019 Armin Novak <armin.novak@thincast.com>
+# Copyright 2019 Thincast Technologies GmbH
+#
+# Licensed under the Apache License, Version 2.0 (the ""License"");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an ""AS IS"" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.",[],CMake,0,1,17,No
+4080,deadbeef-player/deadbeef,https://github.com/deadbeef-player/deadbeef/blob/f0b300b62cd5ac76d6ad9b7ff677f9f3325dd6a8/plugins/sid/sidplay-libs/libsidutils/aclocal.m4#L3521,"# This is a source program that is used to create dlls on Windows
+# Don't remove nor modify the starting and closing comments",[],Autotool,6,3521,3522,No
+1030,devkitpro/newlib,https://github.com/devkitpro/newlib/blob/484d2ebf8d825b28af47b8ee88cd845f1d2c7c6e/newlib/libc/sys/linux/machine/i386/aclocal.m4#L745,# serial 1,[],Autotool,0,745,745,No
+3113,microchip-ethernet/evb-ksz9477,https://github.com/microchip-ethernet/evb-ksz9477/blob/0a77d2aed294f23565b104d05be1febd035882f8/KSZ/ptp/Open-AVB/main/examples/gstreamer-avb-plugins/gst-plugin/aclocal.m4#L1282,# Find out which ABI we are using.,[],Autotool,2,1282,1282,No
+3818,gideros/gideros,https://github.com/gideros/gideros/blob/7209fab88c88426fde23812f0a5ae2f623a21dbe/libgid/external/freetype-2.7.1/CMakeLists.txt#L395,"# Installations
+ # Note the trailing slash in the argument to the `DIRECTORY' directive",[],CMake,0,395,396,No
+3960,freeswitch/sofia-sip,https://github.com/freeswitch/sofia-sip/blob/f6ee306084fc36f6e97b7c0cc3917e65a18707f4/packages/Makefile.am#L13,"# We should probably have something here telling
+ # if we have gobject support or not",[],Autotool,0,13,14,No
+26444,arangodb/arangodb,https://github.com/arangodb/arangodb/blob/9fa8a9e7745c9ac88eeba2b139325e95f9282dc2/CMakeLists.txt#L1047,# flags for builds without debug symbols,[],CMake,2,1047,1047,No
+28281,tleonarduk/ds3os,https://github.com/tleonarduk/ds3os/blob/cb9492a79b68d9a93709d861f0f2880f33e097cc/Tools/Build/cmake/windows/share/cmake-3.22/Modules/FindCurses.cmake#L156,# Previous versions of FindCurses provided these values.,[],CMake,2,156,156,No
+22924,napframework/nap,https://github.com/napframework/nap/blob/e968034d5044f267ef4c92a0fa3d1659b28adf82/demos/computeflocking/module/CMakeLists.txt#L21,# add include dirs,[],CMake,0,21,21,No
+22573,gaoxiang12/slambook,https://github.com/gaoxiang12/slambook/blob/8b5e2dbde7fac384cbcbc762b4835bbcd1d95355/ch6/ceres_curve_fitting/CMakeLists.txt#L19,# ‰∏éCeresÂíåOpenCVÈìæÊé•,[],CMake,0,19,19,No
+23671,dbus-cxx/dbus-cxx,https://github.com/dbus-cxx/dbus-cxx/blob/dd21ce5c0967d719420619ebdf8aa0c80fbe1979/cmake-modules/cotire.cmake#L553,# parse additional include directories from target compile flags,[],CMake,1,553,553,No
+504,espressif/binutils-esp32ulp,https://github.com/espressif/binutils-esp32ulp/blob/9bb46bab6b2e1ef1a246c3700f0a9ed791bfe477/configure.ac#L474,"# If this is accelerator compiler and its target is intelmic we enable
+ # target liboffloadmic by default. If this is compiler with offloading
+ # for intelmic we enable host liboffloadmic by default. Otherwise
+ # liboffloadmic is disabled by default.",[],Autotool,0,474,477,No
+6917,ravynsoft/ravynos,https://github.com/ravynsoft/ravynos/blob/244042a8e04bdd460bb7ab6083dde3ec312bc3bc/contrib/ncurses/configure.in#L818,### use option --enable-getcap to use a hacked getcap for reading termcaps,[],Autotool,1,818,818,No
+24049,metashell/metashell,https://github.com/metashell/metashell/blob/1b6785b9259224e51f96a512a429cd52b1ce68a3/3rd/templight/flang/cmake/modules/CMakeLists.txt#L4,"# Generate a list of CMake library targets so that other CMake projects can
+ # link against them. LLVM calls its version of this file LLVMExports.cmake, but
+ # the usual CMake convention seems to be ${Project}Targets.cmake.",[],CMake,0,4,6,No
+6941,qb64-phoenix-edition/qb64pe,https://github.com/qb64-phoenix-edition/qb64pe/blob/eac845792aad6096063f329491947d5923467415/internal/c/parts/core/download/freeglut-2.8.0/Makefile.in#L11,"# This program is distributed in the hope that it will be useful,
+ # but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+ # even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ # PARTICULAR PURPOSE.",[],Autotool,0,11,14,No
+306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2_mixer/external/mpg123-1.25.6/aclocal.m4#L2173,"# _AM_PROG_TAR(FORMAT)
+ # --------------------
+ # Check how to create a tarball in format FORMAT.
+ # FORMAT should be one of 'v7', 'ustar', or 'pax'.
+ #
+ # Substitute a variable $(am__tar) that is a command
+ # writing to stdout a FORMAT-tarball containing the directory
+ # $tardir.
+ # tardir=directory && $(am__tar) > result.tar
+ #
+ # Substitute a variable $(am__untar) that extract such
+ # a tarball read from stdin.
+ # $(am__untar) < result.tar
+ #",[],Autotool,0,2173,2186,No
+28037,nimblephysics/nimblephysics,https://github.com/nimblephysics/nimblephysics/blob/f3a2388ffad56a7d1b3d99ca64d819c5ddd9000d/unittests/comprehensive/CMakeLists.txt#L27,"# target_link_libraries(test_Gradients dart-collision-bullet)
+ # target_link_libraries(test_Gradients dart-collision-ode)",[],CMake,0,27,28,No
+945,zarh/managunz,https://github.com/zarh/managunz/blob/66f1d0e87b2cc020627f9fd040df9ab287e3a3a8/MGZ/lib/libiconv/aclocal.m4#L7093,#ifdef __cplusplus,[],Autotool,0,7093,7093,No
+10749,ilscipio/scipio-erp,https://github.com/ilscipio/scipio-erp/blob/e40f55c6ebc9e61477a1cba53e93006ae00f4cad/build.xml#L2727,"<!--<copy file=""${basedir}/framework/resources/templates/SecurityGroupDemoData.xml"" tofile=""${basedir}/hot-deploy/${component-name}/data/${component-resource-name}SecurityGroupDemoData.xml"" encoding=""utf-8"">
+  <filterset refid=""replacePlaceholders""/>
+  </copy>-->",[],Ant,8,2727,2729,No
+2176,vsfteam/vsf,https://github.com/vsfteam/vsf/blob/102a8f9601770459f0460eeb78ba0e6a5165d16c/source/shell/sys/xboot/CMakeLists.txt#L1,# CMakeLists head,[],CMake,0,1,1,No
+1898,tanersener/mobile-ffmpeg,https://github.com/tanersener/mobile-ffmpeg/blob/7a9c62f5563bff68da43d07e3286b5d8db50d53f/src/libuuid/aclocal.m4#L8163,"# LT_PROG_RC
+ # ----------",[],Autotool,0,8163,8164,No
+26884,sbmlteam/libsbml,https://github.com/sbmlteam/libsbml/blob/6687b73a8144ab42d150c84ea8af2d2d4b729947/src/sbml/packages/layout/extension/Makefile.in#L61,"# Variables `headers', `sources', `libraries', `extra_CPPFLAGS',
+ # `extra_CXXFLAGS', `extra_LDFLAGS' and `distfiles' are used by the default
+ # rules in `makefile-common-actions.mk' included at the end.",[],Autotool,0,61,63,No
+7163,debrouxl/tiemu,https://github.com/debrouxl/tiemu/blob/cda2db4f44d13d1559be6d3f37cebd2cd10dd26b/tiemu/tags/2.01/aclocal.m4#L3678,dnl required MICO version,[],Autotool,0,3678,3678,No
+27530,frc971/971-robot-code,https://github.com/frc971/971-robot-code/blob/b467463266a282d2269188cfa169c0fd4a401afa/third_party/gflags/test/CMakeLists.txt#L9,# set working directory of test commands,[],CMake,0,9,9,No
+29034,kriszyp/lmdbx-js,https://github.com/kriszyp/lmdbx-js/blob/dba8ad0d867506b19d3beb53917847a956672f9c/dependencies/libmdbx/cmake/compiler.cmake#L48,# Check if the same compile family is used for both C and CXX,[],CMake,0,48,48,No
+2741,ctsrd-cheri/cheribsd,https://github.com/ctsrd-cheri/cheribsd/blob/6a9e74b4bd73bef8cffdb0f134fc657fed60e029/contrib/unbound/aclocal.m4#L197,dnl,[],Autotool,28,197,197,No
+6089,rocm-developer-tools/rocgdb,https://github.com/rocm-developer-tools/rocgdb/blob/42f8a5c14f2025b036ad2085fc0c6e1f9a1975ce/gas/aclocal.m4#L1082,# We'll loop over all known methods to create a tar archive until one works.,[],Autotool,0,1082,1082,No
+26293,xray3d/gerber_x3,https://github.com/xray3d/gerber_x3/blob/5354f206143bf60e259e2352ffbe49dc5a855679/plugins/shape/text/CMakeLists.txt#L1,"#/*******************************************************************************
+ #* Author : Damir Bakiev *
+ #* Version : na *
+ #* Date : 11 November 2021 *
+ #* Website : na *
+ #* Copyright : Damir Bakiev 2016-2022 *
+ #* License: *
+ #* Use, modification & distribution is subject to Boost Software License Ver 1. *
+ #* http://www.boost.org/LICENSE_1_0.txt *
+ #*******************************************************************************/",[],CMake,0,1,10,No
+4295,provenance-emu/provenance,https://github.com/provenance-emu/provenance/blob/dd08428df1423494577571e1d1a7419c7db2b00a/Cores/Mupen64Plus/png/aclocal.m4#L900,"# Reject unsafe characters in $srcdir or the absolute working directory
+ # name. Accept space and tab only in the latter.",[],Autotool,0,900,901,Yes
+4493,clerkma/ptex-ng,https://github.com/clerkma/ptex-ng/blob/80d70f237ad8184334334f41461afec8bf0600ee/texlive/texk/dtl/aclocal.m4#L543,dnl,[],Autotool,56,543,543,No
+23011,smartdevicelink/sdl_core,https://github.com/smartdevicelink/sdl_core/blob/65947fd1eb30a392948d67003df0fe803c070c6b/src/3rd_party/expat-2.1.0/aclocal.m4#L921,dnl,[],Autotool,27,921,921,No
+17502,googlecloudplatform/appengine-java-standard,https://github.com/googlecloudplatform/appengine-java-standard/blob/5d0771fb095271765d9c109fc3d04dabae1c39b9/runtime/pom.xml#L2,"<!--
+  Copyright 2021 Google LLC
+ 
+  Licensed under the Apache License, Version 2.0 (the ""License"");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+  https://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an ""AS IS"" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ -->",[],Maven,0,2,16,No
+19767,aetilius/phash,https://github.com/aetilius/phash/blob/7e5b272ae93efb37d4c01c7acf3ca3d82bb4a0cc/bindings/php/aclocal.m4#L4908,dnl,[],Autotool,38,4908,4908,No
+23500,texworks/texworks,https://github.com/texworks/texworks/blob/e38ccfdfcbde2b039041c559bc250b15916c4a39/CMakeLists.txt#L192,# Do an optimized release build by default,[],CMake,0,192,192,No
+3896,westlicht/performer,https://github.com/westlicht/performer/blob/dac9d12621b4683fc0e98303a422b34ac6f3d23a/src/platform/stm32/CMakeLists.txt#L31,# ${CMAKE_CURRENT_SOURCE_DIR}/drivers/Timer.cpp,[],CMake,4,31,31,No
+22340,microsoft/service-fabric,https://github.com/microsoft/service-fabric/blob/3088d8d151a88dd88b04e0aa6d4266ff545d5adf/src/prod/src/Common/lib/CMakeLists.txt#L242,#add_library(${lib_Common} STATIC $<TARGET_OBJECTS:objects_Common>),[],CMake,0,242,242,No
+28281,tleonarduk/ds3os,https://github.com/tleonarduk/ds3os/blob/cb9492a79b68d9a93709d861f0f2880f33e097cc/Tools/Build/cmake/windows/share/cmake-3.22/Modules/FindPython/Support.cmake#L2256,# compiler not usable,[],CMake,6,2256,2256,No
+25913,mrpt/mrpt,https://github.com/mrpt/mrpt/blob/6057fb5238406e442fb79d3dabf3245d082097b0/libs/opengl/CMakeLists.txt#L49,"# Link against gl, glu, glut:",[],CMake,0,49,49,No
+6915,zephyrproject-rtos/hal_espressif,https://github.com/zephyrproject-rtos/hal_espressif/blob/00c5af6bf9680e7e220a668ff8b2dcaa525f2d66/tools/cmake/build.cmake#L460,"# Add managed components to list of all components
+ # `managed_components` contains the list of components installed by the component manager
+ # It is defined in the temporary managed_components_list_file file",[],CMake,12,460,462,No
+223,vijaymathew/slogan,https://github.com/vijaymathew/slogan/blob/078bc2af6f05d4b25c9aa8860c075a6e28b4b1fc/platform/gsc/examples/makefile.in#L1,# makefile for Gambit examples.,[],Autotool,0,1,1,No
+19345,cryptoflowcoin/cryptoflowcoin,https://github.com/cryptoflowcoin/cryptoflowcoin/blob/91c3c94a7824ff92231a8d040361e120a4e15786/src/crc32c/CMakeLists.txt#L33,# Disable RTTI.,[],CMake,2,33,33,No
+1030,devkitpro/newlib,https://github.com/devkitpro/newlib/blob/484d2ebf8d825b28af47b8ee88cd845f1d2c7c6e/newlib/libc/machine/arm/aclocal.m4#L530,"dnl Hook into `_AC_COMPILER_EXEEXT' early to learn its expansion. Do not
+ dnl add the conditional right here, as _AC_COMPILER_EXEEXT may be further
+ dnl mangled by Autoconf and run in a shell conditional statement.",[],Autotool,0,530,532,Yes
+26474,facebookincubator/katran,https://github.com/facebookincubator/katran/blob/a2c77f6e0b51c45ae35c78912221f70624b7feb9/build/fbcode_builder/CMake/FindGMock.cmake#L18,"# Explicitly set to empty string if not found to avoid it being
+ # set to NOTFOUND and breaking compilation",[],CMake,4,18,19,Yes
+4886,performancecopilot/pcp,https://github.com/performancecopilot/pcp/blob/450cf5c46c93e77b3178b2ac6facb2b4a8f0c0af/src/include/pcp/config.h.in#L268,/* Define to 1 if you have the `mkstemp' function. */,[],Autotool,0,268,268,No
+25024,cvmfs/cvmfs,https://github.com/cvmfs/cvmfs/blob/9c3f650f427ea70b79f91c0b8104c077fe3caf50/cmake/Modules/FindProtobuf.cmake#L271,# The Protobuf library,[],CMake,0,271,271,No
+1030,devkitpro/newlib,https://github.com/devkitpro/newlib/blob/484d2ebf8d825b28af47b8ee88cd845f1d2c7c6e/libgloss/aarch64/cpu-init/Makefile.in#L1,"# Copyright (c) 2012 ARM Ltd. All rights reserved.
+ #
+ # Redistribution and use in source and binary forms, with or without
+ # modification, are permitted provided that the following conditions
+ # are met:
+ # 1. Redistributions of source code must retain the above copyright
+ # notice, this list of conditions and the following disclaimer.
+ # 2. Redistributions in binary form must reproduce the above copyright
+ # notice, this list of conditions and the following disclaimer in the
+ # documentation and/or other materials provided with the distribution.
+ # 3. The name of the company may not be used to endorse or promote
+ # products derived from this software without specific prior written
+ # permission.
+ #
+ # THIS SOFTWARE IS PROVIDED BY ARM LTD ``AS IS'' AND ANY EXPRESS OR IMPLIED
+ # WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ # MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ # IN NO EVENT SHALL ARM LTD BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ # SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+ # TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ # PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ # LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ # NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",[],Autotool,0,1,24,No
+929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/SDL2_image/aclocal.m4#L603,dnl,[],Autotool,25,603,603,No
+9471,dita4publishers/dita4publishers,https://github.com/dita4publishers/dita4publishers/blob/2dfbcd583d33136a2e27a22490750a72309c4b82/build.xml#L850,<!-- Delete the directory the Toolkit creates with images -->,[],Ant,2,850,850,No
+25136,bjakja/kainote,https://github.com/bjakja/kainote/blob/cc487daa545fa61300d01ffc8e791d2895c8b2c4/Thirdparty/wxWidgets/src/expat/aclocal.m4#L3018,"# Not in the search PATH,",[],Autotool,46,3018,3018,No
+4670,libretro/mame2015-libretro,https://github.com/libretro/mame2015-libretro/blob/2599c8aeaf84f62fe16ea00daa460a19298c121c/3rdparty/libjpeg/aclocal.m4#L5241,"# hardcode_minus_L: Not really in the search PATH,
+ # but as the default location of the library.",[],Autotool,3,5241,5242,Yes
+22486,heroiclabs/nakama-cpp,https://github.com/heroiclabs/nakama-cpp/blob/1e7a5600078c373f6ba861035b1ea303c327a331/cmake/vcpkg/scripts/test_ports/unit-test-cmake/test-vcpkg_minimum_required.cmake#L40,"# VERSION old - earlier year, later month, later day",[],CMake,0,40,40,No
+4432,genericmappingtools/gmt,https://github.com/genericmappingtools/gmt/blob/08937a98d810728f10af8959a9985e68a512c459/cmake/modules/FindGDAL.cmake#L127,# Blastwave,[],CMake,10,127,127,No
