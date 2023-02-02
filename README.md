@@ -29,8 +29,8 @@ Self-Admitted Technical Debt (SATD) annotates development decisions that intenti
 	* `RQ3_Non_SATD_stat.csv` - statistics results of cloned Non-SATD for significant tests in RQ3.
 	* `Coded_Non_SATD_Sample.csv` - coded Non-SATD sample for testing the missing rate of the SATD keyword-based approach.
 	* `Coded_SATD_clones.csv` - coded SATD clones in RQ4.
-	* `Coded_cross_system_SATD_clones.csv` - coded SATD cross system clones in the Discussion.
-	* `Coded_cross_language_SATD_clones.csv` - coded SATD cross language clones in the Discussion.
+	* `Coded_cross_tool_SATD_clones.csv` - coded SATD cross-tool clones in the Discussion.
+	* `Coded_cross_language_SATD_clones.csv` - coded SATD cross-language clones in the Discussion.
 * `script` - a directory of scripts.
 	* `lexer` - a directory of ANTLR4 grammar files.
 	* `README.md` - a readme file for the script directory.
