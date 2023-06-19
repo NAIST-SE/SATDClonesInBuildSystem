@@ -20,7 +20,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,8,17,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,8,17,171,38,FALSE,2,Release setting
 306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl1/configure.in#L8,"#
 # Making releases:
 # Edit include/SDL/SDL_version.h and change the version, then:
@@ -30,7 +30,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,8,17,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,8,17,171,38,FALSE,2,Release setting
 306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/configure.ac#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -40,7 +40,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 306,turican0/remc2,https://github.com/turican0/remc2/blob/92e8b255b696fdfb4942324bab5e5f092c4ed69f/sdl2/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -48,7 +48,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 1100,drhelius/gearsystem,https://github.com/drhelius/gearsystem/blob/5d6fedacb3ef2a9481fa52aac67fefb47aaf72c0/platforms/ios/dependencies/SDL-2.0.4-9174/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -58,7 +58,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 1207,entdark/jamme,https://github.com/entdark/jamme/blob/4154e8ac3b60968dbf8553e17d3828877ce9e490/android/jni/SDL2/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -68,7 +68,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 1207,entdark/jamme,https://github.com/entdark/jamme/blob/4154e8ac3b60968dbf8553e17d3828877ce9e490/android/jni/SDL2/CMakeLists.txt#L22,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -76,7 +76,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,22,29,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,22,29,171,38,FALSE,2,Release setting
 929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/SDL2/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -86,7 +86,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 929,mozeal/sdl_gui,https://github.com/mozeal/sdl_gui/blob/31bcfbf9c9a5803dc0ffb022b7e7abd76e5c3cfd/SDL2/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -94,7 +94,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 1898,tanersener/mobile-ffmpeg,https://github.com/tanersener/mobile-ffmpeg/blob/7a9c62f5563bff68da43d07e3286b5d8db50d53f/src/sdl/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -104,7 +104,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 1898,tanersener/mobile-ffmpeg,https://github.com/tanersener/mobile-ffmpeg/blob/7a9c62f5563bff68da43d07e3286b5d8db50d53f/src/sdl/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -112,7 +112,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 2656,dc-swat/dreamshell,https://github.com/dc-swat/dreamshell/blob/f01b0005f2bfb560ee817b68b9b4b254d3370e2c/lib/SDL/configure.in#L7,"#
 # Making releases:
 # Edit include/SDL/SDL_version.h and change the version, then:
@@ -122,7 +122,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,7,16,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,7,16,171,38,FALSE,2,Release setting
 2838,love2d/megasource,https://github.com/love2d/megasource/blob/b6b41a65765e12cf6038026bfb5c38bc2771edeb/libs/SDL2/configure.ac#L13,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -132,7 +132,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,13,22,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,13,22,171,38,FALSE,2,Release setting
 2838,love2d/megasource,https://github.com/love2d/megasource/blob/b6b41a65765e12cf6038026bfb5c38bc2771edeb/libs/SDL2/CMakeLists.txt#L59,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -140,7 +140,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,Release setting
 3019,emscripten-ports/sdl2,https://github.com/emscripten-ports/sdl2/blob/324df6865ae3c7d194ed233a86867c48ec96c6a3/configure.ac#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -150,7 +150,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 3019,emscripten-ports/sdl2,https://github.com/emscripten-ports/sdl2/blob/324df6865ae3c7d194ed233a86867c48ec96c6a3/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -158,7 +158,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 3274,drhelius/gearboy,https://github.com/drhelius/gearboy/blob/8762faf754a84891078d4b2597c557a828631c9e/platforms/ios/dependencies/SDL-2.0.4-9174/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -168,7 +168,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 3397,prabirshrestha/dwm-win32,https://github.com/prabirshrestha/dwm-win32/blob/2fb8319d9b8711ec495c593baef7ac0a5976286d/extern/sdl2/configure.ac#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -178,7 +178,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 3397,prabirshrestha/dwm-win32,https://github.com/prabirshrestha/dwm-win32/blob/2fb8319d9b8711ec495c593baef7ac0a5976286d/extern/sdl2/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -186,7 +186,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 4213,love2d/love-android,https://github.com/love2d/love-android/blob/8e61af76693185579a82acc3b53b8a4fa66f3209/love/src/jni/SDL2/configure.ac#L13,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -196,7 +196,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,13,22,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,13,22,171,38,FALSE,2,Release setting
 4213,love2d/love-android,https://github.com/love2d/love-android/blob/8e61af76693185579a82acc3b53b8a4fa66f3209/love/src/jni/SDL2/CMakeLists.txt#L54,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -204,7 +204,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,54,61,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,54,61,171,38,FALSE,2,Release setting
 4597,iffy/wiish,https://github.com/iffy/wiish/blob/b1808201e402a4e53b1eb5a558e95c25532ea55a/wiish/plugins/sdl2/data/SDL/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -214,7 +214,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 4597,iffy/wiish,https://github.com/iffy/wiish/blob/b1808201e402a4e53b1eb5a558e95c25532ea55a/wiish/plugins/sdl2/data/SDL/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -222,7 +222,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 4628,lokathor/fermium,https://github.com/lokathor/fermium/blob/1c9e3dfaa904edf4162a60194e74fc7308233515/SDL2-2.0.22/configure.ac#L13,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -232,7 +232,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,13,22,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,13,22,171,38,FALSE,2,Release setting
 4628,lokathor/fermium,https://github.com/lokathor/fermium/blob/1c9e3dfaa904edf4162a60194e74fc7308233515/SDL2-2.0.22/CMakeLists.txt#L59,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -240,7 +240,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,Release setting
 4936,alibaba/alios-things,https://github.com/alibaba/alios-things/blob/85f0930be19b3fed265fd392c36332fdb5bdbfa7/components/SDL2/CMakeLists.txt#L34,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -248,7 +248,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,34,41,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,34,41,171,38,FALSE,2,Release setting
 5257,joncampbell123/dosbox-x,https://github.com/joncampbell123/dosbox-x/blob/7935f136c495a92dcc5a2602babb36e1180e65fd/vs/sdl/configure.ac#L8,"#
 # Making releases:
 # Edit include/SDL/SDL_version.h and change the version, then:
@@ -258,7 +258,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,8,17,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,8,17,171,38,FALSE,2,Release setting
 5257,joncampbell123/dosbox-x,https://github.com/joncampbell123/dosbox-x/blob/7935f136c495a92dcc5a2602babb36e1180e65fd/vs/sdl2/configure.ac#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -268,7 +268,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 5257,joncampbell123/dosbox-x,https://github.com/joncampbell123/dosbox-x/blob/7935f136c495a92dcc5a2602babb36e1180e65fd/vs/sdl2/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -276,7 +276,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 5437,zlgopen/awtk,https://github.com/zlgopen/awtk/blob/1838b4411989edf9cc103b0fb5cd02902e029620/3rd/SDL/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -286,7 +286,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 5437,zlgopen/awtk,https://github.com/zlgopen/awtk/blob/1838b4411989edf9cc103b0fb5cd02902e029620/3rd/SDL/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -294,7 +294,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 5448,realnc/dosbox-core,https://github.com/realnc/dosbox-core/blob/9212e24704b5fdbc6675f32bd3ec0a3919adcc13/libretro/deps/sdl/configure.ac#L9,"#
 # Making releases:
 # Edit include/SDL/SDL_version.h and change the version, then:
@@ -304,7 +304,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,9,18,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,9,18,171,38,FALSE,2,Release setting
 5490,drbeef/doom3quest,https://github.com/drbeef/doom3quest/blob/88c4f85455a0794b1dd27926955bf350c66c9413/Projects/Android/jni/SupportLibs/SDL2/SDL2/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -314,7 +314,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 5490,drbeef/doom3quest,https://github.com/drbeef/doom3quest/blob/88c4f85455a0794b1dd27926955bf350c66c9413/Projects/Android/jni/SupportLibs/SDL2/SDL2-2.0.10/configure.ac#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -324,7 +324,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 5490,drbeef/doom3quest,https://github.com/drbeef/doom3quest/blob/88c4f85455a0794b1dd27926955bf350c66c9413/Projects/Android/jni/SupportLibs/SDL2/SDL2-2.0.10/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -332,7 +332,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 5490,drbeef/doom3quest,https://github.com/drbeef/doom3quest/blob/88c4f85455a0794b1dd27926955bf350c66c9413/Projects/Android/jni/SupportLibs/SDL2/SDL2/CMakeLists.txt#L34,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -340,7 +340,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,34,41,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,34,41,171,38,FALSE,2,Release setting
 5612,libsdl-org/sdl-1.2,https://github.com/libsdl-org/sdl-1.2/blob/dff35e7a6694acbd14c6222363b3e69f1bd1b96c/configure.ac#L9,"#
 # Making releases:
 # Edit include/SDL/SDL_version.h and change the version, then:
@@ -350,7 +350,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,9,18,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,9,18,171,38,FALSE,2,Release setting
 5656,tanersener/ffmpeg-kit,https://github.com/tanersener/ffmpeg-kit/blob/0e4705627b4b0a6288b24bf1784409acef03c6a2/tools/patch/make/sdl/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -360,7 +360,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 19325,anael-seghezzi/maratis-4,https://github.com/anael-seghezzi/maratis-4/blob/3aa519fac96e00c705898e5dd398517afcf307bd/3rdparty/SDL2/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -370,7 +370,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 19325,anael-seghezzi/maratis-4,https://github.com/anael-seghezzi/maratis-4/blob/3aa519fac96e00c705898e5dd398517afcf307bd/3rdparty/SDL2/CMakeLists.txt#L22,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -378,7 +378,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,22,29,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,22,29,171,38,FALSE,2,Release setting
 19907,garagegames/torque3d,https://github.com/garagegames/torque3d/blob/c669fd4005890d68557103940883da555b295e97/Engine/lib/sdl/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -388,7 +388,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 19907,garagegames/torque3d,https://github.com/garagegames/torque3d/blob/c669fd4005890d68557103940883da555b295e97/Engine/lib/sdl/configure.ac#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -398,7 +398,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 19907,garagegames/torque3d,https://github.com/garagegames/torque3d/blob/c669fd4005890d68557103940883da555b295e97/Engine/lib/sdl/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -406,7 +406,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 20589,serge-rgb/milton,https://github.com/serge-rgb/milton/blob/768c0351fd7a221ec047fe91c85830f544a76661/third_party/SDL2-2.0.8/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -416,7 +416,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 20589,serge-rgb/milton,https://github.com/serge-rgb/milton/blob/768c0351fd7a221ec047fe91c85830f544a76661/third_party/SDL2-2.0.8/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -424,7 +424,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 20832,libretro/mame2016-libretro,https://github.com/libretro/mame2016-libretro/blob/01058613a0109424c4e7211e49ed83ac950d3993/3rdparty/SDL2/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -434,7 +434,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 20832,libretro/mame2016-libretro,https://github.com/libretro/mame2016-libretro/blob/01058613a0109424c4e7211e49ed83ac950d3993/3rdparty/SDL2/CMakeLists.txt#L22,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -442,7 +442,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,22,29,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,22,29,171,38,FALSE,2,Release setting
 21139,crossuo/crossuo,https://github.com/crossuo/crossuo/blob/6064cc4d0db2e3e1cd73b2ef672115010863da97/deps/sdl-2.0.10-c1be3add38/configure.ac#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -452,7 +452,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 21139,crossuo/crossuo,https://github.com/crossuo/crossuo/blob/6064cc4d0db2e3e1cd73b2ef672115010863da97/deps/sdl-2.0.10-c1be3add38/CMakeLists.txt#L48,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -460,7 +460,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,48,55,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,48,55,171,38,FALSE,2,Release setting
 21222,spacemaniac/hamsandwich,https://github.com/spacemaniac/hamsandwich/blob/c5f4ee341b9fa9903b29f306a323c4faa7d5aa56/external/SDL2/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -470,7 +470,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 21222,spacemaniac/hamsandwich,https://github.com/spacemaniac/hamsandwich/blob/c5f4ee341b9fa9903b29f306a323c4faa7d5aa56/external/SDL2/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -478,7 +478,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 24413,robbbert/mameui,https://github.com/robbbert/mameui/blob/44757fd1270711bc151d5a86044418d8bb4f37fc/3rdparty/SDL2/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -488,7 +488,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 24413,robbbert/mameui,https://github.com/robbbert/mameui/blob/44757fd1270711bc151d5a86044418d8bb4f37fc/3rdparty/SDL2/CMakeLists.txt#L34,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -496,7 +496,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,34,41,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,34,41,171,38,FALSE,2,Release setting
 25161,danilolc/pk2,https://github.com/danilolc/pk2/blob/c8ea766eabdcc7e72696f5902dad789943a65e60/external/SDL/CMakeLists.txt#L46,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -504,7 +504,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,46,53,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,46,53,171,38,FALSE,2,Release setting
 26636,mamedev/mame,https://github.com/mamedev/mame/blob/6d5915c1de3d064e46589a223e0bb8d352a85d3d/3rdparty/SDL2/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -514,7 +514,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 26636,mamedev/mame,https://github.com/mamedev/mame/blob/6d5915c1de3d064e46589a223e0bb8d352a85d3d/3rdparty/SDL2/CMakeLists.txt#L34,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -522,7 +522,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,34,41,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,34,41,171,38,FALSE,2,Release setting
 5787,padworld-entertainment/worldofpadman,https://github.com/padworld-entertainment/worldofpadman/blob/e681f46892da3fa036754ae482b83e2e6cbf5441/libs/SDL2/CMakeLists.txt#L59,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -530,7 +530,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,Release setting
 19102,openc2e/openc2e,https://github.com/openc2e/openc2e/blob/25d4ec028fca0ffd1260180ed90acb9d245c3053/externals/SDL2/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -538,7 +538,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 22860,syoyo/tinyusdz,https://github.com/syoyo/tinyusdz/blob/ee4813f06b5f29bc4553dbf8974c8d8899916d67/examples/common/SDL2-2.0.22/configure.ac#L13,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -548,7 +548,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,13,22,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,13,22,171,38,FALSE,2,Release setting
 22860,syoyo/tinyusdz,https://github.com/syoyo/tinyusdz/blob/ee4813f06b5f29bc4553dbf8974c8d8899916d67/examples/common/SDL2-2.0.22/CMakeLists.txt#L59,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -556,7 +556,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,Release setting
 22973,aardappel/lobster,https://github.com/aardappel/lobster/blob/899cf46ea8defbc3a2d1d94f61fcbff0d2140eb0/dev/external/SDL/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -564,7 +564,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 23766,godlikepanos/anki-3d-engine,https://github.com/godlikepanos/anki-3d-engine/blob/aa17a3edfd30465db32b200adcf53f93b7ed1e6a/ThirdParty/Sdl2/configure.ac#L13,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -574,7 +574,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,13,22,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,13,22,171,38,FALSE,2,Release setting
 23766,godlikepanos/anki-3d-engine,https://github.com/godlikepanos/anki-3d-engine/blob/aa17a3edfd30465db32b200adcf53f93b7ed1e6a/ThirdParty/Sdl2/CMakeLists.txt#L59,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -582,7 +582,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,Release setting
 26472,urho3d/urho3d,https://github.com/urho3d/urho3d/blob/d4c94ad8104ae3d14eb6d6e4ed0fbfad828e08f4/Source/ThirdParty/SDL/CMakeLists.txt#L55,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -590,7 +590,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,55,62,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,55,62,171,38,FALSE,2,Release setting
 26446,google/filament,https://github.com/google/filament/blob/df2ad99260b2c5c9bce6ccbebd91bf357c05242d/third_party/libsdl2/configure.in#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -600,7 +600,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 26446,google/filament,https://github.com/google/filament/blob/df2ad99260b2c5c9bce6ccbebd91bf357c05242d/third_party/libsdl2/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -608,7 +608,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 27283,ongamex/sgeengine,https://github.com/ongamex/sgeengine/blob/5b0989992d5950ffb2c3f95e33e5955318d69740/libs_ext/SDL2/configure.ac#L11,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -618,7 +618,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,11,20,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,11,20,171,38,FALSE,2,Release setting
 27283,ongamex/sgeengine,https://github.com/ongamex/sgeengine/blob/5b0989992d5950ffb2c3f95e33e5955318d69740/libs_ext/SDL2/CMakeLists.txt#L35,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -626,7 +626,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,35,42,171,38,FALSE,2,Release setting
 26844,pineappleea/pineapple-src,https://github.com/pineappleea/pineapple-src/blob/7e939deb745ce394c6ba5bb0f9fddeb389019d06/externals/SDL/configure.ac#L13,"#
 # Making releases:
 # Edit include/SDL_version.h and change the version, then:
@@ -636,7 +636,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
 # set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.
-#",['broken'],Autotool,0,13,22,171,38,FALSE,2,FP
+#",['broken'],Autotool,0,13,22,171,38,FALSE,2,Release setting
 26844,pineappleea/pineapple-src,https://github.com/pineappleea/pineapple-src/blob/7e939deb745ce394c6ba5bb0f9fddeb389019d06/externals/SDL/CMakeLists.txt#L59,"# General settings
 # Edit include/SDL_version.h and change the version, then:
 #   SDL_MICRO_VERSION += 1;
@@ -644,7 +644,7 @@ repoIndex,repoName,linkLocation,comment,keywords,buildSysteminFile,charPosition,
 #   SDL_BINARY_AGE += 1;
 # if any functions have been added, set SDL_INTERFACE_AGE to 0.
 # if backwards compatibility has been broken,
-# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,FP
+# set SDL_BINARY_AGE and SDL_INTERFACE_AGE to 0.",['broken'],CMake,0,59,66,171,38,FALSE,2,Release setting
 892,wbx-github/openadk,https://github.com/wbx-github/openadk/blob/6122629eeb3393ce87fbe10a70f43ae952a97ae4/package/etrax-tools/src/e100boot/libpcap-0.4/configure.in#L109,dnl Workaround to enable certain features,['workaround'],Autotool,1,109,109,272,15,FALSE,2,Enable features
 2661,trailofbits/osquery-extensions,https://github.com/trailofbits/osquery-extensions/blob/e3820c30283db42a066ca8dda0f03a82863404a6/opt_dependencies/pcap/CMakeLists.txt#L1755,# Workaround to enable certain features,['workaround'],CMake,4,1755,1755,272,15,FALSE,2,Enable features
 2308,seemoo-lab/nexmon,https://github.com/seemoo-lab/nexmon/blob/4087b4e5a408e6e1c4e5cbf4fd098b74bf74cdfa/utilities/tcpdump/configure.in#L704,dnl Workaround to enable certain features,['workaround'],Autotool,1,704,704,272,15,FALSE,2,Enable features
