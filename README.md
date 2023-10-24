@@ -1,6 +1,6 @@
 # Research Artifact: Quantifying and Characterizing Clones of Self-Admitted Technical Debt in Build Systems
 
-This is a research artifact for the paper: **The Prevalence, Authorship, and Characteristics of Self-Admitted Technical Debt Clones in Build Systems**. This artifact is a repository consisting of raw data, our SATD dataset for RQ1-3, our labeled SATD comments dataset for RQ4,  and scripts. The purposes of this artifact are to enable researchers to reuse the dataset for further software engineering research.
+This is a research artifact for the paper: **The Prevalence, Authorship, and Characteristics of Self-Admitted Technical Debt Clones in Build Systems**. This artifact is a repository consisting of raw data, our SATD dataset for RQ1-3, our labeled SATD comments dataset for RQ4, and scripts. The purposes of this artifact are to enable researchers to reuse the dataset for further software engineering research.
 
 
 ## Abstract
@@ -29,8 +29,10 @@ Self-Admitted Technical Debt (SATD) annotates development decisions that intenti
 	* `RQ3_Non_SATD_stat.csv` - statistics results of cloned Non-SATD for significant tests in RQ3.
 	* `Coded_Non_SATD_Sample.csv` - coded Non-SATD sample for testing the missing rate of the SATD keyword-based approach.
 	* `Coded_SATD_clones.csv` - coded SATD clones in RQ4.
-	* `Coded_cross_tool_SATD_clones.csv` - coded SATD cross-tool clones in the Discussion.
-	* `Coded_cross_language_SATD_clones.csv` - coded SATD cross-language clones in the Discussion.
+	* `Coded_cross_tool_SATD_clones.csv` - coded SATD cross-tool clones for their behind reasons.
+	* `Coded_cross_language_SATD_clones.csv` - coded SATD cross-language clones for their behind reasons.
+	* `Coded_cross_tool_Non_SATD_clones.csv` - coded SATD cross-tool clones for their behind reasons.
+	* `Coded_cross_language_Non_SATD_clones.csv` - coded SATD cross-language clones for their behind reasons.
 * `script` - a directory of scripts.
 	* `lexer` - a directory of ANTLR4 grammar files.
 	* `README.md` - a readme file for the script directory.
