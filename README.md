@@ -1,6 +1,6 @@
 # Research Artifact: Quantifying and Characterizing Clones of Self-Admitted Technical Debt in Build Systems
 
-This is a research artifact for the paper: **The Prevalence, Authorship, and Characteristics of Self-Admitted Technical Debt Clones in Build Systems**. This artifact is a repository consisting of raw data, our SATD dataset for RQ1-3, our labeled SATD comments dataset for RQ4, and scripts. The purposes of this artifact are to enable researchers to reuse the dataset for further software engineering research.
+This is a research artifact for the paper: **Quantifying and Characterizing Clones of Self-Admitted Technical Debt in Build Systems**. This artifact is a repository consisting of raw data, our SATD dataset for RQ1-3, our labeled SATD comments dataset for RQ4, and scripts. The purposes of this artifact are to enable researchers to reuse the dataset for further software engineering research.
 
 
 ## Abstract
